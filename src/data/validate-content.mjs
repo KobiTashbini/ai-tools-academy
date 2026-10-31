@@ -13,6 +13,8 @@ export function validateContent(categories, entries) {
   for (const entry of entries) {
     if (!entry || !text(entry.id) || !text(entry.slug) || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(entry.slug) || ids.has(entry.id) || slugs.has(entry.slug)) fail("duplicate or invalid entry identifier");
     ids.add(entry.id); slugs.add(entry.slug);
+    if (!date(entry.addedAt) || !["historical_backfill", "approved_proposal"].includes(entry.addedAtBasis)) fail("catalog addition date");
+    if (entry.addedAtBasis === "approved_proposal" && (!date(entry.discoveredAt) || !date(entry.approvedAt) || !text(entry.approvalReference) || entry.discoveredAt > entry.approvedAt || entry.approvedAt > entry.addedAt)) fail("catalog addition approval evidence");
     for (const key of ["name", "summary", "example", "exercise", "languageSupportNote", "alternativesNote", "revisionNote"]) if (!text(entry[key])) fail(`missing ${key}`);
     if (!["protocol", "model", "sdk", "framework", "platform", "concept", "product", "database", "runtime", "orchestration_engine"].includes(entry.kind)) fail("entry kind");
     if (!["draft", "in_review", "published", "archived"].includes(entry.publicationStatus)) fail("publication status");

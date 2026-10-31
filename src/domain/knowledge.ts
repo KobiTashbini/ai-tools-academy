@@ -3,6 +3,11 @@ export type Category = Readonly<{ id: string; name: string; description: string 
 export type KnowledgeEntry = Readonly<{
   id: string;
   slug: string;
+  addedAt: string;
+  addedAtBasis: "historical_backfill" | "approved_proposal";
+  discoveredAt?: string;
+  approvedAt?: string;
+  approvalReference?: string;
   name: string;
   kind: "protocol" | "model" | "sdk" | "framework" | "platform" | "concept" | "product" | "database" | "runtime" | "orchestration_engine";
   categoryIds: readonly string[];

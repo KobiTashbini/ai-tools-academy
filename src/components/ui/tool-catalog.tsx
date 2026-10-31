@@ -10,9 +10,9 @@ import { sortAgentEntries } from "@/data/agent-catalog.mjs";
 import { formatDate } from "@/data/tool-facts.mjs";
 import { KnowledgeText } from "./knowledge-text";
 
-type Extra = "activity" | "sourceRank" | "popularity";
+type Extra = "activity" | "sourceRank" | "popularity" | "addedAt";
 type FactKey = Extra | "stars" | "release";
-const extraLabels: Record<Extra,string> = {activity:"פעילות אחרונה",sourceRank:"SourceRank",popularity:"GitHub Interest"};
+const extraLabels: Record<Extra,string> = {activity:"פעילות אחרונה",sourceRank:"SourceRank",popularity:"GitHub Interest",addedAt:"נוסף למאגר"};
 const nf = new Intl.NumberFormat("en-US");
 
 export function ToolCatalog({entries,facts,metrics}: {entries: readonly KnowledgeEntry[]; facts: Readonly<Record<string,ToolFacts>>; metrics: Readonly<Record<string,AgentMetric>>}) {
@@ -27,6 +27,7 @@ export function ToolCatalog({entries,facts,metrics}: {entries: readonly Knowledg
   const selectExtra = (key:Extra) => setExtras(current => current.includes(key) ? current.filter(item=>item!==key) : [...current,key]);
   const sortable = (key:string,label:string) => <th scope="col" aria-sort={sort === key ? direction === "asc" ? "ascending" : "descending" : "none"}><button className="agent-sort" onClick={()=>changeSort(key)} aria-label={`מיון לפי ${label}`}>{label}<span aria-hidden="true">{sort === key ? direction === "asc" ? " ↑" : " ↓" : " ↕"}</span></button></th>;
   function extraValue(entry:KnowledgeEntry,key:FactKey) {
+    if(key === "addedAt") return <time dateTime={entry.addedAt}><bdi>{formatDate(entry.addedAt)}</bdi></time>;
     const f=facts[entry.slug], metric=metrics[entry.slug], interest=metric.communityInterest;
     if(key === "popularity") return (interest?<><a href={interest.source} className="metric-number" title={`מדד מקומי יחסי ל־${interest.cohortLabel ?? "שבעת מאגרי קטגוריה 02"}; לא ציון רשמי ולא מדד איכות`}><bdi>{interest.score.toFixed(1)} <span>/ 100</span></bdi></a><small><bdi>GitHub Interest</bdi> · מקומי</small><small><bdi>{formatDate(interest.collectedAt)}</bdi></small></>:<span className="no-metric" title={f.github.scope}>{f.github.status === "not_applicable" ? "אין מדד מאגר מייצג" : "אין ציון מאומת"}</span>);
     if(key === "stars") return f.github.stars === undefined ? f.github.status === "not_applicable" ? "לא רלוונטי" : "לא אומת" : <a className="text-link" href={f.github.starsSource}><bdi>{nf.format(f.github.stars)}</bdi></a>;

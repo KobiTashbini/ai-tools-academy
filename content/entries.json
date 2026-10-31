@@ -1,7 +1,7 @@
 [
   {
     "id": "mcp",
-    "slug": "mcp",
+    "slug": "mcp", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
     "name": "MCP",
     "kind": "protocol",
     "categoryIds": [

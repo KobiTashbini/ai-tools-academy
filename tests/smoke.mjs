@@ -50,6 +50,7 @@ for (const route of routes) {
   }
   if (route.startsWith("/tools/")) {
     const entry = entries.find(item => route === `/tools/${item.slug}`);
+    assert.ok(html.includes("נוסף למאגר:") && new RegExp(`datetime="${entry.addedAt}"`, "i").test(html), `${route}: catalog addition date`);
     assert.ok(html.includes('id="practice"') && html.includes('id="sources"'));
     for (const source of entry.sources) assert.ok(html.includes(`href="${source.url}"`), `${route}: source link`);
     for (const slug of entry.relatedSlugs ?? []) assert.ok(html.includes(`href="/tools/${slug}"`), `${route}: related link`);

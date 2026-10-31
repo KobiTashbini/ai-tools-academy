@@ -5,7 +5,7 @@
   "revision": 2,
   "entries": [
     {
-      "slug": "llm-fundamentals", "name": "מודלי שפה — יסודות", "kind": "concept", "categoryIds": ["00", "07"],
+      "slug": "llm-fundamentals", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "מודלי שפה — יסודות", "kind": "concept", "categoryIds": ["00", "07"],
       "summary": "הבנת Tokens, הקשר והסקה: הבסיס לבחירת מודל ולבניית יישום שמשתמש בו.",
       "priority": "must_learn", "prerequisites": "פונקציות, JSON וקריאת API.", "relatedSlugs": ["hugging-face", "ollama", "llamaindex"],
       "sections": [
@@ -22,7 +22,7 @@
       "source": { "title": "Google — מבוא למודלי שפה", "url": "https://developers.google.com/machine-learning/crash-course/llm", "supports": "מודל הסתברותי, Tokens ויצירת טקסט. דפוסי התכנון, הדוגמאות והתרגילים הם הסבר לימודי שלנו." }
     },
     {
-      "slug": "codex", "name": "Codex", "kind": "product", "categoryIds": ["01"],
+      "slug": "codex", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "Codex", "kind": "product", "categoryIds": ["01"],
       "summary": "סוכן לפיתוח תוכנה: עבודה על משימה מוגדרת בהקשר של פרויקט, עם כלים ובקרת שינויים.",
       "priority": "must_learn", "prerequisites": "Git, הרצת בדיקות וקריאת Diff.", "relatedSlugs": ["claude-code", "cursor", "openai-agents-sdk"],
       "sections": [
@@ -39,7 +39,7 @@
       "source": { "title": "OpenAI — מילון המונחים של Codex", "url": "https://learn.chatgpt.com/docs/glossary", "supports": "הגדרת Codex, לקוחות CLI/IDE ותפקיד AGENTS.md. שיטת העבודה והתרגיל הם המלצות לימודיות, לא טענות על ביצועים או על תוכנית תשלום." }
     },
     {
-      "slug": "claude-code", "name": "Claude Code", "kind": "product", "categoryIds": ["01"],
+      "slug": "claude-code", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "Claude Code", "kind": "product", "categoryIds": ["01"],
       "summary": "עוזר פיתוח סוכני שקורא מאגר, עורך קבצים ומריץ פקודות במסגרת סביבת העבודה שלו.",
       "priority": "should_know", "prerequisites": "Git, מסוף ובדיקות.", "relatedSlugs": ["codex", "cursor", "mcp"],
       "sections": [
@@ -56,7 +56,7 @@
       "source": { "title": "Anthropic — Claude Code Overview", "url": "https://code.claude.com/docs/en/overview", "supports": "הגדרת הכלי, קריאת קוד, עריכה והרצת פקודות. תרחישי .NET ושיקולי הבחירה הם הצעות לימודיות." }
     },
     {
-      "slug": "cursor", "name": "Cursor", "kind": "product", "categoryIds": ["01"],
+      "slug": "cursor", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "Cursor", "kind": "product", "categoryIds": ["01"],
       "summary": "סביבת פיתוח עם סוכן המסייע לחקור קוד, לערוך קבצים ולהריץ בדיקות וכלים.",
       "priority": "should_know", "prerequisites": "React או C#, Git וקריאת שגיאות.", "relatedSlugs": ["codex", "claude-code"],
       "sections": [
@@ -73,7 +73,7 @@
       "source": { "title": "Cursor — Agent Overview", "url": "https://cursor.com/docs/agent/overview", "supports": "כלי הסוכן, עריכת קבצים, פקודות וההבדל בין Checkpoints ל־Git. השיקולים והדוגמה נכתבו ללמידה." }
     },
     {
-      "slug": "langchain", "name": "LangChain", "kind": "framework", "categoryIds": ["02"],
+      "slug": "langchain", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "LangChain", "kind": "framework", "categoryIds": ["02"],
       "summary": "מסגרת להרכבת סוכן ממודל, כלים, הנחיות ו־Middleware, עם אינטגרציות לספקים.",
       "priority": "should_know", "prerequisites": "לולאת קריאות כלים ידנית, async וחוזי קלט.", "relatedSlugs": ["langgraph", "openai-agents-sdk", "pydantic-ai"],
       "sections": [
@@ -91,7 +91,7 @@
       "extraSources": [{ "title": "LangChain — JavaScript Overview", "url": "https://docs.langchain.com/oss/javascript/langchain/overview", "supports": "קיום המימוש הרשמי ב־JavaScript/TypeScript ודוגמת יצירת סוכן." }]
     },
     {
-      "slug": "langgraph", "name": "LangGraph", "kind": "framework", "categoryIds": ["02"],
+      "slug": "langgraph", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "LangGraph", "kind": "framework", "categoryIds": ["02"],
       "summary": "אורקסטרציה מפורשת של זרימות וסוכנים בעלי מצב באמצעות גרף של שלבים ומעברים.",
       "priority": "must_learn", "prerequisites": "מכונת מצבים, async, סוכן בסיסי והתמדה.", "relatedSlugs": ["langchain", "temporal", "microsoft-agent-framework"],
       "sections": [
@@ -108,7 +108,7 @@
       "source": { "title": "LangGraph — Overview", "url": "https://docs.langchain.com/oss/python/langgraph/overview", "supports": "אורקסטרציה ברמה נמוכה, מצב, הרצה מתמשכת, אישור אנושי ואי־תלות ב־LangChain. תכנון המצבים וההמלצות הם לימודיים." }
     },
     {
-      "slug": "openai-agents-sdk", "name": "OpenAI Agents SDK", "kind": "sdk", "categoryIds": ["02"],
+      "slug": "openai-agents-sdk", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "OpenAI Agents SDK", "kind": "sdk", "categoryIds": ["02"],
       "summary": "SDK לבניית סוכנים בתוך היישום שלך, עם Runner שמנהל לולאת סוכן והעברות בין סוכנים.",
       "priority": "should_know", "prerequisites": "מודל, קריאות כלים, async ושמירת שיחה.", "relatedSlugs": ["microsoft-agent-framework", "langchain", "mcp"],
       "sections": [
@@ -126,7 +126,7 @@
       "extraSources": [{ "title": "OpenAI — Agent runtime options", "url": "https://developers.openai.com/api/docs/guides/agents", "supports": "הבחנה בין Agents API, Agents SDK ו־Responses API ואחריות היישום לאחסון, פריסה ואישורים." }]
     },
     {
-      "slug": "crewai", "name": "CrewAI", "kind": "framework", "categoryIds": ["02"],
+      "slug": "crewai", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "CrewAI", "kind": "framework", "categoryIds": ["02"],
       "summary": "מסגרת שמשלבת Flows לניהול תהליך עם Crews לחלוקת משימות בין סוכנים בעלי תפקידים.",
       "priority": "enrichment", "prerequisites": "סוכן יחיד, מצב, כלים ומדידת תוצאות.", "relatedSlugs": ["langgraph", "pydantic-ai", "temporal"],
       "sections": [
@@ -143,7 +143,7 @@
       "source": { "title": "CrewAI — Introduction", "url": "https://docs.crewai.com/v1.15.33/en/introduction", "supports": "הבחנה בין Flows, Crews, תפקידים, משימות וזרימת אירועים. שיקולי המדידה והתרגיל הם שלנו." }
     },
     {
-      "slug": "microsoft-agent-framework", "name": "Microsoft Agent Framework", "kind": "framework", "categoryIds": ["02"],
+      "slug": "microsoft-agent-framework", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "Microsoft Agent Framework", "kind": "framework", "categoryIds": ["02"],
       "summary": "מסגרת לבניית סוכנים, כלים וזרימות עבודה, עם מסלול רשמי שמתאים למפתחי C#/.NET.",
       "priority": "must_learn", "prerequisites": "C#, async/await, REST ולולאת קריאות כלים ידנית.", "relatedSlugs": ["openai-agents-sdk", "langgraph", "mcp"],
       "sections": [
@@ -160,7 +160,7 @@
       "source": { "title": "Microsoft Learn — Agent Framework Overview", "url": "https://learn.microsoft.com/en-us/agent-framework/overview/", "supports": "רכיבי המסגרת, Workflows, MCP, דוגמאות .NET/Python ופקודת חבילה עם prerelease. ארכיטקטורת הארגון והתרגיל הם הצעות שלנו." }
     },
     {
-      "slug": "pydantic-ai", "name": "Pydantic AI", "kind": "sdk", "categoryIds": ["02"],
+      "slug": "pydantic-ai", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "Pydantic AI", "kind": "sdk", "categoryIds": ["02"],
       "summary": "SDK ב־Python שמדגיש טיפוסים, פלט מובנה ותלויות בתוך לולאת סוכן.",
       "priority": "should_know", "prerequisites": "Python בסיסי, טיפוסים, async וולידציה.", "relatedSlugs": ["openai-agents-sdk", "langchain", "microsoft-agent-framework"],
       "sections": [
@@ -177,7 +177,7 @@
       "source": { "title": "Pydantic AI — Overview", "url": "https://pydantic.dev/docs/ai/overview/", "supports": "SDK Python מטופס, לולאת סוכן, תלויות ופלט. ההקבלות ל־.NET והפרדת הוולידציה הן הסבר הנדסי שלנו." }
     },
     {
-      "slug": "n8n", "name": "n8n", "kind": "platform", "categoryIds": ["03"],
+      "slug": "n8n", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "n8n", "kind": "platform", "categoryIds": ["03"],
       "summary": "כלי אוטומציה לחיבור פעולות עסקיות ויכולות AI לתהליך עבודה.",
       "priority": "must_learn", "prerequisites": "REST, JSON, אירועים והרשאות.", "relatedSlugs": ["temporal", "dify", "mcp"],
       "sections": [
@@ -194,7 +194,7 @@
       "source": { "title": "n8n — Documentation", "url": "https://docs.n8n.io/", "supports": "הגדרת כלי אוטומציה עם יכולות AI ואפשרויות ענן/אירוח עצמי. תכנון השלבים והתרגיל הם שלנו; מחירים ותכונות מסלול לא אומתו." }
     },
     {
-      "slug": "temporal", "name": "Temporal", "kind": "orchestration_engine", "categoryIds": ["03", "02"],
+      "slug": "temporal", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "Temporal", "kind": "orchestration_engine", "categoryIds": ["03", "02"],
       "summary": "פלטפורמה להרצת תהליכים עמידים בקוד, עם היסטוריית אירועים ושחזור מצב לאחר כשל.",
       "priority": "should_know", "prerequisites": "async, תורים, כשלי רשת ו־Idempotency.", "relatedSlugs": ["n8n", "langgraph"],
       "sections": [
@@ -212,7 +212,7 @@
       "extraSources": [{ "title": "Temporal — SDKs", "url": "https://docs.temporal.io/develop", "supports": "קיום מסלולי SDK רשמיים ל־.NET, Python ו־TypeScript." }]
     },
     {
-      "slug": "llamaindex", "name": "LlamaIndex", "kind": "framework", "categoryIds": ["04"],
+      "slug": "llamaindex", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "LlamaIndex", "kind": "framework", "categoryIds": ["04"],
       "summary": "ערכת כלים לחיבור יישומי מודלים לנתונים שלך, כולל טעינה, אחזור ותהליכי RAG.",
       "priority": "must_learn", "prerequisites": "מסמכים, חיפוש, מודל שפה ו־Embeddings ברמה מושגית.", "relatedSlugs": ["qdrant", "llm-fundamentals", "langfuse"],
       "sections": [
@@ -229,7 +229,7 @@
       "source": { "title": "LlamaIndex — Framework", "url": "https://developers.llamaindex.ai/python/framework/", "supports": "ערכת Python לחיבור נתונים, RAG, מחברים ואינדקסים. דוגמת נוהל הרכש והמלצות המדידה הן שלנו." }
     },
     {
-      "slug": "qdrant", "name": "Qdrant", "kind": "database", "categoryIds": ["05"],
+      "slug": "qdrant", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "Qdrant", "kind": "database", "categoryIds": ["05"],
       "summary": "מנוע חיפוש דמיון וקטורי, שבו שומרים נקודות עם וקטורים ומידע נלווה לצורך אחזור.",
       "priority": "should_know", "prerequisites": "אינדקסים, SQL וייצוגים וקטוריים.", "relatedSlugs": ["llamaindex", "hugging-face"],
       "sections": [
@@ -246,7 +246,7 @@
       "source": { "title": "Qdrant — What is Qdrant?", "url": "https://qdrant.tech/documentation/overview/what-is-qdrant/", "supports": "וקטורים, Points, Payload, Collections ומדדי דמיון. תכנון הרשאות, בדיקות ומחזור חיים הוא הנחיה הנדסית שלנו." }
     },
     {
-      "slug": "dify", "name": "Dify", "kind": "platform", "categoryIds": ["06"],
+      "slug": "dify", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "Dify", "kind": "platform", "categoryIds": ["06"],
       "summary": "פלטפורמה לבניית יישומי AI, תהליכים וצ'אטבוטים עם חיבור לנתונים ולממשקי API.",
       "priority": "should_know", "prerequisites": "מודל שפה, HTTP והגדרת תהליך.", "relatedSlugs": ["n8n", "llamaindex", "mcp"],
       "sections": [
@@ -263,7 +263,7 @@
       "source": { "title": "Dify — Documentation", "url": "https://docs.dify.ai/en/home", "supports": "יישומי AI, סוכנים, ידע, תהליכים ופרסום דרך Web/API. תכנון האבטיפוס והשיקולים הם שלנו." }
     },
     {
-      "slug": "hugging-face", "name": "Hugging Face — Inference Providers", "kind": "platform", "categoryIds": ["07"],
+      "slug": "hugging-face", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "Hugging Face — Inference Providers", "kind": "platform", "categoryIds": ["07"],
       "summary": "שכבת גישה למודלים שמופעלים אצל ספקי הסקה שונים; חשוב להבחין בין המודל, הספק והפלטפורמה.",
       "priority": "must_learn", "prerequisites": "HTTP, מודלי שפה והבדל בין API למודל.", "relatedSlugs": ["llm-fundamentals", "ollama", "pytorch"],
       "sections": [
@@ -280,7 +280,7 @@
       "source": { "title": "Hugging Face — Inference Providers", "url": "https://huggingface.co/docs/inference-providers/index", "supports": "מודלים אצל ספקים שונים, ניתוב ולקוחות Python/JavaScript. שיטת ההערכה והטבלה הן המלצות לימודיות." }
     },
     {
-      "slug": "ollama", "name": "Ollama", "kind": "runtime", "categoryIds": ["08"],
+      "slug": "ollama", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "Ollama", "kind": "runtime", "categoryIds": ["08"],
       "summary": "כלי להרצת מודלים ולגישה אליהם דרך API; יש להבחין בין הרצה מקומית לשימוש במודלי ענן.",
       "priority": "should_know", "prerequisites": "HTTP, תהליכים מקומיים והיכרות בסיסית עם משאבי מחשב.", "relatedSlugs": ["hugging-face", "llm-fundamentals"],
       "sections": [
@@ -297,7 +297,7 @@
       "source": { "title": "Ollama — API Introduction", "url": "https://docs.ollama.com/api/introduction", "supports": "API מקומי וענן, כתובות שרת וספריות רשמיות Python/JavaScript. תכנון Adapter והתרגיל הם שלנו." }
     },
     {
-      "slug": "langfuse", "name": "Langfuse", "kind": "platform", "categoryIds": ["10"],
+      "slug": "langfuse", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "Langfuse", "kind": "platform", "categoryIds": ["10"],
       "summary": "פלטפורמה לתצפיתיות, ניהול הנחיות והערכה של יישומי AI.",
       "priority": "must_learn", "prerequisites": "לוגים, מזהי בקשות, מדידת זמן וסט בדיקות.", "relatedSlugs": ["llamaindex", "openai-agents-sdk", "langgraph"],
       "sections": [
@@ -314,7 +314,7 @@
       "source": { "title": "Langfuse — Overview", "url": "https://langfuse.com/docs", "supports": "Traces, ניהול הנחיות, הערכה, SDKs ו־OpenTelemetry. תכנון שדות, פרטיות וסט הבדיקות הוא הצעה לימודית שלנו." }
     },
     {
-      "slug": "pytorch", "name": "PyTorch", "kind": "framework", "categoryIds": ["11"],
+      "slug": "pytorch", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill", "name": "PyTorch", "kind": "framework", "categoryIds": ["11"],
       "summary": "מסגרת ללמידת מכונה: נתונים, Tensors, מודלים, אופטימיזציה ושמירת תוצרי אימון.",
       "priority": "enrichment", "prerequisites": "Python, אלגברה בסיסית והפרדה בין אימון להסקה.", "relatedSlugs": ["llm-fundamentals", "hugging-face", "ollama"],
       "sections": [
@@ -331,7 +331,7 @@
       "source": { "title": "PyTorch — Learn the Basics", "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html", "supports": "מחזור ML, נתונים, מודל, אופטימיזציה ושמירה במדריך Python. שיקולי הבחירה וההקבלות לפיתוח יישומים הם שלנו." }
     },
     {
-      "slug": "openai-gpt",
+      "slug": "openai-gpt", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "OpenAI — GPT",
       "kind": "model",
       "categoryIds": [
@@ -379,7 +379,7 @@
       "extraSources": []
     },
     {
-      "slug": "anthropic-claude",
+      "slug": "anthropic-claude", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "Anthropic — Claude",
       "kind": "model",
       "categoryIds": [
@@ -427,7 +427,7 @@
       "extraSources": []
     },
     {
-      "slug": "google-gemini",
+      "slug": "google-gemini", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "Google — Gemini",
       "kind": "model",
       "categoryIds": [
@@ -475,7 +475,7 @@
       "extraSources": []
     },
     {
-      "slug": "meta-llama",
+      "slug": "meta-llama", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "Meta — Llama",
       "kind": "model",
       "categoryIds": [
@@ -523,7 +523,7 @@
       "extraSources": []
     },
     {
-      "slug": "qwen",
+      "slug": "qwen", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "Alibaba — Qwen",
       "kind": "model",
       "categoryIds": [
@@ -571,7 +571,7 @@
       "extraSources": []
     },
     {
-      "slug": "deepseek",
+      "slug": "deepseek", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "DeepSeek",
       "kind": "model",
       "categoryIds": [
@@ -619,7 +619,7 @@
       "extraSources": []
     },
     {
-      "slug": "mistral-ai",
+      "slug": "mistral-ai", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "Mistral AI",
       "kind": "model",
       "categoryIds": [
@@ -667,7 +667,7 @@
       "extraSources": []
     },
     {
-      "slug": "openrouter",
+      "slug": "openrouter", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "OpenRouter",
       "kind": "platform",
       "categoryIds": [
@@ -715,7 +715,7 @@
       "extraSources": []
     },
     {
-      "slug": "together-ai",
+      "slug": "together-ai", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "Together AI",
       "kind": "platform",
       "categoryIds": [
@@ -763,7 +763,7 @@
       "extraSources": []
     },
     {
-      "slug": "microsoft-foundry",
+      "slug": "microsoft-foundry", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "Microsoft Foundry (Azure AI Foundry)",
       "kind": "platform",
       "categoryIds": [
@@ -811,7 +811,7 @@
       "extraSources": []
     },
     {
-      "slug": "amazon-bedrock",
+      "slug": "amazon-bedrock", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "Amazon Bedrock",
       "kind": "platform",
       "categoryIds": [
@@ -859,7 +859,7 @@
       "extraSources": []
     },
     {
-      "slug": "google-vertex-ai",
+      "slug": "google-vertex-ai", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "Google Vertex AI / Agent Platform",
       "kind": "platform",
       "categoryIds": [
@@ -907,7 +907,7 @@
       "extraSources": []
     },
     {
-      "slug": "lm-studio",
+      "slug": "lm-studio", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "LM Studio",
       "kind": "product",
       "categoryIds": [
@@ -961,7 +961,7 @@
       ]
     },
     {
-      "slug": "llama-cpp",
+      "slug": "llama-cpp", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "llama.cpp",
       "kind": "runtime",
       "categoryIds": [
@@ -1009,7 +1009,7 @@
       "extraSources": []
     },
     {
-      "slug": "vllm",
+      "slug": "vllm", "addedAt": "2026-10-31", "addedAtBasis": "historical_backfill",
       "name": "vLLM",
       "kind": "runtime",
       "categoryIds": [
