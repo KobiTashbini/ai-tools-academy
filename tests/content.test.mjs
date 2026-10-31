@@ -2,9 +2,12 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { validateContent } from "../src/data/validate-content.mjs";
+import { assembleEntries } from "../src/data/assemble-entries.mjs";
 
 const categories = JSON.parse(readFileSync(new URL("../content/categories.json", import.meta.url), "utf8"));
-const entries = JSON.parse(readFileSync(new URL("../content/entries.json", import.meta.url), "utf8"));
+const initialEntries = JSON.parse(readFileSync(new URL("../content/entries.json", import.meta.url), "utf8"));
+const lessonData = JSON.parse(readFileSync(new URL("../content/lessons.json", import.meta.url), "utf8"));
+const entries = assembleEntries(initialEntries, lessonData);
 test("published content preserves all 12 categories and valid evidence", () => {
   assert.doesNotThrow(() => validateContent(categories, entries));
 });
@@ -24,4 +27,21 @@ test("rejects executable source links", () => {
 });
 test("rejects impossible verification dates", () => {
   assert.throws(() => validateContent(categories, [{ ...entries[0], verifiedAt: "2026-02-30" }]), /date/);
+});
+test("each knowledge area has published educational content", () => {
+  for (const category of categories) assert.ok(entries.some(entry => entry.publicationStatus === "published" && entry.categoryIds.includes(category.id)), category.id);
+  assert.ok(entries.length >= 20);
+});
+test("all lessons include learning goals, depth, evidence and working related links", () => {
+  for (const entry of entries) {
+    assert.ok(entry.learningPriority && entry.prerequisites, entry.slug);
+    assert.ok(entry.sections.length >= 5, entry.slug);
+    assert.ok(entry.exercise && entry.sources.length && entry.relatedSlugs.length, entry.slug);
+  }
+  assert.doesNotThrow(() => validateContent(categories, entries));
+});
+test("rejects broken cross-lesson references", () => {
+  const altered = structuredClone(entries);
+  altered[0].relatedSlugs = ["nonexistent"];
+  assert.throws(() => validateContent(categories, altered), /related entry reference/);
 });

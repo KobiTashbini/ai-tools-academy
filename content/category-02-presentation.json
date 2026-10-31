@@ -1,0 +1,9 @@
+{
+  "langchain": { "description": "מחבר מודלים וכלים להרכבת סוכנים ומצמצם קוד אינטגרציה בין רכיבי יישום AI.", "languages": ["Python", "TypeScript"] },
+  "langgraph": { "description": "מנהל תהליכי סוכנים כגרף בעל מצב, עם הסתעפויות ועצירות לאישור אנושי.", "languages": ["Python"] },
+  "crewai": { "description": "מחלק משימות בין סוכנים בעלי תפקידים ומשלב תוצאות בתהליך עבודה מנוהל.", "languages": ["Python"] },
+  "openai-agents-sdk": { "description": "מפעיל לולאת סוכן, כלים והעברות בין סוכנים בתוך קוד היישום שלך.", "languages": ["Python", "TypeScript"] },
+  "microsoft-agent-framework": { "description": "בונה סוכנים וזרימות עבודה עם כלים עסקיים וחיבור ישיר לשירותי .NET.", "languages": ["C#/.NET", "Python"] },
+  "pydantic-ai": { "description": "בונה סוכנים עם פלט מטופס ותלויות מפורשות לבדיקת מבנה הנתונים המוחזרים.", "languages": ["Python"] },
+  "temporal": { "description": "מריץ תהליכים עמידים בקוד ומשחזר התקדמות לאחר כשל בעזרת היסטוריית אירועים.", "languages": ["C#/.NET", "Python", "TypeScript"] }
+}

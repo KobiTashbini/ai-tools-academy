@@ -1,0 +1,240 @@
+{
+  "codex": {
+    "status": "verified",
+    "url": "https://github.com/openai/codex",
+    "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+    "stars": 132288,
+    "starsSource": "https://api.github.com/repos/openai/codex",
+    "lastActivity": {
+      "date": "2026-10-31T00:12:17Z",
+      "source": "https://github.com/openai/codex/commit/67f0994b532b8740f14b5b738af7b7b2a915b1d6",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "claude-code": {
+    "status": "verified",
+    "url": "https://github.com/anthropics/claude-code",
+    "scope": "מאגר רשמי לתיעוד, תוספים ומשוב; אינו קוד המקור המלא של המוצר",
+    "stars": 154009,
+    "starsSource": "https://api.github.com/repos/anthropics/claude-code",
+    "lastActivity": {
+      "date": "2026-10-31T01:01:10Z",
+      "source": "https://github.com/anthropics/claude-code/commit/80c6959d28c4c30ecd14fc1cdf172f19d9adad81",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "langchain": {
+    "status": "verified",
+    "url": "https://github.com/langchain-ai/langchain",
+    "scope": "מאגר Python; נתוני TypeScript אינם כלולים",
+    "stars": 148758,
+    "starsSource": "https://api.github.com/repos/langchain-ai/langchain",
+    "lastActivity": {
+      "date": "2026-10-30T15:35:29Z",
+      "source": "https://github.com/langchain-ai/langchain/commit/5b0aeb7637fc415eb408dc31523609272bbb38e1",
+      "branch": "master",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "langgraph": {
+    "status": "verified",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+    "stars": 44206,
+    "starsSource": "https://api.github.com/repos/langchain-ai/langgraph",
+    "lastActivity": {
+      "date": "2026-10-31T00:26:39Z",
+      "source": "https://github.com/langchain-ai/langgraph/commit/e5c961d7fbe7ca6fdd4c94c84d90511372514d55",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "openai-agents-sdk": {
+    "status": "verified",
+    "url": "https://github.com/openai/openai-agents-python",
+    "scope": "מאגר SDK של Python בלבד; לא סכום של כל המימושים",
+    "stars": 30405,
+    "starsSource": "https://api.github.com/repos/openai/openai-agents-python",
+    "lastActivity": {
+      "date": "2026-10-30T20:13:59Z",
+      "source": "https://github.com/openai/openai-agents-python/commit/e355d69152d4f4730dfb03b63dbce53e8d9f5d8c",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "crewai": {
+    "status": "verified",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+    "stars": 60329,
+    "starsSource": "https://api.github.com/repos/crewAIInc/crewAI",
+    "lastActivity": {
+      "date": "2026-10-29T15:07:56Z",
+      "source": "https://github.com/crewAIInc/crewAI/commit/97bbfb64811775a965304bda45c8ec0e8e4ef3a2",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "microsoft-agent-framework": {
+    "status": "verified",
+    "url": "https://github.com/microsoft/agent-framework",
+    "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+    "stars": 14396,
+    "starsSource": "https://api.github.com/repos/microsoft/agent-framework",
+    "lastActivity": {
+      "date": "2026-10-30T18:51:42Z",
+      "source": "https://github.com/microsoft/agent-framework/commit/b7884ad88eb85c27b2a7bf40c0e15948e7ccc28d",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "pydantic-ai": {
+    "status": "verified",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+    "stars": 20966,
+    "starsSource": "https://api.github.com/repos/pydantic/pydantic-ai",
+    "lastActivity": {
+      "date": "2026-10-31T04:45:04Z",
+      "source": "https://github.com/pydantic/pydantic-ai/commit/39269caf0a4e2dbc5846ff796191c42a4736735a",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "n8n": {
+    "status": "verified",
+    "url": "https://github.com/n8n-io/n8n",
+    "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+    "stars": 209172,
+    "starsSource": "https://api.github.com/repos/n8n-io/n8n",
+    "lastActivity": {
+      "date": "2026-10-31T08:15:55Z",
+      "source": "https://github.com/n8n-io/n8n/commit/61055d5cfd6a01b667c73a574cbd2be6d2ab58d0",
+      "branch": "master",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "temporal": {
+    "status": "verified",
+    "url": "https://github.com/temporalio/temporal",
+    "scope": "מאגר שרת Temporal; לא סכום של מאגרי ה־SDK",
+    "stars": 24098,
+    "starsSource": "https://api.github.com/repos/temporalio/temporal",
+    "lastActivity": {
+      "date": "2026-10-31T02:59:23Z",
+      "source": "https://github.com/temporalio/temporal/commit/b818208e18e1e95a1d54f08f8ca55c6769493502",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "llamaindex": {
+    "status": "verified",
+    "url": "https://github.com/run-llama/llama_index",
+    "scope": "מאגר מסגרת Python",
+    "stars": 52757,
+    "starsSource": "https://api.github.com/repos/run-llama/llama_index",
+    "lastActivity": {
+      "date": "2026-10-14T15:29:28Z",
+      "source": "https://github.com/run-llama/llama_index/commit/619d74664e8404612038bc15a1a40c686037277c",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "qdrant": {
+    "status": "verified",
+    "url": "https://github.com/qdrant/qdrant",
+    "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+    "stars": 35343,
+    "starsSource": "https://api.github.com/repos/qdrant/qdrant",
+    "lastActivity": {
+      "date": "2026-10-21T17:45:09Z",
+      "source": "https://github.com/qdrant/qdrant/commit/222b2e44ab1c3f17e8246396ead6558e45041df7",
+      "branch": "master",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "dify": {
+    "status": "verified",
+    "url": "https://github.com/langgenius/dify",
+    "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+    "stars": 160060,
+    "starsSource": "https://api.github.com/repos/langgenius/dify",
+    "lastActivity": {
+      "date": "2026-10-31T08:18:49Z",
+      "source": "https://github.com/langgenius/dify/commit/8ba1adfbc414292c4b4e84a8514e0262cc3257b5",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "ollama": {
+    "status": "verified",
+    "url": "https://github.com/ollama/ollama",
+    "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+    "stars": 185419,
+    "starsSource": "https://api.github.com/repos/ollama/ollama",
+    "lastActivity": {
+      "date": "2026-10-30T21:34:54Z",
+      "source": "https://github.com/ollama/ollama/commit/f9323416f0c3f84d82f6c4a7bde75b717448bd44",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "langfuse": {
+    "status": "verified",
+    "url": "https://github.com/langfuse/langfuse",
+    "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+    "stars": 36782,
+    "starsSource": "https://api.github.com/repos/langfuse/langfuse",
+    "lastActivity": {
+      "date": "2026-10-30T20:12:00Z",
+      "source": "https://github.com/langfuse/langfuse/commit/f2196feee734616d2833b5bf27a3f1bb1d152fbf",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "pytorch": {
+    "status": "verified",
+    "url": "https://github.com/pytorch/pytorch",
+    "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+    "stars": 105028,
+    "starsSource": "https://api.github.com/repos/pytorch/pytorch",
+    "lastActivity": {
+      "date": "2026-10-31T08:05:56Z",
+      "source": "https://github.com/pytorch/pytorch/commit/6024c944ec32853a785292d11e27cec5693c658d",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "mcp": {
+    "status": "verified",
+    "url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+    "scope": "מאגר המפרט הרשמי; אינו כלל ה־SDKs והשרתים",
+    "stars": 9572,
+    "starsSource": "https://api.github.com/repos/modelcontextprotocol/modelcontextprotocol",
+    "lastActivity": {
+      "date": "2026-10-31T08:10:43Z",
+      "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/0aab7058fe6471f3d7b0301e13965f10ad9cb198",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T09:13:24Z"
+  }
+}

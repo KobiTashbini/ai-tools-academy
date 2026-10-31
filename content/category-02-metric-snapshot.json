@@ -1,0 +1,85 @@
+{
+  "collectedAt": "2026-10-31T09:28:56.733Z",
+  "sourceRank": [
+    {
+      "slug": "langchain",
+      "status": 200,
+      "source": "https://libraries.io/api/pypi/langchain",
+      "rank": 27,
+      "name": "langchain",
+      "repository": "https://github.com/langchain-ai/langchain",
+      "platform": "Pypi",
+      "updatedAt": null
+    },
+    {
+      "slug": "langgraph",
+      "status": "unavailable",
+      "reason": "Libraries.io returned Retry later; no value inferred."
+    },
+    {
+      "slug": "crewai",
+      "status": "unavailable",
+      "reason": "Libraries.io returned Retry later; no value inferred."
+    },
+    {
+      "slug": "openai-agents-sdk",
+      "status": "unavailable",
+      "reason": "Libraries.io returned Retry later; no value inferred."
+    },
+    {
+      "slug": "pydantic-ai",
+      "status": 200,
+      "source": "https://libraries.io/api/pypi/pydantic-ai",
+      "rank": 23,
+      "name": "pydantic-ai",
+      "repository": "https://github.com/pydantic/pydantic-ai",
+      "platform": "Pypi",
+      "updatedAt": null
+    },
+    {
+      "slug": "microsoft-agent-framework",
+      "status": 200,
+      "source": "https://libraries.io/api/pypi/agent-framework",
+      "rank": 20,
+      "name": "agent-framework",
+      "repository": "https://github.com/microsoft/agent-framework",
+      "platform": "Pypi",
+      "updatedAt": null
+    },
+    {
+      "slug": "temporal",
+      "status": "unavailable",
+      "reason": "Libraries.io returned Retry later; no value inferred."
+    }
+  ],
+  "popularity": {
+    "slug": "temporal",
+    "source": "https://api.npms.io/v2/package/%40temporalio%2Fclient",
+    "package": "@temporalio/client",
+    "analyzedAt": "2022-12-17T15:44:03.377Z",
+    "score": 0.10084060588298586,
+    "repository": {
+      "url": "git+https://github.com/temporalio/sdk-typescript.git",
+      "type": "git",
+      "directory": "packages/client"
+    },
+    "identitySource": "https://registry.npmjs.org/@temporalio/client/latest"
+  },
+  "research": {
+    "ossCompass": {
+      "status": 401,
+      "endpoint": "https://oss-compass.org/api/v3/community_popularity/model_data",
+      "reason": "Public API requires an access token; no account or token was created."
+    },
+    "npms": {
+      "notFound": [
+        "langchain",
+        "@langchain/langgraph",
+        "@openai/agents"
+      ]
+    },
+    "librariesIo": {
+      "reason": "Some requests returned Retry later; missing values are not substituted."
+    }
+  }
+}

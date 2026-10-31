@@ -1,0 +1,1 @@
+export function assembleEntries(initialEntries: readonly unknown[], lessonData: { checkedAt: string; publicationStatus: string; verificationStatus: string; revision: number; entries: readonly unknown[] }): unknown[];

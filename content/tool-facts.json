@@ -1,0 +1,133 @@
+{
+  "collectedAt": "2026-10-31T09:13:24Z",
+  "popularity": {
+    "algorithm": "OSS Compass Community Popularity v3",
+    "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+    "score": null,
+    "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון."
+  },
+  "entries": {
+    "llm-fundamentals": {
+      "description": "מסביר יצירת טקסט באמצעות מודלי שפה והפרדה בין הצעת מודל להחלטה עסקית.",
+      "languages": "מושג; C#/.NET ושפות נוספות לפי ממשק ספק המודל.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "מושג כללי, ללא מאגר מוצר יחיד."
+      }
+    },
+    "codex": {
+      "description": "מסייע לחקור מאגר קוד, לממש שינויים ולהריץ בדיקות לפי משימת פיתוח מוגדרת.",
+      "languages": "כלי פיתוח; קוד C#/.NET, Python ו־TypeScript לפי סביבת הפרויקט, לא SDK."
+    },
+    "claude-code": {
+      "description": "קורא ומשנה קבצי פרויקט ומריץ פקודות לביצוע משימות פיתוח ותיקון תקלות.",
+      "languages": "כלי פיתוח; C#/.NET לפי סביבת הפרויקט; אין זו טענת SDK.",
+      "release": {
+        "value": "2025-02-24",
+        "precision": "day",
+        "source": "https://www.anthropic.com/news/claude-3-7-sonnet",
+        "note": "הצגה ראשונה לציבור כ־Limited Research Preview; לא תאריך GA."
+      }
+    },
+    "cursor": {
+      "description": "משלב סוכן בסביבת פיתוח לחיפוש קוד, עריכת קבצים והרצת בדיקות ופקודות.",
+      "languages": "כלי פיתוח; C#/.NET לפי סביבת הפרויקט וההרחבות, לא SDK.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "לא נבחר מאגר ציבורי שמייצג את מוצר Cursor; מאגרי תוספים אינם תחליף."
+      }
+    },
+    "langchain": {
+      "description": "מרכיב סוכנים ממודלים, כלים והנחיות וחוסך קוד חיבור בין רכיבי יישום AI.",
+      "languages": "Python, TypeScript רשמיים; C#/.NET: שילוב שירות נפרד, לא SDK מקומי."
+    },
+    "langgraph": {
+      "description": "מנהל זרימות סוכנים בעלות מצב, הסתעפויות ועצירות לאישור באמצעות גרף מפורש.",
+      "languages": "Python נבדק; TypeScript לא אומת כאן; C#/.NET: שירות נפרד.",
+      "release": {
+        "value": "2024",
+        "precision": "year",
+        "source": "https://www.langchain.com/blog/langgraph",
+        "note": "שנת הפרסום הציבורי הראשוני. ההכרזה מ־17/01 מפנה לאזכור קודם; לכן לא מוצג יום מדויק. נבדק 31/10/2026."
+      }
+    },
+    "openai-agents-sdk": {
+      "description": "מנהל לולאת סוכן, הפעלת כלים והעברת אחריות בין סוכנים בתוך היישום.",
+      "languages": "Python, TypeScript רשמיים; C#/.NET: SDK מקביל לא אומת.",
+      "release": {
+        "value": "2025-03-11",
+        "precision": "day",
+        "source": "https://openai.com/index/new-tools-for-building-agents/",
+        "note": "ההשקה הציבורית של Agents SDK; אינה תאריך יצירת מאגר. נבדק 31/10/2026."
+      }
+    },
+    "crewai": {
+      "description": "מחלק משימות בין סוכנים בעלי תפקידים ומשלב את תוצאותיהם בתהליך עבודה מנוהל.",
+      "languages": "Python לפי מפת הידע; מטריצה מלאה לא אומתה; C#/.NET: שירות נפרד."
+    },
+    "microsoft-agent-framework": {
+      "description": "מחבר מודלים, כלים וזרימות עבודה לבניית סוכנים המשתלבים בשירותים עסקיים קיימים.",
+      "languages": "C#/.NET ו־Python רשמיים; TypeScript מקביל לא אומת; אין הבטחת שוויון יכולות.",
+      "release": {
+        "value": "2025-10-01",
+        "precision": "day",
+        "source": "https://devblogs.microsoft.com/dotnet/introducing-microsoft-agent-framework-preview/",
+        "note": "השקה ציבורית ראשונה ב־Preview, לא גרסה יציבה. נבדק 31/10/2026."
+      }
+    },
+    "pydantic-ai": {
+      "description": "בונה סוכנים עם פלט מטופס ותלויות מפורשות לצמצום שגיאות במבנה הנתונים.",
+      "languages": "Python רשמי; C#/.NET ו־TypeScript: אינטגרציית שירות HTTP, לא SDK מקומי."
+    },
+    "n8n": {
+      "description": "מחבר שירותים ופעולות עסקיות לתהליכי אוטומציה עם אפשרות לשלב קריאות AI.",
+      "languages": "פלטפורמה; חיבור שירותי C#/.NET, Python ו־TypeScript ב־HTTP, לא SDK סוכנים."
+    },
+    "temporal": {
+      "description": "מריץ תהליכים עמידים בקוד ומשחזר את התקדמותם לאחר כשל בעזרת היסטוריית אירועים.",
+      "languages": "SDKs רשמיים: C#/.NET, Python, TypeScript; גרסאות נבדקות בנפרד."
+    },
+    "llamaindex": {
+      "description": "מחבר מסמכים ונתונים למודלים באמצעות טעינה, אינדוקס ואחזור לצורך תשובות מבוססות ידע.",
+      "languages": "Python נבדק; C#/.NET: שירות נפרד; TypeScript לא אומת כאן."
+    },
+    "qdrant": {
+      "description": "שומר וקטורים ומידע נלווה ומאתר פריטים דומים לצורך חיפוש סמנטי ואחזור.",
+      "languages": "לקוח Python נבדק; C#/.NET ו־TypeScript: API; SDKs לא אומתו כאן."
+    },
+    "dify": {
+      "description": "מאפשר לבנות יישומי AI ותהליכים עם מקורות ידע ולחשוף אותם כממשקי משתמש ושירותים.",
+      "languages": "פלטפורמה; API לשירותי C#/.NET, Python ו־TypeScript; אין טענת SDK מקומי."
+    },
+    "hugging-face": {
+      "description": "מנגיש מודלים אצל ספקי הסקה שונים דרך ממשק משותף לצמצום עבודת אינטגרציה.",
+      "languages": "Python ו־JavaScript רשמיים; C#/.NET: HTTP, SDK מקביל לא אומת.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "שירות Inference Providers אינו מאגר יחיד; Stars של Hub SDK לא מייצגים אותו."
+      }
+    },
+    "ollama": {
+      "description": "מריץ מודלים ומנגיש אותם ליישומים דרך API מקומי או חיבור לשירות ענן.",
+      "languages": "Python, JavaScript רשמיים; C#/.NET: HTTP, לקוח רשמי לא אומת."
+    },
+    "langfuse": {
+      "description": "מתעד קריאות ותהליכי AI כדי לחקור תקלות, לנהל הנחיות ולהעריך איכות תשובות.",
+      "languages": "Python, JavaScript רשמיים; C#/.NET: מסלול OpenTelemetry דורש בדיקה ייעודית."
+    },
+    "pytorch": {
+      "description": "מספק רכיבי נתונים, מודלים ואופטימיזציה לבניית רשתות ולשינוי פרמטרים בתהליך אימון.",
+      "languages": "Python במדריך שנבדק; שילוב תוצר ב־C#/.NET או TypeScript תלוי במסלול פריסה."
+    },
+    "mcp": {
+      "description": "מגדיר חוזה תקשורת משותף לחיבור יישומי AI למקורות מידע ולכלים עסקיים.",
+      "languages": "פרוטוקול בלתי תלוי בשפה; SDKs של C#/.NET, Python ו־TypeScript לא אומתו כאן.",
+      "release": {
+        "value": "2024-11-25",
+        "precision": "day",
+        "source": "https://www.anthropic.com/news/model-context-protocol",
+        "note": "ההכרזה הציבורית הראשונה על הפרוטוקול והמפרט הפתוח."
+      }
+    }
+  }
+}

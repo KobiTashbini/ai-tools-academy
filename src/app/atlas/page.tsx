@@ -8,7 +8,7 @@ export default function AtlasPage() {
   return <section className="catalog" aria-labelledby="atlas-title">
     <p className="eyebrow">12 תחומים · מפה אחת</p>
     <h1 id="atlas-title">אטלס הידע</h1>
-    <p className="intro">בחרו תחום כדי להכיר את המושגים, הכלים והקשרים שבו. התוכן נבנה בהדרגה; בתחום האינטגרציות כבר מחכה מבוא ל־<bdi>MCP</bdi>.</p>
+    <p className="intro">בחרו תחום כדי להכיר את המושגים, הכלים והקשרים שבו. בכל פרק תמצאו הסבר, דוגמה ארגונית, תרגיל ומקורות. מומלץ להתחיל ביסודות, להמשיך לעוזרי הפיתוח ואז למערכות סוכנים.</p>
     <div className="cards">{listCategories().map(category => {
       const count = listCategoryEntries(category.id).length;
       return <Link className="card category-card" href={`/atlas/${category.id}`} key={category.id}>

@@ -4,9 +4,12 @@ export type KnowledgeEntry = Readonly<{
   id: string;
   slug: string;
   name: string;
-  kind: "protocol" | "model" | "sdk" | "framework" | "platform" | "concept" | "product";
+  kind: "protocol" | "model" | "sdk" | "framework" | "platform" | "concept" | "product" | "database" | "runtime" | "orchestration_engine";
   categoryIds: readonly string[];
   summary: string;
+  learningPriority?: "must_learn" | "should_know" | "enrichment";
+  prerequisites?: string;
+  relatedSlugs?: readonly string[];
   sections: readonly { title: string; text: string }[];
   example: string;
   exercise: string;
@@ -23,4 +26,11 @@ export type KnowledgeEntry = Readonly<{
 export const kindLabels: Record<KnowledgeEntry["kind"], string> = {
   protocol: "פרוטוקול", model: "מודל", sdk: "ערכת פיתוח", framework: "מסגרת עבודה",
   platform: "פלטפורמה", concept: "מושג", product: "מוצר",
+  database: "מסד נתונים וקטורי", runtime: "סביבת הרצת מודלים", orchestration_engine: "מנוע אורקסטרציה",
+};
+
+export const priorityLabels = {
+  must_learn: "חובה ללמוד",
+  should_know: "כדאי להכיר",
+  enrichment: "העשרה בהמשך",
 };

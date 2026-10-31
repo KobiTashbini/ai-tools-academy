@@ -1,0 +1,58 @@
+{
+  "collectedAt": "2026-10-31T09:33:34Z",
+  "method": "AI TOOLS GitHub Interest v1",
+  "formula": "50 * stars / maxStars + 50 * forks / maxForks",
+  "cohort": "category-02-seven-official-repositories",
+  "description": "מדד מקומי לעניין קהילתי יחסי: 50% יחס Stars למקסימום במדגם ו־50% יחס Forks למקסימום במדגם. זהו אומדן תשומת לב, לא מדד איכות, אבטחה או מספר משתמשים.",
+  "entries": [
+    {
+      "slug": "langchain",
+      "repository": "https://github.com/langchain-ai/langchain",
+      "source": "https://api.github.com/repos/langchain-ai/langchain",
+      "stars": 148758,
+      "forks": 25000
+    },
+    {
+      "slug": "langgraph",
+      "repository": "https://github.com/langchain-ai/langgraph",
+      "source": "https://api.github.com/repos/langchain-ai/langgraph",
+      "stars": 44207,
+      "forks": 7607
+    },
+    {
+      "slug": "crewai",
+      "repository": "https://github.com/crewAIInc/crewAI",
+      "source": "https://api.github.com/repos/crewAIInc/crewAI",
+      "stars": 60331,
+      "forks": 8984
+    },
+    {
+      "slug": "openai-agents-sdk",
+      "repository": "https://github.com/openai/openai-agents-python",
+      "source": "https://api.github.com/repos/openai/openai-agents-python",
+      "stars": 30406,
+      "forks": 4963
+    },
+    {
+      "slug": "pydantic-ai",
+      "repository": "https://github.com/pydantic/pydantic-ai",
+      "source": "https://api.github.com/repos/pydantic/pydantic-ai",
+      "stars": 20967,
+      "forks": 3071
+    },
+    {
+      "slug": "microsoft-agent-framework",
+      "repository": "https://github.com/microsoft/agent-framework",
+      "source": "https://api.github.com/repos/microsoft/agent-framework",
+      "stars": 14396,
+      "forks": 2543
+    },
+    {
+      "slug": "temporal",
+      "repository": "https://github.com/temporalio/temporal",
+      "source": "https://api.github.com/repos/temporalio/temporal",
+      "stars": 24098,
+      "forks": 2063
+    }
+  ]
+}
