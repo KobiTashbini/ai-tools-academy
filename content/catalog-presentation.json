@@ -1,0 +1,45 @@
+{
+  "llm-fundamentals": [
+    "לא תלוי בשפה"
+  ],
+  "codex": [
+    "לפי הפרויקט"
+  ],
+  "claude-code": [
+    "לפי הפרויקט"
+  ],
+  "cursor": [
+    "לפי הפרויקט"
+  ],
+  "n8n": [
+    "HTTP API"
+  ],
+  "llamaindex": [
+    "Python"
+  ],
+  "qdrant": [
+    "Python",
+    "HTTP API"
+  ],
+  "dify": [
+    "HTTP API"
+  ],
+  "hugging-face": [
+    "Python",
+    "JavaScript"
+  ],
+  "ollama": [
+    "Python",
+    "JavaScript"
+  ],
+  "langfuse": [
+    "Python",
+    "JavaScript"
+  ],
+  "pytorch": [
+    "Python"
+  ],
+  "mcp": [
+    "לא תלוי בשפה"
+  ]
+}

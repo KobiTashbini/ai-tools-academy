@@ -15,9 +15,10 @@ for (const route of routes) {
   if (route === "/atlas") for (let i = 0; i < 12; i++) assert.ok(html.includes(`href="/atlas/${String(i).padStart(2, "0")}"`));
   if (route === "/atlas/09") assert.ok(html.includes('href="/tools/mcp"'));
   if (route.startsWith("/atlas/")) {
-    assert.ok(html.includes('<table class="tools-table"'), `${route}: table is the default view`);
+    assert.ok(html.includes('<table class="tools-table agent-table"'), `${route}: table is the default view`);
     assert.ok(html.includes('aria-label="תצוגת כלים"') && html.includes("כרטיסיות"), `${route}: view toggle`);
     assert.ok(html.includes("על הנתונים ומדד הפופולריות"), `${route}: metric definitions`);
+    assert.ok(html.includes("יציאה ראשונית") && html.includes("Stars / GitHub"), `${route}: compact default columns`);
     const categoryId = route.split("/").pop();
     for (const entry of entries.filter(item => item.categoryIds.includes(categoryId))) assert.ok(html.includes(`href="/tools/${entry.slug}"`));
     assert.ok(!html.includes("התוכן בתחום הזה בהכנה"));
