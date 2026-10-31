@@ -19,6 +19,17 @@ npm run dev
 
 פותחים http://localhost:3000 . עוצרים עם Ctrl+C. אין צורך ב־env, במפתחות או במסד נתונים.
 
+## ניפוי שגיאות בצד השרת
+
+עמודי `src/app/atlas/page.tsx` ו־`src/app/atlas/[categoryId]/page.tsx` הם Server Components: פקודות `debugger;` בהם דורשות Debugger שמחובר ל־Node.js, ולא רק DevTools של לשונית האתר.
+
+יש לפתוח ב־VS Code את תיקיית `AI TOOLS` המלאה, ולא את `src` בלבד, כדי שיזהה את `.vscode/launch.json` ואת `tsconfig.json`. מצב Debug משתמש ב־Webpack בעקבות שגיאה פנימית שנצפתה ב־Turbopack; ההפעלה הרגילה נשארת עם ברירת המחדל של Next.js.
+
+- ב־VS Code: עוצרים את שרת הפיתוח הקודם, פותחים Run and Debug, בוחרים `Next.js: debug server` ולוחצים F5. לאחר שהשרת מוכן פותחים או מרעננים את `/atlas` או `/atlas/02`. העצירה והמשתנים יוצגו בעורך.
+- דרך Chrome: מפעילים `npm run dev:debug`, פותחים `chrome://inspect`, מגדירים ב־Configure את `localhost:9230` ופותחים Inspect של שרת Next.js. משאירים חלון זה פתוח ומרעננים את עמוד האתר. ממשיכים באמצעות F8.
+
+יש לוודא שב־Debugger לא מופעל Deactivate breakpoints. פקודה ברמת המודול נעצרת רק כשהמודול נטען; פקודה בתוך פונקציית העמוד נעצרת כשהעמוד מרונדר בשרת. ב־Production העמודים נוצרים סטטית בעת build, ולכן משתמשים בשרת הפיתוח לבדיקה זו. פורט ה־Inspector נפתח במפורש במחשב המקומי בלבד. הוראות תואמות ל־[תיעוד Next.js](https://nextjs.org/docs/app/guides/debugging).
+
 ## בדיקות
 
 ```powershell
