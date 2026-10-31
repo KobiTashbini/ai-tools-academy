@@ -13,7 +13,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <a className="skip-link" href="#main">דלג לתוכן</a>
         <SiteHeader />
-        <main id="main" className="container">{children}</main>
+        <main id="main" tabIndex={-1} className="container">{children}</main>
         <footer className="container footer">לומדים לעומק. בונים בהדרגה. בודקים את המקורות.</footer>
       </body>
     </html>

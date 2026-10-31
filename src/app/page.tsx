@@ -25,7 +25,7 @@ export default function HomePage() {
         <p className="section-intro">מתחילים מהיסודות ומחברים כל החלטה לניסיון שלך בקוד, בנתונים ובמערכות.</p>
         <div className="cards">{steps.map(step => <article className="card" key={step.number}><span className="step" dir="ltr">{step.number}</span><h3>{step.title}</h3><p>{step.text}</p></article>)}</div>
       </section>
-      <aside className="notice"><strong>בונים את האקדמיה, שלב אחר שלב</strong><p>מסך הבית והניווט הם הצעד הראשון. עמודי הכלים, החיפוש וההשוואה יתווספו בהמשך.</p></aside>
+      <aside className="notice"><strong>האטלס מתחיל להתמלא</strong><p>12 תחומי הידע כבר פתוחים לעיון, עם מבוא ראשון ל־<bdi>MCP</bdi>. חיפוש והשוואה יתווספו בהמשך.</p><Link className="text-link" href="/tools/mcp">לקריאת המבוא ל־<bdi>MCP</bdi></Link></aside>
     </>
   );
 }
