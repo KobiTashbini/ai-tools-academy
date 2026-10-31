@@ -14,7 +14,8 @@
     "test": "node --test tests/*.test.mjs",
     "test:smoke": "node tests/smoke.mjs",
     "metrics:refresh": "node scripts/collect-inference-metrics.mjs",
-    "research:check": "node scripts/check-research.mjs"
+    "research:check": "node scripts/check-research.mjs",
+    "database:prepare": "node scripts/prepare-database.mjs"
   },
   "dependencies": {
     "next": "16.4.3",
@@ -22,6 +23,7 @@
     "react-dom": "19.3.1"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.14",
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",

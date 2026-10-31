@@ -81,3 +81,6 @@ npm run start
 | [רקע ומפת הידע](docs/knowledge/AI_TOOLS_CONTEXT.md) | 12 תחומי הידע ומטרות הלמידה |
 | [כיסוי התוכן](docs/knowledge/CONTENT_COVERAGE.md) | הפרקים הזמינים, סדר קריאה וגבולות האימות |
 | [ארכיון](docs/archive/README.md) | חומר היסטורי שאינו הוראות עבודה נוכחיות |
+## מסד ענן
+
+מסד PostgreSQL בענן כולל כעת טבלאות מנורמלות ללא payload פעיל. [הוראות ובדיקות](database/README.md) ו־[מפת הטבלאות והשדות](database/DATA_DICTIONARY.md). `npm run database:prepare` משחזרת את שלב הייבוא ההיסטורי מקומית; אין להריץ את הייבוא שוב על הענן הקיים. האתר עדיין משתמש בקובצי JSON עד לחיבור מפורש.
