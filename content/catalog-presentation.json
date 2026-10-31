@@ -41,5 +41,50 @@
   ],
   "mcp": [
     "לא תלוי בשפה"
+  ],
+  "openai-gpt": [
+    "HTTP API"
+  ],
+  "anthropic-claude": [
+    "HTTP API"
+  ],
+  "google-gemini": [
+    "HTTP API"
+  ],
+  "meta-llama": [
+    "HTTP API"
+  ],
+  "qwen": [
+    "HTTP API"
+  ],
+  "deepseek": [
+    "HTTP API"
+  ],
+  "mistral-ai": [
+    "HTTP API"
+  ],
+  "openrouter": [
+    "HTTP API"
+  ],
+  "together-ai": [
+    "HTTP API"
+  ],
+  "microsoft-foundry": [
+    "HTTP API"
+  ],
+  "amazon-bedrock": [
+    "HTTP API"
+  ],
+  "google-vertex-ai": [
+    "HTTP API"
+  ],
+  "lm-studio": [
+    "HTTP API"
+  ],
+  "llama-cpp": [
+    "HTTP API"
+  ],
+  "vllm": [
+    "HTTP API"
   ]
 }

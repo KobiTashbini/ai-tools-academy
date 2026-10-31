@@ -5,6 +5,9 @@ import { assembleEntries } from "../src/data/assemble-entries.mjs";
 const base = process.env.SMOKE_BASE_URL ?? "http://127.0.0.1:3000";
 const readJson = file => JSON.parse(readFileSync(new URL(`../content/${file}`, import.meta.url), "utf8"));
 const entries = assembleEntries(readJson("entries.json"), readJson("lessons.json")).filter(entry => entry.publicationStatus === "published");
+const guides = readJson("category-guides.json");
+const inferenceCommunity = readJson("inference-community-interest.json");
+const guidance = readJson("learning-guidance.json");
 const routes = ["/", "/atlas", ...Array.from({ length: 12 }, (_, i) => `/atlas/${String(i).padStart(2, "0")}`), ...entries.map(entry => `/tools/${entry.slug}`)];
 for (const route of routes) {
   const response = await fetch(new URL(route, base));
@@ -20,6 +23,28 @@ for (const route of routes) {
     assert.ok(html.includes("על הנתונים ומדד הפופולריות"), `${route}: metric definitions`);
     assert.ok(html.includes("יציאה ראשונית") && html.includes("Stars / GitHub"), `${route}: compact default columns`);
     const categoryId = route.split("/").pop();
+    const categoryEntries = entries.filter(item => item.categoryIds.includes(categoryId));
+    assert.ok(html.includes("חשיבות ללימוד") && html.includes("זו הערכה פדגוגית"), `${route}: learning guidance, not measured adoption`);
+    assert.equal((html.match(/class="learning-importance"/g) ?? []).length, categoryEntries.length, `${route}: every row has guidance`);
+    const plainText = html.replace(/<[^>]+>/g, "");
+    for (const entry of categoryEntries) {
+      assert.ok(guidance.reasons[entry.slug] && plainText.includes(guidance.reasons[entry.slug]), `${route}: specific learning rationale for ${entry.slug}`);
+    }
+    if (categoryId === "08") {
+      assert.ok(html.includes(inferenceCommunity.cohortLabel), `${route}: separate inference cohort`);
+      for (const item of inferenceCommunity.entries) {
+        assert.ok(html.includes(item.stars.toLocaleString("en-US")), `${route}: collected repository stars`);
+        assert.ok(html.includes(item.source), `${route}: GitHub evidence`);
+      }
+    }
+    const guide = guides[categoryId];
+    if (guide) {
+      assert.ok(html.includes(guide.title), `${route}: learning guide`);
+      for (const step of guide.steps) {
+        assert.ok(entries.some(entry => entry.slug === step.slug), `${route}: valid guide destination`);
+        assert.ok(html.includes(`href="/tools/${step.slug}"`), `${route}: guide link`);
+      }
+    }
     for (const entry of entries.filter(item => item.categoryIds.includes(categoryId))) assert.ok(html.includes(`href="/tools/${entry.slug}"`));
     assert.ok(!html.includes("התוכן בתחום הזה בהכנה"));
   }

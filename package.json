@@ -12,7 +12,8 @@
     "start": "next start",
     "typecheck": "next typegen && tsc --noEmit",
     "test": "node --test tests/*.test.mjs",
-    "test:smoke": "node tests/smoke.mjs"
+    "test:smoke": "node tests/smoke.mjs",
+    "metrics:refresh": "node scripts/collect-inference-metrics.mjs"
   },
   "dependencies": {
     "next": "16.4.3",

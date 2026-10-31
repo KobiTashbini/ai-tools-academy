@@ -28,7 +28,8 @@ export function buildAgentMetrics(entries, presentation, snapshot, community) {
 }
 
 export function sortAgentEntries(entries, facts, metrics, key, direction) {
-  const value = entry => key === "name" ? entry.name : key === "popularity" ? metrics[entry.slug].communityInterest?.score : key === "sourceRank" ? metrics[entry.slug].sourceRank?.score : key === "stars" ? facts[entry.slug].github.stars : key === "activity" ? Date.parse(facts[entry.slug].github.lastActivity?.date ?? "") || null : facts[entry.slug].release ? Date.parse(facts[entry.slug].release.value.length === 4 ? `${facts[entry.slug].release.value}-01-01` : facts[entry.slug].release.value) : null;
+  const priorities = {must_learn:3,should_know:2,enrichment:1};
+  const value = entry => key === "learningPriority" ? priorities[entry.learningPriority] : key === "name" ? entry.name : key === "popularity" ? metrics[entry.slug].communityInterest?.score : key === "sourceRank" ? metrics[entry.slug].sourceRank?.score : key === "stars" ? facts[entry.slug].github.stars : key === "activity" ? Date.parse(facts[entry.slug].github.lastActivity?.date ?? "") || null : facts[entry.slug].release ? Date.parse(facts[entry.slug].release.value.length === 4 ? `${facts[entry.slug].release.value}-01-01` : facts[entry.slug].release.value) : null;
   return [...entries].sort((a,b) => {
     const av = value(a), bv = value(b);
     if (av == null && bv == null) return a.name.localeCompare(b.name,"en");

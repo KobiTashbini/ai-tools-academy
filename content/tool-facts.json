@@ -128,6 +128,210 @@
         "source": "https://www.anthropic.com/news/model-context-protocol",
         "note": "ההכרזה הציבורית הראשונה על הפרוטוקול והמפרט הפתוח."
       }
+    },
+    "openai-gpt": {
+      "description": "משפחת מודלים ללימוד עבודה עם API, פלט מובנה והפרדה בין הצעת מודל לפעולה עסקית.",
+      "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+      },
+      "release": {
+        "value": "2018-06-11",
+        "precision": "day",
+        "source": "https://openai.com/index/language-unsupervised/",
+        "note": "פרסום המחקר והמודל המקורי שממנו התפתחה משפחת GPT; לא תאריך השקת ChatGPT או API."
+      }
+    },
+    "anthropic-claude": {
+      "description": "משפחת מודלים ללימוד לולאת כלים והבדלה בין כלים שהיישום מפעיל לכלים שמופעלים אצל הספק.",
+      "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+      },
+      "release": {
+        "value": "2023-03-14",
+        "precision": "day",
+        "source": "https://www.anthropic.com/news/introducing-claude",
+        "note": "הכרזה ציבורית על Claude והרחבת הגישה לאחר Alpha סגורה; לא תאריך הקמת Anthropic."
+      }
+    },
+    "google-gemini": {
+      "description": "משפחת מודלים ללימוד חיבור פונקציות ליישום והפרדה בין משפחת מודלים לפלטפורמת הענן שסביבה.",
+      "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+      },
+      "release": {
+        "value": "2023-12-06",
+        "precision": "day",
+        "source": "https://blog.google/innovation-and-ai/technology/ai/google-gemini-ai/",
+        "note": "הכרזת משפחת Gemini; גישת מפתחים ל־API הוכרזה בנפרד ל־13 בדצמבר."
+      }
+    },
+    "meta-llama": {
+      "description": "משפחת מודלים עם משקלים זמינים ללימוד ההבדל בין בעלות על סביבת הריצה לשימוש בשירות חיצוני.",
+      "languages": "המודל אינו SDK לשפת תכנות. Python, C# ו־TypeScript יכולים לצרוך שרת מתאים; תמיכה תלויה במנוע ובחוזה שלו.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+      },
+      "release": {
+        "value": "2023-02-24",
+        "precision": "day",
+        "source": "https://ai.meta.com/blog/large-language-model-Llama-meta-ai/",
+        "note": "הכרזת LLaMA הראשונה, בגישה מחקרית מוגבלת; לא Llama 2 ולא זמינות מסחרית כללית."
+      }
+    },
+    "qwen": {
+      "description": "משפחת מודלים ללימוד בחירת דגם, תצורת הסקה והתאמה למנועי הרצה שונים.",
+      "languages": "משפחת מודלים, ללא SDK C# בפני עצמה. האינטגרציה לשפות היישום נקבעת לפי שרת ההסקה או ספק האירוח.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+      },
+      "release": {
+        "value": "2023-08-03",
+        "precision": "day",
+        "source": "https://huggingface.co/Qwen/Qwen-7B/blob/main/LICENSE",
+        "note": "תאריך פרסום משקלי Qwen-7B לפי רישיון המודל המקורי; לא הקמת Alibaba או כל שירותי Tongyi."
+      }
+    },
+    "deepseek": {
+      "description": "ספק ומשפחות מודלים ללימוד מעבר בין שירותים והגבולות של תאימות לממשקי API מוכרים.",
+      "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+      }
+    },
+    "mistral-ai": {
+      "description": "ספק מודלים ללימוד ההבחנה בין API מסחרי, דגמים במשקלים זמינים ומוצרי קצה.",
+      "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+      },
+      "release": {
+        "value": "2023-09-27",
+        "precision": "day",
+        "source": "https://mistral.ai/news/announcing-mistral-7b/",
+        "note": "השקת Mistral 7B, המודל הראשון של הספק; לא הקמת החברה או השקת שירות API."
+      }
+    },
+    "openrouter": {
+      "description": "פלטפורמת גישה למודלים דרך API משותף ללימוד ניתוב והפרדה בין ספק המודל לספק השירות.",
+      "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+      },
+      "release": {
+        "value": "2023",
+        "precision": "year",
+        "source": "https://openrouter.ai/about/",
+        "note": "המקור הרשמי מציין תחילת פעילות בתחילת 2023 בלבד; יום השקה מדויק לא אומת."
+      }
+    },
+    "together-ai": {
+      "description": "פלטפורמת הסקה ואימון ללימוד שימוש במודלים קיימים בשירות מנוהל במקום ניהול חומרה עצמאי.",
+      "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+      },
+      "release": {
+        "value": "2023-07-14",
+        "precision": "day",
+        "source": "https://www.together.ai/blog/api-announcement",
+        "note": "הכרזת Together API ו־Together Compute; לא תאריך הקמת החברה."
+      }
+    },
+    "microsoft-foundry": {
+      "description": "פלטפורמת Azure ללימוד גישה למודלים, ניהול הרשאות והפרדה בין שירות ענן למסגרת פיתוח סוכנים.",
+      "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+      },
+      "release": {
+        "value": "2024-11-19",
+        "precision": "day",
+        "source": "https://azure.microsoft.com/en-us/blog/the-next-wave-of-azure-innovation-azure-ai-foundry-intelligent-data-and-more/",
+        "note": "הצגת הפלטפורמה בשם Azure AI Foundry. היו שירותים קודמים בשמות אחרים; זה אינו תאריך השם המאוחר Microsoft Foundry או כל שירותי Azure AI."
+      }
+    },
+    "amazon-bedrock": {
+      "description": "שירות AWS מנוהל ללימוד גישה למשפחות מודלים שונות והפרדה בין מודל, הרשאות וממשק ענן.",
+      "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+      },
+      "release": {
+        "value": "2023-04-13",
+        "precision": "day",
+        "source": "https://aws.amazon.com/blogs/machine-learning/announcing-new-tools-to-help-every-business-embrace-generative-ai/",
+        "note": "הכרזה ראשונית על Bedrock באפריל 2023 לפי הסקירה הרשמית; זמינות כללית הגיעה ב־28 בספטמבר 2023."
+      }
+    },
+    "google-vertex-ai": {
+      "description": "פלטפורמת Google Cloud ללימוד בחירת מודלים וההבדל בין שירות מודלים מנוהל לפריסה עצמית.",
+      "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+      },
+      "release": {
+        "value": "2021-05-18",
+        "precision": "day",
+        "source": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-launches-vertex-ai-unified-platform-for-mlops",
+        "note": "השקת Vertex AI בזמינות כללית. לא השקת Gemini ולא תאריך שינוי השם בתיעוד Agent Platform."
+      }
+    },
+    "lm-studio": {
+      "description": "יישום להרצת מודלים מקומיים ולימוד בחירת מודל וצריכתו דרך שרת מקומי לפני ניהול תשתית מורכבת.",
+      "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+      "github": {
+        "status": "not_applicable",
+        "scope": "יישום LM Studio אינו מיוצג כאן באמצעות מאגר קוד מקור ציבורי של היישום המלא. מאגרי SDK, CLI ומשוב הם מוצרים נפרדים ואינם תחליף למדד כוכבים של היישום."
+      },
+      "release": {
+        "value": "2023",
+        "precision": "year",
+        "source": "https://lmstudio.ai/blog/free-for-work",
+        "note": "המקור הרשמי מציין השקה במאי 2023; מוצגת שנה בלבד משום שיום מדויק לא אומת. אין שימוש ביום פרסום מאמר 2025 כתאריך השקה."
+      }
+    },
+    "llama-cpp": {
+      "description": "מנוע הסקה ללימוד פורמט מודל, כימות והקשר בין משקלים, זיכרון וחומרת הרצה.",
+      "languages": "המנוע כתוב ב־C/C++; שרת API מאפשר אינטגרציה ב־C#, Python ו־TypeScript באמצעות HTTP. אין כאן טענת SDK רשמי לשפות אלה.",
+      "github": {
+        "status": "unverified",
+        "scope": "מדדי מאגר רשמי לא נאספו בסבב התוכן."
+      },
+      "release": {
+        "value": "2023-03-10",
+        "precision": "day",
+        "source": "https://github.com/ggml-org/llama.cpp/commit/26c084662903ddaca19bef982831bfb0856e8257",
+        "note": "ה־Commit שהמחבר סימן במפורש Initial release, מ־10 במרץ 2023. התאריך אומת ב־GitHub API; לא הוסק מיצירת המאגר."
+      }
+    },
+    "vllm": {
+      "description": "מנוע ושרת הסקה ללימוד הגשת מודלים לבקשות מקבילות והאחריות התפעולית של הרצה עצמאית.",
+      "languages": "תיעוד המנוע כולל Python ושרת HTTP תואם; שירות C# או TypeScript יכול לצרוך HTTP. זה אינו SDK מקומי ל־.NET.",
+      "github": {
+        "status": "unverified",
+        "scope": "מדדי מאגר רשמי לא נאספו בסבב התוכן."
+      },
+      "release": {
+        "value": "2023-06-20",
+        "precision": "day",
+        "source": "https://vllm-project.github.io/2023/06/20/vllm.html",
+        "note": "ההכרזה הציבורית על הספרייה. שימוש פנימי מוקדם ב־LMSYS מוזכר במאמר ואינו מוצג כהשקה ציבורית."
+      }
     }
   }
 }

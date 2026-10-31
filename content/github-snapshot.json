@@ -184,8 +184,9 @@
   "ollama": {
     "status": "verified",
     "url": "https://github.com/ollama/ollama",
-    "scope": "המאגר הרשמי הראשי שנבחר למדידה",
-    "stars": 185419,
+    "scope": "המאגר הרשמי של מנוע ההסקה עצמו; Stars ו־Forks הם תשומת לב למאגר, לא מספר משתמשים או איכות המודלים.",
+    "stars": 185436,
+    "forks": 18790,
     "starsSource": "https://api.github.com/repos/ollama/ollama",
     "lastActivity": {
       "date": "2026-10-30T21:34:54Z",
@@ -193,7 +194,7 @@
       "branch": "main",
       "method": "default_branch_head_commit_committer_date"
     },
-    "collectedAt": "2026-10-31T09:13:24Z"
+    "collectedAt": "2026-10-31T12:28:15.969Z"
   },
   "langfuse": {
     "status": "verified",
@@ -236,5 +237,35 @@
       "method": "default_branch_head_commit_committer_date"
     },
     "collectedAt": "2026-10-31T09:13:24Z"
+  },
+  "llama-cpp": {
+    "status": "verified",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "scope": "המאגר הרשמי של מנוע ההסקה עצמו; Stars ו־Forks הם תשומת לב למאגר, לא מספר משתמשים או איכות המודלים.",
+    "stars": 132940,
+    "forks": 24996,
+    "starsSource": "https://api.github.com/repos/ggml-org/llama.cpp",
+    "lastActivity": {
+      "date": "2026-10-31T05:13:48Z",
+      "source": "https://github.com/ggml-org/llama.cpp/commit/0ec4027a2a0183de87c007069adddc06e665f7de",
+      "branch": "master",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T12:28:15.969Z"
+  },
+  "vllm": {
+    "status": "verified",
+    "url": "https://github.com/vllm-project/vllm",
+    "scope": "המאגר הרשמי של מנוע ההסקה עצמו; Stars ו־Forks הם תשומת לב למאגר, לא מספר משתמשים או איכות המודלים.",
+    "stars": 95965,
+    "forks": 24217,
+    "starsSource": "https://api.github.com/repos/vllm-project/vllm",
+    "lastActivity": {
+      "date": "2026-10-31T10:23:36Z",
+      "source": "https://github.com/vllm-project/vllm/commit/7b77ed581d92fa14e34ab43344837bb1ca1b4257",
+      "branch": "main",
+      "method": "default_branch_head_commit_committer_date"
+    },
+    "collectedAt": "2026-10-31T12:28:15.969Z"
   }
 }

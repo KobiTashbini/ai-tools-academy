@@ -8,7 +8,7 @@ export function assembleEntries(initialEntries, lessonData) {
     verificationStatus: lessonData.verificationStatus,
     verifiedAt: lessonData.checkedAt,
     revision: lessonData.revision,
-    revisionNote: "פרק לימוד ראשון. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+    revisionNote: "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
     sources: [entry.source, ...(entry.extraSources ?? [])].map(source => ({ ...source, checkedAt: lessonData.checkedAt })),
   }))];
 }

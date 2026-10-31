@@ -1,0 +1,29 @@
+{
+  "method": "AI TOOLS GitHub Interest v1",
+  "cohort": "category-08-three-inference-runtimes",
+  "cohortLabel": "שלושת מנועי ההסקה בקטגוריה 08",
+  "collectedAt": "2026-10-31T12:28:15.969Z",
+  "entries": [
+    {
+      "slug": "ollama",
+      "repository": "https://github.com/ollama/ollama",
+      "source": "https://api.github.com/repos/ollama/ollama",
+      "stars": 185436,
+      "forks": 18790
+    },
+    {
+      "slug": "llama-cpp",
+      "repository": "https://github.com/ggml-org/llama.cpp",
+      "source": "https://api.github.com/repos/ggml-org/llama.cpp",
+      "stars": 132940,
+      "forks": 24996
+    },
+    {
+      "slug": "vllm",
+      "repository": "https://github.com/vllm-project/vllm",
+      "source": "https://api.github.com/repos/vllm-project/vllm",
+      "stars": 95965,
+      "forks": 24217
+    }
+  ]
+}

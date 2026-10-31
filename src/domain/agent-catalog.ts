@@ -2,7 +2,8 @@ export type AgentMetric = {
   slug: string;
   description: string;
   languages: string[];
-  communityInterest?: { score: number; stars: number; forks: number; maxStars: number; maxForks: number; method: string; source: string; repository: string; collectedAt: string; cohort: string };
+  learningReason?: string;
+  communityInterest?: { score: number; stars: number; forks: number; maxStars: number; maxForks: number; method: string; source: string; repository: string; collectedAt: string; cohort: string; cohortLabel?: string };
   popularity?: {
     score: number;
     analyzedAt: string;
