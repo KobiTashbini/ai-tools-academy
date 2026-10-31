@@ -10,7 +10,7 @@
     "dev:debug": "next dev --webpack --inspect=127.0.0.1:9230",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "test": "node --test tests/*.test.mjs",
     "test:smoke": "node tests/smoke.mjs"
   },

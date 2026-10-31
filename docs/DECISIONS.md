@@ -42,3 +42,6 @@ Next.js 16.4.3 ו־React 19.3.1 נבדקו מול npm בעת ההקמה; Node.js
 
 ### D-017 — ניפוי שגיאות מקומי בשרת
 הגדרת F5 מפעילה dev:debug עם Inspector מקומי. מצב Debug משתמש ב־Webpack בעקבות שגיאת TurbopackInternalError שנצפתה בהדגמה; dev הרגיל נשאר עם ברירת המחדל של Next.js. יש לפתוח את שורש הפרויקט כדי לטעון את הגדרות Debug ו־TypeScript. המשתמש אישר שהדיבוג עובד.
+
+### D-018 — קובצי טיפוסים שנוצרים אוטומטית
+next-env.d.ts מוחרג מ־Git לפי תיעוד Next.js, כדי למנוע שינויי הפניות בין dev ל־build. מסירים אותו מה־Index בלבד ושומרים את הקובץ המקומי. typecheck מפעיל next typegen לפני tsc כדי לתמוך גם ב־Clone חדש. מקור: https://nextjs.org/docs/app/api-reference/config/typescript

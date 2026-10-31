@@ -32,6 +32,8 @@ npm run dev
 
 ## בדיקות
 
+`next-env.d.ts` הוא קובץ טיפוסים אוטומטי שאינו נשמר ב־Git. פקודת `typecheck` מפעילה `next typegen` לפני TypeScript כדי ליצור אותו ואת טיפוסי הנתיבים גם לאחר Clone חדש; `dev` ו־`build` יוצרים אותם אף הם.
+
 ```powershell
 npm run typecheck
 npm test
