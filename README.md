@@ -18,7 +18,7 @@ npm run catalog:check
 npm run dev
 ```
 
-פותחים http://localhost:3000 . עוצרים עם Ctrl+C. נדרש .env.local עם DATABASE_URL של משתמש הקריאה (ראו database/README.md).
+פותחים http://localhost:3000 . עוצרים עם Ctrl+C. נדרש .env.local עם DATABASE_URL של המסד (ראו database/README.md).
 
 ## רענון נתוני GitHub
 

@@ -1,6 +1,7 @@
-// Server-only PostgreSQL access for the published catalog (role academy_build_reader).
+// Server-only PostgreSQL access for the published catalog. Every load runs read only.
 // Configuration comes from the environment; Next.js loads .env.local automatically.
-//   DATABASE_URL     postgresql://academy_build_reader.<project-ref>:<password>@<pooler-host>:5432/postgres
+//   DATABASE_URL     postgresql://<user>.<project-ref>:<password>@<pooler-host>:5432/postgres
+//                    locally the project owner; academy_build_reader (migration 005) before deployment
 //   DATABASE_SSL_CA  optional path to the Supabase CA certificate; enables certificate verification
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
