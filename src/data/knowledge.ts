@@ -1,13 +1,12 @@
 import type { Category, KnowledgeEntry } from "@/domain/knowledge";
-import { catalog, type CategoryGuide } from "./catalog-source";
+import { getCatalog, type CategoryGuide } from "./catalog-source";
 
-// The snapshot is validated on load; the site exposes published entries only.
-const categories: readonly Category[] = catalog.categories;
-const entries: readonly KnowledgeEntry[] = catalog.entries;
-
-export function listCategories() { return categories; }
-export function getCategory(id: string) { return categories.find(category => category.id === id); }
-export function listPublishedEntries() { return entries.filter(entry => entry.publicationStatus === "published"); }
-export function getEntry(slug: string) { return listPublishedEntries().find(entry => entry.slug === slug); }
-export function listCategoryEntries(id: string) { return listPublishedEntries().filter(entry => entry.categoryIds.includes(id)); }
-export function getCategoryGuide(id: string): CategoryGuide | undefined { return catalog.guides[id]; }
+// The catalog is validated on load; the site exposes published entries only.
+export async function listCategories(): Promise<readonly Category[]> { return (await getCatalog()).categories; }
+export async function getCategory(id: string) { return (await listCategories()).find(category => category.id === id); }
+export async function listPublishedEntries(): Promise<readonly KnowledgeEntry[]> {
+  return (await getCatalog()).entries.filter(entry => entry.publicationStatus === "published");
+}
+export async function getEntry(slug: string) { return (await listPublishedEntries()).find(entry => entry.slug === slug); }
+export async function listCategoryEntries(id: string) { return (await listPublishedEntries()).filter(entry => entry.categoryIds.includes(id)); }
+export async function getCategoryGuide(id: string): Promise<CategoryGuide | undefined> { return (await getCatalog()).guides[id]; }

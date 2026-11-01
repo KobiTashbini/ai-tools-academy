@@ -1,21 +1,25 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getCategory, getEntry, listPublishedEntries } from "@/data/knowledge";
+import { getEntry, listCategories, listPublishedEntries } from "@/data/knowledge";
 import { kindLabels, priorityLabels } from "@/domain/knowledge";
 import { KnowledgeText } from "@/components/ui/knowledge-text";
 
 type Props = { params: Promise<{ slug: string }> };
-export function generateStaticParams() { return listPublishedEntries().map(entry => ({ slug: entry.slug })); }
+// Regenerate from the database at most every 5 minutes; entries added later render on first request.
+export const revalidate = 300;
+export async function generateStaticParams() { return (await listPublishedEntries()).map(entry => ({ slug: entry.slug })); }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const entry = getEntry((await params).slug);
+  const entry = await getEntry((await params).slug);
   return { title: entry?.name ?? "פריט לא נמצא", description: entry?.summary };
 }
 export default async function ToolPage({ params }: Props) {
-  const entry = getEntry((await params).slug);
+  const entry = await getEntry((await params).slug);
   if (!entry) notFound();
+  const [categories, published] = await Promise.all([listCategories(), listPublishedEntries()]);
+  const getCategory = (id: string) => categories.find(item => item.id === id);
   const category = getCategory(entry.categoryIds[0]);
-  const related = (entry.relatedSlugs ?? []).map(getEntry).filter(item => item !== undefined);
+  const related = (entry.relatedSlugs ?? []).map(slug => published.find(item => item.slug === slug)).filter(item => item !== undefined);
   return <article className="catalog detail">
     <nav className="breadcrumbs" aria-label="מיקום באתר"><Link href="/">בית</Link><span aria-hidden="true">/</span><Link href="/atlas">אטלס הידע</Link>{category && <><span aria-hidden="true">/</span><Link href={`/atlas/${category.id}`}><bdi>{category.name}</bdi></Link></>}<span aria-hidden="true">/</span><span aria-current="page"><bdi>{entry.name}</bdi></span></nav>
     <p className="eyebrow">{kindLabels[entry.kind]}</p><h1><bdi>{entry.name}</bdi></h1><p className="intro"><KnowledgeText text={entry.summary} /></p>

@@ -20,7 +20,7 @@ select * from academy.community_interest;
 entry_documents הוא View טכני שמרכיב JSON מהטבלאות לצורך ייצוא ובדיקת התאמה. אין לערוך אותו כעותק תוכן נוסף. community_interest מחשב ציונים מהמדידות בתוך כל מדגם ומועד מדידה; לא שומרים ציון מחושב בנפרד.
 
 ## חיבור האתר למסד (מיגרציה 005)
-מאז D-027 האתר נבנה מ־generated/catalog.json, שמיוצא מהמסד לפני dev ו־build. הגדרה חד־פעמית:
+מאז D-028 העמודים שולפים ישירות מהמסד, כמשתמש academy_build_reader, בלי קובץ ביניים. הגדרה חד־פעמית:
 
 1. ב־SQL Editor של Supabase להריץ את database/005_build_reader.sql.
 2. באותו עורך להגדיר סיסמה למשתמש הקריאה (לא לשמור אותה בקובץ במאגר):
@@ -28,11 +28,11 @@ entry_documents הוא View טכני שמרכיב JSON מהטבלאות לצור
    alter role academy_build_reader with login password 'סיסמה-חזקה-חדשה';
    ```
 3. ליצור .env.local בשורש הפרויקט לפי .env.example. כתובת השרת והפורט נלקחים מ־Connect ← Session pooler בלוח Supabase; שם המשתמש הוא academy_build_reader.winnpnsmwkullbhrolan.
-4. להריץ `npm install` ואז `npm run catalog:export`. הפלט מציין 35 entries.
+4. להריץ `npm install` ואז `npm run catalog:check`. הפלט מציין 35 published entries.
 
-אפשרויות: `npm run catalog:export:local` בונה את צילום המצב מ־PostgreSQL מקומי בזיכרון (PGlite) עם אותן מיגרציות ואותו משתמש קריאה, ללא רשת. DATABASE_SSL_CA מפעיל אימות תעודה עם תעודת ה־CA של Supabase (Database Settings ← SSL Configuration). בלעדיו החיבור מוצפן אך התעודה אינה מאומתת, ומוצגת אזהרה.
+DATABASE_SSL_CA מפעיל אימות תעודה עם תעודת ה־CA של Supabase (Database Settings ← SSL Configuration). בלעדיו החיבור מוצפן אך התעודה אינה מאומתת, ומוצגת אזהרה.
 
-שינוי במסד מופיע באתר רק לאחר build חדש. `npm run build` נכשל אם אין חיבור; `npm run dev` ממשיך עם צילום המצב הקודם.
+התנהגות: build שולף את הנתונים ובונה את כל העמודים; בלי חיבור הוא נכשל. בזמן ריצה כל עמוד מתחדש מהמסד לכל היותר כל 5 דקות (revalidate = 300), ופריט חדש שפורסם מוצג בבקשה הראשונה אליו. אם המסד אינו זמין בזמן חידוש, ממשיכה להיות מוגשת הגרסה האחרונה שנבנתה בהצלחה. בשרת הפיתוח העמודים נשלפים בכל בקשה, עם מטמון של דקה בתהליך.
 
 ## מיגרציות ובדיקות
 המיגרציות 002–004 הוחלו ואומתו בענן; 005 (משתמש הקריאה לאתר) מוחלת לפי הסעיף הקודם. אין להריץ שוב 001 או initial-import.sql על הפרויקט הקיים.

@@ -10,6 +10,9 @@ async function fixture() {
   const data = prepareDatabase();
   await db.exec(sql('001_catalog.sql'));
   await db.exec(data.sql);
+  // Migration 002 ran in the cloud with an empty research queue (2026-10-31) and refuses a non-empty one.
+  // The live queue in research/proposals.json grows with each weekly run, so the fixture reproduces that state.
+  await db.exec('delete from academy.research_proposals');
   return {db,data};
 }
 const canonical = e => {

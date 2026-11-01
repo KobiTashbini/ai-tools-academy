@@ -14,10 +14,11 @@
 
 ```powershell
 npm ci
+npm run catalog:check
 npm run dev
 ```
 
-פותחים http://localhost:3000 . עוצרים עם Ctrl+C. אין צורך ב־env, במפתחות או במסד נתונים.
+פותחים http://localhost:3000 . עוצרים עם Ctrl+C. נדרש .env.local עם DATABASE_URL של משתמש הקריאה (ראו database/README.md).
 
 ## רענון נתוני GitHub
 
@@ -64,7 +65,7 @@ npm run start
 
 ## מבנה התוכן
 
-`content/categories.json` שומר את הטקסונומיה הקבועה; `content/entries.json` ו־`content/lessons.json` שומרים תוכן ומקורות. `src/domain/knowledge.ts` מגדיר טיפוסים, ו־`src/data/knowledge.ts` מספק גישה לתוכן מפורסם בלבד. בדיקת תקינות מופעלת בזמן טעינת הנתונים; תוכן פגום מכשיל את הבנייה. המודל טרם פוצל למסמכי Markdown ולראיות ברמת כל טענה.
+מאז D-028 האתר שולף את הקטלוג ישירות מ־PostgreSQL (Supabase, סכמה academy) ומתחדש כל 5 דקות; נדרש DATABASE_URL ב־.env.local לפי [database/README.md](database/README.md), ו־`npm run catalog:check` בודק את החיבור. קובצי content שימשו לייבוא הראשוני ועדיין משמשים את רענון המדדים, המחקר והבדיקות. `content/categories.json` שומר את הטקסונומיה הקבועה; `content/entries.json` ו־`content/lessons.json` שומרים תוכן ומקורות. `src/domain/knowledge.ts` מגדיר טיפוסים, ו־`src/data/knowledge.ts` מספק גישה לתוכן מפורסם בלבד. בדיקת תקינות מופעלת בזמן טעינת הנתונים; תוכן פגום מכשיל את הבנייה. המודל טרם פוצל למסמכי Markdown ולראיות ברמת כל טענה.
 
 ## רציפות עבודה
 

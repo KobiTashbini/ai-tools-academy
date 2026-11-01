@@ -16,6 +16,8 @@ async function migratedDatabase() {
   const data = prepareDatabase();
   await db.exec(sql("001_catalog.sql"));
   await db.exec(data.sql);
+  // Migration 002 ran in the cloud with an empty research queue and refuses a non-empty one; reproduce that state.
+  await db.exec("delete from academy.research_proposals");
   for (const name of ["002_normalize.sql", "003_merge_catalog_descriptions.sql", "004_detach_archive.sql", "005_build_reader.sql"]) await db.exec(sql(name));
   return { db, data };
 }
