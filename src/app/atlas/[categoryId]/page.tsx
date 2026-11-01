@@ -1,14 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getCategory, listCategories, listCategoryEntries } from "@/data/knowledge";
+import { getCategory, getCategoryGuide, listCategories, listCategoryEntries } from "@/data/knowledge";
 import { getCatalogFacts } from "@/data/catalog";
 import { ToolCatalog } from "@/components/ui/tool-catalog";
 import { getCatalogMetrics } from "@/data/catalog-metrics";
-import guideData from "../../../../content/category-guides.json";
 import { KnowledgeText } from "@/components/ui/knowledge-text";
-
-const guides: Record<string, {title: string; intro: string; steps: {text: string; slug: string; label: string}[]; note: string}> = guideData;
 
 type Props = { params: Promise<{ categoryId: string }> };
 export function generateStaticParams() { return listCategories().map(category => ({ categoryId: category.id })); }
@@ -20,7 +17,7 @@ export default async function CategoryPage({ params }: Props) {
   const category = getCategory((await params).categoryId);
   if (!category) notFound();
   const entries = listCategoryEntries(category.id);
-  const guide = guides[category.id];
+  const guide = getCategoryGuide(category.id);
   return <section className="catalog agent-page">
     <nav className="breadcrumbs" aria-label="מיקום באתר"><Link href="/">בית</Link><span aria-hidden="true">/</span><Link href="/atlas">אטלס הידע</Link><span aria-hidden="true">/</span><span aria-current="page"><bdi>{category.name}</bdi></span></nav>
     <p className="eyebrow">תחום <bdi>{category.id}</bdi></p>

@@ -1,4 +1,86 @@
 {
   "schemaVersion": 1,
-  "proposals": []
+  "proposals": [
+    {
+      "status": "pending_review",
+      "discoveredAt": "2026-11-01",
+      "checkedAt": "2026-11-01",
+      "approval": null,
+      "id": "proposal-20261101-pgvector",
+      "kind": "new_tool",
+      "slug": "pgvector",
+      "title": "הוספת pgvector כחיפוש וקטורי בתוך PostgreSQL",
+      "categoryIds": [
+        "05"
+      ],
+      "currentValue": "אין פרק מפורסם ל-pgvector ב-35 רשומות קובצי המחקר; הוא מוזכר כחלופה בפרק Qdrant ובמפת הידע.",
+      "proposedValue": "הוספת פרק נפרד מסוג הרחבת מסד נתונים, בעדיפות should_know. הנמקה: חיבור הידע הקיים ב-SQL לחיפוש וקטורי ולהחלטה מתי אין צורך במסד נוסף. לא שינוי בתשתית האפליקציה.",
+      "rationale": "לימוד embeddings וחיפוש דמיון באמצעות SQL, לצד נתונים יחסיים, נותן למפתח עם רקע SQL ו-REST השוואה מעשית ל-Qdrant. התיעוד מציג מרחקים וחיפוש מדויק לעומת HNSW/IVFFlat. זו בחירה פדגוגית, לא טענה לנתח שוק.",
+      "tradeoffs": "חופף לחיפוש הווקטורי ב-Qdrant, אך מלמד חלופה בתוך PostgreSQL. דורש התקנת הרחבה ותכנון אינדקסים; חיפוש מקורב מחליף חלק מה-recall במהירות. כבר הוזכר במפת הידע, לכן זו השלמת פרק ולא טענה שהכלי חדש בעולם. לפני החלה יש לבדוק כפילות גם במסד הפעיל שאינו נגיש בסריקה זו.",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "pgvector — מאגר ותיעוד רשמיים",
+          "url": "https://github.com/pgvector/pgvector",
+          "checkedAt": "2026-11-01",
+          "kind": "official",
+          "supports": "מוכיח הרחבת PostgreSQL לחיפוש דמיון, דוגמאות SQL, מרחקים, חיפוש מדויק ואינדקסים מקורבים; אינו מוכיח מספר משתמשים."
+        }
+      ]
+    },
+    {
+      "status": "pending_review",
+      "discoveredAt": "2026-11-01",
+      "checkedAt": "2026-11-01",
+      "approval": null,
+      "id": "proposal-20261101-promptfoo",
+      "kind": "new_tool",
+      "slug": "promptfoo",
+      "title": "הוספת Promptfoo לבדיקות השוואתיות של יישומי LLM",
+      "categoryIds": [
+        "10"
+      ],
+      "currentValue": "אין פרק מפורסם ל-Promptfoo בקובצי המחקר; קיים פרק Langfuse, והכלי כבר מוזכר במפת הידע.",
+      "proposedValue": "הוספת פרק בעדיפות should_know, ככלי CLI וספרייה ל-evals ול-red teaming. הנמקה: להפוך בדיקות תשובות ו-RAG לתרחישים חוזרים ומדידים, עם הפרדה בין איכות לתפוצה.",
+      "rationale": "נותן למפתח מנוסה גשר מבדיקות תוכנה ו-CI לבדיקת יישומי AI: מאגר מקרי בדיקה, assertions והשוואת ספקים. התיעוד תומך בשימוש ב-API מותאם; אין צורך להפוך את יישום ה-.NET לפרויקט Python כדי ללמוד את הגישה.",
+      "tradeoffs": "חפיפה ב-evals ל-Langfuse; התרומה היא תהליך בדיקה יזום שחוזר על עצמו. נדרשים מקרי בדיקה איכותיים, וקריאות למודלים עלולות לעלות כסף. ציון eval אינו הוכחת אבטחה או ציון פופולריות. אין להוסיף תשתית לאפליקציה במסגרת אישור פרק. נדרשת בדיקת כפילות במסד לפני החלה.",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Promptfoo — Introduction",
+          "url": "https://www.promptfoo.dev/docs/intro/",
+          "checkedAt": "2026-11-01",
+          "kind": "official",
+          "supports": "מוכיח CLI וספרייה פתוחים ל-evals, assertions, red teaming, CI/CD וספקי API מותאמים; אינו מוכיח תפוצה."
+        }
+      ]
+    },
+    {
+      "status": "pending_review",
+      "discoveredAt": "2026-11-01",
+      "checkedAt": "2026-11-01",
+      "approval": null,
+      "id": "proposal-20261101-hugging-face-download-method",
+      "kind": "source_update",
+      "slug": "hugging-face",
+      "title": "מקור מתודולוגי לפירוש הורדות מודלים ב-Hugging Face",
+      "categoryIds": [
+        "07"
+      ],
+      "currentValue": "מקורות הפרק מתמקדים בגילוי מודלים וב-Inference Providers; אין בפרק הסבר מפורש למגבלות ספירת הורדות.",
+      "proposedValue": "להוסיף את התיעוד הרשמי Models Download Stats כמקור להסבר מדדים: בקשות לקובצי query מוגדרים נספרות כהורדות, כולל GET ו-HEAD; המספר אינו משתמשים ייחודיים ואינו שימוש עולמי. אין להוסיף בשלב זה ציון או ספירה משפחתית.",
+      "rationale": "זהו מקור תפעולי אמין לבניית מדדים דינמיים בעתיד, במיוחד למשפחות משקלים. הוא מונע הצגת הורדות ככמות משתמשים והשוואה מטעה ל-API מסחרי. אין ממנו הצדקה לשנות עדיפות לימוד.",
+      "tradeoffs": "ספירה תלויה בפורמט ובספרייה, ו-GGUF עשוי לספור פעמיים בשכפול מאגר שלם. פעילות CI אינה בהכרח שימוש אנושי. מספר הורדות של מודל אינו תפוצת פלטפורמת Hugging Face כולה, ואין לחבר מודלים ומשפחות בלי שיטת צבירה מוגדרת. לפני החלה יש לבדוק אם המקור נוסף במסד מאז ייבוא ה-JSON.",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Hugging Face — Models Download Stats",
+          "url": "https://huggingface.co/docs/hub/models-download-stats",
+          "checkedAt": "2026-11-01",
+          "kind": "official",
+          "supports": "מפרט query files, ספירת GET/HEAD, התנהגות GGUF ומגבלות זיהוי משתמשים ייחודיים."
+        }
+      ]
+    }
+  ]
 }

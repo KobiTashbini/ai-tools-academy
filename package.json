@@ -6,8 +6,11 @@
     "node": ">=24.0.0 <25"
   },
   "scripts": {
+    "predev": "node scripts/export-catalog.mjs --allow-stale",
     "dev": "next dev",
+    "predev:debug": "node scripts/export-catalog.mjs --allow-stale",
     "dev:debug": "next dev --webpack --inspect=127.0.0.1:9230",
+    "prebuild": "node scripts/export-catalog.mjs",
     "build": "next build",
     "start": "next start",
     "typecheck": "next typegen && tsc --noEmit",
@@ -15,10 +18,13 @@
     "test:smoke": "node tests/smoke.mjs",
     "metrics:refresh": "node scripts/collect-inference-metrics.mjs",
     "research:check": "node scripts/check-research.mjs",
-    "database:prepare": "node scripts/prepare-database.mjs"
+    "database:prepare": "node scripts/prepare-database.mjs",
+    "catalog:export": "node scripts/export-catalog.mjs",
+    "catalog:export:local": "node scripts/export-catalog.mjs --local"
   },
   "dependencies": {
     "next": "16.4.3",
+    "pg": "^8.13.0",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
