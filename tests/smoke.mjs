@@ -4,6 +4,7 @@ import { Pool } from "pg";
 import { readDatabaseCatalog } from "../src/data/database-catalog.mjs";
 import { additions } from "../database/seeds/agent-frameworks.mjs";
 import { ragAdditions } from "../database/seeds/rag-systems.mjs";
+import { reviewAdditions, reviewCorrections } from "../database/seeds/rag-review.mjs";
 
 if (!process.env.DATABASE_URL && existsSync('.env.local')) process.loadEnvFile('.env.local');
 const base = process.env.SMOKE_BASE_URL ?? "http://127.0.0.1:3000";
@@ -16,7 +17,7 @@ const entries = catalog.entries;
 const frameworkEvidence=JSON.parse(readFileSync(new URL('../database/evidence/agent-frameworks-2026-11-02.json',import.meta.url),'utf8'));
 for(const addition of additions) assert.equal(entries.filter(e=>e.slug===addition.slug).length,1,'no duplicate: '+addition.slug);
 for(const addition of ragAdditions) assert.equal(entries.filter(e=>e.slug===addition.slug).length,1,'no duplicate RAG entry: '+addition.slug);
-const ragEvidence=JSON.parse(readFileSync(new URL('../database/evidence/rag-systems-2026-11-02.json',import.meta.url),'utf8'));
+const ragEvidence=JSON.parse(readFileSync(new URL('../database/evidence/rag-review-2026-11-02.json',import.meta.url),'utf8'));
 const guides = catalog.guides;
 const guidance = {reasons:Object.fromEntries(Object.entries(catalog.metrics).map(([slug,m])=>[slug,m.learningReason]))};
 const inferenceCohort=catalog.metrics.ollama.communityInterest.cohort;
@@ -51,9 +52,10 @@ for (const route of routes) {
       for(const a of additions) assert.ok(html.includes('href="/tools/'+a.slug+'"'),a.slug);
     }
     if(categoryId==='04') {
-      assert.equal(categoryEntries.length,8);
+      assert.equal(categoryEntries.length,11);
       assert.ok(html.includes('איך ללמוד מערכות RAG וידע?'));
       for(const a of ragAdditions) assert.ok(html.includes('href="/tools/'+a.slug+'"'),a.slug);
+      for(const a of reviewAdditions) assert.ok(html.includes('href="/tools/'+a.slug+'"'),a.slug);
     }
     assert.ok(html.includes("חשיבות ללימוד") && html.includes("זו הערכה פדגוגית"), `${route}: learning guidance, not measured adoption`);
     assert.equal((html.match(/class="learning-importance"/g) ?? []).length, categoryEntries.length, `${route}: every row has guidance`);
@@ -83,6 +85,13 @@ for (const route of routes) {
     const entry = entries.find(item => route === `/tools/${item.slug}`);
     const addition=additions.find(a=>a.slug===entry.slug);
     const ragAddition=ragAdditions.find(a=>a.slug===entry.slug);
+    const reviewAddition=reviewAdditions.find(a=>a.slug===entry.slug);
+    const correction=reviewCorrections.find(a=>a.slug===entry.slug);
+    if(reviewAddition){assert.ok(html.includes(reviewAddition.docs));assert.ok(html.includes(reviewAddition.release.source));assert.ok(html.includes('C#/.NET'));}
+    if(correction){assert.ok(html.includes(correction.section[0]));if(correction.release)assert.ok(html.includes(correction.release.source));}
+    if(entry.slug==='llamaindex')assert.ok(html.includes('TypeScript') && html.includes('Deprecated'));
+    if(entry.slug==='ragflow')assert.ok(html.includes('Go') && html.includes('rc3'));
+    if(entry.slug==='pathway')assert.ok(html.includes('BSL'));
     if(ragAddition) {
       assert.ok(html.includes(ragAddition.docs),'official RAG source: '+entry.slug);
       assert.ok(html.includes('C#/.NET'),'explicit .NET support: '+entry.slug);

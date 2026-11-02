@@ -52,3 +52,10 @@ verify_catalog.sql מציג entries_changed_since_import כמידע על שינ�
 מיגרציית תוכן בלבד, ללא DDL: שבע רשומות ומדריך קריאה בקטגוריה 04; LlamaIndex לא השתנתה. יש 47 פרקים ושמונה רשומות RAG. `database/seeds/rag-systems.mjs` הוא קלט עריכתי קפוא למיגרציה, ו־`database/evidence/rag-systems-2026-11-02.json` שומר מדידות GitHub ציבוריות — אלה אינם מקורות runtime. `node scripts/prepare-rag-systems.mjs` משחזר את 007; אין לשנות את המיגרציה לאחר החלתה כדי לפרסם עדכון חדש.
 `node --env-file=.env.local scripts/apply-rag-systems.mjs` מחיל רק 007 ביעד האקדמיה המוכר כשהגרסה 6; כשהגרסה 7 הוא מאמת בקריאה בלבד, ובכל גרסה אחרת עוצר. נבדקים שמונה פריטי הקטגוריה, כפילויות, הארכיון, RLS והיעדר JSON פעיל. ערך entries_changed_since_import הוא כעת 12 (5 תוספות ב־006 ועוד 7 ב־007), ללא עריכת פרקי הייבוא המקורי. אין שינוי בטבלאות, בהרשאות או בסודות.
 מקורות: https://developers.llamaindex.ai/python/framework/understanding/rag/ ; https://haystack.deepset.ai/overview/intro ; https://github.com/infiniflow/ragflow ; https://docling-project.github.io/docling/ ; https://docs.unstructured.io/open-source/introduction/overview ; https://microsoft.github.io/graphrag/ ; https://github.com/HKUDS/LightRAG . שנת השקה לא אומתה עבור החדשות ולכן לא הוזנה. צילום המאגר אינו מדד איכות, ואין ציון GitHub Interest חדש.
+## מחקר RAG מאושר — מיגרציה 008
+
+הוחלה ואומתה ב־2026-11-02: שלוש תוספות ושמונה תיקונים; 50 פרקים, 11 בקטגוריה 04. אין DDL או שינוי runtime. הדוח המפורט נמצא ב־docs/knowledge/RAG_RESEARCH_2026-11-02.md.
+
+`node scripts/prepare-rag-review.mjs` משחזר את 008 מהקלט הקפוא ב־database/seeds/rag-review.mjs ומראיות rag-review-2026-11-02.json. אלה חומרי מיגרציה ובדיקות בלבד. אין לערוך מיגרציה שהוחלה לצורך שינוי עתידי.
+
+`node --env-file=.env.local scripts/apply-rag-review.mjs` מחיל את 008 רק בפרויקט האקדמיה המוכר בגרסה 7; בגרסה 8 הוא מאמת בקריאה בלבד. revisions לא צפויים, כפילויות או גרסה אחרת גורמים לעצירה. כלי ההחלה הישנים מוגבלים לגרסאות שלהם ואין להריצם על גרסה 8. entries_changed_since_import צפוי להיות 16: חמש־עשרה תוספות ועריכת LlamaIndex המקורית; מוני השלמות האחרים אפס. המקורות והארכיון נשמרו, והמבנה, RLS ו־cohorts לא השתנו.
