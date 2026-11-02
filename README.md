@@ -84,3 +84,7 @@ npm run start
 ## מסד ענן
 
 מסד PostgreSQL בענן כולל כעת טבלאות מנורמלות ללא payload פעיל. [הוראות ובדיקות](database/README.md) ו־[מפת הטבלאות והשדות](database/DATA_DICTIONARY.md). `npm run database:prepare` משחזרת את שלב הייבוא ההיסטורי מקומית; אין להריץ את הייבוא שוב על הענן הקיים. האתר עדיין משתמש בקובצי JSON עד לחיבור מפורש.
+
+## קריאה מ־Supabase
+האתר קורא את הקטלוג מהסכמה הפרטית academy בכל בקשת שרת. הגדירו DATABASE_URL בקובץ .env.local (דוגמה ללא סודות ב־.env.example), עם חיבור PostgreSQL/Pooler של פרויקט האקדמיה בלבד. אין להגדיר NEXT_PUBLIC למחרוזת החיבור. מומלצת זהות קריאה בלבד עם USAGE על academy, SELECT על טבלאות הקריאה ומדיניות RLS מתאימה; אין צורך לפתוח את הסכמה ל־Data API. זהות כזו טרם הוקמה במשימה זו. השתמשו ב־TLS מאומת לפי תעודת Supabase; אין לבטל בדיקת תעודה.
+אימות חיבור: `node --env-file=.env.local scripts/check-database.mjs`. build אינו מאמת חיבור למסד: יש להריץ גם את בדיקת החיבור ו־test:smoke מול שרת Production. קבצי content נשמרו לבדיקות/ייבוא היסטורי; שינוי JSON או metrics:refresh אינו משנה את האתר. טקסטי UI ועמוד הבית נשארו בקוד.

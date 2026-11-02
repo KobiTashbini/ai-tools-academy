@@ -6,20 +6,20 @@ import { kindLabels, priorityLabels } from "@/domain/knowledge";
 import { KnowledgeText } from "@/components/ui/knowledge-text";
 
 type Props = { params: Promise<{ slug: string }> };
-export function generateStaticParams() { return listPublishedEntries().map(entry => ({ slug: entry.slug })); }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const entry = getEntry((await params).slug);
+  const entry = await getEntry((await params).slug);
   return { title: entry?.name ?? "פריט לא נמצא", description: entry?.summary };
 }
 export default async function ToolPage({ params }: Props) {
-  const entry = getEntry((await params).slug);
+  const entry = await getEntry((await params).slug);
   if (!entry) notFound();
-  const category = getCategory(entry.categoryIds[0]);
-  const related = (entry.relatedSlugs ?? []).map(getEntry).filter(item => item !== undefined);
+  const category = await getCategory(entry.categoryIds[0]);
+  const related = (await Promise.all((entry.relatedSlugs ?? []).map(getEntry))).filter(item => item !== undefined);
+  const categories=await Promise.all(entry.categoryIds.map(getCategory));
   return <article className="catalog detail">
     <nav className="breadcrumbs" aria-label="מיקום באתר"><Link href="/">בית</Link><span aria-hidden="true">/</span><Link href="/atlas">אטלס הידע</Link>{category && <><span aria-hidden="true">/</span><Link href={`/atlas/${category.id}`}><bdi>{category.name}</bdi></Link></>}<span aria-hidden="true">/</span><span aria-current="page"><bdi>{entry.name}</bdi></span></nav>
     <p className="eyebrow">{kindLabels[entry.kind]}</p><h1><bdi>{entry.name}</bdi></h1><p className="intro"><KnowledgeText text={entry.summary} /></p>
-    <div className="entry-tags">{entry.learningPriority && <span className="badge">{priorityLabels[entry.learningPriority]}</span>}{entry.categoryIds.map(id => { const item = getCategory(id); return item && <Link className="badge" key={id} href={`/atlas/${id}`}><bdi>{item.name}</bdi></Link>; })}</div>
+    <div className="entry-tags">{entry.learningPriority && <span className="badge">{priorityLabels[entry.learningPriority]}</span>}{entry.categoryIds.map(id => { const item = categories.find(c=>c?.id===id); return item && <Link className="badge" key={id} href={`/atlas/${id}`}><bdi>{item.name}</bdi></Link>; })}</div>
     <p className="card-meta">נוסף למאגר: <time dateTime={entry.addedAt}><bdi>{entry.addedAt}</bdi></time>{entry.addedAtBasis === "historical_backfill" && " · תאריך היסטורי שתועד בדיעבד; אינו תאריך השקת הכלי"}</p>
     {entry.prerequisites && <section className="knowledge-section"><h2>לפני שמתחילים</h2><p><KnowledgeText text={entry.prerequisites} /></p></section>}
     <nav className="lesson-toc" aria-label="תוכן הפרק"><strong>בפרק הזה</strong><ul>{entry.sections.map((section, index) => <li key={section.title}><a className="text-link" href={`#section-${index}`}>{section.title}</a></li>)}<li><a className="text-link" href="#practice">תרגיל למחשבה</a></li><li><a className="text-link" href="#sources">מקורות והיקף האימות</a></li></ul></nav>

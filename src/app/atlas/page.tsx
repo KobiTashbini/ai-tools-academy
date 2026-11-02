@@ -4,13 +4,15 @@ import { listCategories, listCategoryEntries } from "@/data/knowledge";
 
 export const metadata: Metadata = { title: "אטלס הידע" };
 
-export default function AtlasPage() {
+export default async function AtlasPage() {
+  const categories=await listCategories();
+  const counts=Object.fromEntries(await Promise.all(categories.map(async c=>[c.id,(await listCategoryEntries(c.id)).length])));
   return <section className="catalog" aria-labelledby="atlas-title">
     <p className="eyebrow">12 תחומים · מפה אחת</p>
     <h1 id="atlas-title">אטלס הידע</h1>
     <p className="intro">בחרו תחום כדי להכיר את המושגים, הכלים והקשרים שבו. בכל פרק תמצאו הסבר, דוגמה ארגונית, תרגיל ומקורות. מומלץ להתחיל ביסודות, להמשיך לעוזרי הפיתוח ואז למערכות סוכנים.</p>
-    <div className="cards">{listCategories().map(category => {
-      const count = listCategoryEntries(category.id).length;
+    <div className="cards">{categories.map(category => {
+      const count = counts[category.id];
       return <Link className="card category-card" href={`/atlas/${category.id}`} key={category.id}>
         <span className="step" dir="ltr">{category.id}</span>
         <h2><bdi>{category.name}</bdi></h2><p>{category.description}</p>
