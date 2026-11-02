@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import { getCategory, getEntry, listPublishedEntries } from "@/data/knowledge";
 import { kindLabels, priorityLabels } from "@/domain/knowledge";
 import { KnowledgeText } from "@/components/ui/knowledge-text";
+import { getCatalogFacts } from "@/data/catalog";
+import { formatDate } from "@/data/tool-facts.mjs";
 
 type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -16,11 +18,19 @@ export default async function ToolPage({ params }: Props) {
   const category = await getCategory(entry.categoryIds[0]);
   const related = (await Promise.all((entry.relatedSlugs ?? []).map(getEntry))).filter(item => item !== undefined);
   const categories=await Promise.all(entry.categoryIds.map(getCategory));
+  const facts=(await getCatalogFacts([entry.slug]))[entry.slug];
   return <article className="catalog detail">
     <nav className="breadcrumbs" aria-label="מיקום באתר"><Link href="/">בית</Link><span aria-hidden="true">/</span><Link href="/atlas">אטלס הידע</Link>{category && <><span aria-hidden="true">/</span><Link href={`/atlas/${category.id}`}><bdi>{category.name}</bdi></Link></>}<span aria-hidden="true">/</span><span aria-current="page"><bdi>{entry.name}</bdi></span></nav>
     <p className="eyebrow">{kindLabels[entry.kind]}</p><h1><bdi>{entry.name}</bdi></h1><p className="intro"><KnowledgeText text={entry.summary} /></p>
+    {entry.lifecycle && <aside className="notice"><strong><bdi>Legacy</bdi> — רשומה היסטורית</strong><p><KnowledgeText text={entry.lifecycle.note}/></p><Link className="text-link" href={"/tools/"+entry.lifecycle.successorSlug}>להמשך עם Microsoft Agent Framework</Link></aside>}
     <div className="entry-tags">{entry.learningPriority && <span className="badge">{priorityLabels[entry.learningPriority]}</span>}{entry.categoryIds.map(id => { const item = categories.find(c=>c?.id===id); return item && <Link className="badge" key={id} href={`/atlas/${id}`}><bdi>{item.name}</bdi></Link>; })}</div>
     <p className="card-meta">נוסף למאגר: <time dateTime={entry.addedAt}><bdi>{entry.addedAt}</bdi></time>{entry.addedAtBasis === "historical_backfill" && " · תאריך היסטורי שתועד בדיעבד; אינו תאריך השקת הכלי"}</p>
+    {facts.github.status === "verified" && <section className="knowledge-section"><h2>מאגר, השקה ועדכון</h2>
+      <p><a className="text-link" href={facts.github.url}>המאגר הרשמי</a> · <a href={facts.github.starsSource}><bdi>{facts.github.stars?.toLocaleString("en-US")} Stars</bdi></a> · צילום מצב מ־<bdi>{formatDate(facts.github.collectedAt)}</bdi></p>
+      {facts.release && <p>השקה מתועדת: <a href={facts.release.source}><bdi>{formatDate(facts.release.value)}</bdi></a> · <KnowledgeText text={facts.release.note}/></p>}
+      {facts.github.lastActivity && <p>עדכון המאגר האחרון: <a href={facts.github.lastActivity.source}><bdi>{formatDate(facts.github.lastActivity.date)}</bdi></a> · תאריך Commit בראש הענף <bdi>{facts.github.lastActivity.branch}</bdi> לפי UTC, ולא תאריך גרסה או מועד Push.</p>}
+      <p><KnowledgeText text={facts.github.scope}/></p>
+    </section>}
     {entry.prerequisites && <section className="knowledge-section"><h2>לפני שמתחילים</h2><p><KnowledgeText text={entry.prerequisites} /></p></section>}
     <nav className="lesson-toc" aria-label="תוכן הפרק"><strong>בפרק הזה</strong><ul>{entry.sections.map((section, index) => <li key={section.title}><a className="text-link" href={`#section-${index}`}>{section.title}</a></li>)}<li><a className="text-link" href="#practice">תרגיל למחשבה</a></li><li><a className="text-link" href="#sources">מקורות והיקף האימות</a></li></ul></nav>
     <aside className="notice"><strong>{entry.verificationStatus === "verified" ? "המבוא נבדק מול מקור רשמי" : "התוכן ממתין לאימות"}</strong><p>{entry.verifiedAt && <>תאריך בדיקה: <time dateTime={entry.verifiedAt}><bdi>{entry.verifiedAt}</bdi></time> · </>}גרסה {entry.revision}</p><p>{entry.revisionNote}</p></aside>

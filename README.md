@@ -88,3 +88,5 @@ npm run start
 ## קריאה מ־Supabase
 האתר קורא את הקטלוג מהסכמה הפרטית academy בכל בקשת שרת. הגדירו DATABASE_URL בקובץ .env.local (דוגמה ללא סודות ב־.env.example), עם חיבור PostgreSQL/Pooler של פרויקט האקדמיה בלבד. אין להגדיר NEXT_PUBLIC למחרוזת החיבור. מומלצת זהות קריאה בלבד עם USAGE על academy, SELECT על טבלאות הקריאה ומדיניות RLS מתאימה; אין צורך לפתוח את הסכמה ל־Data API. זהות כזו טרם הוקמה במשימה זו. השתמשו ב־TLS מאומת לפי תעודת Supabase; אין לבטל בדיקת תעודה.
 אימות חיבור: `node --env-file=.env.local scripts/check-database.mjs`. build אינו מאמת חיבור למסד: יש להריץ גם את בדיקת החיבור ו־test:smoke מול שרת Production. קבצי content נשמרו לבדיקות/ייבוא היסטורי; שינוי JSON או metrics:refresh אינו משנה את האתר. טקסטי UI ועמוד הבית נשארו בקוד.
+
+בדיקות נתיבים (`npm run test:smoke`) קוראות כעת את הקטלוג הפעיל מ־Supabase דרך DATABASE_URL (או .env.local המקומי), ודורשות שהמיגרציות עד 006 הוחלו ושרת האתר פועל. הגדירו SMOKE_BASE_URL לכתובת השרת המקומי. `npm test` נשארת בדיקת PGlite מקומית ללא צורך בחיבור ענן. פרטי פרסום תוכן חדשים וראיות GitHub נשמרים תחת database כמיגרציות וראיות, ואינם קובצי התוכן הפעילים של האתר.

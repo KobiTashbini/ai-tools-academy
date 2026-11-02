@@ -45,3 +45,13 @@ test("rejects broken cross-lesson references", () => {
   altered[0].relatedSlugs = ["nonexistent"];
   assert.throws(() => validateContent(categories, altered), /related entry reference/);
 });
+
+test('legacy entries require a valid successor and explanatory note',()=>{
+ const copy=structuredClone(entries);
+ copy[0].lifecycle={status:'legacy',note:'Historical entry',successorSlug:copy[1].slug};
+ assert.doesNotThrow(()=>validateContent(categories,copy));
+ for(const lifecycle of [{status:'legacy',note:'',successorSlug:copy[1].slug},{status:'legacy',note:'Historical',successorSlug:'missing'},{status:'legacy',note:'Historical',successorSlug:copy[0].slug}]){
+  copy[0].lifecycle=lifecycle;
+  assert.throws(()=>validateContent(categories,copy),/legacy successor/);
+ }
+});

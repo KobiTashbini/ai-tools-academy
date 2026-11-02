@@ -1,0 +1,62 @@
+[
+  {
+    "repo": "google/adk-python",
+    "url": "https://github.com/google/adk-python",
+    "stars": 22083,
+    "forks": 4288,
+    "branch": "main",
+    "commitDate": "2026-11-02T18:49:37Z",
+    "commitSha": "8f8e0c2701c1bbbd6e774c65c3d830acf23fd9f1",
+    "commitSource": "https://api.github.com/repos/google/adk-python/commits/8f8e0c2701c1bbbd6e774c65c3d830acf23fd9f1",
+    "starsSource": "https://api.github.com/repos/google/adk-python",
+    "collectedAt": "2026-11-02T18:53:28.133Z"
+  },
+  {
+    "repo": "mastra-ai/mastra",
+    "url": "https://github.com/mastra-ai/mastra",
+    "stars": 29283,
+    "forks": 3069,
+    "branch": "main",
+    "commitDate": "2026-11-02T18:32:46Z",
+    "commitSha": "fe6eae5aef1147b46e5f2daeddbcfd50ab7fd922",
+    "commitSource": "https://api.github.com/repos/mastra-ai/mastra/commits/fe6eae5aef1147b46e5f2daeddbcfd50ab7fd922",
+    "starsSource": "https://api.github.com/repos/mastra-ai/mastra",
+    "collectedAt": "2026-11-02T18:53:28.713Z"
+  },
+  {
+    "repo": "huggingface/smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "stars": 30191,
+    "forks": 3190,
+    "branch": "main",
+    "commitDate": "2026-10-06T09:38:53Z",
+    "commitSha": "96f33faaf028479119ec8d34507b47694cf14e34",
+    "commitSource": "https://api.github.com/repos/huggingface/smolagents/commits/96f33faaf028479119ec8d34507b47694cf14e34",
+    "starsSource": "https://api.github.com/repos/huggingface/smolagents",
+    "collectedAt": "2026-11-02T18:53:29.303Z"
+  },
+  {
+    "repo": "agno-agi/agno",
+    "url": "https://github.com/agno-agi/agno",
+    "stars": 43018,
+    "forks": 6228,
+    "branch": "main",
+    "commitDate": "2026-11-02T06:42:34Z",
+    "commitSha": "df501779b4fc566f040a033105c01af909e8c3b5",
+    "commitSource": "https://api.github.com/repos/agno-agi/agno/commits/df501779b4fc566f040a033105c01af909e8c3b5",
+    "starsSource": "https://api.github.com/repos/agno-agi/agno",
+    "collectedAt": "2026-11-02T18:53:29.849Z"
+  },
+  {
+    "repo": "microsoft/autogen",
+    "url": "https://github.com/microsoft/autogen",
+    "stars": 61680,
+    "forks": 9348,
+    "branch": "main",
+    "commitDate": "2026-10-28T14:45:27Z",
+    "commitSha": "d07c667a3239ea4ab7af62a53b0f4ff205a1f23d",
+    "commitSource": "https://api.github.com/repos/microsoft/autogen/commits/d07c667a3239ea4ab7af62a53b0f4ff205a1f23d",
+    "starsSource": "https://api.github.com/repos/microsoft/autogen",
+    "collectedAt": "2026-11-02T18:53:30.483Z"
+  }
+]

@@ -1,13 +1,23 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
-import { assembleEntries } from "../src/data/assemble-entries.mjs";
+import { existsSync, readFileSync } from "node:fs";
+import { Pool } from "pg";
+import { readDatabaseCatalog } from "../src/data/database-catalog.mjs";
+import { additions } from "../database/seeds/agent-frameworks.mjs";
 
+if (!process.env.DATABASE_URL && existsSync('.env.local')) process.loadEnvFile('.env.local');
 const base = process.env.SMOKE_BASE_URL ?? "http://127.0.0.1:3000";
-const readJson = file => JSON.parse(readFileSync(new URL(`../content/${file}`, import.meta.url), "utf8"));
-const entries = assembleEntries(readJson("entries.json"), readJson("lessons.json")).filter(entry => entry.publicationStatus === "published");
-const guides = readJson("category-guides.json");
-const inferenceCommunity = readJson("inference-community-interest.json");
-const guidance = readJson("learning-guidance.json");
+const pool = new Pool({connectionString:process.env.DATABASE_URL,connectionTimeoutMillis:10000});
+let catalog;
+try {const client=await pool.connect();try{catalog=await readDatabaseCatalog(client);}finally{client.release();}}
+catch {throw new Error('Smoke catalog read failed; verify database connection and migrations');}
+finally {await pool.end();}
+const entries = catalog.entries;
+const frameworkEvidence=JSON.parse(readFileSync(new URL('../database/evidence/agent-frameworks-2026-11-02.json',import.meta.url),'utf8'));
+for(const addition of additions) assert.equal(entries.filter(e=>e.slug===addition.slug).length,1,'no duplicate: '+addition.slug);
+const guides = catalog.guides;
+const guidance = {reasons:Object.fromEntries(Object.entries(catalog.metrics).map(([slug,m])=>[slug,m.learningReason]))};
+const inferenceCohort=catalog.metrics.ollama.communityInterest.cohort;
+const inferenceCommunity={cohortLabel:catalog.metrics.ollama.communityInterest.cohortLabel,entries:Object.values(catalog.metrics).flatMap(m=>m.communityInterest?.cohort===inferenceCohort?[m.communityInterest]:[])};
 const routes = ["/", "/atlas", ...Array.from({ length: 12 }, (_, i) => `/atlas/${String(i).padStart(2, "0")}`), ...entries.map(entry => `/tools/${entry.slug}`)];
 for (const route of routes) {
   const response = await fetch(new URL(route, base));
@@ -32,6 +42,11 @@ for (const route of routes) {
       assert.ok(html.includes('2026') && html.includes('ODbL 1.0') && html.includes('11,895'));
     }else assert.ok(!html.includes('מיון לפי שימוש מפתחים (%)'), 'survey column belongs only to category 07');
     const categoryEntries = entries.filter(item => item.categoryIds.includes(categoryId));
+    if(categoryId==='02') {
+      assert.equal(categoryEntries.length,12);
+      assert.ok(html.includes('Legacy') && html.includes('microsoft-agent-framework'));
+      for(const a of additions) assert.ok(html.includes('href="/tools/'+a.slug+'"'),a.slug);
+    }
     assert.ok(html.includes("חשיבות ללימוד") && html.includes("זו הערכה פדגוגית"), `${route}: learning guidance, not measured adoption`);
     assert.equal((html.match(/class="learning-importance"/g) ?? []).length, categoryEntries.length, `${route}: every row has guidance`);
     const plainText = html.replace(/<[^>]+>/g, "");
@@ -58,6 +73,15 @@ for (const route of routes) {
   }
   if (route.startsWith("/tools/")) {
     const entry = entries.find(item => route === `/tools/${item.slug}`);
+    const addition=additions.find(a=>a.slug===entry.slug);
+    if(addition) {
+      const evidence=frameworkEvidence.find(e=>e.repo===addition.repo);
+      assert.ok(html.includes(evidence.stars.toLocaleString('en-US')),'verified stars: '+entry.slug);
+      assert.ok(html.includes(evidence.commitSource),'verified activity source: '+entry.slug);
+      assert.ok(html.includes(addition.release.source),'verified launch source: '+entry.slug);
+      assert.ok(html.includes('C#/.NET') && html.includes('2026-11-02'),'languages and review: '+entry.slug);
+      if(entry.lifecycle) assert.ok(html.includes('Legacy') && html.includes('href="/tools/microsoft-agent-framework"'));
+    }
     assert.ok(html.includes("נוסף למאגר:") && new RegExp(`datetime="${entry.addedAt}"`, "i").test(html), `${route}: catalog addition date`);
     assert.ok(html.includes('id="practice"') && html.includes('id="sources"'));
     for (const source of entry.sources) assert.ok(html.includes(`href="${source.url}"`), `${route}: source link`);

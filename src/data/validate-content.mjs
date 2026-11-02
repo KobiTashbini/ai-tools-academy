@@ -37,5 +37,6 @@ export function validateContent(categories, entries) {
   }
   for (const entry of entries) {
     if (entry.relatedSlugs?.some(slug => !slugs.has(slug))) fail("related entry reference");
+    if (entry.lifecycle && (entry.lifecycle.status !== "legacy" || !text(entry.lifecycle.note) || !slugs.has(entry.lifecycle.successorSlug) || entry.lifecycle.successorSlug === entry.slug)) fail("legacy successor reference");
   }
 }

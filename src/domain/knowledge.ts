@@ -9,6 +9,7 @@ export type KnowledgeEntry = Readonly<{
   approvedAt?: string;
   approvalReference?: string;
   name: string;
+  lifecycle?: Readonly<{status: "legacy"; note: string; successorSlug: string}>;
   kind: "protocol" | "model" | "sdk" | "framework" | "platform" | "concept" | "product" | "database" | "runtime" | "orchestration_engine";
   categoryIds: readonly string[];
   summary: string;

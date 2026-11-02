@@ -5,6 +5,12 @@ export async function readDatabaseCatalog(client) {
  const read=async sql=>JSON.parse(JSON.stringify((await client.query(sql)).rows));
  const categories=await read('select * from academy.categories order by id');
  const all=(await read('select document from academy.entry_documents order by slug')).map(r=>r.document);
+ for(const row of await read(`select l.*,e.slug as successor_slug from academy.entry_lifecycle l
+   join academy.entries e on e.id=l.successor_entry_id`)) {
+   const entry=all.find(e=>e.id===row.entry_id);
+   if(!entry) throw Error('Lifecycle entry missing');
+   entry.lifecycle={status:row.status,note:row.note,successorSlug:row.successor_slug};
+ }
  validateContent(categories,all);
  const facts={},metrics={},guides={};
  const method=(await read("select * from academy.metric_methods where id='oss_compass_v3'"))[0];

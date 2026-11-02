@@ -1,4 +1,6 @@
--- Read-only checks after migrations 002-004. Expected failure counters = 0.
+-- Read-only integrity checks. Integrity failure counters should be zero.
+-- entries_changed_since_import is informational: approved additions/edits are
+-- expected to differ from the immutable initial-import archive (5 after 006).
 select 'entries' as check_name,count(*)::text as actual from academy.entries
 union all select 'categories',count(*)::text from academy.categories
 union all select 'lesson_sections',count(*)::text from academy.entry_sections
@@ -8,7 +10,7 @@ union all select 'repository_snapshots',count(*)::text from academy.repository_s
 union all select 'cohort_observations',count(*)::text from academy.cohort_observations
 union all select 'package_metrics',count(*)::text from academy.package_metrics
 union all select 'release_dates',count(*)::text from academy.entry_releases
-union all select 'entry_mismatches',count(*)::text
+union all select 'entries_changed_since_import',count(*)::text
  from academy.entry_documents n full join academy_import_archive.entries old using(id)
  where n.document is distinct from old.payload - array['priority','source','extraSources']
 union all select 'damaged_archive_documents',count(*)::text from academy_import_archive.source_documents
