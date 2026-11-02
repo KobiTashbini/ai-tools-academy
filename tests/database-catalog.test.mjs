@@ -4,6 +4,7 @@ import {readFileSync} from 'node:fs';
 import {PGlite} from '@electric-sql/pglite';
 import {prepareDatabase} from '../scripts/prepare-database.mjs';
 import {readDatabaseCatalog} from '../src/data/database-catalog.mjs';
+import {ragAdditions} from '../database/seeds/rag-systems.mjs';
 import {additions} from '../database/seeds/agent-frameworks.mjs';
 test('database is the runtime source for lessons, metrics and guides, including later edits',async()=>{
  const db=new PGlite();
@@ -12,13 +13,32 @@ test('database is the runtime source for lessons, metrics and guides, including 
  for(const name of ['001_catalog.sql']) await db.exec(readFileSync(new URL('../database/'+name,import.meta.url),'utf8'));
  await db.exec(seed.sql);
  for(const name of ['002_normalize.sql','003_merge_catalog_descriptions.sql','004_detach_archive.sql','005_developer_survey_usage.sql','006_add_agent_frameworks.sql']) await db.exec(readFileSync(new URL('../database/'+name,import.meta.url),'utf8'));
+ const beforeRag=await readDatabaseCatalog(db);
+ await db.exec(readFileSync(new URL('../database/007_add_rag_systems.sql',import.meta.url),'utf8'));
  const d=await readDatabaseCatalog(db);
- assert.equal(d.entries.length,seed.entries.length+5);assert.equal(d.categories.length,12);
+ assert.deepEqual(d.entries.filter(e=>!ragAdditions.some(a=>a.slug===e.slug)),beforeRag.entries);
+ assert.deepEqual(d.facts.llamaindex,beforeRag.facts.llamaindex);
+ assert.deepEqual(d.metrics.llamaindex,beforeRag.metrics.llamaindex);
+ assert.equal(d.entries.length,seed.entries.length+12);assert.equal(d.categories.length,12);
  for(const e of d.entries){assert.ok(d.facts[e.slug].description);assert.ok(d.metrics[e.slug].learningReason);}
  const guidance=seed.documents.find(d=>d.path==='content/learning-guidance.json').document;
  for(const e of d.entries.filter(e=>guidance.reasons[e.slug])) assert.equal(d.metrics[e.slug].learningReason,guidance.reasons[e.slug]);
  assert.ok(d.metrics.ollama.communityInterest.score>0);
  assert.ok(d.guides['07'].steps.length>0);
+ assert.equal(d.entries.filter(e=>e.categoryIds.includes('04')).length,8);
+ assert.equal(d.guides['04'].steps.length,4);
+ const ragEvidence=JSON.parse(readFileSync(new URL('../database/evidence/rag-systems-2026-11-02.json',import.meta.url),'utf8'));
+ for(const a of ragAdditions){
+   const entry=d.entries.find(e=>e.slug===a.slug),f=d.facts[a.slug],m=d.metrics[a.slug];
+   assert.equal(entry.name,a.name);assert.equal(entry.kind,a.kind);assert.equal(entry.summary,a.summary);
+   assert.deepEqual(entry.sections,a.sections.map(([title,text])=>({title,text})));
+   assert.equal(entry.example,a.example);assert.equal(entry.learningPriority,a.priority);
+   assert.equal(entry.languageSupportNote,a.languageSupportNote);assert.deepEqual(entry.relatedSlugs,a.related);
+   assert.deepEqual(m.languages,a.languages);assert.equal(m.learningReason,a.reason);assert.equal(m.communityInterest,undefined);
+   assert.equal(f.release,undefined);assert.equal(f.popularity.score,null);
+   if(a.repo){const e=ragEvidence.find(e=>e.repo===a.repo);assert.equal(f.github.stars,e.stars);assert.equal(Date.parse(f.github.lastActivity.date),Date.parse(e.commitDate));assert.equal(f.github.lastActivity.source,e.commitSource);}
+   else {assert.equal(f.github.status,'not_applicable');assert.equal(f.github.stars,undefined);}
+ }
  const evidence=JSON.parse(readFileSync(new URL('../database/evidence/agent-frameworks-2026-11-02.json',import.meta.url),'utf8'));
  assert.equal(d.entries.filter(e=>e.categoryIds.includes('02')).length,12);
  for(const addition of additions){
@@ -43,11 +63,11 @@ test('database is the runtime source for lessons, metrics and guides, including 
  assert.equal(d.entries.filter(e=>e.lifecycle).length,1);
  assert.equal((await db.query("select count(*)::int n from academy.cohort_observations")).rows[0].n,10);
  const checks=(await db.query(readFileSync(new URL('../database/verify_catalog.sql',import.meta.url),'utf8'))).rows;
- assert.equal(checks.find(c=>c.check_name==='entries_changed_since_import').actual,'5');
+ assert.equal(checks.find(c=>c.check_name==='entries_changed_since_import').actual,'12');
  for(const name of ['live_json_columns','tables_without_rls','damaged_archive_documents','missing_archive_guards','archive_live_foreign_keys']) assert.equal(checks.find(c=>c.check_name===name).actual,'0',name);
  await assert.rejects(db.exec(readFileSync(new URL('../database/006_add_agent_frameworks.sql',import.meta.url),'utf8')),/Expected schema version 5/);
  await db.exec('rollback');
- assert.equal((await readDatabaseCatalog(db)).entries.length,seed.entries.length+additions.length);
+ assert.equal((await readDatabaseCatalog(db)).entries.length,seed.entries.length+additions.length+7);
  await db.exec('create role lifecycle_guest; grant usage on schema academy to lifecycle_guest; set role lifecycle_guest;');
  await assert.rejects(db.query('select * from academy.entry_lifecycle'),/permission denied/);
  await db.exec('reset role');

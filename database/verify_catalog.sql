@@ -1,6 +1,6 @@
 -- Read-only integrity checks. Integrity failure counters should be zero.
 -- entries_changed_since_import is informational: approved additions/edits are
--- expected to differ from the immutable initial-import archive (5 after 006).
+-- expected to differ from the immutable initial-import archive (5 after 006; 12 after content migration 007).
 select 'entries' as check_name,count(*)::text as actual from academy.entries
 union all select 'categories',count(*)::text from academy.categories
 union all select 'lesson_sections',count(*)::text from academy.entry_sections
