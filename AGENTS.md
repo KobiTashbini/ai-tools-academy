@@ -45,9 +45,9 @@ Start each task with `PROJECT_STATUS.md`, `TASKS.md` and `docs/DECISIONS.md`. Re
 
 ## Subagent Delegation Policy
 
-The user currently requests a single development agent: do not activate subagents or a multi-agent team until the user asks to begin that stage. The general delegation policy below applies only after that stage is authorized.
+The user authorizes subagents within the `catalog-research` skill for research and independent review, subject to environment limits and efficiency. This authorization covers reviewable proposals only: it does not authorize content changes or publication. Outside this skill, use a single development agent unless the user explicitly authorizes delegation.
 
-- Subagents may be delegated independent tasks without requesting separate approval for each delegation.
+- Within `catalog-research`, subagents may be delegated independent research or review tasks without requesting separate approval for each delegation; keep their work read-only except for scoped research artifacts.
 - Prefer a single agent for simple or tightly coupled tasks.
 - Avoid concurrent modifications to the same files.
 - Respect the environment's concurrency limits.

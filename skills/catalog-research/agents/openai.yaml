@@ -1,0 +1,4 @@
+interface:
+  display_name: "Catalog Research"
+  short_description: "מחקר ואימות הקטלוג והצעות מנומקות לאישור אנושי"
+  default_prompt: "השתמש ב־$catalog-research למחקר עדכני של הקטלוג ולהפקת דוח המלצות עם מקורות, ללא שינוי תוכן לפני אישורי."
