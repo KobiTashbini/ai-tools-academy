@@ -32,6 +32,16 @@ export async function readDatabaseCatalog(client) {
  if(p.method_id==='source_rank') metrics[p.slug].sourceRank={score:Number(p.value),source:p.source_url,package:p.package_name,repository:p.package_repository_url,platform:p.ecosystem,updatedAt:p.measured_at};
  if(p.method_id==='npms_popularity') metrics[p.slug].popularity={score:Number(p.value),source:p.source_url,package:p.package_name,repository:p.package_repository_url.replace(/^git\+/,'').replace(/\.git$/,''),analyzedAt:p.measured_at,identitySource:p.identity_source_url,methodSource:'https://github.com/npms-io/npms-analyzer/blob/master/lib/scoring/score.js',historical:true};
  }
+ // Pick the latest survey for each entry, independently of GitHub/package metrics.
+ for(const u of await read(`select distinct on (u.entry_id) u.*,e.slug,s.*,s.verified_at::text as verification_date
+   from academy.entry_survey_usage u join academy.developer_surveys s on s.id=u.survey_id
+   join academy.entries e on e.id=u.entry_id
+   order by u.entry_id,s.survey_year desc,s.verified_at desc,s.id`)) {
+   metrics[u.slug].surveyUsage={percent:Number(u.usage_percent),year:u.survey_year,provider:u.provider_name,
+     source:u.source_url,sourceName:u.source_name,sampleSize:u.sample_size,respondentCount:u.respondent_count,
+     population:u.population,multipleResponses:u.multiple_responses,verifiedAt:u.verification_date,
+     licenseName:u.license_name,licenseUrl:u.license_url,mappingNote:u.mapping_note};
+ }
  for(const g of await read('select * from academy.category_guides')) guides[g.category_id]={title:g.title,intro:g.introduction,note:g.note,steps:[]};
  for(const s of await read('select s.*,e.slug,e.publication_status from academy.category_guide_steps s join academy.entries e on e.id=s.entry_id order by position')) if(s.publication_status==='published') guides[s.category_id].steps.push({text:s.instruction,slug:s.slug,label:s.link_label});
  await client.query('commit');

@@ -3,6 +3,7 @@ export type AgentMetric = {
   description: string;
   languages: string[];
   learningReason?: string;
+  surveyUsage?: { percent: number; year: number; provider: string; source: string; sourceName: string; sampleSize: number; respondentCount: number; population: string; multipleResponses: boolean; verifiedAt: string; licenseName: string; licenseUrl: string; mappingNote: string };
   communityInterest?: { score: number; stars: number; forks: number; maxStars: number; maxForks: number; method: string; source: string; repository: string; collectedAt: string; cohort: string; cohortLabel?: string };
   popularity?: {
     score: number;

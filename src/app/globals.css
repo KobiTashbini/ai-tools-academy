@@ -23,3 +23,10 @@
 @media(max-width:640px){.tools-table.agent-table{min-width:900px}.agent-table .agent-name-width{width:175px}.agent-table .agent-description-width{width:245px}.agent-table .agent-languages-width{width:130px}.agent-table .agent-popularity-width{width:120px}.agent-table .agent-release-width{width:115px}.agent-table .agent-repository-width{width:115px}}
 .category-guide{margin-block:24px;overflow-wrap:anywhere}.category-guide h2{font-size:23px}.category-guide ol{padding-inline-start:24px}.category-guide li{margin-block:12px}.category-guide .text-link{display:inline-block;text-decoration:underline;text-underline-offset:3px}
 .learning-guidance-note{color:var(--muted);font-size:14px;margin-block:24px 8px}.learning-recommendation{display:flex;flex-direction:column;align-items:flex-start;gap:7px;line-height:1.55}.learning-priority{display:inline-block;font-size:12px;border-radius:5px;padding:3px 7px;background:#edf1f3;color:#344c58}.learning-priority-must_learn{background:#dcf0e6;color:#12513c}.learning-priority-enrichment{background:#f3eadc;color:#6b4b23}.agent-catalog .learning-recommendation small{font-size:12px;line-height:1.55;color:var(--muted)}.category-card .learning-recommendation{margin-top:18px}
+
+.survey-usage-note{font-size:13px;line-height:1.8;color:var(--muted);margin-block:12px 20px}
+.has-survey-usage .agent-table{min-width:1080px}
+.has-survey-usage .agent-survey-width{width:125px}
+.agent-survey-usage{white-space:nowrap;font-variant-numeric:tabular-nums}
+.survey-usage-value{display:inline-block;line-height:1.5}
+.survey-usage-detail{border-top:1px solid var(--line);margin-top:16px;padding-top:8px}

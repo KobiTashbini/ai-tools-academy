@@ -23,6 +23,14 @@ for (const route of routes) {
     assert.ok(html.includes("על הנתונים ומדד הפופולריות"), `${route}: metric definitions`);
     assert.ok(html.includes("יציאה ראשונית") && html.includes("Stars / GitHub"), `${route}: compact default columns`);
     const categoryId = route.split("/").pop();
+    if(categoryId === "07") {
+      assert.ok(html.includes('מיון לפי שימוש מפתחים (%)'));
+      assert.equal((html.match(/class="agent-survey-usage"/g)??[]).length,14);
+      assert.equal((html.match(/aria-label="אין נתון שימוש בסקר"/g)??[]).length,7);
+      for(const percent of ['74.6','74.3','54.5','18.9','10.1','9.8','6.3']) assert.ok(html.replace(/<!--.*?-->/gs,'').includes(percent+'%'), 'survey percentage '+percent);
+      assert.ok(html.includes('https://survey.stackoverflow.co/2026/technology/data/llm'));
+      assert.ok(html.includes('2026') && html.includes('ODbL 1.0') && html.includes('11,895'));
+    }else assert.ok(!html.includes('מיון לפי שימוש מפתחים (%)'), 'survey column belongs only to category 07');
     const categoryEntries = entries.filter(item => item.categoryIds.includes(categoryId));
     assert.ok(html.includes("חשיבות ללימוד") && html.includes("זו הערכה פדגוגית"), `${route}: learning guidance, not measured adoption`);
     assert.equal((html.match(/class="learning-importance"/g) ?? []).length, categoryEntries.length, `${route}: every row has guidance`);
