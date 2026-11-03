@@ -30,3 +30,5 @@
 .agent-survey-usage{white-space:nowrap;font-variant-numeric:tabular-nums}
 .survey-usage-value{display:inline-block;line-height:1.5}
 .survey-usage-detail{border-top:1px solid var(--line);margin-top:16px;padding-top:8px}
+
+.agent-controls{flex-wrap:wrap}.agent-toolbar{flex-wrap:wrap}.catalog-sort{display:flex;align-items:center;gap:8px;font-size:14px;max-width:100%}.catalog-sort select,.catalog-direction{font:inherit;color:var(--ink);background:white;border:1px solid var(--line);border-radius:7px;padding:8px;min-height:40px;max-width:100%}.catalog-sort select{min-width:0}.catalog-direction{cursor:pointer}

@@ -59,3 +59,12 @@ verify_catalog.sql מציג entries_changed_since_import כמידע על שינ�
 `node scripts/prepare-rag-review.mjs` משחזר את 008 מהקלט הקפוא ב־database/seeds/rag-review.mjs ומראיות rag-review-2026-11-02.json. אלה חומרי מיגרציה ובדיקות בלבד. אין לערוך מיגרציה שהוחלה לצורך שינוי עתידי.
 
 `node --env-file=.env.local scripts/apply-rag-review.mjs` מחיל את 008 רק בפרויקט האקדמיה המוכר בגרסה 7; בגרסה 8 הוא מאמת בקריאה בלבד. revisions לא צפויים, כפילויות או גרסה אחרת גורמים לעצירה. כלי ההחלה הישנים מוגבלים לגרסאות שלהם ואין להריצם על גרסה 8. entries_changed_since_import צפוי להיות 16: חמש־עשרה תוספות ועריכת LlamaIndex המקורית; מוני השלמות האחרים אפס. המקורות והארכיון נשמרו, והמבנה, RLS ו־cohorts לא השתנו.
+## קטגוריה 05 — מיגרציה 009
+
+יישום vector05-20261102-v1, כל V05-01–V05-08 לפי אישור המשתמש: שבע תוספות (יסודות ושישה כלים), תיקון Qdrant ומדריך קריאה. כעת 57 פרקים, שמונה בקטגוריה 05. אין DDL, שינוי UI, הרשאות או סודות.
+
+`node scripts/prepare-vector-databases.mjs` משחזר את 009 מהקלט הקפוא ב־database/seeds/vector-databases.mjs ומהראיות ב־database/evidence/vector-databases-2026-11-02.json. אלה חומרי מיגרציה ובדיקות, לא מקור runtime. אין לערוך SQL שהוחל כדי לפרסם שינוי עתידי; יש ליצור מיגרציה נוספת.
+
+`node --env-file=.env.local scripts/apply-vector-databases.mjs --check` בודק יעד וגרסה בקריאה בלבד. בגרסה 8 נבדק המסמך המלא של Qdrant מול בסיס המחקר ב־research/evidence/vector05-baseline-2026-11-02.json ונבדקות זהויות; בגרסה 9 נבדקת שלמות התוצאה. בלי --check, גרסה 8 מחילה את 009 אטומית; גרסה 9 מאמתת בלבד. גרסה אחרת או drift מחייבים עצירה ויישוב. אין הדפסת חיבור. guards ב־SQL דורשים revision וספירות צפויות וחוסמים כפילות שם/slug/מאגר והרצה חוזרת.
+
+entries_changed_since_import צפוי להיות 24: 22 תוספות מאז הייבוא ושני פריטי מקור שנערכו (LlamaIndex ו־Qdrant). מוני שלמות אחרים נשארים אפס. אין הפעלת rollback_002 הישן להסרת עדכון תוכן. הדוח וההמשך ב־research/runs/2026-11-02-vector-databases-v1.md.

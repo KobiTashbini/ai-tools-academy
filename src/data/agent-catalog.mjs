@@ -27,10 +27,20 @@ export function buildAgentMetrics(entries, presentation, snapshot, community) {
   return result;
 }
 
-export function sortAgentEntries(entries, facts, metrics, key, direction) {
+export function sortAgentEntries(entries, facts, metrics, key, direction, learningOrder = []) {
   const priorities = {must_learn:3,should_know:2,enrichment:1};
+  if (key === "learningPriority") {
+    const positions = new Map(learningOrder.map((slug, index) => [slug, index]));
+    return [...entries].sort((a,b) => {
+      const foundation = Number(b.kind === "concept") - Number(a.kind === "concept");
+      const priority = (priorities[b.learningPriority] ?? 0) - (priorities[a.learningPriority] ?? 0);
+      const position = (positions.get(a.slug) ?? Infinity) - (positions.get(b.slug) ?? Infinity);
+      const order = foundation || priority || position || a.name.localeCompare(b.name,"he");
+      return order * (direction === "desc" ? 1 : -1);
+    });
+  }
   if (key === "addedAt") return [...entries].sort((a,b) => direction === "asc" ? a.addedAt.localeCompare(b.addedAt) || a.name.localeCompare(b.name,"en") : b.addedAt.localeCompare(a.addedAt) || a.name.localeCompare(b.name,"en"));
-  const value = entry => key === "surveyUsage" ? metrics[entry.slug].surveyUsage?.percent : key === "learningPriority" ? priorities[entry.learningPriority] : key === "name" ? entry.name : key === "popularity" ? metrics[entry.slug].communityInterest?.score : key === "sourceRank" ? metrics[entry.slug].sourceRank?.score : key === "stars" ? facts[entry.slug].github.stars : key === "activity" ? Date.parse(facts[entry.slug].github.lastActivity?.date ?? "") || null : facts[entry.slug].release ? Date.parse(facts[entry.slug].release.value.length === 4 ? `${facts[entry.slug].release.value}-01-01` : facts[entry.slug].release.value) : null;
+  const value = entry => key === "surveyUsage" ? metrics[entry.slug].surveyUsage?.percent : key === "learningPriority" ? priorities[entry.learningPriority] : key === "name" ? entry.name : key === "popularity" ? metrics[entry.slug].communityInterest?.score : key === "sourceRank" ? metrics[entry.slug].sourceRank?.score : key === "stars" ? facts[entry.slug].github.stars : key === "releaseYear" ? (facts[entry.slug].release ? Number(facts[entry.slug].release.value.slice(0,4)) : null) : key === "activity" ? Date.parse(facts[entry.slug].github.lastActivity?.date ?? "") || null : facts[entry.slug].release ? Date.parse(facts[entry.slug].release.value.length === 4 ? `${facts[entry.slug].release.value}-01-01` : facts[entry.slug].release.value) : null;
   return [...entries].sort((a,b) => {
     const av = value(a), bv = value(b);
     if (av == null && bv == null) return a.name.localeCompare(b.name,"en");

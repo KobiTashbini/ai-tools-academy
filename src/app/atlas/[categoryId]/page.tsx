@@ -29,6 +29,6 @@ export default async function CategoryPage({ params }: Props) {
       <ol>{guide.steps.map(step => <li key={step.slug}><KnowledgeText text={step.text} /> <Link className="text-link" href={`/tools/${step.slug}`}>{step.label}</Link></li>)}</ol>
       <p><KnowledgeText text={guide.note} /></p>
     </section>}
-    {entries.length ? <ToolCatalog showSurveyUsage={category.id === "07"} key={category.id} entries={entries} facts={await getCatalogFacts(entries.map(entry => entry.slug))} metrics={await getCatalogMetrics(entries)} /> : <div className="notice"><h2>התוכן בתחום הזה בהכנה</h2><p>עדיין אין כאן פריטי ידע מפורסמים. אפשר בינתיים לקרוא את המבוא ל־<bdi>MCP</bdi> בתחום האינטגרציות.</p><Link className="text-link" href="/tools/mcp">למבוא על <bdi>MCP</bdi></Link></div>}
+    {entries.length ? <ToolCatalog learningOrder={guide?.steps.map(step => step.slug)} showSurveyUsage={category.id === "07"} key={category.id} entries={entries} facts={await getCatalogFacts(entries.map(entry => entry.slug))} metrics={await getCatalogMetrics(entries)} /> : <div className="notice"><h2>התוכן בתחום הזה בהכנה</h2><p>עדיין אין כאן פריטי ידע מפורסמים. אפשר בינתיים לקרוא את המבוא ל־<bdi>MCP</bdi> בתחום האינטגרציות.</p><Link className="text-link" href="/tools/mcp">למבוא על <bdi>MCP</bdi></Link></div>}
   </section>;
 }

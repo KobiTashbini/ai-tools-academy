@@ -1,0 +1,1256 @@
+{
+  "checkedAt": "2026-11-02T20:42:24.265Z",
+  "total": 50,
+  "identities": [
+    {
+      "slug": "agno",
+      "name": "Agno",
+      "kind": "framework",
+      "revision": 1,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "02"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.agno.com/",
+          "title": "Agno — תיעוד רשמי",
+          "supports": "תפקיד, מבנה ותמיכת שפות; טענות על היעדר SDK מוגבלות למקורות שנבדקו.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/agno-agi/agno",
+          "title": "Agno — GitHub רשמי",
+          "supports": "זהות המאגר, קוד ומצב הפרויקט.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/agno-agi/agno/releases/tag/v1.0.0",
+          "title": "Agno — השקת v1.0.0",
+          "supports": "השקת Agno בצמוד לגרסה v1.0.0 ב־30 בינואר 2025 לפי Release רשמי. זו אינה טענה שזהו תחילת המאגר או הפרויקט הקודם Phidata; חבילות מוקדמות יותר קדמו לאירוע הזה.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "amazon-bedrock",
+      "name": "Amazon Bedrock",
+      "kind": "platform",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html",
+          "title": "AWS — Amazon Bedrock Overview",
+          "supports": "שירות מודלי בסיס מנוהל וריבוי ממשקי גישה. ניתוח האחריות הוא שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "anthropic-claude",
+      "name": "Anthropic — Claude",
+      "kind": "model",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview",
+          "title": "Anthropic — Tool use with Claude",
+          "supports": "כלי לקוח ושרת, tool_use ו־tool_result. ההמלצות העסקיות הן שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "claude-code",
+      "name": "Claude Code",
+      "kind": "product",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "01"
+      ],
+      "sources": [
+        {
+          "url": "https://code.claude.com/docs/en/overview",
+          "title": "Anthropic — Claude Code Overview",
+          "supports": "הגדרת הכלי, קריאת קוד, עריכה והרצת פקודות. תרחישי .NET ושיקולי הבחירה הם הצעות לימודיות.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "codex",
+      "name": "Codex",
+      "kind": "product",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "01"
+      ],
+      "sources": [
+        {
+          "url": "https://learn.chatgpt.com/docs/glossary",
+          "title": "OpenAI — מילון המונחים של Codex",
+          "supports": "הגדרת Codex, לקוחות CLI/IDE ותפקיד AGENTS.md. שיטת העבודה והתרגיל הם המלצות לימודיות, לא טענות על ביצועים או על תוכנית תשלום.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "crewai",
+      "name": "CrewAI",
+      "kind": "framework",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "02"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.crewai.com/v1.15.33/en/introduction",
+          "title": "CrewAI — Introduction",
+          "supports": "הבחנה בין Flows, Crews, תפקידים, משימות וזרימת אירועים. שיקולי המדידה והתרגיל הם שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "cursor",
+      "name": "Cursor",
+      "kind": "product",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "01"
+      ],
+      "sources": [
+        {
+          "url": "https://cursor.com/docs/agent/overview",
+          "title": "Cursor — Agent Overview",
+          "supports": "כלי הסוכן, עריכת קבצים, פקודות וההבדל בין Checkpoints ל־Git. השיקולים והדוגמה נכתבו ללמידה.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "kind": "model",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://api-docs.deepseek.com/",
+          "title": "DeepSeek — First API Call",
+          "supports": "כתובות API, פורמטים תואמים ותצורת בקשות. בדיקות הניידות הן תכנון שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "dify",
+      "name": "Dify",
+      "kind": "platform",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "06"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.dify.ai/en/home",
+          "title": "Dify — Documentation",
+          "supports": "יישומי AI, סוכנים, ידע, תהליכים ופרסום דרך Web/API. תכנון האבטיפוס והשיקולים הם שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "docling",
+      "name": "Docling",
+      "kind": "sdk",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "04"
+      ],
+      "sources": [
+        {
+          "url": "https://docling-project.github.io/docling/",
+          "title": "Docling — מקור רשמי",
+          "supports": "תפקיד, תהליך ושפות; הדוגמאות וההשוואות הן תכנון פדגוגי של האקדמיה.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/docling-project/docling",
+          "title": "Docling — מאגר רשמי",
+          "supports": "זהות הפרויקט, מימוש ותיעוד במאגר.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://research.ibm.com/blog/docling-generative-AI",
+          "title": "docling — אירוע פרסום מתועד",
+          "supports": "IBM מתעדת שהקוד נפתח ביולי 2024; נשמרת שנת 2024 ולא תאריך כתבת נובמבר. אין המצאת יום השקה.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "dspy",
+      "name": "DSPy",
+      "kind": "framework",
+      "revision": 1,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "04"
+      ],
+      "sources": [
+        {
+          "url": "https://dspy.ai/",
+          "title": "DSPy — תיעוד רשמי",
+          "supports": "תפקיד, ארכיטקטורה ושפות; יתרונות, חסרונות ודוגמאות הם ניתוח פדגוגי ולא Benchmark.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/stanfordnlp/dspy",
+          "title": "DSPy — מאגר רשמי",
+          "supports": "מימוש Python ופעילות הפרויקט.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://arxiv.org/abs/2310.03714",
+          "title": "DSPy",
+          "supports": "שנת פרסום מאמר DSPy באוקטובר 2023; אינה תאריך תחילת פרויקט DSP שקדם לו ב־2022 או תאריך יצירת המאגר.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "google-adk",
+      "name": "Google Agent Development Kit (ADK)",
+      "kind": "framework",
+      "revision": 1,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "02"
+      ],
+      "sources": [
+        {
+          "url": "https://adk.dev/",
+          "title": "Google Agent Development Kit (ADK) — תיעוד רשמי",
+          "supports": "תפקיד, מבנה ותמיכת שפות; טענות על היעדר SDK מוגבלות למקורות שנבדקו.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/google/adk-python",
+          "title": "Google Agent Development Kit (ADK) — GitHub רשמי",
+          "supports": "זהות המאגר, קוד ומצב הפרויקט.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://developers.googleblog.com/agent-development-kit-easy-to-build-multi-agent-applications/",
+          "title": "Google Developers — הכרזת ADK",
+          "supports": "שנת ההכרזה הציבורית על ADK ב־Google Cloud Next 2025. אינה שנת הקמת Google או מועד יצירת המאגר; לא נקבע יום כשדי בשנה המאומתת.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "google-gemini",
+      "name": "Google — Gemini",
+      "kind": "model",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://ai.google.dev/gemini-api/docs/function-calling",
+          "title": "Google — Gemini Function Calling",
+          "supports": "הגדרת פונקציות וחיבור המודל לפעולות ולמקורות מידע. הדוגמה הארגונית היא שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "google-vertex-ai",
+      "name": "Google Vertex AI / Agent Platform",
+      "kind": "platform",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models",
+          "title": "Google Cloud — Models on Agent Platform",
+          "supports": "יעד ההפניה של תיעוד Vertex AI, קבוצות מודלים והבחנה בין שירות מנוהל לפריסה עצמית. התכנון העסקי הוא שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "haystack",
+      "name": "Haystack",
+      "kind": "framework",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "04"
+      ],
+      "sources": [
+        {
+          "url": "https://haystack.deepset.ai/overview/intro",
+          "title": "Haystack — מקור רשמי",
+          "supports": "תפקיד, תהליך ושפות; הדוגמאות וההשוואות הן תכנון פדגוגי של האקדמיה.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/deepset-ai/haystack",
+          "title": "Haystack — מאגר רשמי",
+          "supports": "זהות הפרויקט, מימוש ותיעוד במאגר.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://haystack.deepset.ai/blog/haystack-2-release/",
+          "title": "Haystack — גרסאות והשקה רשמית",
+          "supports": "הבחנה בין היסטוריית חבילות, הצגת השקה ב־2020 וגרסה נוכחית.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://pypi.org/project/farm-haystack/0.1.0.post2/",
+          "title": "haystack — אירוע פרסום מתועד",
+          "supports": "פרסום חבילת farm-haystack 0.1.0.post2 ב־28 בנובמבר 2019. הספק מתאר השקה רשמית ב־2020; אין לבלבל עם Haystack 2 או 3. החבילה ההיסטורית ארכיונית, לא הפרויקט כולו.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "hugging-face",
+      "name": "Hugging Face — Inference Providers",
+      "kind": "platform",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/docs/inference-providers/index",
+          "title": "Hugging Face — Inference Providers",
+          "supports": "מודלים אצל ספקים שונים, ניתוב ולקוחות Python/JavaScript. שיטת ההערכה והטבלה הן המלצות לימודיות.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "langchain",
+      "name": "LangChain",
+      "kind": "framework",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "02"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.langchain.com/oss/python/langchain/overview",
+          "title": "LangChain — Overview",
+          "supports": "מודל, Harness, כלים, Middleware ויחס ל־LangGraph. ההקבלה ל־.NET והתרגיל הם שלנו.",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "url": "https://docs.langchain.com/oss/javascript/langchain/overview",
+          "title": "LangChain — JavaScript Overview",
+          "supports": "קיום המימוש הרשמי ב־JavaScript/TypeScript ודוגמת יצירת סוכן.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "langfuse",
+      "name": "Langfuse",
+      "kind": "platform",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "10"
+      ],
+      "sources": [
+        {
+          "url": "https://langfuse.com/docs",
+          "title": "Langfuse — Overview",
+          "supports": "Traces, ניהול הנחיות, הערכה, SDKs ו־OpenTelemetry. תכנון שדות, פרטיות וסט הבדיקות הוא הצעה לימודית שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "langgraph",
+      "name": "LangGraph",
+      "kind": "framework",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "02"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+          "title": "LangGraph — Overview",
+          "supports": "אורקסטרציה ברמה נמוכה, מצב, הרצה מתמשכת, אישור אנושי ואי־תלות ב־LangChain. תכנון המצבים וההמלצות הם לימודיים.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "lightrag",
+      "name": "LightRAG",
+      "kind": "framework",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "04"
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/HKUDS/LightRAG",
+          "title": "LightRAG — מקור רשמי",
+          "supports": "תפקיד, תהליך ושפות; הדוגמאות וההשוואות הן תכנון פדגוגי של האקדמיה.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/HKUDS/RAG-Anything",
+          "title": "RAG-Anything — קשר ל־LightRAG",
+          "supports": "קשר בין הפרויקטים; נשאר מועמד להמשך ואינו רשומה חדשה כעת.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://pypi.org/project/lightrag-hku/0.0.2/",
+          "title": "lightrag — אירוע פרסום מתועד",
+          "supports": "פרסום חבילת lightrag-hku 0.0.2 ב־10 באוקטובר 2024. השם המדויק מזהה את HKUDS LightRAG ולא חבילות בעלות שם דומה.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "llama-cpp",
+      "name": "llama.cpp",
+      "kind": "runtime",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "08"
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "title": "ggml-org — llama.cpp",
+          "supports": "מנוע C/C++, שרת תואם API, כימות ותמיכה בחומרה. השוואת הניסוי היא שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "llamaindex",
+      "name": "LlamaIndex",
+      "kind": "framework",
+      "revision": 3,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "04"
+      ],
+      "sources": [
+        {
+          "url": "https://developers.llamaindex.ai/python/framework/",
+          "title": "LlamaIndex — Framework",
+          "supports": "ערכת Python לחיבור נתונים, RAG, מחברים ואינדקסים. דוגמת נוהל הרכש והמלצות המדידה הן שלנו.",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "url": "https://github.com/run-llama/LlamaIndexTS",
+          "title": "LlamaIndex.TS — הודעת Deprecated",
+          "supports": "מימוש TypeScript היסטורי, מאורכב ואינו מתוחזק; אין סימון Legacy כולל ל־Python.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://www.llamaindex.ai/blog/llamaindex-is-more-than-a-rag-framework",
+          "title": "llamaindex — אירוע פרסום מתועד",
+          "supports": "הספק מתאר השקת מסגרת קוד פתוח בסוף 2022. דיוק שנה בלבד; אינה שנת השקה של LlamaCloud או מימוש TypeScript.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "llm-fundamentals",
+      "name": "מודלי שפה — יסודות",
+      "kind": "concept",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "00",
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://developers.google.com/machine-learning/crash-course/llm",
+          "title": "Google — מבוא למודלי שפה",
+          "supports": "מודל הסתברותי, Tokens ויצירת טקסט. דפוסי התכנון, הדוגמאות והתרגילים הם הסבר לימודי שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "lm-studio",
+      "name": "LM Studio",
+      "kind": "product",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "08"
+      ],
+      "sources": [
+        {
+          "url": "https://lmstudio.ai/docs/app",
+          "title": "LM Studio — App documentation",
+          "supports": "יישום, הורדת מודל וקישורי דרישות מערכת ועבודה לא מקוונת.",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "url": "https://lmstudio.ai/docs/developer",
+          "title": "LM Studio — Developer documentation",
+          "supports": "שרת, REST API ומסלולי פיתוח. תכנון אינטגרציית C# הוא שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "mastra",
+      "name": "Mastra",
+      "kind": "framework",
+      "revision": 1,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "02"
+      ],
+      "sources": [
+        {
+          "url": "https://mastra.ai/docs",
+          "title": "Mastra — תיעוד רשמי",
+          "supports": "תפקיד, מבנה ותמיכת שפות; טענות על היעדר SDK מוגבלות למקורות שנבדקו.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/mastra-ai/mastra",
+          "title": "Mastra — GitHub רשמי",
+          "supports": "זהות המאגר, קוד ומצב הפרויקט.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://mastra.ai/blog/the-next-million-ai-developers",
+          "title": "Mastra — הכרזה ציבורית",
+          "supports": "ההכרזה הציבורית של Mastra מ־20 בנובמבר 2024. אין לבלבל עם השקת beta ב־2025 או גרסת 1.0 מאוחרת יותר.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "mcp",
+      "name": "MCP",
+      "kind": "protocol",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "09"
+      ],
+      "sources": [
+        {
+          "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
+          "title": "תיעוד הארכיטקטורה הרשמי של MCP",
+          "supports": "הגדרת הפרוטוקול, מארח/לקוח/שרת, שכבות התקשורת והיכולות שהשרת חושף. הדוגמה והתרגיל נכתבו לצורכי לימוד.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "meta-llama",
+      "name": "Meta — Llama",
+      "kind": "model",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/meta-llama/llama-models",
+          "title": "Meta — Llama Models",
+          "supports": "הגדרת Llama, זמינות משקלים, כרטיסי דגמים ורישיונות. תכנון הפריסה הוא לימודי.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "microsoft-agent-framework",
+      "name": "Microsoft Agent Framework",
+      "kind": "framework",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "02"
+      ],
+      "sources": [
+        {
+          "url": "https://learn.microsoft.com/en-us/agent-framework/overview/",
+          "title": "Microsoft Learn — Agent Framework Overview",
+          "supports": "רכיבי המסגרת, Workflows, MCP, דוגמאות .NET/Python ופקודת חבילה עם prerelease. ארכיטקטורת הארגון והתרגיל הם הצעות שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "microsoft-autogen",
+      "name": "Microsoft AutoGen",
+      "kind": "framework",
+      "revision": 1,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "02"
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/microsoft/autogen",
+          "title": "Microsoft AutoGen — GitHub רשמי",
+          "supports": "זהות המאגר, קוד ומצב הפרויקט.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/",
+          "title": "Microsoft Research — הכרזת AutoGen",
+          "supports": "ההכרזה הציבורית בבלוג Microsoft Research ב־25 בספטמבר 2023; אינה תאריך מאמר המחקר המוקדם או גרסת AutoGen 0.4.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen/",
+          "title": "Microsoft — מדריך מעבר מ־AutoGen",
+          "supports": "מיפוי מושגים ו־APIs למחליפה; המדריך מתמקד ב־Python.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://microsoft.github.io/autogen/dev/user-guide/core-user-guide/index.html",
+          "title": "AutoGen Core — תיעוד היסטורי",
+          "supports": "הארכיטקטורה ותמיכת Python/.NET ההיסטורית.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "microsoft-foundry",
+      "name": "Microsoft Foundry (Azure AI Foundry)",
+      "kind": "platform",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry",
+          "title": "Microsoft — What is Microsoft Foundry?",
+          "supports": "שם המוצר, מודלים וכלים, RBAC ורשת; חלק מהיכולות ב־Preview. תכנון .NET הוא שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "microsoft-graphrag",
+      "name": "Microsoft GraphRAG",
+      "kind": "framework",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "04"
+      ],
+      "sources": [
+        {
+          "url": "https://microsoft.github.io/graphrag/",
+          "title": "Microsoft GraphRAG — מקור רשמי",
+          "supports": "תפקיד, תהליך ושפות; הדוגמאות וההשוואות הן תכנון פדגוגי של האקדמיה.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/microsoft/graphrag",
+          "title": "Microsoft GraphRAG — מאגר רשמי",
+          "supports": "זהות הפרויקט, מימוש ותיעוד במאגר.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/research/project/graphrag/",
+          "title": "microsoft-graphrag — אירוע פרסום מתועד",
+          "supports": "הכרזת Microsoft על פרסום הכלי ב־GitHub ב־2 ביולי 2024; נפרדת ממאמר מחקר או מפרסום מוקדם של הרעיון.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "mistral-ai",
+      "name": "Mistral AI",
+      "kind": "model",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.mistral.ai/",
+          "title": "Mistral AI — Documentation",
+          "supports": "Studio ו־API, קטלוג דגמים ורישיונות שונים. ניתוח הבחירה הוא שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "n8n",
+      "name": "n8n",
+      "kind": "platform",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "03"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.n8n.io/",
+          "title": "n8n — Documentation",
+          "supports": "הגדרת כלי אוטומציה עם יכולות AI ואפשרויות ענן/אירוח עצמי. תכנון השלבים והתרגיל הם שלנו; מחירים ותכונות מסלול לא אומתו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "ollama",
+      "name": "Ollama",
+      "kind": "runtime",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "08"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.ollama.com/api/introduction",
+          "title": "Ollama — API Introduction",
+          "supports": "API מקומי וענן, כתובות שרת וספריות רשמיות Python/JavaScript. תכנון Adapter והתרגיל הם שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "openai-agents-sdk",
+      "name": "OpenAI Agents SDK",
+      "kind": "sdk",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "02"
+      ],
+      "sources": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/agents/sdk",
+          "title": "OpenAI — Agents SDK",
+          "supports": "SDKs רשמיים ב־Python/TypeScript ונושאי Runner, כלים ואורקסטרציה. ההמלצות והתרגיל נכתבו ללמידה.",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/guides/agents",
+          "title": "OpenAI — Agent runtime options",
+          "supports": "הבחנה בין Agents API, Agents SDK ו־Responses API ואחריות היישום לאחסון, פריסה ואישורים.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "openai-gpt",
+      "name": "OpenAI — GPT",
+      "kind": "model",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://developers.openai.com/api/docs/guides/structured-outputs",
+          "title": "OpenAI — Structured Outputs",
+          "supports": "סכמת פלט, הבחנה מול Function Calling וסירוב או פלט חלקי. התכנון והתרגיל הם שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "openrouter",
+      "name": "OpenRouter",
+      "kind": "platform",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://openrouter.ai/docs/quickstart",
+          "title": "OpenRouter — Quickstart",
+          "supports": "API משותף למודלים, מסלולי אינטגרציה וקישורי ניתוב. מדיניות היישום היא שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "pathway",
+      "name": "Pathway",
+      "kind": "framework",
+      "revision": 1,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "04"
+      ],
+      "sources": [
+        {
+          "url": "https://pathway.com/developers/user-guide/introduction/welcome/",
+          "title": "Pathway — תיעוד רשמי",
+          "supports": "תפקיד, ארכיטקטורה ושפות; יתרונות, חסרונות ודוגמאות הם ניתוח פדגוגי ולא Benchmark.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://pathway.com/developers/user-guide/llm-xpack/overview/",
+          "title": "Pathway — LLM xpack",
+          "supports": "רכיבי הכנת מסמכים, אינדוקס ותהליכי מודלים.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/pathwaycom/pathway/blob/main/LICENSE.txt",
+          "title": "Pathway — רישיון BSL",
+          "supports": "Source-available עם תנאים נוספים; אין לסמן MIT/Apache או להסיק חופש שימוש בלתי מוגבל.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/pathwaycom/serviette",
+          "title": "Serviette — שרת RAG על Pathway",
+          "supports": "llm-app מפנה כיום ל־Serviette; שרת נפרד באותו אקוסיסטם, ולא שם נוסף לליבת Pathway.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://pathway.com/framework/blog/pathway-open-beta-announced/",
+          "title": "Pathway",
+          "supports": "הכרזת Open Beta של Pathway ב־5 בדצמבר 2022. אינה מועד הופעת יכולות RAG או פתיחת קוד מאוחרת יותר; אין להחליף אותה בשנת הקמת החברה.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "pydantic-ai",
+      "name": "Pydantic AI",
+      "kind": "sdk",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "02"
+      ],
+      "sources": [
+        {
+          "url": "https://pydantic.dev/docs/ai/overview/",
+          "title": "Pydantic AI — Overview",
+          "supports": "SDK Python מטופס, לולאת סוכן, תלויות ופלט. ההקבלות ל־.NET והפרדת הוולידציה הן הסבר הנדסי שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "pytorch",
+      "name": "PyTorch",
+      "kind": "framework",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "11"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+          "title": "PyTorch — Learn the Basics",
+          "supports": "מחזור ML, נתונים, מודל, אופטימיזציה ושמירה במדריך Python. שיקולי הבחירה וההקבלות לפיתוח יישומים הם שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "qdrant",
+      "name": "Qdrant",
+      "kind": "database",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "05"
+      ],
+      "sources": [
+        {
+          "url": "https://qdrant.tech/documentation/overview/what-is-qdrant/",
+          "title": "Qdrant — What is Qdrant?",
+          "supports": "וקטורים, Points, Payload, Collections ומדדי דמיון. תכנון הרשאות, בדיקות ומחזור חיים הוא הנחיה הנדסית שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "qwen",
+      "name": "Alibaba — Qwen",
+      "kind": "model",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://qwen.readthedocs.io/en/latest/",
+          "title": "Qwen — Official documentation",
+          "supports": "זהות המשפחה, מגוון דגמים וקישורי הרצה ופריסה. מטריצת הבחירה היא שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "rag-fundamentals",
+      "name": "RAG — יסודות וארכיטקטורה",
+      "kind": "concept",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "04"
+      ],
+      "sources": [
+        {
+          "url": "https://developers.llamaindex.ai/python/framework/understanding/rag/",
+          "title": "RAG — יסודות וארכיטקטורה — מקור רשמי",
+          "supports": "תפקיד, תהליך ושפות; הדוגמאות וההשוואות הן תכנון פדגוגי של האקדמיה.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/dotnet/ai/conceptual/rag",
+          "title": "Microsoft Learn — RAG ב־.NET",
+          "supports": "תהליך הכנת מידע, שליפה ושמירת metadata למקורות.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "ragflow",
+      "name": "RAGFlow",
+      "kind": "platform",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "04"
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/infiniflow/ragflow",
+          "title": "RAGFlow — מקור רשמי",
+          "supports": "תפקיד, תהליך ושפות; הדוגמאות וההשוואות הן תכנון פדגוגי של האקדמיה.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/infiniflow/ragflow/blob/main/go.mod",
+          "title": "RAGFlow — ליבת Go",
+          "supports": "תלות Go של ליבת הענף הנוכחי.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/infiniflow/ragflow/releases/tag/v1.0.0-rc3",
+          "title": "RAGFlow — v1.0.0-rc3",
+          "supports": "הפרדה בין RC נוכחית, פרסום ישן ולקוחות API.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.1.0",
+          "title": "ragflow — אירוע פרסום מתועד",
+          "supports": "פרסום GitHub Release v0.1.0 ב־15 באפריל 2024; אירוע מתועד ולא טענה שזה היום הראשון לפרויקט או תאריך גרסת 1.0.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "smolagents",
+      "name": "Hugging Face smolagents",
+      "kind": "framework",
+      "revision": 1,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "02"
+      ],
+      "sources": [
+        {
+          "url": "https://huggingface.co/docs/smolagents/index",
+          "title": "Hugging Face smolagents — תיעוד רשמי",
+          "supports": "תפקיד, מבנה ותמיכת שפות; טענות על היעדר SDK מוגבלות למקורות שנבדקו.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/huggingface/smolagents",
+          "title": "Hugging Face smolagents — GitHub רשמי",
+          "supports": "זהות המאגר, קוד ומצב הפרויקט.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://huggingface.co/blog/smolagents",
+          "title": "Hugging Face — השקת smolagents",
+          "supports": "פרסום ההשקה הרשמי של smolagents ב־31 בדצמבר 2024; לא שנת הקמת Hugging Face או מודל SmolLM.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "temporal",
+      "name": "Temporal",
+      "kind": "orchestration_engine",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "03",
+        "02"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.temporal.io/workflows",
+          "title": "Temporal — Workflows",
+          "supports": "Workflow Definition/Execution, היסטוריית אירועים, Replay ודרישת עקביות. הדוגמה ושיקולי הבחירה הם שלנו.",
+          "checkedAt": "2026-10-31"
+        },
+        {
+          "url": "https://docs.temporal.io/develop",
+          "title": "Temporal — SDKs",
+          "supports": "קיום מסלולי SDK רשמיים ל־.NET, Python ו־TypeScript.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "together-ai",
+      "name": "Together AI",
+      "kind": "platform",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "07"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.together.ai/intro",
+          "title": "Together AI — Overview",
+          "supports": "הסקה, API תואם, Fine-tuning ואשכולות GPU. השוואת האחריות היא שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "slug": "txtai",
+      "name": "txtai",
+      "kind": "framework",
+      "revision": 1,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "04"
+      ],
+      "sources": [
+        {
+          "url": "https://neuml.github.io/txtai/",
+          "title": "txtai — תיעוד רשמי",
+          "supports": "תפקיד, ארכיטקטורה ושפות; יתרונות, חסרונות ודוגמאות הם ניתוח פדגוגי ולא Benchmark.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://neuml.github.io/txtai/api/",
+          "title": "txtai — API ושפות לקוח",
+          "supports": "ליבה Python לעומת bindings וצריכת HTTP; C# אינה ברשימה שנבדקה.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/neuml/txtai",
+          "title": "txtai — מאגר רשמי",
+          "supports": "זהות ותחזוקת הפרויקט; רישיון Apache-2.0.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://pypi.org/project/txtai/1.0.0/",
+          "title": "txtai",
+          "supports": "פרסום חבילת txtai 1.0.0 ב־PyPI ב־11 באוגוסט 2020. זהו אירוע פרסום מתועד, לא תאריך יצירת המאגר או מדידת השימוש.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "unstructured",
+      "name": "Unstructured",
+      "kind": "sdk",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "04"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.unstructured.io/open-source/introduction/overview",
+          "title": "Unstructured — מקור רשמי",
+          "supports": "תפקיד, תהליך ושפות; הדוגמאות וההשוואות הן תכנון פדגוגי של האקדמיה.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://github.com/Unstructured-IO/unstructured",
+          "title": "Unstructured — מאגר רשמי",
+          "supports": "זהות הפרויקט, מימוש ותיעוד במאגר.",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "url": "https://pypi.org/project/unstructured/0.0.1.dev0/",
+          "title": "unstructured — אירוע פרסום מתועד",
+          "supports": "פרסום חבילת פיתוח 0.0.1.dev0 ב־6 בספטמבר 2022; אינו מציין גרסה יציבה או השקת שירות מסחרי.",
+          "checkedAt": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "slug": "vllm",
+      "name": "vLLM",
+      "kind": "runtime",
+      "revision": 2,
+      "publicationStatus": "published",
+      "categoryIds": [
+        "08"
+      ],
+      "sources": [
+        {
+          "url": "https://docs.vllm.ai/en/latest/",
+          "title": "vLLM — Official documentation",
+          "supports": "הסקה והגשה מקוונת, שרת תואם, התקנה, דגמים וניטור. ניסוי העומס הוא תוכנית לימודית.",
+          "checkedAt": "2026-10-31"
+        }
+      ]
+    }
+  ],
+  "scope": [
+    {
+      "id": "qdrant",
+      "kind": "database",
+      "name": "Qdrant",
+      "slug": "qdrant",
+      "addedAt": "2026-10-31",
+      "example": "תרחיש לימודי: איתור נהלי תמיכה דומים לניסוח של משתמש, ואז העברת קטעי המקור למערכת תשובות. ההרשאות נבדקות לפני הצגת התוכן.",
+      "sources": [
+        {
+          "url": "https://qdrant.tech/documentation/overview/what-is-qdrant/",
+          "title": "Qdrant — What is Qdrant?",
+          "supports": "וקטורים, Points, Payload, Collections ומדדי דמיון. תכנון הרשאות, בדיקות ומחזור חיים הוא הנחיה הנדסית שלנו.",
+          "checkedAt": "2026-10-31"
+        }
+      ],
+      "summary": "מנוע חיפוש דמיון וקטורי, שבו שומרים נקודות עם וקטורים ומידע נלווה לצורך אחזור.",
+      "exercise": "תכנן נקודה עם וקטור ו־Payload למסמך. תוצר: מזהה יציב, גרסה, שיוך ארגון וכלל מחיקה. הסבר איך תמנע הצגת מסמך שבוטלה הרשאתו.",
+      "revision": 2,
+      "sections": [
+        {
+          "text": "Qdrant מיועד לאחסון וחיפוש וקטורים עם Payload נלווה. נקודה מייצגת פריט, וה־Payload יכול לשמור פרטים כגון מזהה מסמך או קטגוריה. החיפוש מחזיר פריטים דומים לפי מדד מרחק.",
+          "title": "מה הוא פותר?"
+        },
+        {
+          "text": "תכנון טיפוסי: תוכן הופך לווקטור, נשמר עם מזהה ומטא־דאטה, ושאילתה הופכת לווקטור להשוואה. יצירת הייצוג ואיכות התוכן הם חלקים שצריך לתכנן בנוסף למנוע החיפוש.",
+          "title": "זרימת עבודה"
+        },
+        {
+          "text": "כהקבלה: Collection ואינדקס מסייעים לאחזור, אך חיפוש דמיון שונה מ־WHERE שבודק תנאי מדויק. נתוני עסקאות ומלאי יכולים להישאר ב־PostgreSQL או Oracle.",
+          "title": "החיבור ל־SQL"
+        },
+        {
+          "text": "המלצה: הכן שאלות עם תוצאות צפויות ובדוק מה מופיע בראש התוצאות. דמיון גבוה אינו מבטיח שפריט נכון, מעודכן או מתאים להרשאות המשתמש.",
+          "title": "איך בודקים איכות?"
+        },
+        {
+          "text": "תכנן עדכון ומחיקת וקטורים יחד עם המסמכים המקוריים. סינון לפי מזהה ארגון חייב להיגזר מהשרת. שקלל זיכרון, גיבוי ושירות אירוח, ולא רק זמן שאילתה.",
+          "title": "תפעול ואבטחה"
+        }
+      ],
+      "verifiedAt": "2026-10-31",
+      "categoryIds": [
+        "05"
+      ],
+      "addedAtBasis": "historical_backfill",
+      "relatedSlugs": [
+        "llamaindex",
+        "hugging-face"
+      ],
+      "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+      "prerequisites": "אינדקסים, SQL וייצוגים וקטוריים.",
+      "alternativesNote": "pgvector, Pinecone ו־Weaviate הם מועמדים ממפת הידע לבדיקה בהמשך. לפני מסד נוסף, בדוק אם חיפוש SQL או טקסטואלי מספיק.",
+      "learningPriority": "should_know",
+      "publicationStatus": "published",
+      "verificationStatus": "verified",
+      "languageSupportNote": "המקור מציג לקוח Python ו־API לשירות. אין כאן אימות מלא של SDKs ב־C# או TypeScript; צריכת API ו־SDK רשמי הן אפשרויות שונות."
+    }
+  ],
+  "facts": {
+    "qdrant": {
+      "description": "שומר וקטורים ומידע נלווה ומאתר פריטים דומים לצורך חיפוש סמנטי ואחזור.",
+      "languages": "לקוח Python נבדק; C#/.NET ו־TypeScript: API; SDKs לא אומתו כאן.",
+      "languageSources": [
+        "https://qdrant.tech/documentation/overview/what-is-qdrant/"
+      ],
+      "github": {
+        "status": "verified",
+        "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+        "url": "https://github.com/qdrant/qdrant",
+        "stars": 35343,
+        "starsSource": "https://api.github.com/repos/qdrant/qdrant",
+        "collectedAt": "2026-10-31T09:13:24+00:00",
+        "lastActivity": {
+          "date": "2026-10-21T17:45:09+00:00",
+          "source": "https://github.com/qdrant/qdrant/commit/222b2e44ab1c3f17e8246396ead6558e45041df7",
+          "branch": "master",
+          "method": "default_branch_head_commit_committer_date"
+        }
+      },
+      "popularity": {
+        "algorithm": "OSS Compass Community Popularity v3",
+        "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+        "score": null,
+        "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    }
+  },
+  "metrics": {
+    "qdrant": {
+      "slug": "qdrant",
+      "description": "שומר וקטורים ומידע נלווה ומאתר פריטים דומים לצורך חיפוש סמנטי ואחזור.",
+      "languages": [
+        "Python",
+        "HTTP API"
+      ],
+      "learningReason": "דוגמה מעשית ללימוד אחסון וחיפוש וקטורי.",
+      "collectedAt": "2026-10-31 09:13:24+00"
+    }
+  },
+  "pending": []
+}

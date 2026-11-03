@@ -5,6 +5,7 @@ import { readDatabaseCatalog } from "../src/data/database-catalog.mjs";
 import { additions } from "../database/seeds/agent-frameworks.mjs";
 import { ragAdditions } from "../database/seeds/rag-systems.mjs";
 import { reviewAdditions, reviewCorrections } from "../database/seeds/rag-review.mjs";
+import { vectorAdditions, qdrantCorrection } from "../database/seeds/vector-databases.mjs";
 
 if (!process.env.DATABASE_URL && existsSync('.env.local')) process.loadEnvFile('.env.local');
 const base = process.env.SMOKE_BASE_URL ?? "http://127.0.0.1:3000";
@@ -46,6 +47,11 @@ for (const route of routes) {
       assert.ok(html.includes('2026') && html.includes('ODbL 1.0') && html.includes('11,895'));
     }else assert.ok(!html.includes('מיון לפי שימוש מפתחים (%)'), 'survey column belongs only to category 07');
     const categoryEntries = entries.filter(item => item.categoryIds.includes(categoryId));
+    if(categoryId==='05') {
+      assert.equal(categoryEntries.length,8);
+      for(const a of vectorAdditions)assert.ok(html.includes('href="/tools/'+a.slug+'"'));
+      assert.ok(html.includes('Qdrant.Client') && html.includes('gRPC'));
+    }
     if(categoryId==='02') {
       assert.equal(categoryEntries.length,12);
       assert.ok(html.includes('Legacy') && html.includes('microsoft-agent-framework'));
@@ -87,6 +93,18 @@ for (const route of routes) {
     const ragAddition=ragAdditions.find(a=>a.slug===entry.slug);
     const reviewAddition=reviewAdditions.find(a=>a.slug===entry.slug);
     const correction=reviewCorrections.find(a=>a.slug===entry.slug);
+    const vectorAddition=vectorAdditions.find(a=>a.slug===entry.slug);
+    if(vectorAddition){
+      assert.ok(html.includes(vectorAddition.docs));
+      const plain=html.replace(/<[^>]+>/g,'').replace(/<!--.*?-->/gs,'');
+      assert.ok(plain.includes(vectorAddition.example),'published choice scenario: '+entry.slug);
+      for(const [url] of vectorAddition.extraSources??[])assert.ok(html.includes(url.replaceAll('&','&amp;')) || html.includes(url),'vector source: '+entry.slug);
+    }
+    if(entry.slug==='qdrant'){
+      assert.ok(html.includes('Qdrant.Client') && html.includes('gRPC'));
+      assert.ok(html.includes(qdrantCorrection.release.source));
+      assert.ok(html.includes('35,390'));
+    }
     if(reviewAddition){assert.ok(html.includes(reviewAddition.docs));assert.ok(html.includes(reviewAddition.release.source));assert.ok(html.includes('C#/.NET'));}
     if(correction){assert.ok(html.includes(correction.section[0]));if(correction.release)assert.ok(html.includes(correction.release.source));}
     if(entry.slug==='llamaindex')assert.ok(html.includes('TypeScript') && html.includes('Deprecated'));
