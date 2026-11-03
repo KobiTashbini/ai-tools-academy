@@ -96,3 +96,10 @@ skills/catalog-research הוא נוהל Codex מחוץ ל־runtime, המותקן
 
 ## מיון לימודי בקטלוג — 2026-11-03
 עמוד קטגוריה מעביר את slugs של guide.steps ל־ToolCatalog. sortAgentEntries ממיין עותק של הרשומות בצד הלקוח: concept, חשיבות, מיקום במדריך ושם. בורר וכותרות חולקים מצב מיון וכיוון אחד לטבלה ולכרטיסיות. מיון releaseYear נפרד ממיון תאריך release; מדדי Interest אינם מחושבים מחדש.
+
+## תוכן Visual AI Builders — מיגרציה010
+מיגרציית תוכן בלבד על הטבלאות הקיימות: חמש תוספות published, הרחבת Dify, מדריך06 ושתי רשומות archived. יש62 פרקים מפורסמים ו־64 זהויות כולל היסטוריה. readDatabaseCatalog הקיים מאמת כל מסמך אך מחזיר published בלבד; עמודי Flowise/Agent Builder אינם זמינים ומחזירים404. עובדותיהם נשארות במסד לצורך תיעוד, בלי JSON שמור או successor מומצא. scripts/prepare-visual-builders.mjs מפיק SQL מקלט עריכתי קפוא; apply-visual-builders.mjs בודק זהויות ובסיס Dify לפני החלה, ובגרסה10 מאמת בלבד. אין שינוי runtime או CSS.
+
+## מדור היסטורי וחיפוש — מיגרציה011
+מחליף את הסתרת ההיסטוריה המתוארת ב־010: readDatabaseCatalog מחזיר entries מפורסמות ועוד historicalEntries רק ל־archived עם lifecycle. מטא־נתוני lifecycle נשמרים באותה טבלה עם successor אופציונלי, מקור ותאריכים. to_jsonb(l) משמש לקריאת שורה בלבד, אינו עמודת JSON חדשה, ומשמר תאימות למיגרציות קודמות בבדיקות. partitionCatalogEntries מגדיר active מול historical; listRecommendedEntries ו־listCategoryEntries אינם כוללים lifecycle, ואילו getEntry/listDiscoverableEntries מאפשרים גישה להיסטוריה המאומתת. draft וארכיון לא מסווג אינם חשופים.
+HistoricalTools הוא Server Component עם details סגור; LifecycleNotice משותף לקטגוריה ולפרק מציג סטטוס, סיבה, תאריך, מקור וחלופות פעילות. /search הוא Server Component דינמי עם טופס GET ו־q מוגבל200 תווים, חיפוש שם/slug/תקציר/הערת וסטטוס מחזור חיים. אין אינדקס חיצוני, DB נוסף או קריאת API מהדפדפן. תוצאות פעילות קודמות להיסטוריה; אינן ציון פופולריות.

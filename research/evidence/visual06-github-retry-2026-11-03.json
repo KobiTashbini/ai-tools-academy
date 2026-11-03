@@ -1,0 +1,143 @@
+{
+  "startedAt": "2026-11-03T08:53:23.383Z",
+  "repositories": [
+    {
+      "requestedRepository": "langgenius/dify",
+      "source": "https://api.github.com/repos/langgenius/dify",
+      "collectedAt": "2026-11-03T08:53:23.747Z",
+      "canonical": "langgenius/dify",
+      "repository": "https://github.com/langgenius/dify",
+      "stars": 160306,
+      "forks": 25350,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "NOASSERTION",
+      "head": {
+        "sha": "c3780668b85e0cd0705dcb4cc47534ad62b6939f",
+        "date": "2026-11-03T08:44:35Z",
+        "source": "https://github.com/langgenius/dify/commit/c3780668b85e0cd0705dcb4cc47534ad62b6939f"
+      },
+      "latestRelease": {
+        "tag": "1.18.0",
+        "publishedAt": "2026-10-23T06:33:50Z",
+        "prerelease": false,
+        "source": "https://github.com/langgenius/dify/releases/tag/1.18.0"
+      }
+    },
+    {
+      "requestedRepository": "FlowiseAI/Flowise",
+      "source": "https://api.github.com/repos/FlowiseAI/Flowise",
+      "collectedAt": "2026-11-03T08:53:24.564Z",
+      "canonical": "FlowiseAI/Flowise",
+      "repository": "https://github.com/FlowiseAI/Flowise",
+      "stars": 55547,
+      "forks": 25086,
+      "archived": true,
+      "defaultBranch": "main",
+      "license": "NOASSERTION",
+      "head": {
+        "sha": "9291856d1ea4a4ceea9f8fef8ce14f4f6c81e8eb",
+        "date": "2026-08-13T12:38:19Z",
+        "source": "https://github.com/FlowiseAI/Flowise/commit/9291856d1ea4a4ceea9f8fef8ce14f4f6c81e8eb"
+      },
+      "latestRelease": {
+        "tag": "flowise@3.1.4",
+        "publishedAt": "2026-07-29T15:51:25Z",
+        "prerelease": false,
+        "source": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.4"
+      }
+    },
+    {
+      "requestedRepository": "langflow-ai/langflow",
+      "source": "https://api.github.com/repos/langflow-ai/langflow",
+      "collectedAt": "2026-11-03T08:53:25.320Z",
+      "canonical": "langflow-ai/langflow",
+      "repository": "https://github.com/langflow-ai/langflow",
+      "stars": 156283,
+      "forks": 10315,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "MIT",
+      "head": {
+        "sha": "e63907b0f05304f2de2dab3e19add7e2b6393fb2",
+        "date": "2026-11-03T03:16:28Z",
+        "source": "https://github.com/langflow-ai/langflow/commit/e63907b0f05304f2de2dab3e19add7e2b6393fb2"
+      },
+      "latestRelease": {
+        "tag": "v1.13.0",
+        "publishedAt": "2026-10-22T21:20:30Z",
+        "prerelease": false,
+        "source": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0"
+      }
+    },
+    {
+      "requestedRepository": "simstudioai/sim",
+      "source": "https://api.github.com/repos/simstudioai/sim",
+      "collectedAt": "2026-11-03T08:53:26.140Z",
+      "canonical": "simstudioai/sim",
+      "repository": "https://github.com/simstudioai/sim",
+      "stars": 29980,
+      "forks": 3880,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "sha": "093ea9ddb2f3e47facbc2dc42d4e523ba050dedb",
+        "date": "2026-11-03T01:19:41Z",
+        "source": "https://github.com/simstudioai/sim/commit/093ea9ddb2f3e47facbc2dc42d4e523ba050dedb"
+      },
+      "latestRelease": {
+        "tag": "v0.9.41",
+        "publishedAt": "2026-11-03T01:35:21Z",
+        "prerelease": false,
+        "source": "https://github.com/simstudioai/sim/releases/tag/v0.9.41"
+      }
+    },
+    {
+      "requestedRepository": "coze-dev/coze-studio",
+      "source": "https://api.github.com/repos/coze-dev/coze-studio",
+      "collectedAt": "2026-11-03T08:53:27.101Z",
+      "canonical": "coze-dev/coze-studio",
+      "repository": "https://github.com/coze-dev/coze-studio",
+      "stars": 21801,
+      "forks": 3137,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "sha": "fefb05ff27be1da939612fbf9faf5db62583b8ae",
+        "date": "2026-07-29T03:17:51Z",
+        "source": "https://github.com/coze-dev/coze-studio/commit/fefb05ff27be1da939612fbf9faf5db62583b8ae"
+      },
+      "latestRelease": {
+        "tag": "v0.5.1",
+        "publishedAt": "2026-02-05T06:04:16Z",
+        "prerelease": false,
+        "source": "https://github.com/coze-dev/coze-studio/releases/tag/v0.5.1"
+      }
+    },
+    {
+      "requestedRepository": "labring/FastGPT",
+      "source": "https://api.github.com/repos/labring/FastGPT",
+      "collectedAt": "2026-11-03T08:53:27.858Z",
+      "canonical": "labring/FastGPT",
+      "repository": "https://github.com/labring/FastGPT",
+      "stars": 29982,
+      "forks": 7367,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "NOASSERTION",
+      "head": {
+        "sha": "653d1b35d249107044b9ee749a6fc352b4a50913",
+        "date": "2026-11-03T08:09:48Z",
+        "source": "https://github.com/labring/FastGPT/commit/653d1b35d249107044b9ee749a6fc352b4a50913"
+      },
+      "latestRelease": {
+        "tag": "v4.17.3",
+        "publishedAt": "2026-11-01T13:49:08Z",
+        "prerelease": false,
+        "source": "https://github.com/labring/FastGPT/releases/tag/v4.17.3"
+      }
+    }
+  ]
+}

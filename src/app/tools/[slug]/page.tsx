@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getCategory, getEntry, listPublishedEntries } from "@/data/knowledge";
+import { getCategory, getEntry, listDiscoverableEntries } from "@/data/knowledge";
+import { LifecycleNotice } from "@/components/ui/lifecycle-notice";
+import { activeAlternatives } from "@/data/catalog-lifecycle.mjs";
 import { kindLabels, priorityLabels } from "@/domain/knowledge";
 import { KnowledgeText } from "@/components/ui/knowledge-text";
 import { getCatalogFacts } from "@/data/catalog";
@@ -22,8 +24,8 @@ export default async function ToolPage({ params }: Props) {
   return <article className="catalog detail">
     <nav className="breadcrumbs" aria-label="מיקום באתר"><Link href="/">בית</Link><span aria-hidden="true">/</span><Link href="/atlas">אטלס הידע</Link>{category && <><span aria-hidden="true">/</span><Link href={`/atlas/${category.id}`}><bdi>{category.name}</bdi></Link></>}<span aria-hidden="true">/</span><span aria-current="page"><bdi>{entry.name}</bdi></span></nav>
     <p className="eyebrow">{kindLabels[entry.kind]}</p><h1><bdi>{entry.name}</bdi></h1><p className="intro"><KnowledgeText text={entry.summary} /></p>
-    {entry.lifecycle && <aside className="notice"><strong><bdi>Legacy</bdi> — רשומה היסטורית</strong><p><KnowledgeText text={entry.lifecycle.note}/></p><Link className="text-link" href={"/tools/"+entry.lifecycle.successorSlug}>להמשך עם Microsoft Agent Framework</Link></aside>}
-    <div className="entry-tags">{entry.learningPriority && <span className="badge">{priorityLabels[entry.learningPriority]}</span>}{entry.categoryIds.map(id => { const item = categories.find(c=>c?.id===id); return item && <Link className="badge" key={id} href={`/atlas/${id}`}><bdi>{item.name}</bdi></Link>; })}</div>
+    <LifecycleNotice entry={entry} alternatives={activeAlternatives(entry,await listDiscoverableEntries())}/>
+    <div className="entry-tags">{!entry.lifecycle && entry.learningPriority && <span className="badge">{priorityLabels[entry.learningPriority]}</span>}{entry.categoryIds.map(id => { const item = categories.find(c=>c?.id===id); return item && <Link className="badge" key={id} href={`/atlas/${id}`}><bdi>{item.name}</bdi></Link>; })}</div>
     <p className="card-meta">נוסף למאגר: <time dateTime={entry.addedAt}><bdi>{entry.addedAt}</bdi></time>{entry.addedAtBasis === "historical_backfill" && " · תאריך היסטורי שתועד בדיעבד; אינו תאריך השקת הכלי"}</p>
     {facts.github.status === "verified" && <section className="knowledge-section"><h2>מאגר, השקה ועדכון</h2>
       <p><a className="text-link" href={facts.github.url}>המאגר הרשמי</a> · <a href={facts.github.starsSource}><bdi>{facts.github.stars?.toLocaleString("en-US")} Stars</bdi></a> · צילום מצב מ־<bdi>{formatDate(facts.github.collectedAt)}</bdi></p>

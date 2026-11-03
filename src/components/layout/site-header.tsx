@@ -11,6 +11,7 @@ export function SiteHeader() {
         <nav aria-label="ניווט ראשי">
           <Link href="/">בית</Link>
           <Link href="/atlas">אטלס הידע</Link>
+          <Link href="/search">חיפוש</Link>
           <Link href="/#learning">איך נלמד</Link>
         </nav>
       </div>

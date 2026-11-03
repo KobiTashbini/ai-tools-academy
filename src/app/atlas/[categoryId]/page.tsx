@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getCategory, listCategories, listCategoryEntries } from "@/data/knowledge";
+import { getCategory, listCategories, listCategoryEntries, listHistoricalEntries, listDiscoverableEntries } from "@/data/knowledge";
 import { getCatalogFacts } from "@/data/catalog";
 import { ToolCatalog } from "@/components/ui/tool-catalog";
 import { getCatalogMetrics } from "@/data/catalog-metrics";
 import { getDatabaseCatalog } from "@/data/database";
+import { HistoricalTools } from "@/components/ui/historical-tools";
 import { KnowledgeText } from "@/components/ui/knowledge-text";
 
 
@@ -18,6 +19,7 @@ export default async function CategoryPage({ params }: Props) {
   const category = await getCategory((await params).categoryId);
   if (!category) notFound();
   const entries = await listCategoryEntries(category.id);
+  const historical = await listHistoricalEntries(category.id);
   const guide = (await getDatabaseCatalog()).guides[category.id];
   return <section className="catalog agent-page">
     <nav className="breadcrumbs" aria-label="מיקום באתר"><Link href="/">בית</Link><span aria-hidden="true">/</span><Link href="/atlas">אטלס הידע</Link><span aria-hidden="true">/</span><span aria-current="page"><bdi>{category.name}</bdi></span></nav>
@@ -29,6 +31,7 @@ export default async function CategoryPage({ params }: Props) {
       <ol>{guide.steps.map(step => <li key={step.slug}><KnowledgeText text={step.text} /> <Link className="text-link" href={`/tools/${step.slug}`}>{step.label}</Link></li>)}</ol>
       <p><KnowledgeText text={guide.note} /></p>
     </section>}
-    {entries.length ? <ToolCatalog learningOrder={guide?.steps.map(step => step.slug)} showSurveyUsage={category.id === "07"} key={category.id} entries={entries} facts={await getCatalogFacts(entries.map(entry => entry.slug))} metrics={await getCatalogMetrics(entries)} /> : <div className="notice"><h2>התוכן בתחום הזה בהכנה</h2><p>עדיין אין כאן פריטי ידע מפורסמים. אפשר בינתיים לקרוא את המבוא ל־<bdi>MCP</bdi> בתחום האינטגרציות.</p><Link className="text-link" href="/tools/mcp">למבוא על <bdi>MCP</bdi></Link></div>}
+    {entries.length ? <ToolCatalog learningOrder={guide?.steps.map(step => step.slug)} showSurveyUsage={category.id === "07"} key={category.id} entries={entries} facts={await getCatalogFacts(entries.map(entry => entry.slug))} metrics={await getCatalogMetrics(entries)} /> : historical.length ? <div className="notice"><h2>אין כרגע כלים ברשימת הלמידה הפעילה</h2><p>הרשומות ההיסטוריות זמינות במדור המתקפל בהמשך ובחיפוש.</p></div> : <div className="notice"><h2>התוכן בתחום הזה בהכנה</h2><p>עדיין אין כאן פריטי ידע מפורסמים. אפשר בינתיים לקרוא את המבוא ל־<bdi>MCP</bdi> בתחום האינטגרציות.</p><Link className="text-link" href="/tools/mcp">למבוא על <bdi>MCP</bdi></Link></div>}
+    <HistoricalTools entries={historical} allEntries={await listDiscoverableEntries()}/>
   </section>;
 }

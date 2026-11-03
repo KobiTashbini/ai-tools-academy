@@ -5,11 +5,12 @@ export async function readDatabaseCatalog(client) {
  const read=async sql=>JSON.parse(JSON.stringify((await client.query(sql)).rows));
  const categories=await read('select * from academy.categories order by id');
  const all=(await read('select document from academy.entry_documents order by slug')).map(r=>r.document);
- for(const row of await read(`select l.*,e.slug as successor_slug from academy.entry_lifecycle l
-   join academy.entries e on e.id=l.successor_entry_id`)) {
-   const entry=all.find(e=>e.id===row.entry_id);
+ for(const row of await read(`select to_jsonb(l) as lifecycle,e.slug as successor_slug from academy.entry_lifecycle l
+   left join academy.entries e on e.id=l.successor_entry_id`)) {
+   const l=row.lifecycle;
+   const entry=all.find(e=>e.id===l.entry_id);
    if(!entry) throw Error('Lifecycle entry missing');
-   entry.lifecycle={status:row.status,note:row.note,successorSlug:row.successor_slug};
+   entry.lifecycle={status:l.status,note:l.note,...(row.successor_slug?{successorSlug:row.successor_slug}:{}),...(l.source_url?{sourceUrl:l.source_url,checkedAt:l.checked_at,effectiveAt:l.effective_at,dateLabel:l.date_label,...(l.scheduled_end_at?{scheduledEndAt:l.scheduled_end_at}:{})}: {})};
  }
  validateContent(categories,all);
  const facts={},metrics={},guides={};
@@ -49,8 +50,8 @@ export async function readDatabaseCatalog(client) {
      licenseName:u.license_name,licenseUrl:u.license_url,mappingNote:u.mapping_note};
  }
  for(const g of await read('select * from academy.category_guides')) guides[g.category_id]={title:g.title,intro:g.introduction,note:g.note,steps:[]};
- for(const s of await read('select s.*,e.slug,e.publication_status from academy.category_guide_steps s join academy.entries e on e.id=s.entry_id order by position')) if(s.publication_status==='published') guides[s.category_id].steps.push({text:s.instruction,slug:s.slug,label:s.link_label});
+ for(const s of await read('select s.*,e.slug,e.publication_status from academy.category_guide_steps s join academy.entries e on e.id=s.entry_id order by position')) if(s.publication_status==='published'&&!all.find(e=>e.slug===s.slug)?.lifecycle) guides[s.category_id].steps.push({text:s.instruction,slug:s.slug,label:s.link_label});
  await client.query('commit');
- return {categories,entries:all.filter(e=>e.publicationStatus==='published'),facts,metrics,guides};
+ return {categories,entries:all.filter(e=>e.publicationStatus==='published'),historicalEntries:all.filter(e=>e.publicationStatus==='archived'&&e.lifecycle),facts,metrics,guides};
  }catch(error){await client.query('rollback');throw error;}
 }

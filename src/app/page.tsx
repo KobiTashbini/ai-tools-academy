@@ -25,7 +25,7 @@ export default function HomePage() {
         <p className="section-intro">מתחילים מהיסודות ומחברים כל החלטה לניסיון שלך בקוד, בנתונים ובמערכות.</p>
         <div className="cards">{steps.map(step => <article className="card" key={step.number}><span className="step" dir="ltr">{step.number}</span><h3>{step.title}</h3><p>{step.text}</p></article>)}</div>
       </section>
-      <aside className="notice"><strong>מתחילים ללמוד מתוך האטלס</strong><p>פרקי לימוד בכל 12 התחומים: הסברים, דוגמאות מהעולם הארגוני ותרגילים. חיפוש והשוואה יתווספו בהמשך.</p><Link className="text-link" href="/tools/llm-fundamentals">להתחיל מיסודות מודלי השפה</Link></aside>
+      <aside className="notice"><strong>מתחילים ללמוד מתוך האטלס</strong><p>פרקי לימוד בכל 12 התחומים: הסברים, דוגמאות מהעולם הארגוני ותרגילים. חיפוש זמין בכל הקטלוג, כולל רשומות היסטוריות. השוואה תתווסף בהמשך.</p><Link className="text-link" href="/tools/llm-fundamentals">להתחיל מיסודות מודלי השפה</Link></aside>
     </>
   );
 }

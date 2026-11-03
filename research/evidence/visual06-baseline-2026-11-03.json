@@ -1,0 +1,698 @@
+{
+  "checkedAt": "2026-11-03T08:52:38.037Z",
+  "identities": [
+    {
+      "id": "agno",
+      "slug": "agno",
+      "name": "Agno",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/agno-agi/agno"
+      ]
+    },
+    {
+      "id": "amazon-bedrock",
+      "slug": "amazon-bedrock",
+      "name": "Amazon Bedrock",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "anthropic-claude",
+      "slug": "anthropic-claude",
+      "name": "Anthropic — Claude",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "azure-ai-search",
+      "slug": "azure-ai-search",
+      "name": "Azure AI Search",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "chroma",
+      "slug": "chroma",
+      "name": "Chroma",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/chroma-core/chroma"
+      ]
+    },
+    {
+      "id": "claude-code",
+      "slug": "claude-code",
+      "name": "Claude Code",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/anthropics/claude-code"
+      ]
+    },
+    {
+      "id": "codex",
+      "slug": "codex",
+      "name": "Codex",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/openai/codex"
+      ]
+    },
+    {
+      "id": "crewai",
+      "slug": "crewai",
+      "name": "CrewAI",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/crewAIInc/crewAI"
+      ]
+    },
+    {
+      "id": "cursor",
+      "slug": "cursor",
+      "name": "Cursor",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "deepseek",
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "dify",
+      "slug": "dify",
+      "name": "Dify",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/langgenius/dify"
+      ]
+    },
+    {
+      "id": "docling",
+      "slug": "docling",
+      "name": "Docling",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/docling-project/docling"
+      ]
+    },
+    {
+      "id": "dspy",
+      "slug": "dspy",
+      "name": "DSPy",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/stanfordnlp/dspy"
+      ]
+    },
+    {
+      "id": "google-adk",
+      "slug": "google-adk",
+      "name": "Google Agent Development Kit (ADK)",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/google/adk-python"
+      ]
+    },
+    {
+      "id": "google-gemini",
+      "slug": "google-gemini",
+      "name": "Google — Gemini",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "google-vertex-ai",
+      "slug": "google-vertex-ai",
+      "name": "Google Vertex AI / Agent Platform",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "haystack",
+      "slug": "haystack",
+      "name": "Haystack",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/deepset-ai/haystack"
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "slug": "hugging-face",
+      "name": "Hugging Face — Inference Providers",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "langchain",
+      "slug": "langchain",
+      "name": "LangChain",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/langchain-ai/langchain"
+      ]
+    },
+    {
+      "id": "langfuse",
+      "slug": "langfuse",
+      "name": "Langfuse",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/langfuse/langfuse"
+      ]
+    },
+    {
+      "id": "langgraph",
+      "slug": "langgraph",
+      "name": "LangGraph",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/langchain-ai/langgraph"
+      ]
+    },
+    {
+      "id": "lightrag",
+      "slug": "lightrag",
+      "name": "LightRAG",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/HKUDS/LightRAG"
+      ]
+    },
+    {
+      "id": "llama-cpp",
+      "slug": "llama-cpp",
+      "name": "llama.cpp",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/ggml-org/llama.cpp"
+      ]
+    },
+    {
+      "id": "llamaindex",
+      "slug": "llamaindex",
+      "name": "LlamaIndex",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/run-llama/llama_index"
+      ]
+    },
+    {
+      "id": "llm-fundamentals",
+      "slug": "llm-fundamentals",
+      "name": "מודלי שפה — יסודות",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "lm-studio",
+      "slug": "lm-studio",
+      "name": "LM Studio",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "mastra",
+      "slug": "mastra",
+      "name": "Mastra",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/mastra-ai/mastra"
+      ]
+    },
+    {
+      "id": "mcp",
+      "slug": "mcp",
+      "name": "MCP",
+      "kind": "protocol",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/modelcontextprotocol/modelcontextprotocol"
+      ]
+    },
+    {
+      "id": "meta-llama",
+      "slug": "meta-llama",
+      "name": "Meta — Llama",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "microsoft-agent-framework",
+      "slug": "microsoft-agent-framework",
+      "name": "Microsoft Agent Framework",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/microsoft/agent-framework"
+      ]
+    },
+    {
+      "id": "microsoft-autogen",
+      "slug": "microsoft-autogen",
+      "name": "Microsoft AutoGen",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/microsoft/autogen"
+      ]
+    },
+    {
+      "id": "microsoft-foundry",
+      "slug": "microsoft-foundry",
+      "name": "Microsoft Foundry (Azure AI Foundry)",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "microsoft-graphrag",
+      "slug": "microsoft-graphrag",
+      "name": "Microsoft GraphRAG",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/microsoft/graphrag"
+      ]
+    },
+    {
+      "id": "milvus",
+      "slug": "milvus",
+      "name": "Milvus",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/milvus-io/milvus"
+      ]
+    },
+    {
+      "id": "mistral-ai",
+      "slug": "mistral-ai",
+      "name": "Mistral AI",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "n8n",
+      "slug": "n8n",
+      "name": "n8n",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/n8n-io/n8n"
+      ]
+    },
+    {
+      "id": "ollama",
+      "slug": "ollama",
+      "name": "Ollama",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/ollama/ollama"
+      ]
+    },
+    {
+      "id": "openai-agents-sdk",
+      "slug": "openai-agents-sdk",
+      "name": "OpenAI Agents SDK",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/openai/openai-agents-python"
+      ]
+    },
+    {
+      "id": "openai-gpt",
+      "slug": "openai-gpt",
+      "name": "OpenAI — GPT",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "openrouter",
+      "slug": "openrouter",
+      "name": "OpenRouter",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "pathway",
+      "slug": "pathway",
+      "name": "Pathway",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/pathwaycom/pathway"
+      ]
+    },
+    {
+      "id": "pgvector",
+      "slug": "pgvector",
+      "name": "pgvector",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/pgvector/pgvector"
+      ]
+    },
+    {
+      "id": "pinecone",
+      "slug": "pinecone",
+      "name": "Pinecone",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "pydantic-ai",
+      "slug": "pydantic-ai",
+      "name": "Pydantic AI",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/pydantic/pydantic-ai"
+      ]
+    },
+    {
+      "id": "pytorch",
+      "slug": "pytorch",
+      "name": "PyTorch",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/pytorch/pytorch"
+      ]
+    },
+    {
+      "id": "qdrant",
+      "slug": "qdrant",
+      "name": "Qdrant",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/qdrant/qdrant"
+      ]
+    },
+    {
+      "id": "qwen",
+      "slug": "qwen",
+      "name": "Alibaba — Qwen",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "rag-fundamentals",
+      "slug": "rag-fundamentals",
+      "name": "RAG — יסודות וארכיטקטורה",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "ragflow",
+      "slug": "ragflow",
+      "name": "RAGFlow",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/infiniflow/ragflow"
+      ]
+    },
+    {
+      "id": "smolagents",
+      "slug": "smolagents",
+      "name": "Hugging Face smolagents",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/huggingface/smolagents"
+      ]
+    },
+    {
+      "id": "temporal",
+      "slug": "temporal",
+      "name": "Temporal",
+      "kind": "orchestration_engine",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/temporalio/temporal"
+      ]
+    },
+    {
+      "id": "together-ai",
+      "slug": "together-ai",
+      "name": "Together AI",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "txtai",
+      "slug": "txtai",
+      "name": "txtai",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/neuml/txtai"
+      ]
+    },
+    {
+      "id": "unstructured",
+      "slug": "unstructured",
+      "name": "Unstructured",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/Unstructured-IO/unstructured"
+      ]
+    },
+    {
+      "id": "vector-search-fundamentals",
+      "slug": "vector-search-fundamentals",
+      "name": "חיפוש וקטורי — יסודות ובחירת אחסון",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "vllm",
+      "slug": "vllm",
+      "name": "vLLM",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/vllm-project/vllm"
+      ]
+    },
+    {
+      "id": "weaviate",
+      "slug": "weaviate",
+      "name": "Weaviate",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/weaviate/weaviate"
+      ]
+    }
+  ],
+  "proposals": [],
+  "category": {
+    "id": "06",
+    "name": "Visual AI Builders",
+    "description": "בניית יישומים ותהליכים באמצעות ממשקים חזותיים."
+  },
+  "scope": [
+    {
+      "entry": {
+        "id": "dify",
+        "kind": "platform",
+        "name": "Dify",
+        "slug": "dify",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: אבטיפוס לשאלות על נוהל קליטת עובד. המערכת מחזירה תשובה עם מקור ומפנה לאדם כאשר המידע אינו מספיק.",
+        "sources": [
+          {
+            "url": "https://docs.dify.ai/en/home",
+            "title": "Dify — Documentation",
+            "supports": "יישומי AI, סוכנים, ידע, תהליכים ופרסום דרך Web/API. תכנון האבטיפוס והשיקולים הם שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "פלטפורמה לבניית יישומי AI, תהליכים וצ'אטבוטים עם חיבור לנתונים ולממשקי API.",
+        "exercise": "צייר ארבעה שלבים לצ'אטבוט נוהלים. תוצר: חוזה לכל מעבר, מקרה ללא מקור ושתי בדיקות למידע שאסור לחשוף. הסבר מה יישאר בקוד הארגוני.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Dify מציעה סביבת בנייה ליישומי AI, סוכנים ותהליכים. התיעוד מציג חיבור לידע ופרסום כיישום Web או אינטגרציה דרך API. זהו מוצר סביב היישום, ולא מודל בפני עצמו.",
+            "title": "מה היא פותרת?"
+          },
+          {
+            "text": "המלצה: הפרד קלט משתמש, שליפת ידע, קריאת מודל ועיבוד פלט. הגדר במפורש נתונים שעוברים בין השלבים, ומצב שבו אין מקור או שהמודל מחזיר תשובה לא תקינה.",
+            "title": "איך מתכננים זרימה?"
+          },
+          {
+            "text": "אפשר לחשוב על הפלטפורמה כשכבת יישום שניתן לחבר למסך דרך API. עדיין צריך לתכנן אימות משתמשים, שמירת מצב והגבול שבין הדפדפן לשרת.",
+            "title": "החיבור ל־React ו־REST"
+          },
+          {
+            "text": "המלצה: אבטיפוס ושיתוף תהליך AI עם אנשים שרוצים להבין אותו חזותית. כשיש כללים עסקיים מורכבים, שקול לחשוף שירות קטן שמממש אותם בקוד בדוק.",
+            "title": "מתי לבחור?"
+          },
+          {
+            "text": "בדוק הרשאות לידע, ספקי מודלים ומסלול האירוח. בהשוואה כלול גם עלות מודל ותחזוקת הפלטפורמה. אל תחשוף מפתח שרת של היישום בקוד React.",
+            "title": "אבטחה ועלות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "06"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "n8n",
+          "llamaindex",
+          "mcp"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "מודל שפה, HTTP והגדרת תהליך.",
+        "alternativesNote": "Flowise ו־Langflow הם מועמדים ממפת הידע להשוואה. חלופה בקוד יכולה להיות React עם שירות AI ממוקד, כשנדרשת שליטה גבוהה יותר.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "בנייה חזותית אינה SDK ל־C#, Python או TypeScript. שילוב API יכול לשרת כל לקוח HTTP; שוויון יכולות בין מסלולי אירוח לא נבדק כאן."
+      },
+      "facts": {
+        "description": "מאפשר לבנות יישומי AI ותהליכים עם מקורות ידע ולחשוף אותם כממשקי משתמש ושירותים.",
+        "languages": "פלטפורמה; API לשירותי C#/.NET, Python ו־TypeScript; אין טענת SDK מקומי.",
+        "languageSources": [
+          "https://docs.dify.ai/en/home"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+          "url": "https://github.com/langgenius/dify",
+          "stars": 160060,
+          "starsSource": "https://api.github.com/repos/langgenius/dify",
+          "collectedAt": "2026-10-31T09:13:24+00:00",
+          "lastActivity": {
+            "date": "2026-10-31T08:18:49+00:00",
+            "source": "https://github.com/langgenius/dify/commit/8ba1adfbc414292c4b4e84a8514e0262cc3257b5",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "dify",
+        "description": "מאפשר לבנות יישומי AI ותהליכים עם מקורות ידע ולחשוף אותם כממשקי משתמש ושירותים.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להיכרות עם בניית יישומי AI בממשק חזותי.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    }
+  ],
+  "guide": null
+}

@@ -78,3 +78,10 @@ academy_import_archive נפרדת מכל אלה: צילום הייבוא המק�
 
 ## מחזור חיים — מיגרציה 006
 entry_lifecycle: entry_id (PK/FK לפריט), status=legacy, note להסבר ו־successor_entry_id כמפתח זר לפריט המחליף; הפניה עצמית חסומה. היעדר רשומה פירושו שלא הוגדר סימון Legacy. אין קשר בין Legacy להסתרה/מחיקה: AutoGen מפורסמת כהיסטוריה ומפנה ל־Microsoft Agent Framework. RLS פעיל ואין הרשאות ציבוריות. ה־Loader מצרף lifecycle לקריאת פרק לצד entry_documents; אין עמודת JSON בטבלאות הפעילות.
+
+## היסטוריה שאינה מפורסמת — מיגרציה010
+publication_status=archived ב־academy.entries משמש כעת ל־flowise ול־openai-agent-builder. תוכנן והראיות נשמרים בטבלאות המנורמלות אך ה־loader מסנן אותן מהאתר. זה אינו academy_import_archive ואינו מצב legacy המחייב successor. אין להמציא מחליפה כדי לסמן EOL; אין להחליף archived ב־published כדי להציג היסטוריה ללא החלטת מוצר.
+
+## מחזור חיים מורחב — מיגרציה011 (מחליף את מדיניות החשיפה לעיל)
+entry_lifecycle.status: legacy=דור קודם/הוצא משימוש, maintenance=תחזוקה מוגבלת ואינה הפסקה, discontinued=הפסקה רשמית מאומתת. note היא סיבה; successor_entry_id אופציונלי ואינו נדרש כשאין מחליפה רשמית. source_url ו־checked_at שומרים ראיה ומועד אימות; effective_at ו־date_label מגדירים איזה אירוע מתואר; scheduled_end_at הוא מועד מתוכנן בלבד. Discontinued מחייב מקור ותאריך; אין ניחוש לפי גיל פעילות.
+רשומה published עם lifecycle מופרדת מההמלצות. archived עם lifecycle נחשפת כהיסטוריה, ו־archived לא מסווגת נשארת מוסתרת. publication_status אינו מצב תחזוקה. Flowise/Agent Builder נשארו archived אך נגישות במדור ההיסטורי ובחיפוש; AutoGen שומרת published/Legacy. sources ונתוני תוכן קיימים לא שוכפלו.

@@ -68,3 +68,13 @@ verify_catalog.sql מציג entries_changed_since_import כמידע על שינ�
 `node --env-file=.env.local scripts/apply-vector-databases.mjs --check` בודק יעד וגרסה בקריאה בלבד. בגרסה 8 נבדק המסמך המלא של Qdrant מול בסיס המחקר ב־research/evidence/vector05-baseline-2026-11-02.json ונבדקות זהויות; בגרסה 9 נבדקת שלמות התוצאה. בלי --check, גרסה 8 מחילה את 009 אטומית; גרסה 9 מאמתת בלבד. גרסה אחרת או drift מחייבים עצירה ויישוב. אין הדפסת חיבור. guards ב־SQL דורשים revision וספירות צפויות וחוסמים כפילות שם/slug/מאגר והרצה חוזרת.
 
 entries_changed_since_import צפוי להיות 24: 22 תוספות מאז הייבוא ושני פריטי מקור שנערכו (LlamaIndex ו־Qdrant). מוני שלמות אחרים נשארים אפס. אין הפעלת rollback_002 הישן להסרת עדכון תוכן. הדוח וההמשך ב־research/runs/2026-11-02-vector-databases-v1.md.
+
+## קטגוריה06 — מיגרציה010
+יישום visual06-20261103-v1 V06-01–V06-07 והבקשה המפורשת לתיעוד היסטורי: יסודות, ארבע פלטפורמות, הרחבת Dify ומדריך. Flowise ו־OpenAI Agent Builder נשמרות ב־archived ואינן פעילות באתר.62 מפורסמים,64 זהויות. אין DDL או שינוי סודות/הרשאות.
+`node scripts/prepare-visual-builders.mjs` משחזר010 מהקלט הקפוא database/seeds/visual-builders.mjs ומראיות המחקר; אלה חומרי מיגרציה ובדיקות בלבד, לא מקור האתר. אין לערוך010 לאחר החלה כדי לפרסם תיקון עתידי.
+`node --env-file=.env.local scripts/apply-visual-builders.mjs --check` בודק בבטחה: בגרסה9 משווה את כל הזהויות ואת מסמך Dify/עובדות/מדדים לבסיס המחקר, ובגרסה10 מאמת תוצאה בלבד. בלי --check גרסה9 מחילה טרנזקציה; גרסה10 מאמתת בלבד. גרסאות אחרות נעצרות. אין להריץ כלי מיגרציות ישנים על גרסה10.
+entries_changed_since_import צפוי32: שבע תוספות כולל היסטוריה ותיקון Dify מעבר ל־24 לאחר009. מוני שלמות אחרים אפס. שתי הרשומות ההיסטוריות נמצאות ב־academy.entries ובטבלאות התוכן הרגילות, לא ב־academy_import_archive שמוגנת כצילום הייבוא המקורי. כדי לקרוא אותן: `select slug, name, publication_status from academy.entries where publication_status = 'archived';`. אין למחוק או להציג אותן כפעילות.
+
+## מחזור חיים ותצוגת היסטוריה — מיגרציה011
+מחליפה את מדיניות החשיפה של010 בלי לשנות publication_status או תוכן פרקים. Flowise/Agent Builder נשארות archived במסד אך lifecycle מאומת מאפשר גילוי במדור היסטורי, חיפוש ועמוד פרק. AutoGen המפורסמת הועברה בתצוגה מהרשימה הפעילה למדור ההיסטורי.64 רשומות גלויות ללימוד/חיפוש, מתוכן61 המלצות פעילות ושלוש היסטוריות.
+`node --env-file=.env.local scripts/apply-historical-lifecycle.mjs --check` בגרסה10 בודק בלבד; ללא --check מחיל011. בגרסה11 תמיד מאמת בלבד; גרסאות אחרות נעצרות. source_url הוא FK למקורות; effective_at ותווית האירוע מבדילים אימות מצב מתאריך הפסקה, scheduled_end_at אינו הוכחת הפסקה. אין שינוי ב־RLS או בהרשאות. כלי החלה010 ומטה נשארים מוגבלים לגרסאותיהם ואין להריצם בגרסה11. counters השוואת מסמכי הייבוא נשארים32 כי פרקי התוכן לא שונו.

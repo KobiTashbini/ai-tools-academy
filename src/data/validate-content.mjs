@@ -37,6 +37,12 @@ export function validateContent(categories, entries) {
   }
   for (const entry of entries) {
     if (entry.relatedSlugs?.some(slug => !slugs.has(slug))) fail("related entry reference");
-    if (entry.lifecycle && (entry.lifecycle.status !== "legacy" || !text(entry.lifecycle.note) || !slugs.has(entry.lifecycle.successorSlug) || entry.lifecycle.successorSlug === entry.slug)) fail("legacy successor reference");
+    if (entry.lifecycle) {
+      const l=entry.lifecycle;
+      if (!['legacy','maintenance','discontinued'].includes(l.status)||!text(l.note)||(l.successorSlug!==undefined&&(!slugs.has(l.successorSlug)||l.successorSlug===entry.slug))) fail("legacy successor or lifecycle status");
+      if(l.sourceUrl!==undefined){
+        if(!l.sourceUrl.startsWith('https://')||!date(l.checkedAt)||!date(l.effectiveAt)||l.effectiveAt>l.checkedAt||!text(l.dateLabel)||(l.scheduledEndAt!==undefined&&(!date(l.scheduledEndAt)||l.scheduledEndAt<l.effectiveAt))) fail('lifecycle evidence');
+      }else if(l.status!=='legacy'||!l.successorSlug) fail('lifecycle verified source required');
+    }
   }
 }

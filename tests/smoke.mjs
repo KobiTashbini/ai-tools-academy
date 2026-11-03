@@ -7,6 +7,8 @@ import { ragAdditions } from "../database/seeds/rag-systems.mjs";
 import { reviewAdditions, reviewCorrections } from "../database/seeds/rag-review.mjs";
 import { vectorAdditions, qdrantCorrection } from "../database/seeds/vector-databases.mjs";
 
+import { visualAdditions, visualHistory, difyCorrection, visualGuide } from "../database/seeds/visual-builders.mjs";
+
 if (!process.env.DATABASE_URL && existsSync('.env.local')) process.loadEnvFile('.env.local');
 const base = process.env.SMOKE_BASE_URL ?? "http://127.0.0.1:3000";
 const pool = new Pool({connectionString:process.env.DATABASE_URL,connectionTimeoutMillis:10000});
@@ -15,6 +17,8 @@ try {const client=await pool.connect();try{catalog=await readDatabaseCatalog(cli
 catch {throw new Error('Smoke catalog read failed; verify database connection and migrations');}
 finally {await pool.end();}
 const entries = catalog.entries;
+const historicalEntries = [...entries.filter(e=>e.lifecycle),...catalog.historicalEntries];
+const discoverableEntries = [...entries,...catalog.historicalEntries];
 const frameworkEvidence=JSON.parse(readFileSync(new URL('../database/evidence/agent-frameworks-2026-11-02.json',import.meta.url),'utf8'));
 for(const addition of additions) assert.equal(entries.filter(e=>e.slug===addition.slug).length,1,'no duplicate: '+addition.slug);
 for(const addition of ragAdditions) assert.equal(entries.filter(e=>e.slug===addition.slug).length,1,'no duplicate RAG entry: '+addition.slug);
@@ -23,7 +27,7 @@ const guides = catalog.guides;
 const guidance = {reasons:Object.fromEntries(Object.entries(catalog.metrics).map(([slug,m])=>[slug,m.learningReason]))};
 const inferenceCohort=catalog.metrics.ollama.communityInterest.cohort;
 const inferenceCommunity={cohortLabel:catalog.metrics.ollama.communityInterest.cohortLabel,entries:Object.values(catalog.metrics).flatMap(m=>m.communityInterest?.cohort===inferenceCohort?[m.communityInterest]:[])};
-const routes = ["/", "/atlas", ...Array.from({ length: 12 }, (_, i) => `/atlas/${String(i).padStart(2, "0")}`), ...entries.map(entry => `/tools/${entry.slug}`)];
+const routes = ["/", "/atlas", ...Array.from({ length: 12 }, (_, i) => `/atlas/${String(i).padStart(2, "0")}`), ...discoverableEntries.map(entry => `/tools/${entry.slug}`), "/search", "/search?q=Flowise", "/search?q=AutoGen", "/search?q=zzzznotfound"];
 for (const route of routes) {
   const response = await fetch(new URL(route, base));
   assert.equal(response.status, 200, route);
@@ -46,14 +50,26 @@ for (const route of routes) {
       assert.ok(html.includes('https://survey.stackoverflow.co/2026/technology/data/llm'));
       assert.ok(html.includes('2026') && html.includes('ODbL 1.0') && html.includes('11,895'));
     }else assert.ok(!html.includes('מיון לפי שימוש מפתחים (%)'), 'survey column belongs only to category 07');
-    const categoryEntries = entries.filter(item => item.categoryIds.includes(categoryId));
+    const categoryEntries = entries.filter(item => item.categoryIds.includes(categoryId)&&!item.lifecycle);
+    const history = historicalEntries.filter(item=>item.categoryIds.includes(categoryId));
+    if(history.length){assert.ok(html.includes('כלים היסטוריים ולא פעילים'));assert.ok(html.includes('<details class="historical-tools">'));for(const e of history)assert.ok(html.includes('href="/tools/'+e.slug+'"'));}
+    if(categoryId==='06') {
+      assert.equal(categoryEntries.length,6);
+      assert.ok(html.includes(visualGuide.title));
+      const rowNames=[...html.matchAll(new RegExp('class="agent-name-label"><a[^>]*href="/tools/([^"]+)"','g'))].map(m=>m[1]);
+      assert.deepEqual(rowNames,['visual-ai-builders-fundamentals','dify','langflow','microsoft-copilot-studio','sim','botpress']);
+      for(const a of visualAdditions) assert.ok(html.includes('href="/tools/'+a.slug+'"'));
+      for(const a of visualHistory) assert.ok(html.includes('href="/tools/'+a.slug+'"'));
+      assert.ok(!rowNames.includes('flowise')&&!rowNames.includes('openai-agent-builder'));
+      assert.ok(html.includes('מיון לפי שם הכלי') && html.includes('שנת השקה') && html.includes('catalog-sort'));
+    }
     if(categoryId==='05') {
       assert.equal(categoryEntries.length,8);
       for(const a of vectorAdditions)assert.ok(html.includes('href="/tools/'+a.slug+'"'));
       assert.ok(html.includes('Qdrant.Client') && html.includes('gRPC'));
     }
     if(categoryId==='02') {
-      assert.equal(categoryEntries.length,12);
+      assert.equal(categoryEntries.length,11);
       assert.ok(html.includes('Legacy') && html.includes('microsoft-agent-framework'));
       for(const a of additions) assert.ok(html.includes('href="/tools/'+a.slug+'"'),a.slug);
     }
@@ -88,11 +104,19 @@ for (const route of routes) {
     assert.ok(!html.includes("התוכן בתחום הזה בהכנה"));
   }
   if (route.startsWith("/tools/")) {
-    const entry = entries.find(item => route === `/tools/${item.slug}`);
+    const entry = discoverableEntries.find(item => route === `/tools/${item.slug}`);
     const addition=additions.find(a=>a.slug===entry.slug);
     const ragAddition=ragAdditions.find(a=>a.slug===entry.slug);
     const reviewAddition=reviewAdditions.find(a=>a.slug===entry.slug);
     const correction=reviewCorrections.find(a=>a.slug===entry.slug);
+    const visualAddition=visualAdditions.find(a=>a.slug===entry.slug);
+    if(visualAddition || entry.slug==='dify') {
+      const a=visualAddition??difyCorrection;
+      const plain=html.replace(/<[^>]+>/g,'').replace(/<!--.*?-->/gs,'');
+      assert.ok(plain.includes(a.example),'visual practical scenario: '+entry.slug);
+      for(const [url] of a.sources)assert.ok(html.includes(url),'visual source: '+entry.slug);
+      if(entry.kind!=='concept') for(const label of ['יתרונות','חסרונות','השוואה']) assert.ok(plain.includes(label),'visual comparison: '+entry.slug);
+    }
     const vectorAddition=vectorAdditions.find(a=>a.slug===entry.slug);
     if(vectorAddition){
       assert.ok(html.includes(vectorAddition.docs));
@@ -127,6 +151,12 @@ for (const route of routes) {
     assert.ok(html.includes('id="practice"') && html.includes('id="sources"'));
     for (const source of entry.sources) assert.ok(html.includes(`href="${source.url}"`), `${route}: source link`);
     for (const slug of entry.relatedSlugs ?? []) assert.ok(html.includes(`href="/tools/${slug}"`), `${route}: related link`);
+  }
+  if(route.startsWith('/search')) {
+    assert.ok(html.includes('role="search"'));
+    if(route.includes('Flowise'))assert.ok(html.includes('href="/tools/flowise"')&&html.includes('Discontinued'));
+    if(route.includes('AutoGen'))assert.ok(html.includes('href="/tools/microsoft-autogen"')&&html.includes('Legacy'));
+    if(route.includes('zzzznotfound'))assert.ok(html.includes('לא נמצאו תוצאות'));
   }
   if (route === "/tools/mcp") assert.ok(html.includes('href="https://modelcontextprotocol.io/'));
   console.log(`PASS ${route}`);

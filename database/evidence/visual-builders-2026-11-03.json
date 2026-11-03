@@ -1,0 +1,71 @@
+[
+  {
+    "requestedRepository": "langgenius/dify",
+    "source": "https://api.github.com/repos/langgenius/dify",
+    "collectedAt": "2026-11-03T08:53:23.747Z",
+    "canonical": "langgenius/dify",
+    "repository": "https://github.com/langgenius/dify",
+    "stars": 160306,
+    "forks": 25350,
+    "archived": false,
+    "defaultBranch": "main",
+    "license": "NOASSERTION",
+    "head": {
+      "sha": "c3780668b85e0cd0705dcb4cc47534ad62b6939f",
+      "date": "2026-11-03T08:44:35Z",
+      "source": "https://github.com/langgenius/dify/commit/c3780668b85e0cd0705dcb4cc47534ad62b6939f"
+    },
+    "latestRelease": {
+      "tag": "1.18.0",
+      "publishedAt": "2026-10-23T06:33:50Z",
+      "prerelease": false,
+      "source": "https://github.com/langgenius/dify/releases/tag/1.18.0"
+    }
+  },
+  {
+    "requestedRepository": "langflow-ai/langflow",
+    "source": "https://api.github.com/repos/langflow-ai/langflow",
+    "collectedAt": "2026-11-03T08:53:25.320Z",
+    "canonical": "langflow-ai/langflow",
+    "repository": "https://github.com/langflow-ai/langflow",
+    "stars": 156283,
+    "forks": 10315,
+    "archived": false,
+    "defaultBranch": "main",
+    "license": "MIT",
+    "head": {
+      "sha": "e63907b0f05304f2de2dab3e19add7e2b6393fb2",
+      "date": "2026-11-03T03:16:28Z",
+      "source": "https://github.com/langflow-ai/langflow/commit/e63907b0f05304f2de2dab3e19add7e2b6393fb2"
+    },
+    "latestRelease": {
+      "tag": "v1.13.0",
+      "publishedAt": "2026-10-22T21:20:30Z",
+      "prerelease": false,
+      "source": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.0"
+    }
+  },
+  {
+    "requestedRepository": "simstudioai/sim",
+    "source": "https://api.github.com/repos/simstudioai/sim",
+    "collectedAt": "2026-11-03T08:53:26.140Z",
+    "canonical": "simstudioai/sim",
+    "repository": "https://github.com/simstudioai/sim",
+    "stars": 29980,
+    "forks": 3880,
+    "archived": false,
+    "defaultBranch": "main",
+    "license": "Apache-2.0",
+    "head": {
+      "sha": "093ea9ddb2f3e47facbc2dc42d4e523ba050dedb",
+      "date": "2026-11-03T01:19:41Z",
+      "source": "https://github.com/simstudioai/sim/commit/093ea9ddb2f3e47facbc2dc42d4e523ba050dedb"
+    },
+    "latestRelease": {
+      "tag": "v0.9.41",
+      "publishedAt": "2026-11-03T01:35:21Z",
+      "prerelease": false,
+      "source": "https://github.com/simstudioai/sim/releases/tag/v0.9.41"
+    }
+  }
+]

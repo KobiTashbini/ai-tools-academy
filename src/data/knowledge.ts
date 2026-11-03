@@ -1,6 +1,10 @@
 import { getDatabaseCatalog } from './database';
+import { partitionCatalogEntries,searchableEntries } from './catalog-lifecycle.mjs';
 export async function listCategories(){return (await getDatabaseCatalog()).categories;}
 export async function getCategory(id:string){return (await listCategories()).find(c=>c.id===id);}
 export async function listPublishedEntries(){return (await getDatabaseCatalog()).entries;}
-export async function getEntry(slug:string){return (await listPublishedEntries()).find(e=>e.slug===slug);}
-export async function listCategoryEntries(id:string){return (await listPublishedEntries()).filter(e=>e.categoryIds.includes(id));}
+export async function listRecommendedEntries(){return partitionCatalogEntries(await listDiscoverableEntries()).active;}
+export async function listDiscoverableEntries(){return searchableEntries(await getDatabaseCatalog());}
+export async function listHistoricalEntries(id?:string){return partitionCatalogEntries(await listDiscoverableEntries()).historical.filter(e=>!id||e.categoryIds.includes(id));}
+export async function getEntry(slug:string){return (await listDiscoverableEntries()).find(e=>e.slug===slug);}
+export async function listCategoryEntries(id:string){return (await listRecommendedEntries()).filter(e=>e.categoryIds.includes(id));}
