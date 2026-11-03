@@ -1,0 +1,350 @@
+{
+  "reportId": "integrations09-20261103-v1",
+  "status": "pending_review",
+  "approval": null,
+  "verificationWindow": {
+    "startedAt": "2026-11-03T10:05:50.141Z",
+    "finishedAt": "2026-11-03T10:10:34Z"
+  },
+  "baseline": "integrations0910-baseline-2026-11-03.json",
+  "githubEvidence": "integrations0910-github-2026-11-03.json",
+  "coverage": {
+    "existingChecked": 1,
+    "existingTotal": 1,
+    "identityStatusesChecked": 71
+  },
+  "claims": [
+    {
+      "proposalId": "T09-01",
+      "title": "MCP2026-07-28 architecture",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
+      "observedValue": "Stateless per-request metadata and mandatory server/discover; host/client/server roles",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "2026-07-28",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-01",
+      "title": "MCP transports",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports",
+      "observedValue": "stdio and Streamable HTTP bindings; client-originating requests; JSON or request-scoped SSE replies",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "2026-07-28",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-01",
+      "title": "MCP authorization",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization",
+      "observedValue": "Authorization optional overall; HTTP SHOULD conform when supported; stdio SHOULD use environment credentials instead",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "2026-07-28",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-01",
+      "title": "MCP license",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/LICENSE",
+      "observedValue": "MIT to Apache2 transition; uncleared historical MIT contributions remain MIT; non-spec docs CC-BY4",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "main checked 2026-11-03",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-02",
+      "title": "OpenAPI Specification",
+      "url": "https://spec.openapis.org/oas/v3.2.1.html",
+      "observedValue": "Language-neutral HTTP API description; not proof an MCP importer implements this version",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "3.2.1 published2026-09-10",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-02",
+      "title": "Microsoft.Extensions.AI",
+      "url": "https://learn.microsoft.com/en-us/dotnet/ai/microsoft-extensions-ai",
+      "observedValue": "IChatClient abstractions; automatic function invocation middleware and DI; not proposed as new catalog framework",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "page updated2026-09-14",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-01,T09-02",
+      "title": "MCP Security Best Practices",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices",
+      "observedValue": "Token passthrough, confused deputy, SSRF, scope minimization; protocol support alone is not application authorization",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "2026-07-28",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-03",
+      "title": "MCP C# SDK README",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk",
+      "observedValue": "Official C# client/server maintained with Microsoft; Core/main/AspNetCore packages",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-03",
+      "title": "C# v2.3.1 release",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v2.3.1",
+      "observedValue": "Latest tag non-prerelease; security fix authenticated stateful sessions; API metadata independently fetched by main agent",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "v2.3.1 released2026-11-03T07:33:49Z",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-03",
+      "title": "C# SDK license",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk/blob/main/LICENSE",
+      "observedValue": "Transition notice qualifies README Apache2 shorthand; no single blanket license assertion",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-03",
+      "title": "NuGet index",
+      "url": "https://www.nuget.org/packages/ModelContextProtocol",
+      "observedValue": "Index showed2.3.0; explicit2.3.1 package page inaccessible; do not assert NuGet2.3.1 availability from index",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "index2.3.0",
+      "confidence": "medium",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-04",
+      "title": "Inspector README",
+      "url": "https://github.com/modelcontextprotocol/inspector",
+      "observedValue": "v2 Web/CLI/TUI, experimental mcpdo; v1 security-only; Node>=22.19; keychain or fallback secrets storage",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "v2 main",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-04",
+      "title": "Inspector release",
+      "url": "https://github.com/modelcontextprotocol/inspector/releases/tag/2.13.0",
+      "observedValue": "Updated Node runtime required to address runtime advisories; engine minimum alone insufficient",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "2.13.0 released2026-10-28T18:41:38Z",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-04",
+      "title": "Inspector license",
+      "url": "https://github.com/modelcontextprotocol/inspector/blob/main/LICENSE",
+      "observedValue": "Same transition notice Apache2 new code, MIT historical without consent, CC-BY4 documentation",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-05",
+      "title": "FastMCP welcome",
+      "url": "https://gofastmcp.com/getting-started/welcome",
+      "observedValue": "Standalone Python framework for MCP servers, clients and apps; vendor adoption claims are not independently validated",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "current docs",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-05",
+      "title": "FastMCP OpenAPI integration",
+      "url": "https://gofastmcp.com/integrations/openapi",
+      "observedValue": "from_openapi generation; curated tools recommended; no evidence all OpenAPI versions supported or measured efficacy",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "docs referencesv2.0/v3.0+",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-05",
+      "title": "FastMCP repository",
+      "url": "https://github.com/PrefectHQ/fastmcp",
+      "observedValue": "Canonical owner PrefectHQ; jlowin/fastmcp redirects here; Apache2",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "v4.1.6 observed release",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-05",
+      "title": "FastMCP license",
+      "url": "https://github.com/PrefectHQ/fastmcp/blob/main/LICENSE",
+      "observedValue": "Apache2 code license",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-06",
+      "title": "GitHub MCP server",
+      "url": "https://github.com/github/github-mcp-server",
+      "observedValue": "Official GitHub server, Go implementation, MIT; distinct from archived reference GitHub server",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "v2.0.3 measured",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-06",
+      "title": "GitHub MCP configuration",
+      "url": "https://github.com/github/github-mcp-server/blob/main/docs/server-configuration.md",
+      "observedValue": "Explicit read-only filters write tools; toolsets; lockdown best-effort content filter not authorization boundary",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-06",
+      "title": "GitHub remote server",
+      "url": "https://github.com/github/github-mcp-server/blob/main/docs/remote-server.md",
+      "observedValue": "Hosted MCP and local feature differences; scoped toolset/read-only URLs or headers",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-07",
+      "title": "Playwright MCP",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "observedValue": "Accessibility snapshot browser automation; Apache2; allowed origins not security boundary; C# codegen not C# implementation",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "v0.0.84 measured",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-07",
+      "title": "Playwright getting started MCP",
+      "url": "https://github.com/microsoft/playwright/blob/main/docs/src/getting-started-mcp.md",
+      "observedValue": "MCP server browser automation interfaces and compatible clients; do not infer parity across hosts",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-08",
+      "title": "Composio docs",
+      "url": "https://docs.composio.dev/docs",
+      "observedValue": "Managed authentication, toolkits, sessions and MCP; counts and safety claims are vendor claims",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "current docs",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-08",
+      "title": "Composio SDKs",
+      "url": "https://docs.composio.dev/docs/providers",
+      "observedValue": "Python and TypeScript; no official native C# client verified",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "current docs",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-08",
+      "title": "Composio authentication",
+      "url": "https://docs.composio.dev/docs/authentication",
+      "observedValue": "Per-user connected accounts and managed authorization flows; no audit of retention/regions/SLA",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "current docs",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-08",
+      "title": "Composio SDK monorepo",
+      "url": "https://github.com/ComposioHQ/composio",
+      "observedValue": "MIT SDK monorepo; latest tag is CLI release, not SaaS version; does not establish backend self-host license",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "defaultbranch next; @composio/cli@0.6.0",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-09",
+      "title": "MCP Registry",
+      "url": "https://modelcontextprotocol.io/registry/about",
+      "observedValue": "Preview; metadata not hosted binaries; no private-server listing support; not evidence of server security",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "Preview at checkedAt",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "T09-09",
+      "title": "MCP SDKs overview",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/sdk",
+      "observedValue": "Official language implementations; do not infer all feature parity",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "2026-07-28",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    },
+    {
+      "proposalId": "defer",
+      "title": "MCP reference servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "observedValue": "Educational not production-ready; several archived references; Registry is preferred discovery listing",
+      "checkedAt": "2026-11-03T10:10:34Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official primary documentation is not independent evidence of efficacy, adoption, SLA or security outcomes. Proposed exercises were not executed."
+    }
+  ],
+  "accessFailures": [
+    {
+      "url": "https://www.nuget.org/packages/ModelContextProtocol/2.3.1",
+      "impact": "Package publication not independently confirmed; exact release and GitHub API confirm tag2.3.1 only."
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/dotnet/ai/conceptual/understanding-ai-functions",
+      "impact": "Guessed route unavailable; replaced with opened Microsoft.Extensions.AI official page."
+    },
+    {
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/sdk",
+      "impact": "Initial direct fetch failed; following official architecture SDK link succeeded."
+    }
+  ],
+  "contradictions": [
+    {
+      "claim": "C# latest release",
+      "observations": [
+        "Generic release page and NuGet index returned2.3.0",
+        "Exactv2.3.1 page and GitHubAPI returned2.3.1released2026-11-03T07:33:49Z"
+      ],
+      "resolution": "Use exact release and measured API with timestamps, not stale index; require package check at implementation."
+    },
+    {
+      "claim": "License shorthand",
+      "observations": [
+        "C# README describes Apache2",
+        "LICENSE includes MIT→Apache2 transition and documentation CC-BY4"
+      ],
+      "resolution": "Publish qualified transition note, not blanket SPDX from README or NOASSERTION."
+    }
+  ]
+}

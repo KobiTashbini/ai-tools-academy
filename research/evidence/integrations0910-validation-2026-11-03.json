@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-11-03T10:11:24.305Z",
+  "baselineAt": "2026-11-03T10:05:50.141Z",
+  "baselineIdentities": 71,
+  "inScopeChecked": 2,
+  "inScopeTotal": 2,
+  "reports": [
+    {
+      "reportId": "integrations09-20261103-v1",
+      "proposalIds": [
+        "T09-01",
+        "T09-02",
+        "T09-03",
+        "T09-04",
+        "T09-05",
+        "T09-06",
+        "T09-07",
+        "T09-08",
+        "T09-09"
+      ],
+      "claims": 30
+    },
+    {
+      "reportId": "quality10-20261103-v1",
+      "proposalIds": [
+        "Q10-01",
+        "Q10-02",
+        "Q10-03",
+        "Q10-04",
+        "Q10-05",
+        "Q10-06",
+        "Q10-07",
+        "Q10-08",
+        "Q10-09",
+        "Q10-10"
+      ],
+      "claims": 31
+    }
+  ],
+  "repositoryMeasurements": 14,
+  "livePostflight": "71 identities and revisions, both reviewed documents/facts/metrics, guides and proposal rows unchanged",
+  "queue": "unchanged; report-only proposals; legacy validator not evidence of live coverage",
+  "catalogWrites": false,
+  "codeChanges": false,
+  "commit": false,
+  "push": false,
+  "deployment": false
+}

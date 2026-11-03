@@ -1,0 +1,321 @@
+{
+  "reportId": "quality10-20261103-v1",
+  "status": "pending_review",
+  "approval": null,
+  "recordedAt": "2026-11-03T10:10:28.048Z",
+  "baselineAt": "2026-11-03T10:05:50.141Z",
+  "checkedExisting": 1,
+  "totalExisting": 1,
+  "claims": [
+    {
+      "claim": "Langfuse SDK matrix",
+      "observedValue": "Pythonv5/JSTS v6; Cloud or selfhost4.59.0+; otherlanguagesOTel",
+      "url": "https://langfuse.com/docs/observability/sdk/overview",
+      "title": "Langfuse SDK overview",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "v4 server / SDKv5-v6",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Langfuse planned cutover",
+      "observedValue": "Cloud legacy tracing ingestion removal16/11/2026;future atcheck;scores exception",
+      "url": "https://langfuse.com/docs/compatibility",
+      "title": "Versions & Compatibility",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "Cloudv4",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Langfuse .NET integration",
+      "observedValue": "OTLP/HTTP native SDK export; project-key BasicAuth and v4 header, mapping+context required",
+      "url": "https://langfuse.com/integrations/native/opentelemetry",
+      "title": "OTel integration",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "v4 ingestion",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Langfuse migration discrepancy",
+      "observedValue": "Migration page references older SDK majors;prefermatrix",
+      "url": "https://langfuse.com/integrations/native/opentelemetry/migration-to-v4",
+      "title": "Migrate custom ingestion",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "v4",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Langfuse license",
+      "observedValue": "MIT core;EE directories separatelicense",
+      "url": "https://raw.githubusercontent.com/langfuse/langfuse/main/LICENSE",
+      "title": "LICENSE",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Langfuse enterprise controls",
+      "observedValue": "Server-side masking,retention,RBAC,auditlogs EE;clientredaction stillneeded",
+      "url": "https://langfuse.com/self-hosting/license-key",
+      "title": "Enterprise License Key",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "selfhostv4",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "OTel.NET instrumentation",
+      "observedValue": "ActivitySource/Activity tracing;backend export notqualityjudge",
+      "url": "https://opentelemetry.io/docs/languages/dotnet/instrumentation/",
+      "title": "Instrumentation .NET",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "currentdocs",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "GenAI conventions moved",
+      "observedValue": "Dedicatedcanonicalrepo;do not infer stabilityfromcore",
+      "url": "https://opentelemetry.io/docs/specs/semconv/gen-ai/",
+      "title": "Moved GenAI conventions",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "semconv1.44",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "GenAI convention lifecycle",
+      "observedValue": "Development/deprecatedattributes;version mappingrequired",
+      "url": "https://opentelemetry.io/docs/specs/semconv/registry/attributes/gen-ai/",
+      "title": "Gen AI registry",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "semconv1.44",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "GenAI canonical",
+      "observedValue": "open-telemetry/semantic-conventions-genai",
+      "url": "https://github.com/open-telemetry/semantic-conventions-genai",
+      "title": "GenAI conventions repository",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Microsoft evaluation role",
+      "observedValue": "NLPnonLLM;QualityLLM;SafetyFoundryservice;RTCexperimental",
+      "url": "https://learn.microsoft.com/en-us/dotnet/ai/evaluation/libraries",
+      "title": "Microsoft Evaluation libraries",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "currentdocs",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Microsoft evaluation package",
+      "observedValue": "10.11.0 published14/10/2026,MIT;notfamilylaunch",
+      "url": "https://www.nuget.org/packages/Microsoft.Extensions.AI.Evaluation",
+      "title": "NuGet official package",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "10.11.0",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Promptfoo role",
+      "observedValue": "Config-driven HTTPtarget enables.NETblackboxtest,noC#SDKclaim",
+      "url": "https://www.promptfoo.dev/docs/providers/http/",
+      "title": "HTTP/HTTPS provider",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "currentdocs",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Promptfoo privacy",
+      "observedValue": "Localrunner directprovider default;cloudfeaturescandisclosedata",
+      "url": "https://www.promptfoo.dev/docs/faq/",
+      "title": "FAQ",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "currentdocs",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Promptfoo telemetry",
+      "observedValue": "Usage telemetrydefault andNPMupdatechecks;optionalaccountids",
+      "url": "https://www.promptfoo.dev/docs/configuration/telemetry/",
+      "title": "Telemetry",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "docsupdated2026-11-03",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Promptfoo redteam",
+      "observedValue": "Adversarialtests andCI;authorizedtargetonly,noassuranceclaim",
+      "url": "https://www.promptfoo.dev/docs/red-team/quickstart/",
+      "title": "Redteam quickstart",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "Node22.22+docs",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Promptfoo license",
+      "observedValue": "RootMIT;hostedproductsseparateterms",
+      "url": "https://raw.githubusercontent.com/promptfoo/promptfoo/main/LICENSE",
+      "title": "LICENSE",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Ragas role/languages",
+      "observedValue": "Python frameworkRAG/workflow/agentmetrics;C#bindingunverified",
+      "url": "https://docs.ragas.io/en/stable/getstarted/index.html",
+      "title": "Get Started",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "stable docs",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Ragas license",
+      "observedValue": "Apache2;canonicalvibrantlabsai/ragasfromdocs",
+      "url": "https://raw.githubusercontent.com/vibrantlabsai/ragas/main/LICENSE",
+      "title": "Ragas LICENSE",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "LangSmith tracing",
+      "observedValue": "AnyOTelcompatibleapplication;manualmapping;noC#nativeverified",
+      "url": "https://docs.langchain.com/langsmith/trace-with-opentelemetry",
+      "title": "Trace with OTel",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "currentdocs",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "LangSmith evaluations",
+      "observedValue": "Offline/online;human/code/LLM/pairwise",
+      "url": "https://docs.langchain.com/langsmith/evaluation",
+      "title": "Evaluation",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "currentdocs",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "LangSmith commercial hosting",
+      "observedValue": "Selfhost/BYOCEnterprise;noMITplatformclaim",
+      "url": "https://docs.langchain.com/langsmith/platform-setup",
+      "title": "Set up LangSmith",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "currentplans",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Phoenix role",
+      "observedValue": "OTLP/OpenInference,eval,datasets;separateArizeAX;PythonTSSDK",
+      "url": "https://arize.com/docs/phoenix",
+      "title": "What is Arize Phoenix",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "currentdocs",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "Phoenix license",
+      "observedValue": "ELv2notApache/MIT;managedservicesrestriction",
+      "url": "https://raw.githubusercontent.com/Arize-ai/phoenix/main/LICENSE",
+      "title": "Phoenix LICENSE",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "NeMo role",
+      "observedValue": "Pythonlibrary/APIs;NIMmicroserviceseparateproduct",
+      "url": "https://docs.nvidia.com/nemo/guardrails/latest/home",
+      "title": "NeMo Guardrails Library",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "latestdocs0.24.xindexes",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "NeMo license",
+      "observedValue": "Apache2opensourcePythonlibrary",
+      "url": "https://github.com/NVIDIA-NeMo/Guardrails/blob/develop/LICENSE.md",
+      "title": "NeMo LICENSE.md",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "develop",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "NeMo authorization boundary",
+      "observedValue": "ValidationauthorizationcolocatedwithAPI;railsnotaccesscontrolreplacement",
+      "url": "https://nvidia-nemo.github.io/Guardrails/develop/resources/security/guidelines.html",
+      "title": "Security Guidelines",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "developdocs",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "OWASP source identity",
+      "observedValue": "2026currentrepo,oldlegacyrepoisnotcurrenttool",
+      "url": "https://github.com/GenAI-Security-Project/GenAI-LLM-Top10",
+      "title": "OWASP currentsource",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "2026",
+      "confidence": "high",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "DeepEval deferred",
+      "observedValue": "Pythonoriented evalframework overlap;noC#SDKverified",
+      "url": "https://github.com/confident-ai/deepeval",
+      "title": "DeepEval repository",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "main",
+      "confidence": "medium",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "MLflow deferred",
+      "observedValue": "GenAIevalmonitorrole;notin71baseline;11auditneeded",
+      "url": "https://mlflow.org/docs/latest/genai/eval-monitor/faq/",
+      "title": "MLflow FAQ",
+      "checkedAt": "2026-11-03T10:10:28.048Z",
+      "version": "latestdocs",
+      "confidence": "medium",
+      "limitations": "Official documentation establishes scope, not measured efficacy or adoption. Examples not executed; checkedAt is evidence recording time within the research run."
+    },
+    {
+      "claim": "OWASP publication day discrepancy",
+      "observedValue": "Repository README August4 vs official resource August3; propose edition2026 only, day unresolved",
+      "url": "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+      "title": "OWASP GenAI LLM Top10 2026 official resource",
+      "checkedAt": "2026-11-03T10:10:45.131Z",
+      "version": "2026",
+      "confidence": "high",
+      "limitations": "Date conflict remains explicit; resource supports official ownership/migration."
+    }
+  ]
+}

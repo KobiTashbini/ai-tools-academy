@@ -9,6 +9,7 @@ import { vectorAdditions, qdrantCorrection } from "../database/seeds/vector-data
 
 import { visualAdditions, visualHistory, difyCorrection, visualGuide } from "../database/seeds/visual-builders.mjs";
 import { modelsAdditions, modelsCorrections, modelsGuides } from "../database/seeds/models-inference.mjs";
+import { integrationsAdditions, integrationsCorrections, integrationsGuides } from "../database/seeds/integrations-quality.mjs";
 
 if (!process.env.DATABASE_URL && existsSync('.env.local')) process.loadEnvFile('.env.local');
 const base = process.env.SMOKE_BASE_URL ?? "http://127.0.0.1:3000";
@@ -43,6 +44,13 @@ for (const route of routes) {
     assert.ok(html.includes("על הנתונים ומדד הפופולריות"), `${route}: metric definitions`);
     assert.ok(html.includes("יציאה ראשונית") && html.includes("Stars / GitHub"), `${route}: compact default columns`);
     const categoryId = route.split("/").pop();
+    if(['09','10'].includes(categoryId)) {
+      assert.ok(html.includes(integrationsGuides[categoryId].title));
+      const names=[...html.matchAll(new RegExp('class="agent-name-label"><a[^>]*href="/tools/([^\"]+)"','g'))].map(m=>m[1]);
+      assert.equal(names.length,categoryId==='09'?8:9);
+      assert.equal(names[0],categoryId==='09'?'tool-integration-fundamentals':'ai-quality-security-fundamentals');
+      if(categoryId==='10')assert.equal(entries.find(e=>e.slug==='langfuse').learningPriority,'must_learn');
+    }
     if(['07','08'].includes(categoryId)) {
       assert.ok(html.includes(modelsGuides[categoryId].title));
       const names=[...html.matchAll(new RegExp('class="agent-name-label"><a[^>]*href="/tools/([^\"]+)"','g'))].map(m=>m[1]);
@@ -112,6 +120,14 @@ for (const route of routes) {
   }
   if (route.startsWith("/tools/")) {
     const entry = discoverableEntries.find(item => route === `/tools/${item.slug}`);
+    const integrationRecord=[...integrationsAdditions,...integrationsCorrections].find(a=>a.slug===entry.slug);
+    if(integrationRecord){
+      const plain=html.replace(/<[^>]+>/g,'').replace(/<!--.*?-->/gs,'');
+      assert.ok(plain.includes(integrationRecord.example),'integration/quality scenario: '+entry.slug);
+      assert.ok(plain.includes(integrationRecord.languageSupportNote),'integration/quality SDK qualification: '+entry.slug);
+      assert.ok(plain.includes(integrationRecord.alternativesNote),'learning alternatives: '+entry.slug);
+      for(const [url] of integrationRecord.sources)assert.ok(html.includes(url.replaceAll('&','&amp;'))||html.includes(url),'integration/quality source: '+entry.slug);
+    }
     const modelsRecord=[...modelsAdditions,...modelsCorrections].find(a=>a.slug===entry.slug);
     if(modelsRecord){
       const plain=html.replace(/<[^>]+>/g,'').replace(/<!--.*?-->/gs,'');

@@ -1,0 +1,40 @@
+{
+  "startedAt": "2026-11-03T10:05:39Z",
+  "endedAt": "2026-11-03T10:12:14.472Z",
+  "measuredElapsedSeconds": 395,
+  "measurementScope": "From first explicit clock reading after initial instruction reads through integration; initial setup not individually timed.",
+  "agents": {
+    "totalIncludingLead": 4,
+    "subagents": 3,
+    "researchers": [
+      "integrations09_research",
+      "quality10_research"
+    ],
+    "independentReviewer": "integrations0910_review",
+    "lead": "baseline, shared GitHub measurements, critical crosschecks, integration and validation"
+  },
+  "parallelism": "Two category research streams and independent early source review overlapped; final review followed complete drafts. Shared baseline and 14 central repository measurements avoided duplicate metric collection. No serial control run measured; cannot quantify speedup.",
+  "tokenUsage": null,
+  "tokenUsageReason": "Per-agent and aggregate token accounting unavailable in environment.",
+  "reports": [
+    {
+      "id": "integrations09-20261103-v1",
+      "proposals": 9,
+      "additions": 7,
+      "corrections": 1,
+      "guides": 1
+    },
+    {
+      "id": "quality10-20261103-v1",
+      "proposals": 10,
+      "additions": 8,
+      "corrections": 1,
+      "guides": 1
+    }
+  ],
+  "independentReview": "complete; no blocking findings for presentation; user approval still required",
+  "catalogWrites": false,
+  "commit": false,
+  "push": false,
+  "deployment": false
+}

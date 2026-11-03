@@ -1,0 +1,317 @@
+{
+  "startedAt": "2026-11-03T10:06:57.992Z",
+  "repositories": [
+    {
+      "requestedRepository": "modelcontextprotocol/modelcontextprotocol",
+      "rateRemaining": "58",
+      "source": "https://api.github.com/repos/modelcontextprotocol/modelcontextprotocol",
+      "collectedAt": "2026-11-03T10:06:58.336Z",
+      "canonical": "modelcontextprotocol/modelcontextprotocol",
+      "repository": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+      "stars": 9598,
+      "forks": 1892,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "NOASSERTION",
+      "head": {
+        "sha": "3c4d91b7e832d9b74338d56eed03403ccc662123",
+        "date": "2026-11-03T04:33:04Z",
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/3c4d91b7e832d9b74338d56eed03403ccc662123"
+      },
+      "latestRelease": {
+        "tag": "2026-07-28",
+        "publishedAt": "2026-07-28T16:47:49Z",
+        "prerelease": false,
+        "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2026-07-28"
+      }
+    },
+    {
+      "requestedRepository": "modelcontextprotocol/csharp-sdk",
+      "rateRemaining": "55",
+      "source": "https://api.github.com/repos/modelcontextprotocol/csharp-sdk",
+      "collectedAt": "2026-11-03T10:06:59.184Z",
+      "canonical": "modelcontextprotocol/csharp-sdk",
+      "repository": "https://github.com/modelcontextprotocol/csharp-sdk",
+      "stars": 4615,
+      "forks": 841,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "NOASSERTION",
+      "head": {
+        "sha": "ac20490401d443a1ab6c98e91c309f5fc67228f2",
+        "date": "2026-11-03T06:44:31Z",
+        "source": "https://github.com/modelcontextprotocol/csharp-sdk/commit/ac20490401d443a1ab6c98e91c309f5fc67228f2"
+      },
+      "latestRelease": {
+        "tag": "v2.3.1",
+        "publishedAt": "2026-11-03T07:33:49Z",
+        "prerelease": false,
+        "source": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v2.3.1"
+      }
+    },
+    {
+      "requestedRepository": "modelcontextprotocol/inspector",
+      "rateRemaining": "52",
+      "source": "https://api.github.com/repos/modelcontextprotocol/inspector",
+      "collectedAt": "2026-11-03T10:06:59.969Z",
+      "canonical": "modelcontextprotocol/inspector",
+      "repository": "https://github.com/modelcontextprotocol/inspector",
+      "stars": 11222,
+      "forks": 1552,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "NOASSERTION",
+      "head": {
+        "sha": "e3217388c8590bcf6796fd8d0528a875ade1ac1f",
+        "date": "2026-10-28T18:29:12Z",
+        "source": "https://github.com/modelcontextprotocol/inspector/commit/e3217388c8590bcf6796fd8d0528a875ade1ac1f"
+      },
+      "latestRelease": {
+        "tag": "2.13.0",
+        "publishedAt": "2026-10-28T18:41:38Z",
+        "prerelease": false,
+        "source": "https://github.com/modelcontextprotocol/inspector/releases/tag/2.13.0"
+      }
+    },
+    {
+      "requestedRepository": "PrefectHQ/fastmcp",
+      "rateRemaining": "49",
+      "source": "https://api.github.com/repos/PrefectHQ/fastmcp",
+      "collectedAt": "2026-11-03T10:07:01.256Z",
+      "canonical": "PrefectHQ/fastmcp",
+      "repository": "https://github.com/PrefectHQ/fastmcp",
+      "stars": 28287,
+      "forks": 2556,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "sha": "8ac57b33de929a0941b4c97dbce321b13352a185",
+        "date": "2026-11-03T02:09:42Z",
+        "source": "https://github.com/PrefectHQ/fastmcp/commit/8ac57b33de929a0941b4c97dbce321b13352a185"
+      },
+      "latestRelease": {
+        "tag": "v4.1.6",
+        "publishedAt": "2026-11-03T02:52:59Z",
+        "prerelease": false,
+        "source": "https://github.com/PrefectHQ/fastmcp/releases/tag/v4.1.6"
+      }
+    },
+    {
+      "requestedRepository": "github/github-mcp-server",
+      "rateRemaining": "46",
+      "source": "https://api.github.com/repos/github/github-mcp-server",
+      "collectedAt": "2026-11-03T10:07:02.209Z",
+      "canonical": "github/github-mcp-server",
+      "repository": "https://github.com/github/github-mcp-server",
+      "stars": 34181,
+      "forks": 5280,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "MIT",
+      "head": {
+        "sha": "3366807bbb8473841894de040d4abc89193e5d51",
+        "date": "2026-11-02T22:19:43Z",
+        "source": "https://github.com/github/github-mcp-server/commit/3366807bbb8473841894de040d4abc89193e5d51"
+      },
+      "latestRelease": {
+        "tag": "v2.0.3",
+        "publishedAt": "2026-10-21T09:52:29Z",
+        "prerelease": false,
+        "source": "https://github.com/github/github-mcp-server/releases/tag/v2.0.3"
+      }
+    },
+    {
+      "requestedRepository": "microsoft/playwright-mcp",
+      "rateRemaining": "43",
+      "source": "https://api.github.com/repos/microsoft/playwright-mcp",
+      "collectedAt": "2026-11-03T10:07:03.037Z",
+      "canonical": "microsoft/playwright-mcp",
+      "repository": "https://github.com/microsoft/playwright-mcp",
+      "stars": 39112,
+      "forks": 3373,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "sha": "ec572ee8354015293bed67145db21eed386e876d",
+        "date": "2026-11-01T23:12:54Z",
+        "source": "https://github.com/microsoft/playwright-mcp/commit/ec572ee8354015293bed67145db21eed386e876d"
+      },
+      "latestRelease": {
+        "tag": "v0.0.84",
+        "publishedAt": "2026-10-31T15:20:06Z",
+        "prerelease": false,
+        "source": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.84"
+      }
+    },
+    {
+      "requestedRepository": "ComposioHQ/composio",
+      "rateRemaining": "40",
+      "source": "https://api.github.com/repos/ComposioHQ/composio",
+      "collectedAt": "2026-11-03T10:07:03.875Z",
+      "canonical": "ComposioHQ/composio",
+      "repository": "https://github.com/ComposioHQ/composio",
+      "stars": 30896,
+      "forks": 4914,
+      "archived": false,
+      "defaultBranch": "next",
+      "license": "MIT",
+      "head": {
+        "sha": "56e89f194995b6906735c7a06ad77a97d109d7be",
+        "date": "2026-11-03T09:58:42Z",
+        "source": "https://github.com/ComposioHQ/composio/commit/56e89f194995b6906735c7a06ad77a97d109d7be"
+      },
+      "latestRelease": {
+        "tag": "@composio/cli@0.6.0",
+        "publishedAt": "2026-11-01T21:52:48Z",
+        "prerelease": false,
+        "source": "https://github.com/ComposioHQ/composio/releases/tag/%40composio/cli%400.6.0"
+      }
+    },
+    {
+      "requestedRepository": "langfuse/langfuse",
+      "rateRemaining": "37",
+      "source": "https://api.github.com/repos/langfuse/langfuse",
+      "collectedAt": "2026-11-03T10:07:04.650Z",
+      "canonical": "langfuse/langfuse",
+      "repository": "https://github.com/langfuse/langfuse",
+      "stars": 36941,
+      "forks": 4150,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "NOASSERTION",
+      "head": {
+        "sha": "6e0def067d0f0ea58d06dedd9afa0b3e2f3260a5",
+        "date": "2026-11-03T09:59:20Z",
+        "source": "https://github.com/langfuse/langfuse/commit/6e0def067d0f0ea58d06dedd9afa0b3e2f3260a5"
+      },
+      "latestRelease": {
+        "tag": "v4.72.0",
+        "publishedAt": "2026-10-29T16:14:48Z",
+        "prerelease": false,
+        "source": "https://github.com/langfuse/langfuse/releases/tag/v4.72.0"
+      }
+    },
+    {
+      "requestedRepository": "Arize-ai/phoenix",
+      "rateRemaining": "34",
+      "source": "https://api.github.com/repos/Arize-ai/phoenix",
+      "collectedAt": "2026-11-03T10:07:05.473Z",
+      "canonical": "Arize-ai/phoenix",
+      "repository": "https://github.com/Arize-ai/phoenix",
+      "stars": 12117,
+      "forks": 1258,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "NOASSERTION",
+      "head": {
+        "sha": "491ae7a20dcda454d1c4c1b20a88b619cc5443f9",
+        "date": "2026-11-03T06:17:26Z",
+        "source": "https://github.com/Arize-ai/phoenix/commit/491ae7a20dcda454d1c4c1b20a88b619cc5443f9"
+      },
+      "latestRelease": {
+        "tag": "@arizeai/phoenix-mcp@4.3.20",
+        "publishedAt": "2026-11-02T18:12:59Z",
+        "prerelease": false,
+        "source": "https://github.com/Arize-ai/phoenix/releases/tag/%40arizeai/phoenix-mcp%404.3.20"
+      }
+    },
+    {
+      "requestedRepository": "explodinggradients/ragas",
+      "rateRemaining": "30",
+      "source": "https://api.github.com/repos/explodinggradients/ragas",
+      "collectedAt": "2026-11-03T10:07:06.477Z",
+      "canonical": "vibrantlabsai/ragas",
+      "repository": "https://github.com/vibrantlabsai/ragas",
+      "stars": 16222,
+      "forks": 1799,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "sha": "298b68274234c060deacab3cf5fb52aa3a20e885",
+        "date": "2026-02-24T07:47:18Z",
+        "source": "https://github.com/vibrantlabsai/ragas/commit/298b68274234c060deacab3cf5fb52aa3a20e885"
+      },
+      "latestRelease": {
+        "tag": "v0.4.3",
+        "publishedAt": "2026-01-13T17:47:29Z",
+        "prerelease": false,
+        "source": "https://github.com/vibrantlabsai/ragas/releases/tag/v0.4.3"
+      }
+    },
+    {
+      "requestedRepository": "promptfoo/promptfoo",
+      "rateRemaining": "25",
+      "source": "https://api.github.com/repos/promptfoo/promptfoo",
+      "collectedAt": "2026-11-03T10:07:07.745Z",
+      "canonical": "promptfoo/promptfoo",
+      "repository": "https://github.com/promptfoo/promptfoo",
+      "stars": 26773,
+      "forks": 2638,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "MIT",
+      "head": {
+        "sha": "f2b012e3c9f9ffb7b23edf4cf88ea63febf72f5a",
+        "date": "2026-11-03T08:26:30Z",
+        "source": "https://github.com/promptfoo/promptfoo/commit/f2b012e3c9f9ffb7b23edf4cf88ea63febf72f5a"
+      },
+      "latestRelease": {
+        "tag": "0.125.1",
+        "publishedAt": "2026-10-25T01:53:11Z",
+        "prerelease": false,
+        "source": "https://github.com/promptfoo/promptfoo/releases/tag/0.125.1"
+      }
+    },
+    {
+      "requestedRepository": "NVIDIA/NeMo-Guardrails",
+      "rateRemaining": "21",
+      "source": "https://api.github.com/repos/NVIDIA/NeMo-Guardrails",
+      "collectedAt": "2026-11-03T10:07:08.753Z",
+      "canonical": "NVIDIA-NeMo/Guardrails",
+      "repository": "https://github.com/NVIDIA-NeMo/Guardrails",
+      "stars": 7420,
+      "forks": 895,
+      "archived": false,
+      "defaultBranch": "develop",
+      "license": "NOASSERTION",
+      "head": {
+        "sha": "d708147033919dccc4716614fe53e8111e48c6b9",
+        "date": "2026-11-03T04:57:08Z",
+        "source": "https://github.com/NVIDIA-NeMo/Guardrails/commit/d708147033919dccc4716614fe53e8111e48c6b9"
+      },
+      "latestRelease": {
+        "tag": "v0.24.1",
+        "publishedAt": "2026-09-16T17:15:59Z",
+        "prerelease": false,
+        "source": "https://github.com/NVIDIA-NeMo/Guardrails/releases/tag/v0.24.1"
+      }
+    },
+    {
+      "requestedRepository": "confident-ai/deepeval",
+      "rateRemaining": "16",
+      "source": "https://api.github.com/repos/confident-ai/deepeval",
+      "collectedAt": "2026-11-03T10:07:09.998Z",
+      "canonical": "confident-ai/deepeval",
+      "repository": "https://github.com/confident-ai/deepeval",
+      "stars": 19269,
+      "forks": 2163,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "sha": "8b584f2d8d770efbc49b615e78b9d044c5392240",
+        "date": "2026-11-02T19:23:56Z",
+        "source": "https://github.com/confident-ai/deepeval/commit/8b584f2d8d770efbc49b615e78b9d044c5392240"
+      },
+      "latestRelease": {
+        "tag": "python-v4.2.4",
+        "publishedAt": "2026-09-22T16:36:00Z",
+        "prerelease": false,
+        "source": "https://github.com/confident-ai/deepeval/releases/tag/python-v4.2.4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,948 @@
+{
+  "checkedAt": "2026-11-03T10:05:50.141Z",
+  "identities": [
+    {
+      "id": "agno",
+      "slug": "agno",
+      "name": "Agno",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/agno-agi/agno"
+      ]
+    },
+    {
+      "id": "amazon-bedrock",
+      "slug": "amazon-bedrock",
+      "name": "Amazon Bedrock",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "anthropic-claude",
+      "slug": "anthropic-claude",
+      "name": "Anthropic — Claude",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "azure-ai-search",
+      "slug": "azure-ai-search",
+      "name": "Azure AI Search",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "botpress",
+      "slug": "botpress",
+      "name": "Botpress",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "chroma",
+      "slug": "chroma",
+      "name": "Chroma",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/chroma-core/chroma"
+      ]
+    },
+    {
+      "id": "claude-code",
+      "slug": "claude-code",
+      "name": "Claude Code",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/anthropics/claude-code"
+      ]
+    },
+    {
+      "id": "codex",
+      "slug": "codex",
+      "name": "Codex",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/openai/codex"
+      ]
+    },
+    {
+      "id": "cohere-command",
+      "slug": "cohere-command",
+      "name": "Cohere — Command",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "crewai",
+      "slug": "crewai",
+      "name": "CrewAI",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/crewAIInc/crewAI"
+      ]
+    },
+    {
+      "id": "cursor",
+      "slug": "cursor",
+      "name": "Cursor",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "deepseek",
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "dify",
+      "slug": "dify",
+      "name": "Dify",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/langgenius/dify"
+      ]
+    },
+    {
+      "id": "docling",
+      "slug": "docling",
+      "name": "Docling",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/docling-project/docling"
+      ]
+    },
+    {
+      "id": "dspy",
+      "slug": "dspy",
+      "name": "DSPy",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/stanfordnlp/dspy"
+      ]
+    },
+    {
+      "id": "flowise",
+      "slug": "flowise",
+      "name": "Flowise — היסטורי",
+      "kind": "platform",
+      "publication_status": "archived",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "gemma",
+      "slug": "gemma",
+      "name": "Google — Gemma",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "google-adk",
+      "slug": "google-adk",
+      "name": "Google Agent Development Kit (ADK)",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/google/adk-python"
+      ]
+    },
+    {
+      "id": "google-gemini",
+      "slug": "google-gemini",
+      "name": "Google — Gemini",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "google-vertex-ai",
+      "slug": "google-vertex-ai",
+      "name": "Google Gemini Enterprise Agent Platform (Vertex AI)",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "haystack",
+      "slug": "haystack",
+      "name": "Haystack",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/deepset-ai/haystack"
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "slug": "hugging-face",
+      "name": "Hugging Face — Inference Providers",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "inference-fundamentals",
+      "slug": "inference-fundamentals",
+      "name": "הסקה מקומית והגשת מודלים — יסודות",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "langchain",
+      "slug": "langchain",
+      "name": "LangChain",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/langchain-ai/langchain"
+      ]
+    },
+    {
+      "id": "langflow",
+      "slug": "langflow",
+      "name": "Langflow",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/langflow-ai/langflow"
+      ]
+    },
+    {
+      "id": "langfuse",
+      "slug": "langfuse",
+      "name": "Langfuse",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/langfuse/langfuse"
+      ]
+    },
+    {
+      "id": "langgraph",
+      "slug": "langgraph",
+      "name": "LangGraph",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/langchain-ai/langgraph"
+      ]
+    },
+    {
+      "id": "lightrag",
+      "slug": "lightrag",
+      "name": "LightRAG",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/HKUDS/LightRAG"
+      ]
+    },
+    {
+      "id": "litellm",
+      "slug": "litellm",
+      "name": "LiteLLM — AI Gateway ו־SDK",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/BerriAI/litellm"
+      ]
+    },
+    {
+      "id": "llama-cpp",
+      "slug": "llama-cpp",
+      "name": "llama.cpp",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/ggml-org/llama.cpp"
+      ]
+    },
+    {
+      "id": "llamaindex",
+      "slug": "llamaindex",
+      "name": "LlamaIndex",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/run-llama/llama_index"
+      ]
+    },
+    {
+      "id": "llm-fundamentals",
+      "slug": "llm-fundamentals",
+      "name": "מודלי שפה — יסודות",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "lm-studio",
+      "slug": "lm-studio",
+      "name": "LM Studio",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "mastra",
+      "slug": "mastra",
+      "name": "Mastra",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/mastra-ai/mastra"
+      ]
+    },
+    {
+      "id": "mcp",
+      "slug": "mcp",
+      "name": "MCP",
+      "kind": "protocol",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/modelcontextprotocol/modelcontextprotocol"
+      ]
+    },
+    {
+      "id": "meta-llama",
+      "slug": "meta-llama",
+      "name": "Meta — Llama",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "microsoft-agent-framework",
+      "slug": "microsoft-agent-framework",
+      "name": "Microsoft Agent Framework",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/microsoft/agent-framework"
+      ]
+    },
+    {
+      "id": "microsoft-autogen",
+      "slug": "microsoft-autogen",
+      "name": "Microsoft AutoGen",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/microsoft/autogen"
+      ]
+    },
+    {
+      "id": "microsoft-copilot-studio",
+      "slug": "microsoft-copilot-studio",
+      "name": "Microsoft Copilot Studio",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "slug": "microsoft-foundry",
+      "name": "Microsoft Foundry (Azure AI Foundry)",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "microsoft-graphrag",
+      "slug": "microsoft-graphrag",
+      "name": "Microsoft GraphRAG",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/microsoft/graphrag"
+      ]
+    },
+    {
+      "id": "microsoft-phi",
+      "slug": "microsoft-phi",
+      "name": "Microsoft — Phi",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "milvus",
+      "slug": "milvus",
+      "name": "Milvus",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/milvus-io/milvus"
+      ]
+    },
+    {
+      "id": "mistral-ai",
+      "slug": "mistral-ai",
+      "name": "Mistral AI",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "n8n",
+      "slug": "n8n",
+      "name": "n8n",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/n8n-io/n8n"
+      ]
+    },
+    {
+      "id": "ollama",
+      "slug": "ollama",
+      "name": "Ollama",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/ollama/ollama"
+      ]
+    },
+    {
+      "id": "onnxruntime-genai",
+      "slug": "onnxruntime-genai",
+      "name": "ONNX Runtime GenAI",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/microsoft/onnxruntime-genai"
+      ]
+    },
+    {
+      "id": "openai-agent-builder",
+      "slug": "openai-agent-builder",
+      "name": "OpenAI Agent Builder — היסטורי",
+      "kind": "platform",
+      "publication_status": "archived",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "openai-agents-sdk",
+      "slug": "openai-agents-sdk",
+      "name": "OpenAI Agents SDK",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/openai/openai-agents-python"
+      ]
+    },
+    {
+      "id": "openai-gpt",
+      "slug": "openai-gpt",
+      "name": "OpenAI — GPT",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "openrouter",
+      "slug": "openrouter",
+      "name": "OpenRouter",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "pathway",
+      "slug": "pathway",
+      "name": "Pathway",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/pathwaycom/pathway"
+      ]
+    },
+    {
+      "id": "pgvector",
+      "slug": "pgvector",
+      "name": "pgvector",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/pgvector/pgvector"
+      ]
+    },
+    {
+      "id": "pinecone",
+      "slug": "pinecone",
+      "name": "Pinecone",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "pydantic-ai",
+      "slug": "pydantic-ai",
+      "name": "Pydantic AI",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/pydantic/pydantic-ai"
+      ]
+    },
+    {
+      "id": "pytorch",
+      "slug": "pytorch",
+      "name": "PyTorch",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/pytorch/pytorch"
+      ]
+    },
+    {
+      "id": "qdrant",
+      "slug": "qdrant",
+      "name": "Qdrant",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/qdrant/qdrant"
+      ]
+    },
+    {
+      "id": "qwen",
+      "slug": "qwen",
+      "name": "Alibaba — Qwen",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "rag-fundamentals",
+      "slug": "rag-fundamentals",
+      "name": "RAG — יסודות וארכיטקטורה",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "ragflow",
+      "slug": "ragflow",
+      "name": "RAGFlow",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/infiniflow/ragflow"
+      ]
+    },
+    {
+      "id": "sglang",
+      "slug": "sglang",
+      "name": "SGLang",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/sgl-project/sglang"
+      ]
+    },
+    {
+      "id": "sim",
+      "slug": "sim",
+      "name": "Sim",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/simstudioai/sim"
+      ]
+    },
+    {
+      "id": "smolagents",
+      "slug": "smolagents",
+      "name": "Hugging Face smolagents",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/huggingface/smolagents"
+      ]
+    },
+    {
+      "id": "temporal",
+      "slug": "temporal",
+      "name": "Temporal",
+      "kind": "orchestration_engine",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/temporalio/temporal"
+      ]
+    },
+    {
+      "id": "together-ai",
+      "slug": "together-ai",
+      "name": "Together AI",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "txtai",
+      "slug": "txtai",
+      "name": "txtai",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/neuml/txtai"
+      ]
+    },
+    {
+      "id": "unstructured",
+      "slug": "unstructured",
+      "name": "Unstructured",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/Unstructured-IO/unstructured"
+      ]
+    },
+    {
+      "id": "vector-search-fundamentals",
+      "slug": "vector-search-fundamentals",
+      "name": "חיפוש וקטורי — יסודות ובחירת אחסון",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "visual-ai-builders-fundamentals",
+      "slug": "visual-ai-builders-fundamentals",
+      "name": "בניית AI חזותית — יסודות ובחירת כלי",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "vllm",
+      "slug": "vllm",
+      "name": "vLLM",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/vllm-project/vllm"
+      ]
+    },
+    {
+      "id": "weaviate",
+      "slug": "weaviate",
+      "name": "Weaviate",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/weaviate/weaviate"
+      ]
+    }
+  ],
+  "proposals": [],
+  "categories": [
+    {
+      "id": "09",
+      "name": "MCP, Tools & Integrations",
+      "description": "החיבור בין יישומי AI, מקורות מידע ופעולות."
+    },
+    {
+      "id": "10",
+      "name": "Observability, Evals & Security",
+      "description": "מדידה, איתור תקלות והגנה על מערכות AI."
+    }
+  ],
+  "scope": [
+    {
+      "entry": {
+        "id": "langfuse",
+        "kind": "platform",
+        "name": "Langfuse",
+        "slug": "langfuse",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: תשובה שגויה על נוהל רכש. ב־Trace בודקים האם אוחזר סעיף לא נכון או שהמודל התעלם מסעיף נכון, ואז בוחנים תיקון על כמה שאלות.",
+        "sources": [
+          {
+            "url": "https://langfuse.com/docs",
+            "title": "Langfuse — Overview",
+            "supports": "Traces, ניהול הנחיות, הערכה, SDKs ו־OpenTelemetry. תכנון שדות, פרטיות וסט הבדיקות הוא הצעה לימודית שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "פלטפורמה לתצפיתיות, ניהול הנחיות והערכה של יישומי AI.",
+        "exercise": "הגדר Trace לתרחיש בקשת ציוד עם שלושה שלבים. תוצר: רשימת שדות לתיעוד, שדות להשחרה וחמש דוגמאות להערכת גרסה חדשה.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "ביישום AI, תשובה לא טובה יכולה לנבוע מאחזור, מכלי, מהנחיה או מהמודל. Langfuse מרכזת Traces, ניהול הנחיות והערכה כדי לעזור לעקוב אחרי ההתנהגות והאיכות.",
+            "title": "איזו בעיה היא פותרת?"
+          },
+          {
+            "text": "Trace מייצג פעולה כוללת, ובתוכו מתעדים קריאות מודל, אחזור ופעולות נוספות. אפשר לבחון זמן, עלות ותוצאות. השוואה בין גרסאות מחייבת לשמור גם איזה מודל והנחיה שימשו.",
+            "title": "מה מודדים?"
+          },
+          {
+            "text": "כהקבלה לימודית, זה דומה למעקב בקשה שחוצה שירותים, אך מוסיף עניין באיכות התשובה ובהקשר. התיעוד מציין OpenTelemetry; יש לבדוק פרטי אינטגרציה לשפה לפני חיבור.",
+            "title": "החיבור ל־.NET"
+          },
+          {
+            "text": "לוג עוזר להבין מה קרה במקרה אחד; הערכה שיטתית בודקת אם שינוי משפר תוצאות על סט דוגמאות. צריך להגדיר מה נכון, ולא להסתפק בציון נוסף שמודל נתן.",
+            "title": "לוגים מול Evals"
+          },
+          {
+            "text": "המלצה: סנן מידע רגיש לפני התיעוד, קבע מדיניות שמירה ובדוק מי רואה קלט ופלט. עלות ניטור ואחסון יכולה לגדול עם נפח הפעילות גם אם המודל עצמו זול.",
+            "title": "אבטחה ועלות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "10"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "llamaindex",
+          "openai-agents-sdk",
+          "langgraph"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "לוגים, מזהי בקשות, מדידת זמן וסט בדיקות.",
+        "alternativesNote": "LangSmith ו־Phoenix הם מועמדים נוספים במפת הידע. אפשר להתחיל בלוגים מובנים ובבדיקות איכות קטנות, ולהוסיף פלטפורמה כשצריך חקירה והשוואה שיטתית.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "המקור מציין SDKs ב־Python/JavaScript ואינטגרציות OpenTelemetry. אין להסיק שכל שילוב .NET נתמך באותה רמת פירוט ללא בדיקה ייעודית."
+      },
+      "facts": {
+        "description": "מתעד קריאות ותהליכי AI כדי לחקור תקלות, לנהל הנחיות ולהעריך איכות תשובות.",
+        "languages": "Python, JavaScript רשמיים; C#/.NET: מסלול OpenTelemetry דורש בדיקה ייעודית.",
+        "languageSources": [
+          "https://langfuse.com/docs"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+          "url": "https://github.com/langfuse/langfuse",
+          "stars": 36782,
+          "starsSource": "https://api.github.com/repos/langfuse/langfuse",
+          "collectedAt": "2026-10-31T09:13:24+00:00",
+          "lastActivity": {
+            "date": "2026-10-30T20:12:00+00:00",
+            "source": "https://github.com/langfuse/langfuse/commit/f2196feee734616d2833b5bf27a3f1bb1d152fbf",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "langfuse",
+        "description": "מתעד קריאות ותהליכי AI כדי לחקור תקלות, לנהל הנחיות ולהעריך איכות תשובות.",
+        "languages": [
+          "Python",
+          "JavaScript"
+        ],
+        "learningReason": "ללימוד מעקב, הערכה ואבחון תקלות ביישומי AI.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "mcp",
+        "kind": "protocol",
+        "name": "MCP",
+        "slug": "mcp",
+        "addedAt": "2026-10-31",
+        "example": "דוגמה לימודית: שרת חושף פעולה לבדיקת מלאי. עוזר ארגוני קורא לה דרך לקוח MCP ומציג את התוצאה לעובד.",
+        "sources": [
+          {
+            "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
+            "title": "תיעוד הארכיטקטורה הרשמי של MCP",
+            "supports": "הגדרת הפרוטוקול, מארח/לקוח/שרת, שכבות התקשורת והיכולות שהשרת חושף. הדוגמה והתרגיל נכתבו לצורכי לימוד.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "פרוטוקול לחילופי הקשר בין יישומי AI לבין שרתים המספקים מידע ופעולות.",
+        "exercise": "תכנן כלי בדיקת מלאי: שם, קלט, פלט ושגיאות. שרטט מארח, לקוח ושרת, וסמן היכן נבדקת זהות המשתמש. תוצר: חוזה כלי והסבר מדוע קוד פריט תקין אינו מהווה הרשאה לקריאה.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "מגדיר דרך משותפת לחשיפת כלים, מקורות מידע ותבניות הנחיה ליישומי AI.",
+            "title": "איזו בעיה הוא פותר?"
+          },
+          {
+            "text": "יישום מארח מנהל לקוחות MCP. כל לקוח מתקשר עם שרת המספק יכולות. שכבת הנתונים מבוססת JSON-RPC; התקשורת יכולה להתבצע מקומית או מרחוק.",
+            "title": "איך זה עובד?"
+          },
+          {
+            "text": "כהקבלה לימודית, שרת MCP הוא Adapter מעל יכולות עסקיות. הוא יכול לקרוא ל־API קיים במקום לשכפל את הלוגיקה שלו. היישום המארח מנהל לקוח לכל שרת שאליו הוא מתחבר.",
+            "title": "החיבור ל־REST ול־C#"
+          },
+          {
+            "text": "המלצה: כשיכולת צריכה להיות נגישה ליישומי AI תואמים דרך חוזה משותף. אם יש לקוח אחד ו־API פשוט, בדוק גם חיבור ישיר לפני הוספת שכבה.",
+            "title": "מתי לבחור?"
+          },
+          {
+            "text": "עצם חשיפת כלי אינה הרשאה לבצע אותו. שרת צריך לבדוק הרשאות ולתחום פעולות; קלט מהמודל וממקורות חיצוניים דורש ולידציה. כתיבה עסקית רגישה צריכה לעבור אישור ומניעת כפילות.",
+            "title": "אבטחה ועלות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "09"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "microsoft-agent-framework",
+          "openai-agents-sdk",
+          "n8n"
+        ],
+        "revisionNote": "פרק יסודות מורחב. האימות מתייחס למבנה הפרוטוקול; שיקולי הרשאות, חלופות והתרגילים הם הסבר הנדסי שלנו. אין כאן מטריצת SDKs או הבטחת תאימות גרסאות.",
+        "prerequisites": "HTTP, JSON, חוזי API והרשאות.",
+        "alternativesNote": "אפשר לחשוף שירות REST ישירות או לממש Function Calling בספק מודל. MCP מוסיף חוזה חיבור משותף ליישומים תואמים; בחירה בו תלויה במי שיצרוך את הכלים.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "הפרוטוקול מפריד חוזה תקשורת ממימוש. לפני בחירת SDK ב־C#, Python או TypeScript יש לבדוק את התיעוד והגרסה הרלוונטיים; שלושת השמות אינם מבטיחים שוויון יכולות."
+      },
+      "facts": {
+        "description": "מגדיר חוזה תקשורת משותף לחיבור יישומי AI למקורות מידע ולכלים עסקיים.",
+        "languages": "פרוטוקול בלתי תלוי בשפה; SDKs של C#/.NET, Python ו־TypeScript לא אומתו כאן.",
+        "languageSources": [
+          "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "מאגר המפרט הרשמי; אינו כלל ה־SDKs והשרתים",
+          "url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+          "stars": 9572,
+          "starsSource": "https://api.github.com/repos/modelcontextprotocol/modelcontextprotocol",
+          "collectedAt": "2026-10-31T09:13:24+00:00",
+          "lastActivity": {
+            "date": "2026-10-31T08:10:43+00:00",
+            "source": "https://github.com/modelcontextprotocol/modelcontextprotocol/commit/0aab7058fe6471f3d7b0301e13965f10ad9cb198",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2024-11-25",
+          "precision": "day",
+          "source": "https://www.anthropic.com/news/model-context-protocol",
+          "note": "ההכרזה הציבורית הראשונה על הפרוטוקול והמפרט הפתוח."
+        }
+      },
+      "metrics": {
+        "slug": "mcp",
+        "description": "מגדיר חוזה תקשורת משותף לחיבור יישומי AI למקורות מידע ולכלים עסקיים.",
+        "languages": [
+          "לא תלוי בשפה"
+        ],
+        "learningReason": "בסיס להבנת חיבור סוכנים לכלים ולמקורות מידע.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    }
+  ],
+  "guides": {
+    "10": null,
+    "09": null
+  }
+}

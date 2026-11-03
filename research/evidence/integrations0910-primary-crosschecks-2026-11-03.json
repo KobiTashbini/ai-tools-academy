@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-11-03T10:08:40.965Z",
+  "claims": [
+    {
+      "claim": "C# SDK patch release",
+      "observed": "v2.3.1 published 2026-11-03T07:33:49Z includes authenticated stateful-session security fix; supersedes cached v2.3.0 latest claim.",
+      "url": "https://github.com/modelcontextprotocol/csharp-sdk/releases/tag/v2.3.1",
+      "title": "MCP C# SDK v2.3.1",
+      "version": "v2.3.1",
+      "confidence": "high",
+      "checkedAt": "2026-11-03T10:08:40.965Z"
+    },
+    {
+      "claim": "Langfuse SDK and self-host compatibility",
+      "observed": "Python v5 and JS/TS v6 require Langfuse v4; current compatibility table specifies minimum v4.59.0. These are SDK versions, not server version numbers.",
+      "url": "https://langfuse.com/docs/observability/sdk/overview",
+      "title": "Langfuse SDK overview",
+      "version": "Python5 / JS6 / server4",
+      "confidence": "high",
+      "checkedAt": "2026-11-03T10:08:40.965Z"
+    },
+    {
+      "claim": "Future custom ingestion endpoint change",
+      "observed": "Langfuse Cloud legacy POST /api/public/ingestion stops accepting non-score events on 2026-11-16. This is future at research time, not product discontinuation; use OTLP HTTP migration path.",
+      "url": "https://langfuse.com/integrations/native/opentelemetry/migration-to-v4",
+      "title": "Migrate custom ingestion to Langfuse v4",
+      "version": "Cloud v4",
+      "eventDate": "2026-11-16",
+      "confidence": "high",
+      "checkedAt": "2026-11-03T10:08:40.965Z"
+    },
+    {
+      "claim": "Phoenix repository license",
+      "observed": "Root LICENSE is Elastic License 2.0, with hosted/managed-service limitations. Do not label entire server Apache2 from an SDK license.",
+      "url": "https://github.com/Arize-ai/phoenix/blob/main/LICENSE",
+      "title": "Phoenix LICENSE",
+      "version": "main at research time",
+      "confidence": "high",
+      "checkedAt": "2026-11-03T10:08:40.965Z"
+    },
+    {
+      "claim": ".NET evaluation SDK roles",
+      "observed": "Quality evaluators use an LLM; NLP evaluators compare text without an LLM; Safety evaluators use Microsoft Foundry Evaluation service. Test-framework integration does not make safety evaluation local-only or guarantee safety.",
+      "url": "https://learn.microsoft.com/en-us/dotnet/ai/evaluation/libraries",
+      "title": "Microsoft.Extensions.AI.Evaluation libraries",
+      "version": "current docs",
+      "confidence": "high",
+      "checkedAt": "2026-11-03T10:08:40.965Z"
+    },
+    {
+      "claim": "GenAI semantic convention relocation",
+      "observed": "OpenTelemetry semantic conventions1.44.0 GenAI documentation redirects readers to a separate GenAI conventions repository. Core SDK stability cannot establish every GenAI attribute stability.",
+      "url": "https://opentelemetry.io/docs/specs/semconv/gen-ai/",
+      "title": "Moved: Generative AI semantic conventions",
+      "version": "semconv1.44.0",
+      "confidence": "high",
+      "checkedAt": "2026-11-03T10:08:40.965Z"
+    }
+  ],
+  "limitations": [
+    "No software installation, model calls, security exploit tests, latency or Hebrew-quality benchmark performed.",
+    "Repository latest-release tags in monorepos may belong to components, especially Composio CLI and Phoenix MCP; not whole-product versions.",
+    "GitHub license detector NOASSERTION is not evidence of absent or permissive license."
+  ]
+}

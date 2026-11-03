@@ -1,0 +1,29 @@
+{
+  "startedAt": "2026-11-03T10:07:52.305Z",
+  "repositories": [
+    {
+      "requestedRepository": "open-telemetry/opentelemetry-dotnet",
+      "rateRemaining": "13",
+      "source": "https://api.github.com/repos/open-telemetry/opentelemetry-dotnet",
+      "collectedAt": "2026-11-03T10:07:52.689Z",
+      "canonical": "open-telemetry/opentelemetry-dotnet",
+      "repository": "https://github.com/open-telemetry/opentelemetry-dotnet",
+      "stars": 3767,
+      "forks": 913,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "sha": "85a610b679a7a732b5f664147dd3839b296a7c08",
+        "date": "2026-11-02T12:17:17Z",
+        "source": "https://github.com/open-telemetry/opentelemetry-dotnet/commit/85a610b679a7a732b5f664147dd3839b296a7c08"
+      },
+      "latestRelease": {
+        "tag": "core-1.20.1",
+        "publishedAt": "2026-10-20T11:41:13Z",
+        "prerelease": false,
+        "source": "https://github.com/open-telemetry/opentelemetry-dotnet/releases/tag/core-1.20.1"
+      }
+    }
+  ]
+}
