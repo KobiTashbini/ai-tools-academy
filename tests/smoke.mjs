@@ -8,6 +8,7 @@ import { reviewAdditions, reviewCorrections } from "../database/seeds/rag-review
 import { vectorAdditions, qdrantCorrection } from "../database/seeds/vector-databases.mjs";
 
 import { visualAdditions, visualHistory, difyCorrection, visualGuide } from "../database/seeds/visual-builders.mjs";
+import { modelsAdditions, modelsCorrections, modelsGuides } from "../database/seeds/models-inference.mjs";
 
 if (!process.env.DATABASE_URL && existsSync('.env.local')) process.loadEnvFile('.env.local');
 const base = process.env.SMOKE_BASE_URL ?? "http://127.0.0.1:3000";
@@ -42,10 +43,16 @@ for (const route of routes) {
     assert.ok(html.includes("על הנתונים ומדד הפופולריות"), `${route}: metric definitions`);
     assert.ok(html.includes("יציאה ראשונית") && html.includes("Stars / GitHub"), `${route}: compact default columns`);
     const categoryId = route.split("/").pop();
+    if(['07','08'].includes(categoryId)) {
+      assert.ok(html.includes(modelsGuides[categoryId].title));
+      const names=[...html.matchAll(new RegExp('class="agent-name-label"><a[^>]*href="/tools/([^\"]+)"','g'))].map(m=>m[1]);
+      assert.equal(names.length,categoryId==='07'?17:8);
+      assert.equal(names[0],categoryId==='07'?'llm-fundamentals':'inference-fundamentals');
+    }
     if(categoryId === "07") {
       assert.ok(html.includes('מיון לפי שימוש מפתחים (%)'));
-      assert.equal((html.match(/class="agent-survey-usage"/g)??[]).length,14);
-      assert.equal((html.match(/aria-label="אין נתון שימוש בסקר"/g)??[]).length,7);
+      assert.equal((html.match(/class="agent-survey-usage"/g)??[]).length,17);
+      assert.equal((html.match(/aria-label="אין נתון שימוש בסקר"/g)??[]).length,10);
       for(const percent of ['74.6','74.3','54.5','18.9','10.1','9.8','6.3']) assert.ok(html.replace(/<!--.*?-->/gs,'').includes(percent+'%'), 'survey percentage '+percent);
       assert.ok(html.includes('https://survey.stackoverflow.co/2026/technology/data/llm'));
       assert.ok(html.includes('2026') && html.includes('ODbL 1.0') && html.includes('11,895'));
@@ -105,6 +112,13 @@ for (const route of routes) {
   }
   if (route.startsWith("/tools/")) {
     const entry = discoverableEntries.find(item => route === `/tools/${item.slug}`);
+    const modelsRecord=[...modelsAdditions,...modelsCorrections].find(a=>a.slug===entry.slug);
+    if(modelsRecord){
+      const plain=html.replace(/<[^>]+>/g,'').replace(/<!--.*?-->/gs,'');
+      assert.ok(plain.includes(modelsRecord.example),'approved scenario: '+entry.slug);
+      assert.ok(plain.includes(modelsRecord.languageSupportNote),'language qualification: '+entry.slug);
+      for(const [url] of modelsRecord.sources)assert.ok(html.includes(url.replaceAll('&','&amp;'))||html.includes(url),'official source: '+entry.slug);
+    }
     const addition=additions.find(a=>a.slug===entry.slug);
     const ragAddition=ragAdditions.find(a=>a.slug===entry.slug);
     const reviewAddition=reviewAdditions.find(a=>a.slug===entry.slug);

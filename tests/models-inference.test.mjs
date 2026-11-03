@@ -1,0 +1,21 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync,readdirSync} from 'node:fs';
+import {PGlite} from '@electric-sql/pglite';
+import {prepareDatabase} from '../scripts/prepare-database.mjs';
+import {readDatabaseCatalog} from '../src/data/database-catalog.mjs';
+import {verifyModelsInference} from '../scripts/apply-models-inference.mjs';
+import {sortAgentEntries} from '../src/data/agent-catalog.mjs';
+const sql=n=>readFileSync(new URL('../database/'+n,import.meta.url),'utf8');
+test('approved models/inference migration preserves unrelated content, metrics, schema and historical tools; enforces user overrides',async()=>{const db=new PGlite();try{
+ await db.exec(sql('001_catalog.sql'));await db.exec(prepareDatabase().sql);for(const f of readdirSync(new URL('../database',import.meta.url)).filter(f=>/^0(0[2-9]|1[01])_.*\.sql$/.test(f)).sort())await db.exec(sql(f));
+ const before=await readDatabaseCatalog(db);const query=async s=>(await db.query(s)).rows;
+ const schema=await query("select table_name,column_name,data_type from information_schema.columns where table_schema='academy' order by table_name,ordinal_position"),cohorts=await query('select * from academy.cohort_observations order by cohort_id,repository_url'),snapshots=await query('select * from academy.repository_snapshots order by repository_url,collected_at');
+ await db.query("update academy.entries set revision=9 where slug='qwen'");await assert.rejects(db.exec(sql('012_apply_models_inference.sql')),/Reviewed document changed: qwen/);await db.exec('rollback');await db.query("update academy.entries set revision=2 where slug='qwen'");
+ await db.exec(sql('012_apply_models_inference.sql'));assert.deepEqual(await verifyModelsInference(db,before),{total:71,published:69,category07:17,category08:8,added:7,corrected:18});
+ assert.deepEqual(await query("select table_name,column_name,data_type from information_schema.columns where table_schema='academy' order by table_name,ordinal_position"),schema);assert.deepEqual(await query('select * from academy.cohort_observations order by cohort_id,repository_url'),cohorts);
+ const afterSnapshots=await query('select * from academy.repository_snapshots order by repository_url,collected_at');assert.equal(afterSnapshots.length,snapshots.length+3);for(const s of snapshots)assert.ok(afterSnapshots.some(t=>JSON.stringify(t)===JSON.stringify(s)));
+ const after=await readDatabaseCatalog(db);assert.equal(sortAgentEntries(after.entries.filter(e=>e.categoryIds.includes('08')),after.facts,after.metrics,'learningPriority','desc',after.guides['08'].steps.map(s=>s.slug))[0].slug,'inference-fundamentals');
+ for(const slug of ['xai-grok','groq'])assert.ok(!after.entries.some(e=>e.slug===slug));
+ await assert.rejects(db.exec(sql('012_apply_models_inference.sql')),/Expected schema version 11/);await db.exec('rollback');
+ }finally{await db.close();}});

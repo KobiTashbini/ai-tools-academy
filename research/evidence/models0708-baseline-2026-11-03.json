@@ -1,0 +1,2558 @@
+{
+  "checkedAt": "2026-11-03T09:36:19.381Z",
+  "identities": [
+    {
+      "id": "agno",
+      "slug": "agno",
+      "name": "Agno",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/agno-agi/agno"
+      ]
+    },
+    {
+      "id": "amazon-bedrock",
+      "slug": "amazon-bedrock",
+      "name": "Amazon Bedrock",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "anthropic-claude",
+      "slug": "anthropic-claude",
+      "name": "Anthropic — Claude",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "azure-ai-search",
+      "slug": "azure-ai-search",
+      "name": "Azure AI Search",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "botpress",
+      "slug": "botpress",
+      "name": "Botpress",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "chroma",
+      "slug": "chroma",
+      "name": "Chroma",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/chroma-core/chroma"
+      ]
+    },
+    {
+      "id": "claude-code",
+      "slug": "claude-code",
+      "name": "Claude Code",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/anthropics/claude-code"
+      ]
+    },
+    {
+      "id": "codex",
+      "slug": "codex",
+      "name": "Codex",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/openai/codex"
+      ]
+    },
+    {
+      "id": "crewai",
+      "slug": "crewai",
+      "name": "CrewAI",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/crewAIInc/crewAI"
+      ]
+    },
+    {
+      "id": "cursor",
+      "slug": "cursor",
+      "name": "Cursor",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "deepseek",
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "dify",
+      "slug": "dify",
+      "name": "Dify",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/langgenius/dify"
+      ]
+    },
+    {
+      "id": "docling",
+      "slug": "docling",
+      "name": "Docling",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/docling-project/docling"
+      ]
+    },
+    {
+      "id": "dspy",
+      "slug": "dspy",
+      "name": "DSPy",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/stanfordnlp/dspy"
+      ]
+    },
+    {
+      "id": "flowise",
+      "slug": "flowise",
+      "name": "Flowise — היסטורי",
+      "kind": "platform",
+      "publication_status": "archived",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "google-adk",
+      "slug": "google-adk",
+      "name": "Google Agent Development Kit (ADK)",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/google/adk-python"
+      ]
+    },
+    {
+      "id": "google-gemini",
+      "slug": "google-gemini",
+      "name": "Google — Gemini",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "google-vertex-ai",
+      "slug": "google-vertex-ai",
+      "name": "Google Vertex AI / Agent Platform",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "haystack",
+      "slug": "haystack",
+      "name": "Haystack",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/deepset-ai/haystack"
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "slug": "hugging-face",
+      "name": "Hugging Face — Inference Providers",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "langchain",
+      "slug": "langchain",
+      "name": "LangChain",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/langchain-ai/langchain"
+      ]
+    },
+    {
+      "id": "langflow",
+      "slug": "langflow",
+      "name": "Langflow",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/langflow-ai/langflow"
+      ]
+    },
+    {
+      "id": "langfuse",
+      "slug": "langfuse",
+      "name": "Langfuse",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/langfuse/langfuse"
+      ]
+    },
+    {
+      "id": "langgraph",
+      "slug": "langgraph",
+      "name": "LangGraph",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/langchain-ai/langgraph"
+      ]
+    },
+    {
+      "id": "lightrag",
+      "slug": "lightrag",
+      "name": "LightRAG",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/HKUDS/LightRAG"
+      ]
+    },
+    {
+      "id": "llama-cpp",
+      "slug": "llama-cpp",
+      "name": "llama.cpp",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/ggml-org/llama.cpp"
+      ]
+    },
+    {
+      "id": "llamaindex",
+      "slug": "llamaindex",
+      "name": "LlamaIndex",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/run-llama/llama_index"
+      ]
+    },
+    {
+      "id": "llm-fundamentals",
+      "slug": "llm-fundamentals",
+      "name": "מודלי שפה — יסודות",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "lm-studio",
+      "slug": "lm-studio",
+      "name": "LM Studio",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "mastra",
+      "slug": "mastra",
+      "name": "Mastra",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/mastra-ai/mastra"
+      ]
+    },
+    {
+      "id": "mcp",
+      "slug": "mcp",
+      "name": "MCP",
+      "kind": "protocol",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/modelcontextprotocol/modelcontextprotocol"
+      ]
+    },
+    {
+      "id": "meta-llama",
+      "slug": "meta-llama",
+      "name": "Meta — Llama",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "microsoft-agent-framework",
+      "slug": "microsoft-agent-framework",
+      "name": "Microsoft Agent Framework",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/microsoft/agent-framework"
+      ]
+    },
+    {
+      "id": "microsoft-autogen",
+      "slug": "microsoft-autogen",
+      "name": "Microsoft AutoGen",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/microsoft/autogen"
+      ]
+    },
+    {
+      "id": "microsoft-copilot-studio",
+      "slug": "microsoft-copilot-studio",
+      "name": "Microsoft Copilot Studio",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "slug": "microsoft-foundry",
+      "name": "Microsoft Foundry (Azure AI Foundry)",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "microsoft-graphrag",
+      "slug": "microsoft-graphrag",
+      "name": "Microsoft GraphRAG",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/microsoft/graphrag"
+      ]
+    },
+    {
+      "id": "milvus",
+      "slug": "milvus",
+      "name": "Milvus",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/milvus-io/milvus"
+      ]
+    },
+    {
+      "id": "mistral-ai",
+      "slug": "mistral-ai",
+      "name": "Mistral AI",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "n8n",
+      "slug": "n8n",
+      "name": "n8n",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/n8n-io/n8n"
+      ]
+    },
+    {
+      "id": "ollama",
+      "slug": "ollama",
+      "name": "Ollama",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/ollama/ollama"
+      ]
+    },
+    {
+      "id": "openai-agent-builder",
+      "slug": "openai-agent-builder",
+      "name": "OpenAI Agent Builder — היסטורי",
+      "kind": "platform",
+      "publication_status": "archived",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "openai-agents-sdk",
+      "slug": "openai-agents-sdk",
+      "name": "OpenAI Agents SDK",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/openai/openai-agents-python"
+      ]
+    },
+    {
+      "id": "openai-gpt",
+      "slug": "openai-gpt",
+      "name": "OpenAI — GPT",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "openrouter",
+      "slug": "openrouter",
+      "name": "OpenRouter",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "pathway",
+      "slug": "pathway",
+      "name": "Pathway",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/pathwaycom/pathway"
+      ]
+    },
+    {
+      "id": "pgvector",
+      "slug": "pgvector",
+      "name": "pgvector",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/pgvector/pgvector"
+      ]
+    },
+    {
+      "id": "pinecone",
+      "slug": "pinecone",
+      "name": "Pinecone",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "pydantic-ai",
+      "slug": "pydantic-ai",
+      "name": "Pydantic AI",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/pydantic/pydantic-ai"
+      ]
+    },
+    {
+      "id": "pytorch",
+      "slug": "pytorch",
+      "name": "PyTorch",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/pytorch/pytorch"
+      ]
+    },
+    {
+      "id": "qdrant",
+      "slug": "qdrant",
+      "name": "Qdrant",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/qdrant/qdrant"
+      ]
+    },
+    {
+      "id": "qwen",
+      "slug": "qwen",
+      "name": "Alibaba — Qwen",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "rag-fundamentals",
+      "slug": "rag-fundamentals",
+      "name": "RAG — יסודות וארכיטקטורה",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "ragflow",
+      "slug": "ragflow",
+      "name": "RAGFlow",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/infiniflow/ragflow"
+      ]
+    },
+    {
+      "id": "sim",
+      "slug": "sim",
+      "name": "Sim",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/simstudioai/sim"
+      ]
+    },
+    {
+      "id": "smolagents",
+      "slug": "smolagents",
+      "name": "Hugging Face smolagents",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/huggingface/smolagents"
+      ]
+    },
+    {
+      "id": "temporal",
+      "slug": "temporal",
+      "name": "Temporal",
+      "kind": "orchestration_engine",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/temporalio/temporal"
+      ]
+    },
+    {
+      "id": "together-ai",
+      "slug": "together-ai",
+      "name": "Together AI",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "txtai",
+      "slug": "txtai",
+      "name": "txtai",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/neuml/txtai"
+      ]
+    },
+    {
+      "id": "unstructured",
+      "slug": "unstructured",
+      "name": "Unstructured",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/Unstructured-IO/unstructured"
+      ]
+    },
+    {
+      "id": "vector-search-fundamentals",
+      "slug": "vector-search-fundamentals",
+      "name": "חיפוש וקטורי — יסודות ובחירת אחסון",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "visual-ai-builders-fundamentals",
+      "slug": "visual-ai-builders-fundamentals",
+      "name": "בניית AI חזותית — יסודות ובחירת כלי",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "vllm",
+      "slug": "vllm",
+      "name": "vLLM",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/vllm-project/vllm"
+      ]
+    },
+    {
+      "id": "weaviate",
+      "slug": "weaviate",
+      "name": "Weaviate",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/weaviate/weaviate"
+      ]
+    }
+  ],
+  "proposals": [],
+  "categories": [
+    {
+      "id": "07",
+      "name": "LLMs & Model Providers",
+      "description": "היכרות עם מודלים, ספקים ודרכי גישה."
+    },
+    {
+      "id": "08",
+      "name": "Local AI & Inference",
+      "description": "הפעלת מודלים ותשתיות הסקה בסביבה שבשליטתך."
+    }
+  ],
+  "scope": [
+    {
+      "entry": {
+        "id": "amazon-bedrock",
+        "kind": "platform",
+        "name": "Amazon Bedrock",
+        "slug": "amazon-bedrock",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: שירות בקשות ציוד בארגון המשתמש ב־AWS ניגש למודל דרך Bedrock ומחזיר DTO מאומת לשירות העסקי.",
+        "sources": [
+          {
+            "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html",
+            "title": "AWS — Amazon Bedrock Overview",
+            "supports": "שירות מודלי בסיס מנוהל וריבוי ממשקי גישה. ניתוח האחריות הוא שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "שירות AWS מנוהל ללימוד גישה למשפחות מודלים שונות והפרדה בין מודל, הרשאות וממשק ענן.",
+        "exercise": "צייר מסלול גישה ישיר לספק מול Bedrock. תוצר: רשימת החלטות על זהות, אזור, ממשק ותיעוד בקשות; ללא יצירת משאבים.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Amazon Bedrock הוא שירות מנוהל לגישה למודלי בסיס ממספר ספקים. בחירה ב־Bedrock היא בחירת דרך גישה ותפעול, ולא שם של משפחת LLM אחת.",
+            "title": "מהו השירות?"
+          },
+          {
+            "text": "התיעוד מציג מספר ממשקים, ובהם Converse ו־Invoke וכן ממשקים תואמים. לפני מימוש יש לבחור חוזה נתמך לדגם הרצוי, ולא להניח שכל דגם עובד בכל מסלול.",
+            "title": "חוזי גישה"
+          },
+          {
+            "text": "תכנון לימודי: Adapter בשירות C# מתרגם בקשה עסקית לממשק הענן. ההזדהות וההרשאות מתוכננות בצד השרת; React אינו מחזיק סוד גישה לשירות.",
+            "title": "החיבור ל־REST ול־.NET"
+          },
+          {
+            "text": "אחרי שהבנת קריאת מודל ישירה, למד את השפעת אזור, הרשאות וקיבולת על בחירה. אין צורך ללמוד שלושה עננים באותה רמת עומק; המטרה היא להבין את השכבות המשותפות.",
+            "title": "מתי להעמיק?"
+          },
+          {
+            "text": "בדוק זמינות, תנאי עיבוד, מגבלות וכלים לדגם ולממשק המדויקים. שם מודל זהה אצל כמה מארחים אינו מבטיח חוזה או מדיניות זהים.",
+            "title": "בדיקת התאמה"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "microsoft-foundry",
+          "google-vertex-ai",
+          "anthropic-claude"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, JSON, REST ואימות קלט בצד השרת.",
+        "alternativesNote": "השווה מול Foundry ופלטפורמת Google Cloud ברמת אחריות וחוזים, בלי להניח יתרון עלות או איכות גורף.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש."
+      },
+      "facts": {
+        "description": "שירות AWS מנוהל ללימוד גישה למשפחות מודלים שונות והפרדה בין מודל, הרשאות וממשק ענן.",
+        "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+        "languageSources": [
+          "https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2023-04-13",
+          "precision": "day",
+          "source": "https://aws.amazon.com/blogs/machine-learning/announcing-new-tools-to-help-every-business-embrace-generative-ai/",
+          "note": "הכרזה ראשונית על Bedrock באפריל 2023 לפי הסקירה הרשמית; זמינות כללית הגיעה ב־28 בספטמבר 2023."
+        }
+      },
+      "metrics": {
+        "slug": "amazon-bedrock",
+        "description": "שירות AWS מנוהל ללימוד גישה למשפחות מודלים שונות והפרדה בין מודל, הרשאות וממשק ענן.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להעמקה אם סביבת הארגון שלך נשענת על AWS.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "anthropic-claude",
+        "kind": "model",
+        "name": "Anthropic — Claude",
+        "slug": "anthropic-claude",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: Claude מבקש get_stock; שרת .NET מאמת itemId, קורא SQL ומחזיר תוצאה. המודל מנסח הסבר על זמינות.",
+        "sources": [
+          {
+            "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview",
+            "title": "Anthropic — Tool use with Claude",
+            "supports": "כלי לקוח ושרת, tool_use ו־tool_result. ההמלצות העסקיות הן שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "משפחת מודלים ללימוד לולאת כלים והבדלה בין כלים שהיישום מפעיל לכלים שמופעלים אצל הספק.",
+        "exercise": "צייר רצף הודעות הכולל tool_use, כשל עסקי ו־tool_result. תוצר: תרשים רצף והחלטה מה קורה אם המודל מבקש כלי שאינו מורשה.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Anthropic מפתחת את Claude. Claude Code הוא מוצר לפיתוח תוכנה ואינו שם חלופי ל־API של המודל. כדאי ללמוד מודל נוסף כדי להבין אילו חלקים באפליקציה תלויים בספק.",
+            "title": "ספק, מודל ומוצר"
+          },
+          {
+            "text": "בכלי לקוח המודל מחזיר tool_use, היישום מבצע את הפונקציה ומחזיר tool_result. בכלי שרת הביצוע מתרחש אצל הספק. ההבחנה קובעת היכן נדרשות הרשאות, ניטור וטיפול בכשל.",
+            "title": "איך לולאת הכלים עובדת?"
+          },
+          {
+            "text": "הקבלה לימודית: בקשת כלי היא בקשה להפעלת Endpoint פנימי, לא קריאת REST שכבר התבצעה. מתאם בשרת ממפה שם כלי לפונקציה מאושרת ובודק את הפרמטרים והמשתמש.",
+            "title": "החיבור ל־REST"
+          },
+          {
+            "text": "השווה מול ספק נוסף את בחירת הכלי, איכות הארגומנטים והתגובה לשגיאת מלאי. אין כאן קביעה ש־Claude טוב יותר לקוד או להסקה; זו שאלה לניסוי מוגדר.",
+            "title": "מה כדאי להשוות?"
+          },
+          {
+            "text": "תכנן עצירה אחרי מספר צעדים מוגבל והפרד כלי קריאה מכלי כתיבה. תוכן שחוזר ממסמך או מכלי הוא מידע לא מהימן, ולא מקור להרשאות חדשות.",
+            "title": "גבולות ואבטחה"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "openai-gpt",
+          "google-gemini",
+          "claude-code"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, JSON, REST ואימות קלט בצד השרת.",
+        "alternativesNote": "OpenAI ו־Gemini הם חלופות ללימוד אותו תרחיש. אל תעתיק מבנה הודעות מספק אחד לאחר בלי לבדוק את החוזה.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש."
+      },
+      "facts": {
+        "description": "משפחת מודלים ללימוד לולאת כלים והבדלה בין כלים שהיישום מפעיל לכלים שמופעלים אצל הספק.",
+        "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+        "languageSources": [
+          "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2023-03-14",
+          "precision": "day",
+          "source": "https://www.anthropic.com/news/introducing-claude",
+          "note": "הכרזה ציבורית על Claude והרחבת הגישה לאחר Alpha סגורה; לא תאריך הקמת Anthropic."
+        }
+      },
+      "metrics": {
+        "slug": "anthropic-claude",
+        "description": "משפחת מודלים ללימוד לולאת כלים והבדלה בין כלים שהיישום מפעיל לכלים שמופעלים אצל הספק.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להבנת חוזה נוסף של מודל ולולאת שימוש בכלים.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "surveyUsage": {
+          "percent": 74.6,
+          "year": 2026,
+          "provider": "Anthropic",
+          "source": "https://survey.stackoverflow.co/2026/technology/data/llm",
+          "sourceName": "Stack Overflow Developer Survey",
+          "sampleSize": 11895,
+          "respondentCount": 8871,
+          "population": "All Respondents",
+          "multipleResponses": true,
+          "verifiedAt": "2026-11-02",
+          "licenseName": "ODbL 1.0",
+          "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+          "mappingNote": "Provider-level use mapped to the existing model-family entry; not use of a specific model version."
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "deepseek",
+        "kind": "model",
+        "name": "DeepSeek",
+        "slug": "deepseek",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: מנתח בקשות ציוד מחליף ספק מאחורי אותו ממשק, ומבחני חוזה מגלים אם טיפול בפלט חלקי נשבר.",
+        "sources": [
+          {
+            "url": "https://api-docs.deepseek.com/",
+            "title": "DeepSeek — First API Call",
+            "supports": "כתובות API, פורמטים תואמים ותצורת בקשות. בדיקות הניידות הן תכנון שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "ספק ומשפחות מודלים ללימוד מעבר בין שירותים והגבולות של תאימות לממשקי API מוכרים.",
+        "exercise": "כתוב רשימת בדיקות למעבר ספק: הזדהות, פלט, שגיאות, timeout וכלים. תוצר: תוכנית בדיקה המפרידה בין תאימות פורמט לתאימות התנהגות.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "DeepSeek מוסיף למסלול הלימוד ספק מודלים נוסף. המוקד כאן הוא ההבחנה בין ספק, מזהה מודל ודרך גישה, ולא הנחה שהוא זול או איכותי יותר מספקים אחרים.",
+            "title": "למה להכיר?"
+          },
+          {
+            "text": "התיעוד מציג גישה בפורמטים תואמי OpenAI ו־Anthropic באמצעות הגדרת כתובת ומודל. תאימות פורמט אינה הוכחה לשוויון ביכולות, שגיאות, מדיניות מידע או פרמטרים.",
+            "title": "תאימות API"
+          },
+          {
+            "text": "תכנון לימודי: שמור כתובת, מזהה מודל והגדרות בספק תצורה. מתאם מפרש תשובות ושגיאות לפורמט פנימי. החלפת כתובת דורשת בדיקות חוזה, ולא רק קומפילציה.",
+            "title": "איך מחליפים ספק?"
+          },
+          {
+            "text": "מצבי הסקה ופרטי בקשה משתנים לפי הדגם. בדוק מה היישום מקבל בפועל וכיצד הוא מתמודד עם פלט חסר. אורך הסבר אינו מדד מספיק לנכונות הפתרון.",
+            "title": "הקשר להסקה ול־Agents"
+          },
+          {
+            "text": "בחן אזור עיבוד, תנאי שימוש, מגבלות ותיעוד שגיאות לפני שילוב. פרק זה אינו סקירת רישיונות משקלים או המלצה לפריסת דגם מקומי מסוים.",
+            "title": "מידע ותפעול"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "openai-gpt",
+          "openrouter",
+          "qwen"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, JSON, REST ואימות קלט בצד השרת.",
+        "alternativesNote": "למד תחילה ספק אחד לעומק, ואז השתמש ב־DeepSeek כדוגמה לבדיקת ניידות. קריאה דרך נתב היא מסלול אחר מקריאה ישירה.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש."
+      },
+      "facts": {
+        "description": "ספק ומשפחות מודלים ללימוד מעבר בין שירותים והגבולות של תאימות לממשקי API מוכרים.",
+        "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+        "languageSources": [
+          "https://api-docs.deepseek.com/"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "deepseek",
+        "description": "ספק ומשפחות מודלים ללימוד מעבר בין שירותים והגבולות של תאימות לממשקי API מוכרים.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להרחבת ההיכרות ולבדיקת ניידות בין ספקי מודלים.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "surveyUsage": {
+          "percent": 18.9,
+          "year": 2026,
+          "provider": "DeepSeek",
+          "source": "https://survey.stackoverflow.co/2026/technology/data/llm",
+          "sourceName": "Stack Overflow Developer Survey",
+          "sampleSize": 11895,
+          "respondentCount": 2253,
+          "population": "All Respondents",
+          "multipleResponses": true,
+          "verifiedAt": "2026-11-02",
+          "licenseName": "ODbL 1.0",
+          "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+          "mappingNote": "Provider-level use mapped to the existing model-family entry; not use of a specific model version."
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "google-gemini",
+        "kind": "model",
+        "name": "Google — Gemini",
+        "slug": "google-gemini",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: יישום ציוד מעביר תיאור בקשה וחתימת get_stock; השרת מחזיר זמינות ורק אחר כך מנוסחת תשובה.",
+        "sources": [
+          {
+            "url": "https://ai.google.dev/gemini-api/docs/function-calling",
+            "title": "Google — Gemini Function Calling",
+            "supports": "הגדרת פונקציות וחיבור המודל לפעולות ולמקורות מידע. הדוגמה הארגונית היא שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "משפחת מודלים ללימוד חיבור פונקציות ליישום והפרדה בין משפחת מודלים לפלטפורמת הענן שסביבה.",
+        "exercise": "כתוב חוזה get_stock והגדר שלוש תשובות: זמין, חסר ושגיאת שירות. תוצר: טבלה המשווה את הודעות Gemini לחוזה הספק שלמדת קודם.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Gemini היא משפחת מודלים של Google. Gemini API הוא ממשק גישה; פלטפורמת הענן של Google היא שכבה רחבה יותר. בחירת מודל אינה מחייבת בחירת כל תשתית הענן.",
+            "title": "מהו הפריט?"
+          },
+          {
+            "text": "מגדירים פונקציות ופרמטרים, שולחים בקשה ובודקים אם המודל החזיר קריאה לפונקציה. היישום אחראי להפעלת הפעולה בהתאם לממשק שבחר ולבדיקת התוצאה.",
+            "title": "זרימת Function Calling"
+          },
+          {
+            "text": "ב־React מציגים בקשה והסבר; בשרת שומרים גישה למידע ולכלים. בדומה ל־REST Controller, גם כאן חוזה קלט אינו מחליף בדיקת הרשאות או טרנזקציה.",
+            "title": "החיבור לידע שלך"
+          },
+          {
+            "text": "התחל מפונקציה אחת לקריאת מלאי לפני הוספת מקורות קלט נוספים. יכולות קלט, כלים והקשר תלויות במודל ובמסלול API; אין להניח שכל גרסה תומכת באותו שילוב.",
+            "title": "מה חשוב ללמוד קודם?"
+          },
+          {
+            "text": "השתמש במקרי בדיקה עם שדות חסרים ושמות פריטים עמומים. תעד את המודל ואת דרך הגישה, ובדוק תנאי מידע ועלות לפני שליחת מסמכים אמיתיים.",
+            "title": "בדיקה ותפעול"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "openai-gpt",
+          "anthropic-claude",
+          "google-vertex-ai"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, JSON, REST ואימות קלט בצד השרת.",
+        "alternativesNote": "ההיכרות עם ספק שלישי נועדה ללמוד הבדלי חוזים. העמקה בפלטפורמת הענן מתאימה אחרי הבנת קריאה ישירה למודל.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש."
+      },
+      "facts": {
+        "description": "משפחת מודלים ללימוד חיבור פונקציות ליישום והפרדה בין משפחת מודלים לפלטפורמת הענן שסביבה.",
+        "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+        "languageSources": [
+          "https://ai.google.dev/gemini-api/docs/function-calling"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2023-12-06",
+          "precision": "day",
+          "source": "https://blog.google/innovation-and-ai/technology/ai/google-gemini-ai/",
+          "note": "הכרזת משפחת Gemini; גישת מפתחים ל־API הוכרזה בנפרד ל־13 בדצמבר."
+        }
+      },
+      "metrics": {
+        "slug": "google-gemini",
+        "description": "משפחת מודלים ללימוד חיבור פונקציות ליישום והפרדה בין משפחת מודלים לפלטפורמת הענן שסביבה.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להיכרות עם משפחת מודלים נוספת והבדלי אינטגרציה.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "surveyUsage": {
+          "percent": 54.5,
+          "year": 2026,
+          "provider": "Google AI",
+          "source": "https://survey.stackoverflow.co/2026/technology/data/llm",
+          "sourceName": "Stack Overflow Developer Survey",
+          "sampleSize": 11895,
+          "respondentCount": 6483,
+          "population": "All Respondents",
+          "multipleResponses": true,
+          "verifiedAt": "2026-11-02",
+          "licenseName": "ODbL 1.0",
+          "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+          "mappingNote": "Provider-level use mapped to the existing model-family entry; not use of a specific model version."
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "google-vertex-ai",
+        "kind": "platform",
+        "name": "Google Vertex AI / Agent Platform",
+        "slug": "google-vertex-ai",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: צוות בוחן גישה למודל כשירות מול פריסת מודל פתוח, ושומר את חוזה בקשת הציוד זהה.",
+        "sources": [
+          {
+            "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models",
+            "title": "Google Cloud — Models on Agent Platform",
+            "supports": "יעד ההפניה של תיעוד Vertex AI, קבוצות מודלים והבחנה בין שירות מנוהל לפריסה עצמית. התכנון העסקי הוא שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "פלטפורמת Google Cloud ללימוד בחירת מודלים וההבדל בין שירות מודלים מנוהל לפריסה עצמית.",
+        "exercise": "מפה מודל אחד מכל קבוצת קטלוג לדרך הפעלה אפשרית. תוצר: תרשים שמפריד בין מפתח המודל, מארח השירות והלקוח העסקי.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "קישורי Vertex AI שנבדקו מפנים לתיעוד Gemini Enterprise Agent Platform. השם Vertex AI נשמר לזיהוי חומרי לימוד קיימים. הפרק עוסק בשכבת Google Cloud סביב מודלים, ולא במשפחת Gemini עצמה.",
+            "title": "איך לזהות את המוצר?"
+          },
+          {
+            "text": "תיעוד המודלים מבחין בין מודלי Google, מודלי שותפים ומודלים פתוחים, וכן בין שירות מנוהל לפריסה עצמית. לא לכל דגם יש אותן אפשרויות.",
+            "title": "מודלים ודרכי הפעלה"
+          },
+          {
+            "text": "Gemini היא משפחת מודלים; פלטפורמת הענן כוללת בחירה, גישה וניהול סביב מודלים. תכנון לימודי: החלפת שכבת הגישה יכולה לשנות הזדהות ותפעול בלי לשנות את המטרה העסקית.",
+            "title": "ההבדל מ־Gemini API"
+          },
+          {
+            "text": "הפרד ב־ASP.NET בין חוזה חילוץ הנתונים לבין Adapter לפלטפורמה. בממשק React מציגים תוצאה ומצב שגיאה, בלי לערב פרטי ענן בכל רכיב UI.",
+            "title": "החיבור לארכיטקטורה שלך"
+          },
+          {
+            "text": "הכן טבלת אחריות למודל מנוהל מול משקלים בפריסה עצמית. בדוק אזור, הרשאות ותמיכה במודל לפני ניסוי. אין בפרק התחייבות לשם או לחבילת SDK שיישארו קבועים.",
+            "title": "בחירת מסלול"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "google-gemini",
+          "amazon-bedrock",
+          "microsoft-foundry"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, JSON, REST ואימות קלט בצד השרת.",
+        "alternativesNote": "Foundry ו־Bedrock מלמדים חלופות בעננים אחרים. למסלול ראשון בחר פלטפורמה אחת להעמקה והכר את האחרות ברמה מושגית.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש."
+      },
+      "facts": {
+        "description": "פלטפורמת Google Cloud ללימוד בחירת מודלים וההבדל בין שירות מודלים מנוהל לפריסה עצמית.",
+        "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+        "languageSources": [
+          "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2021-05-18",
+          "precision": "day",
+          "source": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-launches-vertex-ai-unified-platform-for-mlops",
+          "note": "השקת Vertex AI בזמינות כללית. לא השקת Gemini ולא תאריך שינוי השם בתיעוד Agent Platform."
+        }
+      },
+      "metrics": {
+        "slug": "google-vertex-ai",
+        "description": "פלטפורמת Google Cloud ללימוד בחירת מודלים וההבדל בין שירות מודלים מנוהל לפריסה עצמית.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להעמקה אם סביבת הארגון שלך נשענת על Google Cloud.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "hugging-face",
+        "kind": "platform",
+        "name": "Hugging Face — Inference Providers",
+        "slug": "hugging-face",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: אותו סט בקשות ציוד נשלח לשני מודלים שנבחרו לבדיקה, והפלט נבדק מול טבלת אמת בלי לבצע פעולות עסקיות.",
+        "sources": [
+          {
+            "url": "https://huggingface.co/docs/inference-providers/index",
+            "title": "Hugging Face — Inference Providers",
+            "supports": "מודלים אצל ספקים שונים, ניתוב ולקוחות Python/JavaScript. שיטת ההערכה והטבלה הן המלצות לימודיות.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "שכבת גישה למודלים שמופעלים אצל ספקי הסקה שונים; חשוב להבחין בין המודל, הספק והפלטפורמה.",
+        "exercise": "בנה טבלה עם עמודות מודל, ספק, SDK, משימה ומדיניות נתונים. תוצר: שני מועמדים והסבר אילו פרטים נדרשים לפני העברת מידע ארגוני.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Inference Providers נותנת גישה למודלים דרך ספקי הסקה ואינטגרציה בלקוחות JavaScript ו־Python. Hugging Face היא הפלטפורמה; המודל הוא רכיב נפרד, והספק הוא שמפעיל את ההסקה בפועל.",
+            "title": "מה היא פותרת?"
+          },
+          {
+            "text": "היישום בוחר מודל וספק או מדיניות ניתוב, שולח קלט ומקבל תוצאה. חלק מהבדלי פורמט הבקשות מטופלים בלקוחות הרשמיים. זה לא מבטיח שכל ספק תומך בכל משימה.",
+            "title": "זרימת בקשה"
+          },
+          {
+            "text": "שכבת API אחידה יכולה לצמצם קוד חיבור. עם זאת, חוזה תחבירי דומה אינו מוכיח זהות בתוצאות, זמני תגובה או מדיניות נתונים. שים את הבחירה מאחורי שירות יישומי קטן.",
+            "title": "החיבור ל־REST"
+          },
+          {
+            "text": "המלצה: השתמש בסט דוגמאות שלך, למשל חילוץ בקשות בעברית. מדוד נכונות, פלט חסר והצורך בתיקון. אל תבחר לפי שם משפחה בלבד או לפי הדגמה יחידה.",
+            "title": "איך בוחרים מודל?"
+          },
+          {
+            "text": "בדוק לאיזה ספק עובר המידע, רישוי המודל וזמינות משימה ספציפית. השווה עלות כוללת לקריאה מוצלחת, כולל ניסיונות חוזרים. מחירים ומכסות לא נכללים בעמוד זה.",
+            "title": "אבטחה ועלות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "llm-fundamentals",
+          "ollama",
+          "pytorch"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "HTTP, מודלי שפה והבדל בין API למודל.",
+        "alternativesNote": "API ישיר של ספק או הרצה מקומית הם מסלולים נוספים. Ollama ו־Inference Providers נמצאים בשכבות שונות ויש להשוות לפי צורך תפעולי.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "התיעוד שנבדק מציג לקוחות רשמיים ב־Python וב־JavaScript. שימוש ב־C# דרך HTTP הוא אינטגרציה, ולא הוכחה ל־SDK מקביל בשפה."
+      },
+      "facts": {
+        "description": "מנגיש מודלים אצל ספקי הסקה שונים דרך ממשק משותף לצמצום עבודת אינטגרציה.",
+        "languages": "Python ו־JavaScript רשמיים; C#/.NET: HTTP, SDK מקביל לא אומת.",
+        "languageSources": [
+          "https://huggingface.co/docs/inference-providers/index"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "שירות Inference Providers אינו מאגר יחיד; Stars של Hub SDK לא מייצגים אותו."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "hugging-face",
+        "description": "מנגיש מודלים אצל ספקי הסקה שונים דרך ממשק משותף לצמצום עבודת אינטגרציה.",
+        "languages": [
+          "Python",
+          "JavaScript"
+        ],
+        "learningReason": "להבנת גילוי מודלים ודרכי גישה לספקי הסקה.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "llama-cpp",
+        "kind": "runtime",
+        "name": "llama.cpp",
+        "slug": "llama-cpp",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: משווים שתי גרסאות כימות של דגם נתמך על חילוץ פרטי ציוד ובודקים איכות לצד זיכרון וזמן.",
+        "sources": [
+          {
+            "url": "https://github.com/ggml-org/llama.cpp",
+            "title": "ggml-org — llama.cpp",
+            "supports": "מנוע C/C++, שרת תואם API, כימות ותמיכה בחומרה. השוואת הניסוי היא שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "מנוע הסקה ללימוד פורמט מודל, כימות והקשר בין משקלים, זיכרון וחומרת הרצה.",
+        "exercise": "בנה תבנית ניסוי עם דגם קבוע ושתי רמות כימות. תוצר: שדות מדידה וקריטריון הצלחה; אין כאן תוצאות Benchmark שבוצע.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "llama.cpp הוא מנוע הסקה ב־C/C++, ואינו משפחת Llama של Meta. הוא תומך במגוון מודלים וחומרות לפי תיעוד התאימות; שם הפרויקט אינו מגביל אותו למודלי Llama.",
+            "title": "הבדל השמות החשוב"
+          },
+          {
+            "text": "המנוע טוען משקלים בפורמט נתמך ומבצע הסקה. כלי שורת פקודה ושרת API הם דרכי הפעלה סביבו. אלה רכיבים שונים מהלקוח ששולח Prompt.",
+            "title": "איך שכבת המנוע עובדת?"
+          },
+          {
+            "text": "התיעוד מתאר כימות במספר רמות ושילוב CPU ו־GPU. כימות משנה את ייצוג המשקלים ויכול להפחית צריכת זיכרון; השפעתו על איכות ומהירות דורשת מדידה.",
+            "title": "כימות ומשאבים"
+          },
+          {
+            "text": "תכנון לימודי: צריכת שרת HTTP שומרת את הקוד העסקי ב־C#. שימוש ישיר בספריית C++ הוא מסלול אינטגרציה אחר עם אחריות נוספת, ולא חובה לתרגיל הראשון.",
+            "title": "החיבור ל־.NET"
+          },
+          {
+            "text": "החזק את המשימה קבועה ותעד דגם, פורמט, כימות וחומרה. אל תייחס שינוי באיכות לספק אם באותו זמן שינית גם את ייצוג המשקלים או תצורת ההרצה.",
+            "title": "איך בודקים?"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "08"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "meta-llama",
+          "ollama",
+          "vllm"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, HTTP והבחנה בין זיכרון RAM לזיכרון GPU.",
+        "alternativesNote": "Ollama ו־LM Studio נוחים ללימוד סביבת עבודה; vLLM מתמקד בהגשת מודלים ובניהול בקשות.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "המנוע כתוב ב־C/C++; שרת API מאפשר אינטגרציה ב־C#, Python ו־TypeScript באמצעות HTTP. אין כאן טענת SDK רשמי לשפות אלה."
+      },
+      "facts": {
+        "description": "מנוע הסקה ללימוד פורמט מודל, כימות והקשר בין משקלים, זיכרון וחומרת הרצה.",
+        "languages": "המנוע כתוב ב־C/C++; שרת API מאפשר אינטגרציה ב־C#, Python ו־TypeScript באמצעות HTTP. אין כאן טענת SDK רשמי לשפות אלה.",
+        "languageSources": [
+          "https://github.com/ggml-org/llama.cpp"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי של מנוע ההסקה עצמו; Stars ו־Forks הם תשומת לב למאגר, לא מספר משתמשים או איכות המודלים.",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "stars": 132940,
+          "starsSource": "https://api.github.com/repos/ggml-org/llama.cpp",
+          "collectedAt": "2026-10-31T12:28:15.969+00:00",
+          "lastActivity": {
+            "date": "2026-10-31T05:13:48+00:00",
+            "source": "https://github.com/ggml-org/llama.cpp/commit/0ec4027a2a0183de87c007069adddc06e665f7de",
+            "branch": "master",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2023-03-10",
+          "precision": "day",
+          "source": "https://github.com/ggml-org/llama.cpp/commit/26c084662903ddaca19bef982831bfb0856e8257",
+          "note": "ה־Commit שהמחבר סימן במפורש Initial release, מ־10 במרץ 2023. התאריך אומת ב־GitHub API; לא הוסק מיצירת המאגר."
+        }
+      },
+      "metrics": {
+        "slug": "llama-cpp",
+        "description": "מנוע הסקה ללימוד פורמט מודל, כימות והקשר בין משקלים, זיכרון וחומרת הרצה.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להבנת המנוע, הכימות והקשר בין מודל לחומרה.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "communityInterest": {
+          "score": 85.85,
+          "stars": 132940,
+          "forks": 24996,
+          "maxStars": 185436,
+          "maxForks": 24996,
+          "method": "AI TOOLS GitHub Interest v1",
+          "source": "https://api.github.com/repos/ggml-org/llama.cpp",
+          "repository": "https://github.com/ggml-org/llama.cpp",
+          "collectedAt": "2026-10-31T12:28:15.969Z",
+          "cohort": "category-08-three-inference-runtimes",
+          "cohortLabel": "שלושת מנועי ההסקה בקטגוריה 08"
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "llm-fundamentals",
+        "kind": "concept",
+        "name": "מודלי שפה — יסודות",
+        "slug": "llm-fundamentals",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: בקשה חופשית לציוד הופכת להצעת JSON עם קוד פריט וכמות. השרת בודק את ההצעה ורק אז מחפש מלאי; אין ביצוע הזמנה רק משום שהטקסט נשמע בטוח.",
+        "sources": [
+          {
+            "url": "https://developers.google.com/machine-learning/crash-course/llm",
+            "title": "Google — מבוא למודלי שפה",
+            "supports": "מודל הסתברותי, Tokens ויצירת טקסט. דפוסי התכנון, הדוגמאות והתרגילים הם הסבר לימודי שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "הבנת Tokens, הקשר והסקה: הבסיס לבחירת מודל ולבניית יישום שמשתמש בו.",
+        "exercise": "כתוב שלוש בקשות ציוד: ברורה, עמומה וסותרת. הגדר פלט צפוי ומתי חייבים לשאול שאלת הבהרה. תוצר: טבלת מקרי בדיקה שהיית מפעיל על כל מודל מועמד.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "מודל שפה מעריך הסתברויות לרצפי Tokens. Token יכול להיות מילה, חלק ממילה או תו. ביצירת טקסט המודל מפיק המשך על בסיס הקלט; ניסוח משכנע אינו הוכחה לנכונות.",
+            "title": "מהו מודל שפה?"
+          },
+          {
+            "text": "יישום מרכיב הוראות, שאלה ומידע רלוונטי, שולח אותם למודל ומקבל פלט. בהסקה משתמשים במודל קיים; באימון משנים את פרמטרי המודל. הוספת טקסט לשאלה אינה אימון.",
+            "title": "זרימת עבודה בסיסית"
+          },
+          {
+            "text": "חשוב על שירות שמחזיר הצעה שדורשת בדיקה. JSON תקין הוא חוזה מבני בלבד: מספר פריט שנראה תקין עדיין צריך להיבדק ב־SQL מול הנתונים והרשאות המשתמש.",
+            "title": "החיבור לידע שלך"
+          },
+          {
+            "text": "המלצה הנדסית: תן למודל לעבד שפה לא מובנית, והשאר חישוב סכומים ובדיקת מלאי לקוד דטרמיניסטי. הגדר מראש מהי תשובה נכונה ומה עושים כשחסר מידע.",
+            "title": "איך לבחור שימוש נכון?"
+          },
+          {
+            "text": "תכנן מה מותר להעביר לספק, כמה קלט דרוש ומתי לעצור. אל תסיק ממספר המילים את מספר ה־Tokens בעברית. גודל ההקשר והמחיר תלויים במודל ונבדקים לפני שימוש.",
+            "title": "אבטחה ועלות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "00",
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "hugging-face",
+          "ollama",
+          "llamaindex"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "פונקציות, JSON וקריאת API.",
+        "alternativesNote": "לפני שימוש במודל, בדוק אם כללים, חיפוש רגיל או טופס מובנה פותרים את הבעיה באופן פשוט יותר.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "זהו מושג, לא SDK. אפשר לצרוך מודל מ־C#, Python או TypeScript דרך ממשק שהספק מציע; יש לבדוק כל SDK בנפרד."
+      },
+      "facts": {
+        "description": "מסביר יצירת טקסט באמצעות מודלי שפה והפרדה בין הצעת מודל להחלטה עסקית.",
+        "languages": "מושג; C#/.NET ושפות נוספות לפי ממשק ספק המודל.",
+        "languageSources": [
+          "https://developers.google.com/machine-learning/crash-course/llm"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "מושג כללי, ללא מאגר מוצר יחיד."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "llm-fundamentals",
+        "description": "מסביר יצירת טקסט באמצעות מודלי שפה והפרדה בין הצעת מודל להחלטה עסקית.",
+        "languages": [
+          "לא תלוי בשפה"
+        ],
+        "learningReason": "נקודת הפתיחה להבנת מודלים, הקשר והסקה.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "lm-studio",
+        "kind": "product",
+        "name": "LM Studio",
+        "slug": "lm-studio",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: בוחנים בקשת ציוד בממשק, ואז מתכננים קריאה לאותו מודל מתוך שירות HTTP מקומי.",
+        "sources": [
+          {
+            "url": "https://lmstudio.ai/docs/app",
+            "title": "LM Studio — App documentation",
+            "supports": "יישום, הורדת מודל וקישורי דרישות מערכת ועבודה לא מקוונת.",
+            "checkedAt": "2026-10-31"
+          },
+          {
+            "url": "https://lmstudio.ai/docs/developer",
+            "title": "LM Studio — Developer documentation",
+            "supports": "שרת, REST API ומסלולי פיתוח. תכנון אינטגרציית C# הוא שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "יישום להרצת מודלים מקומיים ולימוד בחירת מודל וצריכתו דרך שרת מקומי לפני ניהול תשתית מורכבת.",
+        "exercise": "תעד בנפרד קובץ מודל, מנוע, שרת ולקוח. תוצר: תרשים בקשה ורשימת בדיקות התאמה לחומרה; הרצה בפועל היא תרגול עתידי.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "LM Studio מאפשר להוריד מודלים ולהריץ אותם דרך יישום מקומי. זהו כלי עבודה סביב מודלים קיימים, ולא משפחת מודלים. הוא מתאים להיכרות חזותית עם שכבת ההרצה.",
+            "title": "מה הוא פותר?"
+          },
+          {
+            "text": "תיעוד הפיתוח מציג שרת ו־REST API. ההפרדה הלימודית: שיחה בממשק היא לקוח אחד; יישום שאתה מפתח הוא לקוח נוסף שיכול לצרוך את השרת.",
+            "title": "מהממשק לשרת"
+          },
+          {
+            "text": "בדוק את דרישות המערכת ואת התאמת הדגם למנוע ולזיכרון. הורדה מוצלחת אינה הוכחה לזמן תגובה שימושי או לאיכות טובה בעברית.",
+            "title": "בחירת דגם וחומרה"
+          },
+          {
+            "text": "תכנון לימודי: ASP.NET משתמש ב־HttpClient מול שרת מקומי ומחזיר DTO. אין צורך להטמיע את ממשק LM Studio בתוך React כדי ללמוד אינטגרציה.",
+            "title": "החיבור ל־C#"
+          },
+          {
+            "text": "פעולות הורדה דורשות גישה למקורות חיצוניים. בדוק מצב עבודה לא מקוון, כתובת שרת וכלים מחוברים לפני מידע רגיש. שרת מקומי שנחשף לרשת צריך בקרת גישה.",
+            "title": "מקומי ופרטיות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "08"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "ollama",
+          "llama-cpp",
+          "qwen"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, HTTP והבחנה בין זיכרון RAM לזיכרון GPU.",
+        "alternativesNote": "Ollama הוא מסלול נוסף ללימוד API מקומי; llama.cpp מעמיק בשכבת המנוע ו־vLLM בשירות מקבילי.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש."
+      },
+      "facts": {
+        "description": "יישום להרצת מודלים מקומיים ולימוד בחירת מודל וצריכתו דרך שרת מקומי לפני ניהול תשתית מורכבת.",
+        "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+        "languageSources": [
+          "https://lmstudio.ai/docs/app",
+          "https://lmstudio.ai/docs/developer"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "יישום LM Studio אינו מיוצג כאן באמצעות מאגר קוד מקור ציבורי של היישום המלא. מאגרי SDK, CLI ומשוב הם מוצרים נפרדים ואינם תחליף למדד כוכבים של היישום."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2023",
+          "precision": "year",
+          "source": "https://lmstudio.ai/blog/free-for-work",
+          "note": "המקור הרשמי מציין השקה במאי 2023; מוצגת שנה בלבד משום שיום מדויק לא אומת. אין שימוש ביום פרסום מאמר 2025 כתאריך השקה."
+        }
+      },
+      "metrics": {
+        "slug": "lm-studio",
+        "description": "יישום להרצת מודלים מקומיים ולימוד בחירת מודל וצריכתו דרך שרת מקומי לפני ניהול תשתית מורכבת.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "חלופה חזותית להתחלת עבודה עם מודלים מקומיים.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "meta-llama",
+        "kind": "model",
+        "name": "Meta — Llama",
+        "slug": "meta-llama",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: אותו מנתח בקשות ציוד משתמש פעם בשירות חיצוני ופעם בדגם Llama שמוגש בשרת בשליטת הארגון.",
+        "sources": [
+          {
+            "url": "https://github.com/meta-llama/llama-models",
+            "title": "Meta — Llama Models",
+            "supports": "הגדרת Llama, זמינות משקלים, כרטיסי דגמים ורישיונות. תכנון הפריסה הוא לימודי.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "משפחת מודלים עם משקלים זמינים ללימוד ההבדל בין בעלות על סביבת הריצה לשימוש בשירות חיצוני.",
+        "exercise": "בחר כרטיס דגם רשמי ורשום רישיון, גודל, פורמט ומנוע יעד. תוצר: דף התאמה לחומרה ולמשימה, ללא צורך להוריד מודל גדול.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Meta היא המפתחת ו־Llama היא משפחת מודלים. llama.cpp הוא מנוע הרצה נפרד, ו־Ollama הוא כלי נוסף להרצת מודלים. דמיון בשמות אינו אומר שזה אותו רכיב.",
+            "title": "מודל לעומת מנוע הרצה"
+          },
+          {
+            "text": "המאגר הרשמי מפרסם מידע וקישורים למודלים ולרישיונות. זמינות משקלים אינה מעניקה רישיון אחיד או מבטיחה שהמודל ירוץ במחשב שלך. בדוק תנאים של הדגם המדויק.",
+            "title": "מה המשמעות של משקלים זמינים?"
+          },
+          {
+            "text": "בחר דגם ופורמט נתמכים, בדוק זיכרון, טען במנוע מתאים והנגש שירות ליישום. האחריות לתפעול המנוע ולבחירת המודל עוברת אליך; משקלים לבדם אינם API.",
+            "title": "זרימת עבודה עצמאית"
+          },
+          {
+            "text": "תכנון לימודי: ASP.NET מדבר עם שרת הסקה דרך מתאם HTTP, בדומה לשירות תשתיתי נפרד. ההיגיון העסקי נשאר ב־C#; אין צורך להעביר אותו לשפת המנוע.",
+            "title": "החיבור ל־.NET"
+          },
+          {
+            "text": "למד למדוד איכות בעברית, זמן תגובה וזיכרון על אותה משימה. הרצה עצמאית אינה הוכחה לפרטיות: גם רשת, לוגים וכלים מחוברים משפיעים על זרימת המידע.",
+            "title": "מדידה ורישוי"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "ollama",
+          "llama-cpp",
+          "qwen"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, JSON, REST ואימות קלט בצד השרת.",
+        "alternativesNote": "Qwen ו־Mistral מספקים נקודות השוואה. השווה דגמים מסוימים ורישיונות, ולא רק שמות משפחות.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "המודל אינו SDK לשפת תכנות. Python, C# ו־TypeScript יכולים לצרוך שרת מתאים; תמיכה תלויה במנוע ובחוזה שלו."
+      },
+      "facts": {
+        "description": "משפחת מודלים עם משקלים זמינים ללימוד ההבדל בין בעלות על סביבת הריצה לשימוש בשירות חיצוני.",
+        "languages": "המודל אינו SDK לשפת תכנות. Python, C# ו־TypeScript יכולים לצרוך שרת מתאים; תמיכה תלויה במנוע ובחוזה שלו.",
+        "languageSources": [
+          "https://github.com/meta-llama/llama-models"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2023-02-24",
+          "precision": "day",
+          "source": "https://ai.meta.com/blog/large-language-model-Llama-meta-ai/",
+          "note": "הכרזת LLaMA הראשונה, בגישה מחקרית מוגבלת; לא Llama 2 ולא זמינות מסחרית כללית."
+        }
+      },
+      "metrics": {
+        "slug": "meta-llama",
+        "description": "משפחת מודלים עם משקלים זמינים ללימוד ההבדל בין בעלות על סביבת הריצה לשימוש בשירות חיצוני.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להבנת משקלים זמינים והאחריות להרצה עצמאית.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "surveyUsage": {
+          "percent": 6.3,
+          "year": 2026,
+          "provider": "Meta AI",
+          "source": "https://survey.stackoverflow.co/2026/technology/data/llm",
+          "sourceName": "Stack Overflow Developer Survey",
+          "sampleSize": 11895,
+          "respondentCount": 754,
+          "population": "All Respondents",
+          "multipleResponses": true,
+          "verifiedAt": "2026-11-02",
+          "licenseName": "ODbL 1.0",
+          "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+          "mappingNote": "Provider-level use mapped to the existing model-family entry; not use of a specific model version."
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "microsoft-foundry",
+        "kind": "platform",
+        "name": "Microsoft Foundry (Azure AI Foundry)",
+        "slug": "microsoft-foundry",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: יישום ארגוני קורא למודל דרך שירות Azure עם זהות שירות, בעוד בדיקות המלאי והאישור נשארות ב־API העסקי.",
+        "sources": [
+          {
+            "url": "https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry",
+            "title": "Microsoft — What is Microsoft Foundry?",
+            "supports": "שם המוצר, מודלים וכלים, RBAC ורשת; חלק מהיכולות ב־Preview. תכנון .NET הוא שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "פלטפורמת Azure ללימוד גישה למודלים, ניהול הרשאות והפרדה בין שירות ענן למסגרת פיתוח סוכנים.",
+        "exercise": "צייר React, שרת ASP.NET, שכבת זהות ופלטפורמת מודלים. תוצר: רשימת הרשאות לכל רכיב והסבר ההבדל בין Foundry ל־Agent Framework.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "התיעוד הרשמי שנבדק מציג את Microsoft Foundry; השם Azure AI Foundry נשמר כאן לזיהוי. זו פלטפורמת ניהול למודלים, כלים וסוכנים, ולא מודל שפה.",
+            "title": "שם והגדרה"
+          },
+          {
+            "text": "קטלוג מודלים מאפשר לבחור מודל בלי לבלבל בין המפתח שלו לפלטפורמה שמנגישה אותו. זמינות דגם ותכונות נבדקת לפי המסלול והמשאב המסוימים.",
+            "title": "מודל מול פלטפורמה"
+          },
+          {
+            "text": "התיעוד מתאר ניהול באמצעות RBAC, רשת ומדיניות. המשמעות הלימודית היא שגישה למודל בארגון כוללת זהות והרשאות לצד בקשת JSON.",
+            "title": "זהות, רשת ומדיניות"
+          },
+          {
+            "text": "Microsoft Agent Framework הוא מסגרת קוד; Foundry היא פלטפורמת ענן. שירות .NET יכול להשתמש במודל בלי שהמושגים יתמזגו. יש לבחור בנפרד חוזה פיתוח וסביבת הפעלה.",
+            "title": "החיבור ל־C#"
+          },
+          {
+            "text": "הכן תרשים משאבים והרשאות עם נתוני דוגמה. אין צורך לפתוח חשבון או לפרוס פרויקט כדי להבין את ההפרדה. יכולות Preview אינן הבטחה לזמינות כללית.",
+            "title": "איך לומדים בלי להקים ענן?"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "microsoft-agent-framework",
+          "openai-gpt",
+          "amazon-bedrock"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, JSON, REST ואימות קלט בצד השרת.",
+        "alternativesNote": "Bedrock ופלטפורמת Google Cloud הן חלופות ללימוד עקרונות ענן. היכרות אינה החלטה להעביר את הפרויקט ל־Azure.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש."
+      },
+      "facts": {
+        "description": "פלטפורמת Azure ללימוד גישה למודלים, ניהול הרשאות והפרדה בין שירות ענן למסגרת פיתוח סוכנים.",
+        "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+        "languageSources": [
+          "https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2024-11-19",
+          "precision": "day",
+          "source": "https://azure.microsoft.com/en-us/blog/the-next-wave-of-azure-innovation-azure-ai-foundry-intelligent-data-and-more/",
+          "note": "הצגת הפלטפורמה בשם Azure AI Foundry. היו שירותים קודמים בשמות אחרים; זה אינו תאריך השם המאוחר Microsoft Foundry או כל שירותי Azure AI."
+        }
+      },
+      "metrics": {
+        "slug": "microsoft-foundry",
+        "description": "פלטפורמת Azure ללימוד גישה למודלים, ניהול הרשאות והפרדה בין שירות ענן למסגרת פיתוח סוכנים.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להעמקה אם סביבת הארגון שלך נשענת על Azure.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "mistral-ai",
+        "kind": "model",
+        "name": "Mistral AI",
+        "slug": "mistral-ai",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: צוות בוחן חילוץ שדות מבקשת ציוד דרך API ובונה בנפרד הערכת אחריות להרצה עצמית.",
+        "sources": [
+          {
+            "url": "https://docs.mistral.ai/",
+            "title": "Mistral AI — Documentation",
+            "supports": "Studio ו־API, קטלוג דגמים ורישיונות שונים. ניתוח הבחירה הוא שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "ספק מודלים ללימוד ההבחנה בין API מסחרי, דגמים במשקלים זמינים ומוצרי קצה.",
+        "exercise": "בחר שני דגמים מתוך התיעוד הרשמי ותעד מפתח, רישיון ודרך גישה. תוצר: טבלת הבדלים המבחינה בין ספק המודל לספק האירוח.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Mistral AI מפעילה פלטפורמה ומפתחת מודלים. הקטלוג מציג דגמים ורישיונות שונים; אין להציג את כל המוצרים כמשפחה בעלת אותו רישיון או אותו ממשק.",
+            "title": "מהו הספק ומהו המודל?"
+          },
+          {
+            "text": "התיעוד מציג API דרך סביבת Studio לצד מודלים עם משקלים זמינים. בחירת שירות מנוהל ובחירת הרצה עצמאית הן החלטות תפעוליות שונות גם כששם המודל דומה.",
+            "title": "דרכי גישה"
+          },
+          {
+            "text": "תכנון לימודי: מתאם שירות ממיר בקשת DTO לחוזה הספק. אם בוחרים משקלים להרצה עצמית, מתווספת אחריות לשרת הסקה, זמינות וחומרה.",
+            "title": "החיבור ל־REST"
+          },
+          {
+            "text": "בדוק אם הדגם שייך לספק עצמו או לצד שלישי, מה המשימה שלו ומה הרישיון. קטלוג פלטפורמה אינו רשימת מודלים שכולם פותחו על ידה.",
+            "title": "מה בודקים בקטלוג?"
+          },
+          {
+            "text": "בחר משימה קבועה ובחן פלט, מידע ועלות כוללת. אין כאן קביעת יתרון בביצועים או אישור שכל דגם מתאים לשימוש מסחרי ללא תנאים.",
+            "title": "שיקולי בחירה"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "qwen",
+          "meta-llama",
+          "together-ai"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, JSON, REST ואימות קלט בצד השרת.",
+        "alternativesNote": "השווה מול Qwen או Llama כאשר נדרשים משקלים; מול ספקי API אחרים כשנדרש שירות מנוהל.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש."
+      },
+      "facts": {
+        "description": "ספק מודלים ללימוד ההבחנה בין API מסחרי, דגמים במשקלים זמינים ומוצרי קצה.",
+        "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+        "languageSources": [
+          "https://docs.mistral.ai/"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2023-09-27",
+          "precision": "day",
+          "source": "https://mistral.ai/news/announcing-mistral-7b/",
+          "note": "השקת Mistral 7B, המודל הראשון של הספק; לא הקמת החברה או השקת שירות API."
+        }
+      },
+      "metrics": {
+        "slug": "mistral-ai",
+        "description": "ספק מודלים ללימוד ההבחנה בין API מסחרי, דגמים במשקלים זמינים ומוצרי קצה.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להבנת חלופות בין שירות מנוהל למשקלים זמינים.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "surveyUsage": {
+          "percent": 9.8,
+          "year": 2026,
+          "provider": "Mistral AI",
+          "source": "https://survey.stackoverflow.co/2026/technology/data/llm",
+          "sourceName": "Stack Overflow Developer Survey",
+          "sampleSize": 11895,
+          "respondentCount": 1162,
+          "population": "All Respondents",
+          "multipleResponses": true,
+          "verifiedAt": "2026-11-02",
+          "licenseName": "ODbL 1.0",
+          "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+          "mappingNote": "Provider-level use mapped to the existing model-family entry; not use of a specific model version."
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "ollama",
+        "kind": "runtime",
+        "name": "Ollama",
+        "slug": "ollama",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: סיווג פניות דוגמה במחשב מקומי והשוואתן לתוצאות של שירות מרוחק, ללא העברת מידע אמיתי לפני בדיקת מדיניות.",
+        "sources": [
+          {
+            "url": "https://docs.ollama.com/api/introduction",
+            "title": "Ollama — API Introduction",
+            "supports": "API מקומי וענן, כתובות שרת וספריות רשמיות Python/JavaScript. תכנון Adapter והתרגיל הם שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "כלי להרצת מודלים ולגישה אליהם דרך API; יש להבחין בין הרצה מקומית לשימוש במודלי ענן.",
+        "exercise": "שרטט לקוח, שרת ומודל, וסמן את מסלול המידע המקומי לעומת ענן. תוצר: בדיקות כתובת יעד, זמני תגובה ותגובה כאשר המודל אינו זמין.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Ollama מאפשר להריץ מודלים במחשב ולצרוך אותם מתוך יישום. התיעוד מתאר גם גישה למודלי ענן. לכן השם Ollama לבדו אינו אומר שהמידע נשאר מקומי.",
+            "title": "מה הוא פותר?"
+          },
+          {
+            "text": "מורידים מודל מתאים, מפעילים שרת מקומי והיישום שולח בקשות HTTP. המודל, השרת והלקוח הם רכיבים שונים. התאמת המודל לחומרה נבדקת לפי משאבים וביצועים בפועל.",
+            "title": "זרימת עבודה מקומית"
+          },
+          {
+            "text": "אפשר לתכנן Adapter עם HttpClient שמסתיר כתובת שרת ופורמט פלט משאר היישום. החלפת שרת או מודל צריכה לדרוש שינוי ממוקד ובדיקות, ולא לפזר תנאים בכל Controller.",
+            "title": "החיבור ל־C#"
+          },
+          {
+            "text": "המלצה: ניסויים מקומיים, למידת שכבת ההסקה או צורך מוגדר בשליטה על סביבת הריצה. השווה איכות, זמן תגובה וצריכת זיכרון; מקומי אינו בהכרח מהיר או זול יותר.",
+            "title": "מתי לבחור?"
+          },
+          {
+            "text": "בדוק שהמודל והכתובת אכן מקומיים ושאין הפניה לענן. אל תחשוף את השרת לרשת ללא בקרת גישה. עלות כוללת כוללת חומרה ותפעול, לא רק מחיר בקשת API.",
+            "title": "אבטחה ועלות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "08"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "hugging-face",
+          "llm-fundamentals"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "HTTP, תהליכים מקומיים והיכרות בסיסית עם משאבי מחשב.",
+        "alternativesNote": "llama.cpp, vLLM ו־LM Studio מופיעים במפת הידע. יש לבדוק בנפרד את התאמתם לחומרה, למודל ולפריסה; לא בוצע כאן Benchmark.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "התיעוד מציג ספריות רשמיות ל־Python ול־JavaScript ו־API ללקוחות HTTP. ב־C# אפשר להתחבר ב־HTTP; זה אינו אישור ללקוח רשמי מסוים."
+      },
+      "facts": {
+        "description": "מריץ מודלים ומנגיש אותם ליישומים דרך API מקומי או חיבור לשירות ענן.",
+        "languages": "Python, JavaScript רשמיים; C#/.NET: HTTP, לקוח רשמי לא אומת.",
+        "languageSources": [
+          "https://docs.ollama.com/api/introduction"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי של מנוע ההסקה עצמו; Stars ו־Forks הם תשומת לב למאגר, לא מספר משתמשים או איכות המודלים.",
+          "url": "https://github.com/ollama/ollama",
+          "stars": 185436,
+          "starsSource": "https://api.github.com/repos/ollama/ollama",
+          "collectedAt": "2026-10-31T12:28:15.969+00:00",
+          "lastActivity": {
+            "date": "2026-10-30T21:34:54+00:00",
+            "source": "https://github.com/ollama/ollama/commit/f9323416f0c3f84d82f6c4a7bde75b717448bd44",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "ollama",
+        "description": "מריץ מודלים ומנגיש אותם ליישומים דרך API מקומי או חיבור לשירות ענן.",
+        "languages": [
+          "Python",
+          "JavaScript"
+        ],
+        "learningReason": "נקודת התחלה מומלצת להתנסות בהרצת מודל מקומי.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "communityInterest": {
+          "score": 87.59,
+          "stars": 185436,
+          "forks": 18790,
+          "maxStars": 185436,
+          "maxForks": 24996,
+          "method": "AI TOOLS GitHub Interest v1",
+          "source": "https://api.github.com/repos/ollama/ollama",
+          "repository": "https://github.com/ollama/ollama",
+          "collectedAt": "2026-10-31T12:28:15.969Z",
+          "cohort": "category-08-three-inference-runtimes",
+          "cohortLabel": "שלושת מנועי ההסקה בקטגוריה 08"
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "openai-gpt",
+        "kind": "model",
+        "name": "OpenAI — GPT",
+        "slug": "openai-gpt",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: בקשת ציוד הופכת ל־DTO עם itemId ו־quantity; שרת ASP.NET בודק מלאי ומחזיר הצעה לאישור.",
+        "sources": [
+          {
+            "url": "https://developers.openai.com/api/docs/guides/structured-outputs",
+            "title": "OpenAI — Structured Outputs",
+            "supports": "סכמת פלט, הבחנה מול Function Calling וסירוב או פלט חלקי. התכנון והתרגיל הם שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "משפחת מודלים ללימוד עבודה עם API, פלט מובנה והפרדה בין הצעת מודל לפעולה עסקית.",
+        "exercise": "הכן סכמת בקשת ציוד ועשרה מקרי בדיקה, כולל מזהה מומצא, כמות שלילית וסירוב. תוצר: טבלת פלט צפוי ומדיניות טיפול בפלט חסר; אין צורך בקריאת API בתשלום.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "OpenAI היא הספקית ו־GPT הוא שם משפחת מודלים. הפרק עוסק במודל ובשימוש בו דרך API; מוצר ChatGPT וערכת Agents SDK הם שכבות נפרדות. מטרת הלימוד היא להבין חוזה קלט ופלט לפני שמוסיפים מסגרת סוכנים.",
+            "title": "מה לומדים ולמה?"
+          },
+          {
+            "text": "Structured Outputs מגביל פלט לסכמת JSON נתמכת. Function Calling משמש לחיבור לפונקציות ולמידע של היישום. פלט שעומד בסכמה עדיין עלול להכיל קוד פריט שאינו קיים; יש לטפל גם בסירוב ובתשובה שנקטעה.",
+            "title": "פלט מובנה לעומת בקשת כלי"
+          },
+          {
+            "text": "תכנון לימודי: Controller מקבל בקשה, שירות מודל מציע DTO, ו־Validator בודק כמות ומזהה מול SQL. חוזה מבני דומה לבדיקת טיפוסים; נכונות עסקית מחייבת בדיקה נוספת.",
+            "title": "החיבור ל־C# ול־SQL"
+          },
+          {
+            "text": "השתמש באותו אוסף בקשות בעברית ובאנגלית והשווה חילוץ שדות, בקשת הבהרה וזמן תגובה. בחירת משפחה אינה בחירת גרסה; רשום מזהה מודל ותצורת בקשה לכל ניסוי.",
+            "title": "איך בוחנים התאמה?"
+          },
+          {
+            "text": "הגדר הרשאות, מגבלת ניסיונות ותקרת שימוש לפני חיבור למערכת עסקית. המפתח נשמר בשרת. דוגמה לימודית אינה הרשאה להזמין ציוד או לעדכן נתונים.",
+            "title": "אחריות היישום"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "anthropic-claude",
+          "google-gemini",
+          "openai-agents-sdk"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, JSON, REST ואימות קלט בצד השרת.",
+        "alternativesNote": "השווה Claude ו־Gemini באותה משימה. Agents SDK נלמד בנפרד כשנדרשת לולאת סוכן; אין צורך בו רק כדי לקבל JSON.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש."
+      },
+      "facts": {
+        "description": "משפחת מודלים ללימוד עבודה עם API, פלט מובנה והפרדה בין הצעת מודל לפעולה עסקית.",
+        "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+        "languageSources": [
+          "https://developers.openai.com/api/docs/guides/structured-outputs"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2018-06-11",
+          "precision": "day",
+          "source": "https://openai.com/index/language-unsupervised/",
+          "note": "פרסום המחקר והמודל המקורי שממנו התפתחה משפחת GPT; לא תאריך השקת ChatGPT או API."
+        }
+      },
+      "metrics": {
+        "slug": "openai-gpt",
+        "description": "משפחת מודלים ללימוד עבודה עם API, פלט מובנה והפרדה בין הצעת מודל לפעולה עסקית.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "ללימוד API, פלט מובנה וחיבור מודל ללוגיקה עסקית.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "surveyUsage": {
+          "percent": 74.3,
+          "year": 2026,
+          "provider": "OpenAI",
+          "source": "https://survey.stackoverflow.co/2026/technology/data/llm",
+          "sourceName": "Stack Overflow Developer Survey",
+          "sampleSize": 11895,
+          "respondentCount": 8834,
+          "population": "All Respondents",
+          "multipleResponses": true,
+          "verifiedAt": "2026-11-02",
+          "licenseName": "ODbL 1.0",
+          "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+          "mappingNote": "Provider-level use mapped to the existing model-family entry; not use of a specific model version."
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "openrouter",
+        "kind": "platform",
+        "name": "OpenRouter",
+        "slug": "openrouter",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: בודקים עשר בקשות ציוד מול שני מודלים דרך נתב, ושומרים תוצאה וזהות שירות לצורך השוואה.",
+        "sources": [
+          {
+            "url": "https://openrouter.ai/docs/quickstart",
+            "title": "OpenRouter — Quickstart",
+            "supports": "API משותף למודלים, מסלולי אינטגרציה וקישורי ניתוב. מדיניות היישום היא שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "פלטפורמת גישה למודלים דרך API משותף ללימוד ניתוב והפרדה בין ספק המודל לספק השירות.",
+        "exercise": "צייר בקשה ישירה ובקשה דרך נתב. תוצר: מדיניות fallback עם רשימת ספקים מותרת ותנאי עצירה כשהמודל החלופי אינו תומך בחוזה.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "OpenRouter נותנת גישה למודלים דרך נקודת API משותפת. בפרק זה היא מסווגת כפלטפורמת גישה, ולא כמשפחת LLM. היישום, הנתב והספק שמשרת את הבקשה הם רכיבים שונים.",
+            "title": "איזו שכבה זו?"
+          },
+          {
+            "text": "יישום שולח בקשה עם בחירת מודל, והפלטפורמה מנתבת לשירות מתאים לפי הגדרותיה. חשוב להבין מי משרת את הבקשה ולא להסתפק בשם המודל שהלקוח ביקש.",
+            "title": "זרימת בקשה"
+          },
+          {
+            "text": "הקבלה לימודית: API Gateway שמוסיף ניתוב מול כמה שירותים. Adapter יחיד ב־C# יכול לפשט גישה, אך אינו מבטל הבדלים בין כלים, פלט ושגיאות של מודלים שונים.",
+            "title": "החיבור ל־.NET"
+          },
+          {
+            "text": "אחרי קריאה ישירה לספק אחד, השתמש בנתב כדי להבין ניידות והשוואה. תכנון fallback צריך להגדיר אילו ספקים מותרים ואילו תכונות חייבות להישמר.",
+            "title": "מתי ללמוד ולמה?"
+          },
+          {
+            "text": "בדוק מדיניות של הפלטפורמה ושל ספקי ההמשך. תעד מודל וספק בפועל כשזמין. מעבר אוטומטי שאינו עומד בדרישות מידע או חוזה צריך להיחסם בתכנון היישום.",
+            "title": "מידע ואמינות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "openai-gpt",
+          "hugging-face",
+          "together-ai"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, JSON, REST ואימות קלט בצד השרת.",
+        "alternativesNote": "גישה ישירה מפחיתה שכבת תיווך; נתב מפשט ניסויים בין שירותים. Hugging Face ו־Together מייצגים מסלולי גישה נוספים.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש."
+      },
+      "facts": {
+        "description": "פלטפורמת גישה למודלים דרך API משותף ללימוד ניתוב והפרדה בין ספק המודל לספק השירות.",
+        "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+        "languageSources": [
+          "https://openrouter.ai/docs/quickstart"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2023",
+          "precision": "year",
+          "source": "https://openrouter.ai/about/",
+          "note": "המקור הרשמי מציין תחילת פעילות בתחילת 2023 בלבד; יום השקה מדויק לא אומת."
+        }
+      },
+      "metrics": {
+        "slug": "openrouter",
+        "description": "פלטפורמת גישה למודלים דרך API משותף ללימוד ניתוב והפרדה בין ספק המודל לספק השירות.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להבנת גישה למספר ספקים וניתוב בקשות למודלים.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "qwen",
+        "kind": "model",
+        "name": "Alibaba — Qwen",
+        "slug": "qwen",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: בוחנים שני גדלים נתמכים מאותה משפחה על חילוץ itemId וכמות, עם אותו סט בקשות.",
+        "sources": [
+          {
+            "url": "https://qwen.readthedocs.io/en/latest/",
+            "title": "Qwen — Official documentation",
+            "supports": "זהות המשפחה, מגוון דגמים וקישורי הרצה ופריסה. מטריצת הבחירה היא שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "משפחת מודלים ללימוד בחירת דגם, תצורת הסקה והתאמה למנועי הרצה שונים.",
+        "exercise": "בנה מטריצה לשני דגמים: משימה, רישיון, מנוע אפשרי ומשאבים לבדיקה. תוצר: בחירה מנומקת לניסוי ראשון, בלי להכריז על מנצח לפני מדידה.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Qwen היא משפחת מודלים של צוות Qwen בקבוצת Alibaba. התיעוד מתאר מודלי שפה ומודלים רב־מודליים. השם המשפחתי אינו חוזה יכולות אחיד לכל דגם.",
+            "title": "מה חשוב לזהות?"
+          },
+          {
+            "text": "בחירת דגם כוללת גודל, סוג משימה ומצב הסקה נתמך. אל תסיק שתמיכה בקוד או בכלים בדגם אחד חלה על כולם. כרטיס הדגם ותיעוד המנוע הם נקודת הבדיקה.",
+            "title": "משפחה, דגם ותצורה"
+          },
+          {
+            "text": "התיעוד מפנה ל־Transformers, Ollama, llama.cpp ו־vLLM. אלה דרכי הרצה שונות לאותה משפחה, בכפוף לתאימות. יש להפריד בין הורדת המשקלים לבין שירות בקשות מקבילות.",
+            "title": "איך מריצים?"
+          },
+          {
+            "text": "תכנון לימודי: ממשק C# משותף מחזיר הצעת בקשת ציוד בלי לחשוף את סוג המנוע ל־Controller. שמור לצד התוצאה מזהה דגם ותצורה כדי שתוכל לשחזר כשל.",
+            "title": "החיבור למערכת עסקית"
+          },
+          {
+            "text": "איכות בעברית, התאמה לחומרה ורישיון מסחרי נבדקים לדגם המסוים. טענות ביצועים של הספק הן בסיס לתכנון ניסוי, ולא תוצאת ניסוי בפרויקט שלנו.",
+            "title": "מה לא להסיק מהשם?"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "meta-llama",
+          "ollama",
+          "vllm"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, JSON, REST ואימות קלט בצד השרת.",
+        "alternativesNote": "Llama ו־Mistral הם חלופות להשוואת משקלים זמינים. אין כאן המלצה להתקין את כל מנועי ההרצה.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "משפחת מודלים, ללא SDK C# בפני עצמה. האינטגרציה לשפות היישום נקבעת לפי שרת ההסקה או ספק האירוח."
+      },
+      "facts": {
+        "description": "משפחת מודלים ללימוד בחירת דגם, תצורת הסקה והתאמה למנועי הרצה שונים.",
+        "languages": "משפחת מודלים, ללא SDK C# בפני עצמה. האינטגרציה לשפות היישום נקבעת לפי שרת ההסקה או ספק האירוח.",
+        "languageSources": [
+          "https://qwen.readthedocs.io/en/latest/"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2023-08-03",
+          "precision": "day",
+          "source": "https://huggingface.co/Qwen/Qwen-7B/blob/main/LICENSE",
+          "note": "תאריך פרסום משקלי Qwen-7B לפי רישיון המודל המקורי; לא הקמת Alibaba או כל שירותי Tongyi."
+        }
+      },
+      "metrics": {
+        "slug": "qwen",
+        "description": "משפחת מודלים ללימוד בחירת דגם, תצורת הסקה והתאמה למנועי הרצה שונים.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להשוואת דגמים, גדלים ודרכי הרצה במשפחה נוספת.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "surveyUsage": {
+          "percent": 10.1,
+          "year": 2026,
+          "provider": "Alibaba Qwen",
+          "source": "https://survey.stackoverflow.co/2026/technology/data/llm",
+          "sourceName": "Stack Overflow Developer Survey",
+          "sampleSize": 11895,
+          "respondentCount": 1203,
+          "population": "All Respondents",
+          "multipleResponses": true,
+          "verifiedAt": "2026-11-02",
+          "licenseName": "ODbL 1.0",
+          "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+          "mappingNote": "Provider-level use mapped to the existing model-family entry; not use of a specific model version."
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "together-ai",
+        "kind": "platform",
+        "name": "Together AI",
+        "slug": "together-ai",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: אותו שירות חילוץ נתונים משתמש במודל דרך שירות מנוהל, ומושווה בתכנון לשרת עצמאי.",
+        "sources": [
+          {
+            "url": "https://docs.together.ai/intro",
+            "title": "Together AI — Overview",
+            "supports": "הסקה, API תואם, Fine-tuning ואשכולות GPU. השוואת האחריות היא שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "פלטפורמת הסקה ואימון ללימוד שימוש במודלים קיימים בשירות מנוהל במקום ניהול חומרה עצמאי.",
+        "exercise": "הכן טבלת אחריות עבור API מנוהל מול שרת עצמי: עדכונים, קיבולת, הרשאות וניטור. תוצר: החלטה מנומקת למסלול ניסוי בלי להקים משאבים.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Together AI מאפשרת להריץ, להתאים ולהגיש מודלים. זהו פרק על תשתית שירות למודלים קיימים, ולא על משפחת מודלים אחת.",
+            "title": "מה היא מספקת?"
+          },
+          {
+            "text": "התיעוד מפריד בין הסקה Serverless, הסקה ייעודית, Fine-tuning ואשכולות GPU. אלה רמות אחריות וקיבולת שונות; אין צורך ללמוד או לרכוש את כולן כדי להתנסות ב־API.",
+            "title": "מסלולי הפעלה"
+          },
+          {
+            "text": "תכנון לימודי: ASP.NET שולח בקשות למודל מאחורי שירות מנוהל. בהשוואה ל־vLLM עצמאי, חלק מתפעול החומרה עובר לספק, אך בדיקת הפלט נשארת ביישום.",
+            "title": "החיבור למערכת קיימת"
+          },
+          {
+            "text": "השווה דרך גישה, מגבלות, זמינות ותאימות לדגם נבחר. ממשק תואם אינו מבטיח שכל תכונה של לקוח אחר נתמכת. דגם שמופיע בקטלוג עשוי להגיע ממפתח אחר.",
+            "title": "מה לומדים מההשוואה?"
+          },
+          {
+            "text": "Fine-tuning הוא מסלול נפרד. התחל מבסיס בדיקות ו־Prompt לפני אימון. יש לבדוק פרטיות, תנאי משקלים ועלות זמן סרק לפני בחירת משאב ייעודי.",
+            "title": "התאמה אינה ברירת מחדל"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "openrouter",
+          "vllm",
+          "mistral-ai"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, JSON, REST ואימות קלט בצד השרת.",
+        "alternativesNote": "OpenRouter הוא דוגמה לשכבת גישה; vLLM למנוע בהפעלה עצמית. אין כאן השוואת מחירים ביניהם.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש."
+      },
+      "facts": {
+        "description": "פלטפורמת הסקה ואימון ללימוד שימוש במודלים קיימים בשירות מנוהל במקום ניהול חומרה עצמאי.",
+        "languages": "אפשר לתכנן לקוח C# באמצעות HttpClient מול HTTP API. זו דרך אינטגרציה, לא טענה שקיים SDK רשמי לכל שפה. חבילות, גרסאות וכיסוי יכולות נבדקים בנפרד לפני מימוש.",
+        "languageSources": [
+          "https://docs.together.ai/intro"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "הפריט מייצג משפחת מודלים או פלטפורמה; אין מאגר יחיד שמייצג את כלל הפריט."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2023-07-14",
+          "precision": "day",
+          "source": "https://www.together.ai/blog/api-announcement",
+          "note": "הכרזת Together API ו־Together Compute; לא תאריך הקמת החברה."
+        }
+      },
+      "metrics": {
+        "slug": "together-ai",
+        "description": "פלטפורמת הסקה ואימון ללימוד שימוש במודלים קיימים בשירות מנוהל במקום ניהול חומרה עצמאי.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להיכרות עם הסקה מנוהלת במקום תפעול חומרה עצמאי.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "vllm",
+        "kind": "runtime",
+        "name": "vLLM",
+        "slug": "vllm",
+        "addedAt": "2026-10-31",
+        "example": "תכנון לימודי: מספר משתמשים שולחים בקשות ציוד ל־ASP.NET, שמווסת עומס לפני העברה לשרת הסקה ארגוני.",
+        "sources": [
+          {
+            "url": "https://docs.vllm.ai/en/latest/",
+            "title": "vLLM — Official documentation",
+            "supports": "הסקה והגשה מקוונת, שרת תואם, התקנה, דגמים וניטור. ניסוי העומס הוא תוכנית לימודית.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "מנוע ושרת הסקה ללימוד הגשת מודלים לבקשות מקבילות והאחריות התפעולית של הרצה עצמאית.",
+        "exercise": "תכנן ניסוי של בקשה אחת מול כמה בקשות מקבילות. תוצר: טבלת מדדים הכוללת זמן המתנה, קצב, זיכרון וכשלים, בלי להקים שרת GPU.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "vLLM הוא מנוע ושירות הגשת מודלים. לאחר בקשה מקומית אחת, השאלה הבאה היא כיצד לשרת כמה לקוחות במשאבים נתונים. המנוע אינו המודל ואינו מסגרת סוכנים.",
+            "title": "למה ללמוד אחרי הרצה מקומית?"
+          },
+          {
+            "text": "התיעוד מפריד בין הסקה לא מקוונת להגשה מקוונת וכולל שרת תואם OpenAI. יש לבדוק התאמת דגם, חומרה ותכונות; תאימות ממשק אינה שוויון מלא לשירות המקורי.",
+            "title": "מנוע ושרת"
+          },
+          {
+            "text": "למד להבחין בין זמן לתשובה אחת, קצב כולל ועומס בקשות. תכנון לימודי: שיפור קצב כולל עלול לשנות זמני המתנה; יש למדוד את שניהם במקום להסתפק במספר יחיד.",
+            "title": "מקביליות ומשאבים"
+          },
+          {
+            "text": "שרת היישום שולח בקשות לשרת הסקה נפרד דרך מתאם. בדומה לשירות תשתיתי, נדרשים timeout, בקרת עומס וניטור. אין צורך להעביר את הלוגיקה העסקית ל־Python.",
+            "title": "החיבור ל־ASP.NET"
+          },
+          {
+            "text": "הרצה עצמאית דורשת אבטחה, ניהול זיכרון ועדכונים. בדוק את מדריך ההתקנה לחומרה ולמערכת ההפעלה שלך; פרק זה אינו טענה שפריסה מקומית ב־Windows כבר נוסתה.",
+            "title": "אחריות תפעולית"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "08"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "llama-cpp",
+          "together-ai",
+          "qwen"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "יסודות מודלי שפה, HTTP והבחנה בין זיכרון RAM לזיכרון GPU.",
+        "alternativesNote": "llama.cpp מתאים ללימוד מנוע וכימות; Together מדגים שירות מנוהל. הבחירה תלויה במשאבים ובאחריות תפעולית, ולא ביוקרת הכלי.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "תיעוד המנוע כולל Python ושרת HTTP תואם; שירות C# או TypeScript יכול לצרוך HTTP. זה אינו SDK מקומי ל־.NET."
+      },
+      "facts": {
+        "description": "מנוע ושרת הסקה ללימוד הגשת מודלים לבקשות מקבילות והאחריות התפעולית של הרצה עצמאית.",
+        "languages": "תיעוד המנוע כולל Python ושרת HTTP תואם; שירות C# או TypeScript יכול לצרוך HTTP. זה אינו SDK מקומי ל־.NET.",
+        "languageSources": [
+          "https://docs.vllm.ai/en/latest/"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי של מנוע ההסקה עצמו; Stars ו־Forks הם תשומת לב למאגר, לא מספר משתמשים או איכות המודלים.",
+          "url": "https://github.com/vllm-project/vllm",
+          "stars": 95965,
+          "starsSource": "https://api.github.com/repos/vllm-project/vllm",
+          "collectedAt": "2026-10-31T12:28:15.969+00:00",
+          "lastActivity": {
+            "date": "2026-10-31T10:23:36+00:00",
+            "source": "https://github.com/vllm-project/vllm/commit/7b77ed581d92fa14e34ab43344837bb1ca1b4257",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2023-06-20",
+          "precision": "day",
+          "source": "https://vllm-project.github.io/2023/06/20/vllm.html",
+          "note": "ההכרזה הציבורית על הספרייה. שימוש פנימי מוקדם ב־LMSYS מוזכר במאמר ואינו מוצג כהשקה ציבורית."
+        }
+      },
+      "metrics": {
+        "slug": "vllm",
+        "description": "מנוע ושרת הסקה ללימוד הגשת מודלים לבקשות מקבילות והאחריות התפעולית של הרצה עצמאית.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "להעמקה בהגשת מודלים ובקשות מקבילות אחרי הרצה ראשונה.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "communityInterest": {
+          "score": 74.32,
+          "stars": 95965,
+          "forks": 24217,
+          "maxStars": 185436,
+          "maxForks": 24996,
+          "method": "AI TOOLS GitHub Interest v1",
+          "source": "https://api.github.com/repos/vllm-project/vllm",
+          "repository": "https://github.com/vllm-project/vllm",
+          "collectedAt": "2026-10-31T12:28:15.969Z",
+          "cohort": "category-08-three-inference-runtimes",
+          "cohortLabel": "שלושת מנועי ההסקה בקטגוריה 08"
+        }
+      }
+    }
+  ],
+  "guides": {
+    "07": {
+      "title": "איך ללמוד את עולם המודלים?",
+      "intro": "החלוקה כאן היא לפי תפקיד במערכת. עדיפות הלימוד בפרקים היא בחירה פדגוגית שלנו, ולא דירוג נתח שוק או איכות. למד API אחד לעומק; את היתר הכר דרך השוואת אותו תרחיש.",
+      "note": "Cohere, Gemma ו־Phi נשארו להרחבה בהמשך. המטרה בסבב הזה היא להבין את השכבות לפני שמוסיפים עוד משפחות.",
+      "steps": [
+        {
+          "text": "בסיס: ספק ומשפחת מודלים — OpenAI/GPT, Anthropic/Claude ו־Google/Gemini. התחל מהפרק הראשון והשווה חוזי פלט וכלים.",
+          "slug": "openai-gpt",
+          "label": "להתחלה עם API ופלט מובנה"
+        },
+        {
+          "text": "משקלים וסביבת ריצה — Llama ו־Qwen כבסיס; DeepSeek ו־Mistral להרחבת ההיכרות. משפחת מודלים אינה מנוע שמפעיל אותה.",
+          "slug": "meta-llama",
+          "label": "להבנת מודלים במשקלים זמינים"
+        },
+        {
+          "text": "גישה ואירוח — Hugging Face, OpenRouter ו־Together AI. למד מי פיתח את המודל ומי משרת את הבקשה בפועל.",
+          "slug": "openrouter",
+          "label": "להבנת שכבת הגישה"
+        },
+        {
+          "text": "ענן ארגוני — Microsoft Foundry, Amazon Bedrock ו־Google Vertex AI / Agent Platform. הכר את שלושתם ובחר אחד להעמקה לפי סביבת העבודה שלך.",
+          "slug": "microsoft-foundry",
+          "label": "למודלים, זהות והרשאות בענן"
+        }
+      ]
+    },
+    "08": {
+      "title": "מהרצה ראשונה להבנת תשתית הסקה",
+      "intro": "מודל הוא המשקלים והמבנה; כלי ההרצה טוען אותו ומבצע הסקה. אפשר לצרוך שרת מקומי מתוך C# דרך HTTP בלי לשנות את הלוגיקה העסקית. אין צורך להתקין את כל הכלים.",
+      "note": "התרגילים הם תוכניות לימוד. לא הורדו מודלים ולא בוצעו ניסויי חומרה במסגרת הוספת הפרקים.",
+      "steps": [
+        {
+          "text": "התחל ב־Ollama לתרגול API מקומי, או ב־LM Studio אם נוח לך להתחיל בממשק חזותי.",
+          "slug": "ollama",
+          "label": "להרצה מקומית ולחיבור יישום"
+        },
+        {
+          "text": "המשך ל־llama.cpp כדי להבין פורמט, כימות, זיכרון וחומרה. זהו מנוע נפרד ממשפחת Llama של Meta.",
+          "slug": "llama-cpp",
+          "label": "לשכבת המנוע והכימות"
+        },
+        {
+          "text": "הכר vLLM לאחר מכן: שירות בקשות מקבילות, קיבולת ואחריות תפעולית. ההיכרות אינה מחייבת שרת GPU.",
+          "slug": "vllm",
+          "label": "להגשת מודלים ולתכנון עומס"
+        }
+      ]
+    }
+  }
+}

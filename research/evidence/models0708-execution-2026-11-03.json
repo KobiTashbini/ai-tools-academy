@@ -1,0 +1,55 @@
+{
+  "runId": "models0708-20261103-v1",
+  "startedAt": "2026-11-03T09:36:06Z",
+  "baselineAt": "2026-11-03T09:36:19.381Z",
+  "agents": {
+    "totalIncludingCoordinator": 4,
+    "researchers": 2,
+    "independentReviewers": 1,
+    "coordinator": 1,
+    "maximumConcurrency": 4
+  },
+  "scope": {
+    "identitiesForDuplicateChecks": 64,
+    "category07": 14,
+    "category08": 4
+  },
+  "centralCollection": {
+    "githubRepositories": 10,
+    "successful": 10,
+    "githubHttpRequestsPlanned": 30,
+    "installation": false,
+    "productWrites": false,
+    "externalInferenceApiCalls": 0
+  },
+  "tokenUsage": null,
+  "tokenUsageReason": "No task-level aggregated token accounting is exposed by the available orchestration tools; account usage limits are not token consumption.",
+  "status": "research_complete_awaiting_user_approval",
+  "approval": null,
+  "finishedAt": "2026-11-03T09:42:42Z",
+  "elapsedSeconds": 396,
+  "research08": {
+    "startedAt": "2026-11-03T09:36:50Z",
+    "finishedAt": "2026-11-03T09:40:16Z",
+    "elapsedSeconds": 206
+  },
+  "research07": {
+    "startedAt": null,
+    "startMeasurement": "not separately measured",
+    "draftFinishedAt": "2026-11-03T09:41:38Z"
+  },
+  "independentReview": {
+    "startedAt": "2026-11-03T09:37:03Z",
+    "finishedAt": "2026-11-03T09:41:58Z",
+    "elapsedSeconds": 295,
+    "verdict": "no blocker to presenting proposals, not permission to apply",
+    "remainingCaveat": "M07-12 Azure AI Inference beta SDK retirement date not independently re-opened; reverify before applying that subclaim."
+  },
+  "efficiency": {
+    "parallelResearch": true,
+    "reviewOverlappedResearch": true,
+    "sharedLiveBaseline": true,
+    "sharedGitHubCollection": true,
+    "assessment": "Efficient overlap and centralized collection; no sequential control run was measured, so no numeric speedup is claimed."
+  }
+}

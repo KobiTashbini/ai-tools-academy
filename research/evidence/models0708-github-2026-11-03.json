@@ -1,0 +1,245 @@
+{
+  "startedAt": "2026-11-03T09:37:27.269Z",
+  "repositories": [
+    {
+      "requestedRepository": "ollama/ollama",
+      "rateRemaining": "41",
+      "source": "https://api.github.com/repos/ollama/ollama",
+      "collectedAt": "2026-11-03T09:37:27.640Z",
+      "canonical": "ollama/ollama",
+      "repository": "https://github.com/ollama/ollama",
+      "stars": 185759,
+      "forks": 18888,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "MIT",
+      "head": {
+        "sha": "9a3e8177767245acc62b735eba7d5d8a553606d0",
+        "date": "2026-11-03T00:59:50Z",
+        "source": "https://github.com/ollama/ollama/commit/9a3e8177767245acc62b735eba7d5d8a553606d0"
+      },
+      "latestRelease": {
+        "tag": "v0.40.14",
+        "publishedAt": "2026-11-03T01:40:40Z",
+        "prerelease": false,
+        "source": "https://github.com/ollama/ollama/releases/tag/v0.40.14"
+      }
+    },
+    {
+      "requestedRepository": "ggml-org/llama.cpp",
+      "rateRemaining": "38",
+      "source": "https://api.github.com/repos/ggml-org/llama.cpp",
+      "collectedAt": "2026-11-03T09:37:28.459Z",
+      "canonical": "ggml-org/llama.cpp",
+      "repository": "https://github.com/ggml-org/llama.cpp",
+      "stars": 133241,
+      "forks": 25088,
+      "archived": false,
+      "defaultBranch": "master",
+      "license": "MIT",
+      "head": {
+        "sha": "71efc559a00b236851f6ba00a629d776f2416d2b",
+        "date": "2026-11-03T09:26:19Z",
+        "source": "https://github.com/ggml-org/llama.cpp/commit/71efc559a00b236851f6ba00a629d776f2416d2b"
+      },
+      "latestRelease": {
+        "tag": "v0.8.0",
+        "publishedAt": "2026-10-28T12:47:51Z",
+        "prerelease": false,
+        "source": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.8.0"
+      }
+    },
+    {
+      "requestedRepository": "vllm-project/vllm",
+      "rateRemaining": "35",
+      "source": "https://api.github.com/repos/vllm-project/vllm",
+      "collectedAt": "2026-11-03T09:37:29.347Z",
+      "canonical": "vllm-project/vllm",
+      "repository": "https://github.com/vllm-project/vllm",
+      "stars": 96196,
+      "forks": 24341,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "sha": "2173d7121fc6e8d756c884f46691546c61b60c57",
+        "date": "2026-11-03T09:30:47Z",
+        "source": "https://github.com/vllm-project/vllm/commit/2173d7121fc6e8d756c884f46691546c61b60c57"
+      },
+      "latestRelease": {
+        "tag": "v0.33.0rc3",
+        "publishedAt": "2026-11-02T10:10:05Z",
+        "prerelease": false,
+        "source": "https://github.com/vllm-project/vllm/releases/tag/v0.33.0rc3"
+      }
+    },
+    {
+      "requestedRepository": "BerriAI/litellm",
+      "rateRemaining": "32",
+      "source": "https://api.github.com/repos/BerriAI/litellm",
+      "collectedAt": "2026-11-03T09:37:30.156Z",
+      "canonical": "BerriAI/litellm",
+      "repository": "https://github.com/BerriAI/litellm",
+      "stars": 62616,
+      "forks": 12966,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "NOASSERTION",
+      "head": {
+        "sha": "28b4300be2f8b31beee82fa21b50608772a1c14c",
+        "date": "2026-11-03T08:25:43Z",
+        "source": "https://github.com/BerriAI/litellm/commit/28b4300be2f8b31beee82fa21b50608772a1c14c"
+      },
+      "latestRelease": {
+        "tag": "v1.106.6",
+        "publishedAt": "2026-10-28T23:03:09Z",
+        "prerelease": false,
+        "source": "https://github.com/BerriAI/litellm/releases/tag/v1.106.6"
+      }
+    },
+    {
+      "requestedRepository": "sgl-project/sglang",
+      "rateRemaining": "29",
+      "source": "https://api.github.com/repos/sgl-project/sglang",
+      "collectedAt": "2026-11-03T09:37:31.095Z",
+      "canonical": "sgl-project/sglang",
+      "repository": "https://github.com/sgl-project/sglang",
+      "stars": 38396,
+      "forks": 10111,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "sha": "40a64e1b5ba00c73b7f8a123a903a2123b7d467c",
+        "date": "2026-11-03T09:27:59Z",
+        "source": "https://github.com/sgl-project/sglang/commit/40a64e1b5ba00c73b7f8a123a903a2123b7d467c"
+      },
+      "latestRelease": {
+        "tag": "v0.5.23",
+        "publishedAt": "2026-11-02T22:14:10Z",
+        "prerelease": false,
+        "source": "https://github.com/sgl-project/sglang/releases/tag/v0.5.23"
+      }
+    },
+    {
+      "requestedRepository": "microsoft/onnxruntime-genai",
+      "rateRemaining": "26",
+      "source": "https://api.github.com/repos/microsoft/onnxruntime-genai",
+      "collectedAt": "2026-11-03T09:37:31.978Z",
+      "canonical": "microsoft/onnxruntime-genai",
+      "repository": "https://github.com/microsoft/onnxruntime-genai",
+      "stars": 1147,
+      "forks": 377,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "MIT",
+      "head": {
+        "sha": "3e90f6eba3cf6dfa5e28e3d87a0f9da83e85c0d8",
+        "date": "2026-11-03T06:22:43Z",
+        "source": "https://github.com/microsoft/onnxruntime-genai/commit/3e90f6eba3cf6dfa5e28e3d87a0f9da83e85c0d8"
+      },
+      "latestRelease": {
+        "tag": "v0.17.0",
+        "publishedAt": "2026-09-28T06:15:36Z",
+        "prerelease": false,
+        "source": "https://github.com/microsoft/onnxruntime-genai/releases/tag/v0.17.0"
+      }
+    },
+    {
+      "requestedRepository": "NVIDIA/TensorRT-LLM",
+      "rateRemaining": "23",
+      "source": "https://api.github.com/repos/NVIDIA/TensorRT-LLM",
+      "collectedAt": "2026-11-03T09:37:32.854Z",
+      "canonical": "NVIDIA/TensorRT-LLM",
+      "repository": "https://github.com/NVIDIA/TensorRT-LLM",
+      "stars": 14998,
+      "forks": 2901,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "NOASSERTION",
+      "head": {
+        "sha": "d6ecb2901c154daf3e4ca590ff2e0c161548f1ac",
+        "date": "2026-11-03T09:37:31Z",
+        "source": "https://github.com/NVIDIA/TensorRT-LLM/commit/d6ecb2901c154daf3e4ca590ff2e0c161548f1ac"
+      },
+      "latestRelease": {
+        "tag": "v1.2.1",
+        "publishedAt": "2026-04-20T11:51:33Z",
+        "prerelease": false,
+        "source": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.2.1"
+      }
+    },
+    {
+      "requestedRepository": "ml-explore/mlx-lm",
+      "rateRemaining": "20",
+      "source": "https://api.github.com/repos/ml-explore/mlx-lm",
+      "collectedAt": "2026-11-03T09:37:33.725Z",
+      "canonical": "ml-explore/mlx-lm",
+      "repository": "https://github.com/ml-explore/mlx-lm",
+      "stars": 7538,
+      "forks": 1163,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "MIT",
+      "head": {
+        "sha": "736ab0d8c1d0edc79c3d798044fe6904e2fa23be",
+        "date": "2026-10-30T09:28:47Z",
+        "source": "https://github.com/ml-explore/mlx-lm/commit/736ab0d8c1d0edc79c3d798044fe6904e2fa23be"
+      },
+      "latestRelease": {
+        "tag": "v0.32.2",
+        "publishedAt": "2026-10-16T02:49:02Z",
+        "prerelease": false,
+        "source": "https://github.com/ml-explore/mlx-lm/releases/tag/v0.32.2"
+      }
+    },
+    {
+      "requestedRepository": "docker/model-runner",
+      "rateRemaining": "17",
+      "source": "https://api.github.com/repos/docker/model-runner",
+      "collectedAt": "2026-11-03T09:37:34.560Z",
+      "canonical": "docker/model-runner",
+      "repository": "https://github.com/docker/model-runner",
+      "stars": 659,
+      "forks": 158,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "sha": "630555562c9325e6c47324e0eb83c87bd97fdc5f",
+        "date": "2026-11-02T09:06:08Z",
+        "source": "https://github.com/docker/model-runner/commit/630555562c9325e6c47324e0eb83c87bd97fdc5f"
+      },
+      "latestRelease": {
+        "tag": "v1.2.9",
+        "publishedAt": "2026-10-22T08:34:13Z",
+        "prerelease": false,
+        "source": "https://github.com/docker/model-runner/releases/tag/v1.2.9"
+      }
+    },
+    {
+      "requestedRepository": "mudler/LocalAI",
+      "rateRemaining": "14",
+      "source": "https://api.github.com/repos/mudler/LocalAI",
+      "collectedAt": "2026-11-03T09:37:35.470Z",
+      "canonical": "mudler/LocalAI",
+      "repository": "https://github.com/mudler/LocalAI",
+      "stars": 50150,
+      "forks": 4570,
+      "archived": false,
+      "defaultBranch": "master",
+      "license": "MIT",
+      "head": {
+        "sha": "5dc9ed707d36335218eaa7b52b62f75ef0127766",
+        "date": "2026-11-03T09:33:41Z",
+        "source": "https://github.com/mudler/LocalAI/commit/5dc9ed707d36335218eaa7b52b62f75ef0127766"
+      },
+      "latestRelease": {
+        "tag": "v4.12.1",
+        "publishedAt": "2026-10-23T10:27:00Z",
+        "prerelease": false,
+        "source": "https://github.com/mudler/LocalAI/releases/tag/v4.12.1"
+      }
+    }
+  ]
+}
