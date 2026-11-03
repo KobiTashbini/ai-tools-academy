@@ -1,0 +1,65 @@
+{
+  "startedAt": "2026-11-03T10:51:08Z",
+  "endedAt": "2026-11-03T11:03:09.001Z",
+  "measuredElapsedSeconds": 721,
+  "measurementScope": "First explicit clock reading through integration and live postflight; initial commentary before clock not separately measured.",
+  "agents": {
+    "totalIncludingLead": 4,
+    "subagents": 3,
+    "research": {
+      "remaining_coding01": [
+        "01"
+      ],
+      "remaining_agents02": [
+        "02"
+      ],
+      "remaining_workflow03": [
+        "03"
+      ],
+      "lead": [
+        "00",
+        "11"
+      ]
+    },
+    "independentReview": {
+      "remaining_coding01": [
+        "02"
+      ],
+      "remaining_agents02": [
+        "01",
+        "03"
+      ],
+      "remaining_workflow03": [
+        "00",
+        "11"
+      ]
+    }
+  },
+  "deliverables": {
+    "categoryReports": 5,
+    "independentReviewReports": 3,
+    "consolidatedDecisionReports": 1,
+    "proposals": 46,
+    "existingRecordsChecked": 18,
+    "identitiesChecked": 86,
+    "evidenceClaims": 133
+  },
+  "parallelism": "Three bounded research streams overlapped with lead research; same agents then independently reviewed other authors. Shared baseline, central GitHub collection and reused survey leads avoided separate collection per category. No serial control run exists, so speedup not quantified.",
+  "limitations": [
+    "GitHub REST nine exact counter snapshots succeeded then403; no complete head/latest-release refresh.",
+    "GitHub connector probe provided identity metadata without exact Stars, so did not close metric gap.",
+    "W&B current hosting/service terms unverified after docs redirects failed.",
+    "First public launch dates and all SDK feature parity not exhaustively established.",
+    "No model calls, installs, benchmark, Hebrew-quality/cost/latency or recovery experiments.",
+    "Legacy research:check uses historical seed; live postflight performed separately."
+  ],
+  "tokenUsage": null,
+  "tokenUsageReason": "Per-agent/aggregate token accounting not exposed by environment.",
+  "applicationCodeChanges": false,
+  "catalogWrites": false,
+  "policyChanges": false,
+  "preExistingUnrelatedChange": "AGENTS.md modified before run and preserved",
+  "commit": false,
+  "push": false,
+  "deployment": false
+}

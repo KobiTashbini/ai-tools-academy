@@ -1,0 +1,2925 @@
+{
+  "checkedAt": "2026-11-03T10:51:17.466Z",
+  "identities": [
+    {
+      "id": "agno",
+      "slug": "agno",
+      "name": "Agno",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/agno-agi/agno"
+      ]
+    },
+    {
+      "id": "ai-quality-security-fundamentals",
+      "slug": "ai-quality-security-fundamentals",
+      "name": "איכות, תצפיתיות ואבטחת AI — יסודות",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "amazon-bedrock",
+      "slug": "amazon-bedrock",
+      "name": "Amazon Bedrock",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "anthropic-claude",
+      "slug": "anthropic-claude",
+      "name": "Anthropic — Claude",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "arize-phoenix",
+      "slug": "arize-phoenix",
+      "name": "Arize Phoenix",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/Arize-ai/phoenix"
+      ]
+    },
+    {
+      "id": "azure-ai-search",
+      "slug": "azure-ai-search",
+      "name": "Azure AI Search",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "botpress",
+      "slug": "botpress",
+      "name": "Botpress",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "chroma",
+      "slug": "chroma",
+      "name": "Chroma",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/chroma-core/chroma"
+      ]
+    },
+    {
+      "id": "claude-code",
+      "slug": "claude-code",
+      "name": "Claude Code",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/anthropics/claude-code"
+      ]
+    },
+    {
+      "id": "codex",
+      "slug": "codex",
+      "name": "Codex",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/openai/codex"
+      ]
+    },
+    {
+      "id": "cohere-command",
+      "slug": "cohere-command",
+      "name": "Cohere — Command",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "composio",
+      "slug": "composio",
+      "name": "Composio",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/ComposioHQ/composio"
+      ]
+    },
+    {
+      "id": "crewai",
+      "slug": "crewai",
+      "name": "CrewAI",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/crewAIInc/crewAI"
+      ]
+    },
+    {
+      "id": "cursor",
+      "slug": "cursor",
+      "name": "Cursor",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "deepseek",
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "dify",
+      "slug": "dify",
+      "name": "Dify",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/langgenius/dify"
+      ]
+    },
+    {
+      "id": "docling",
+      "slug": "docling",
+      "name": "Docling",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/docling-project/docling"
+      ]
+    },
+    {
+      "id": "dspy",
+      "slug": "dspy",
+      "name": "DSPy",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/stanfordnlp/dspy"
+      ]
+    },
+    {
+      "id": "fastmcp",
+      "slug": "fastmcp",
+      "name": "FastMCP",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/PrefectHQ/fastmcp"
+      ]
+    },
+    {
+      "id": "flowise",
+      "slug": "flowise",
+      "name": "Flowise — היסטורי",
+      "kind": "platform",
+      "publication_status": "archived",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "gemma",
+      "slug": "gemma",
+      "name": "Google — Gemma",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "github-mcp-server",
+      "slug": "github-mcp-server",
+      "name": "GitHub MCP Server",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/github/github-mcp-server"
+      ]
+    },
+    {
+      "id": "google-adk",
+      "slug": "google-adk",
+      "name": "Google Agent Development Kit (ADK)",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/google/adk-python"
+      ]
+    },
+    {
+      "id": "google-gemini",
+      "slug": "google-gemini",
+      "name": "Google — Gemini",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "google-vertex-ai",
+      "slug": "google-vertex-ai",
+      "name": "Google Gemini Enterprise Agent Platform (Vertex AI)",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "haystack",
+      "slug": "haystack",
+      "name": "Haystack",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/deepset-ai/haystack"
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "slug": "hugging-face",
+      "name": "Hugging Face — Inference Providers",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "inference-fundamentals",
+      "slug": "inference-fundamentals",
+      "name": "הסקה מקומית והגשת מודלים — יסודות",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "langchain",
+      "slug": "langchain",
+      "name": "LangChain",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/langchain-ai/langchain"
+      ]
+    },
+    {
+      "id": "langflow",
+      "slug": "langflow",
+      "name": "Langflow",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/langflow-ai/langflow"
+      ]
+    },
+    {
+      "id": "langfuse",
+      "slug": "langfuse",
+      "name": "Langfuse",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/langfuse/langfuse"
+      ]
+    },
+    {
+      "id": "langgraph",
+      "slug": "langgraph",
+      "name": "LangGraph",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/langchain-ai/langgraph"
+      ]
+    },
+    {
+      "id": "langsmith",
+      "slug": "langsmith",
+      "name": "LangSmith",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "lightrag",
+      "slug": "lightrag",
+      "name": "LightRAG",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/HKUDS/LightRAG"
+      ]
+    },
+    {
+      "id": "litellm",
+      "slug": "litellm",
+      "name": "LiteLLM — AI Gateway ו־SDK",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/BerriAI/litellm"
+      ]
+    },
+    {
+      "id": "llama-cpp",
+      "slug": "llama-cpp",
+      "name": "llama.cpp",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/ggml-org/llama.cpp"
+      ]
+    },
+    {
+      "id": "llamaindex",
+      "slug": "llamaindex",
+      "name": "LlamaIndex",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/run-llama/llama_index"
+      ]
+    },
+    {
+      "id": "llm-fundamentals",
+      "slug": "llm-fundamentals",
+      "name": "מודלי שפה — יסודות",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "lm-studio",
+      "slug": "lm-studio",
+      "name": "LM Studio",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "mastra",
+      "slug": "mastra",
+      "name": "Mastra",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/mastra-ai/mastra"
+      ]
+    },
+    {
+      "id": "mcp",
+      "slug": "mcp",
+      "name": "MCP",
+      "kind": "protocol",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/modelcontextprotocol/modelcontextprotocol"
+      ]
+    },
+    {
+      "id": "mcp-csharp-sdk",
+      "slug": "mcp-csharp-sdk",
+      "name": "MCP C# SDK",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/modelcontextprotocol/csharp-sdk"
+      ]
+    },
+    {
+      "id": "mcp-inspector",
+      "slug": "mcp-inspector",
+      "name": "MCP Inspector",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/modelcontextprotocol/inspector"
+      ]
+    },
+    {
+      "id": "meta-llama",
+      "slug": "meta-llama",
+      "name": "Meta — Llama",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "microsoft-agent-framework",
+      "slug": "microsoft-agent-framework",
+      "name": "Microsoft Agent Framework",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/microsoft/agent-framework"
+      ]
+    },
+    {
+      "id": "microsoft-ai-evaluation",
+      "slug": "microsoft-ai-evaluation",
+      "name": "Microsoft.Extensions.AI.Evaluation",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "microsoft-autogen",
+      "slug": "microsoft-autogen",
+      "name": "Microsoft AutoGen",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/microsoft/autogen"
+      ]
+    },
+    {
+      "id": "microsoft-copilot-studio",
+      "slug": "microsoft-copilot-studio",
+      "name": "Microsoft Copilot Studio",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "microsoft-foundry",
+      "slug": "microsoft-foundry",
+      "name": "Microsoft Foundry (Azure AI Foundry)",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "microsoft-graphrag",
+      "slug": "microsoft-graphrag",
+      "name": "Microsoft GraphRAG",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/microsoft/graphrag"
+      ]
+    },
+    {
+      "id": "microsoft-phi",
+      "slug": "microsoft-phi",
+      "name": "Microsoft — Phi",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "milvus",
+      "slug": "milvus",
+      "name": "Milvus",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/milvus-io/milvus"
+      ]
+    },
+    {
+      "id": "mistral-ai",
+      "slug": "mistral-ai",
+      "name": "Mistral AI",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "n8n",
+      "slug": "n8n",
+      "name": "n8n",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/n8n-io/n8n"
+      ]
+    },
+    {
+      "id": "nemo-guardrails",
+      "slug": "nemo-guardrails",
+      "name": "NVIDIA NeMo Guardrails",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/NVIDIA-NeMo/Guardrails"
+      ]
+    },
+    {
+      "id": "ollama",
+      "slug": "ollama",
+      "name": "Ollama",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/ollama/ollama"
+      ]
+    },
+    {
+      "id": "onnxruntime-genai",
+      "slug": "onnxruntime-genai",
+      "name": "ONNX Runtime GenAI",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/microsoft/onnxruntime-genai"
+      ]
+    },
+    {
+      "id": "openai-agent-builder",
+      "slug": "openai-agent-builder",
+      "name": "OpenAI Agent Builder — היסטורי",
+      "kind": "platform",
+      "publication_status": "archived",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "openai-agents-sdk",
+      "slug": "openai-agents-sdk",
+      "name": "OpenAI Agents SDK",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/openai/openai-agents-python"
+      ]
+    },
+    {
+      "id": "openai-gpt",
+      "slug": "openai-gpt",
+      "name": "OpenAI — GPT",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "openrouter",
+      "slug": "openrouter",
+      "name": "OpenRouter",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "opentelemetry",
+      "slug": "opentelemetry",
+      "name": "OpenTelemetry — .NET & GenAI",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/open-telemetry/opentelemetry-dotnet"
+      ]
+    },
+    {
+      "id": "pathway",
+      "slug": "pathway",
+      "name": "Pathway",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/pathwaycom/pathway"
+      ]
+    },
+    {
+      "id": "pgvector",
+      "slug": "pgvector",
+      "name": "pgvector",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/pgvector/pgvector"
+      ]
+    },
+    {
+      "id": "pinecone",
+      "slug": "pinecone",
+      "name": "Pinecone",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "playwright-mcp",
+      "slug": "playwright-mcp",
+      "name": "Playwright MCP",
+      "kind": "product",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/microsoft/playwright-mcp"
+      ]
+    },
+    {
+      "id": "promptfoo",
+      "slug": "promptfoo",
+      "name": "Promptfoo",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/promptfoo/promptfoo"
+      ]
+    },
+    {
+      "id": "pydantic-ai",
+      "slug": "pydantic-ai",
+      "name": "Pydantic AI",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/pydantic/pydantic-ai"
+      ]
+    },
+    {
+      "id": "pytorch",
+      "slug": "pytorch",
+      "name": "PyTorch",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/pytorch/pytorch"
+      ]
+    },
+    {
+      "id": "qdrant",
+      "slug": "qdrant",
+      "name": "Qdrant",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/qdrant/qdrant"
+      ]
+    },
+    {
+      "id": "qwen",
+      "slug": "qwen",
+      "name": "Alibaba — Qwen",
+      "kind": "model",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "rag-fundamentals",
+      "slug": "rag-fundamentals",
+      "name": "RAG — יסודות וארכיטקטורה",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": null
+    },
+    {
+      "id": "ragas",
+      "slug": "ragas",
+      "name": "Ragas",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/vibrantlabsai/ragas"
+      ]
+    },
+    {
+      "id": "ragflow",
+      "slug": "ragflow",
+      "name": "RAGFlow",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/infiniflow/ragflow"
+      ]
+    },
+    {
+      "id": "sglang",
+      "slug": "sglang",
+      "name": "SGLang",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/sgl-project/sglang"
+      ]
+    },
+    {
+      "id": "sim",
+      "slug": "sim",
+      "name": "Sim",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/simstudioai/sim"
+      ]
+    },
+    {
+      "id": "smolagents",
+      "slug": "smolagents",
+      "name": "Hugging Face smolagents",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/huggingface/smolagents"
+      ]
+    },
+    {
+      "id": "temporal",
+      "slug": "temporal",
+      "name": "Temporal",
+      "kind": "orchestration_engine",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/temporalio/temporal"
+      ]
+    },
+    {
+      "id": "together-ai",
+      "slug": "together-ai",
+      "name": "Together AI",
+      "kind": "platform",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": null
+    },
+    {
+      "id": "tool-integration-fundamentals",
+      "slug": "tool-integration-fundamentals",
+      "name": "כלים ואינטגרציות — יסודות, חוזים והרשאות",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "txtai",
+      "slug": "txtai",
+      "name": "txtai",
+      "kind": "framework",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/neuml/txtai"
+      ]
+    },
+    {
+      "id": "unstructured",
+      "slug": "unstructured",
+      "name": "Unstructured",
+      "kind": "sdk",
+      "publication_status": "published",
+      "revision": 2,
+      "repositories": [
+        "https://github.com/Unstructured-IO/unstructured"
+      ]
+    },
+    {
+      "id": "vector-search-fundamentals",
+      "slug": "vector-search-fundamentals",
+      "name": "חיפוש וקטורי — יסודות ובחירת אחסון",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "visual-ai-builders-fundamentals",
+      "slug": "visual-ai-builders-fundamentals",
+      "name": "בניית AI חזותית — יסודות ובחירת כלי",
+      "kind": "concept",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": null
+    },
+    {
+      "id": "vllm",
+      "slug": "vllm",
+      "name": "vLLM",
+      "kind": "runtime",
+      "publication_status": "published",
+      "revision": 3,
+      "repositories": [
+        "https://github.com/vllm-project/vllm"
+      ]
+    },
+    {
+      "id": "weaviate",
+      "slug": "weaviate",
+      "name": "Weaviate",
+      "kind": "database",
+      "publication_status": "published",
+      "revision": 1,
+      "repositories": [
+        "https://github.com/weaviate/weaviate"
+      ]
+    }
+  ],
+  "proposals": [],
+  "categories": [
+    {
+      "id": "00",
+      "name": "AI Ecosystem",
+      "description": "מושגי היסוד והקשרים בין מודלים, כלים ומערכות."
+    },
+    {
+      "id": "01",
+      "name": "AI Coding Assistants",
+      "description": "עבודה עם עוזרי קוד לאורך תהליך הפיתוח."
+    },
+    {
+      "id": "02",
+      "name": "Agent Frameworks & Orchestration",
+      "description": "בניית סוכנים וניהול זרימות עבודה ומצב."
+    },
+    {
+      "id": "03",
+      "name": "Workflow Automation",
+      "description": "חיבור מערכות ופעולות לתהליך עסקי."
+    },
+    {
+      "id": "11",
+      "name": "Training, Fine-tuning & MLOps",
+      "description": "התאמת מודלים וניהול מחזור החיים שלהם."
+    }
+  ],
+  "scope": [
+    {
+      "entry": {
+        "id": "agno",
+        "kind": "framework",
+        "name": "Agno",
+        "slug": "agno",
+        "addedAt": "2026-11-02",
+        "example": "דוגמה לימודית מוצעת, שלא הורצה כאן: סוכן Agno מאחזר נהלים ומידע לקוח לקריאה בלבד ומחזיר המלצת טיפול עם הפניות. שירות ASP.NET Core בודק הרשאות ומציג את ההמלצה לנציג, ורק פקודה נפרדת ומאושרת משנה רשומה ב־SQL.",
+        "sources": [
+          {
+            "url": "https://docs.agno.com/",
+            "title": "Agno — תיעוד רשמי",
+            "supports": "תפקיד, מבנה ותמיכת שפות; טענות על היעדר SDK מוגבלות למקורות שנבדקו.",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "url": "https://github.com/agno-agi/agno",
+            "title": "Agno — GitHub רשמי",
+            "supports": "זהות המאגר, קוד ומצב הפרויקט.",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "url": "https://github.com/agno-agi/agno/releases/tag/v1.0.0",
+            "title": "Agno — השקת v1.0.0",
+            "supports": "השקת Agno בצמוד לגרסה v1.0.0 ב־30 בינואר 2025 לפי Release רשמי. זו אינה טענה שזהו תחילת המאגר או הפרויקט הקודם Phidata; חבילות מוקדמות יותר קדמו לאירוע הזה.",
+            "checkedAt": "2026-11-02"
+          }
+        ],
+        "summary": "מסגרת Python לסוכנים, צוותים ותהליכי עבודה, עם כלים, זיכרון וידע. יש להבדיל בין ספריית הסוכנים לבין AgentOS, שכבת ההרצה והשירות שסביבה, ובין Agno לבין ההיסטוריה בשם Phidata.",
+        "exercise": "הגדירו אילו נתוני לקוח מותר לשמור בזיכרון, ובנו חוזה JSON להמלצה עם מקורות. השוו סוכן יחיד ב־Agno לתכנון צוות ב־CrewAI, כולל התנהגות בכשל ואישור לפני כתיבה.",
+        "revision": 1,
+        "sections": [
+          {
+            "text": "Agno מאגדת בניית סוכן עם כלים, זיכרון וידע, ויכולה לשלב צוותים ו־Workflows. שימושים מרכזיים הם עוזרי ידע ועיבוד בקשות בארגון; סוכן יחיד הוא נקודת פתיחה סבירה לפני חלוקת העבודה לצוות.",
+            "title": "איזו בעיה היא פותרת?"
+          },
+          {
+            "text": "מגדירים סוכן Python עם מודל וכלים, ובוחרים כיצד לשמור מצב וידע. AgentOS היא שכבת ההרצה והשירות שסביב הסוכנים. בהקבלה ל־.NET, ספריית הדומיין ושרת ה־API אינם אותו רכיב, גם אם שניהם מגיעים מאותו ספק.",
+            "title": "איך בנויה ההרצה?"
+          },
+          {
+            "text": "מענה לשאלות על מסמכים, איסוף נתונים עסקיים והצעת פעולה עם מקור. API ו־MCP מאפשרים חשיפת יכולות לצרכנים שונים; אחסון זיכרון דורש מדיניות פרטיות, הרשאות ותחזוקה משלכם.",
+            "title": "שימושים מרכזיים"
+          },
+          {
+            "text": "השוואה פדגוגית: מול CrewAI בחנו חלוקת אחריות בין סוכנים; מול Pydantic AI בדקו חוזים וטיפוסים; מול LangGraph בדקו כמה שליטה במצב ובענפים נחוצה. אין כאן אימוץ של טענות ביצועים שיווקיות או דירוג איכות לפי Stars.",
+            "title": "מתי לבחור ובמה להשוות?"
+          },
+          {
+            "text": "זיכרון ארוך טווח עשוי לשמור מידע רגיש. הגדירו גישה למידע ולכלים, תקופות שמירה ומחיקה, ותיעוד החלטות. שימוש בשכבת שירות אינו פוטר מאימות ב־API או מאישור אדם לפני שינוי עסקי.",
+            "title": "גבולות ובטיחות"
+          }
+        ],
+        "approvedAt": "2026-11-02",
+        "verifiedAt": "2026-11-02",
+        "categoryIds": [
+          "02"
+        ],
+        "addedAtBasis": "approved_proposal",
+        "discoveredAt": "2026-11-02",
+        "relatedSlugs": [
+          "crewai",
+          "pydantic-ai",
+          "langgraph",
+          "microsoft-agent-framework"
+        ],
+        "revisionNote": "מקורות רשמיים נבדקו ב־2026-11-02; דוגמאות, תרגילים והשוואות מסומנים כפדגוגיים ולא הורצו. אין אימות מעבדתי לכל API.",
+        "prerequisites": "היכרות עם REST/JSON, אימות קלט, לולאת tool calling והפרדת לוגיקה עסקית מהמודל.",
+        "alternativesNote": "CrewAI לצוותי תפקידים; Pydantic AI לחוזים מטיפוסים; LangGraph לזרימות מצב מפורשות. בחנו את עלות תחזוקת שירות Python מול Microsoft Agent Framework בסביבת .NET.",
+        "learningPriority": "should_know",
+        "approvalReference": "User request 2026-11-02: add ADK, Mastra, smolagents, Agno and Legacy AutoGen; docs/DECISIONS.md D-029",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "SDK הסוכנים הרשמי שנבדק נכתב ב־Python. AgentOS מציע API ו־MCP; אפשר לשלב יישום C#/.NET או TypeScript כלקוח של שירות, אך אין בכך הוכחה ל־SDK סוכנים מקומי באותן שפות."
+      },
+      "facts": {
+        "description": "מסגרת Python לסוכנים, צוותים ותהליכי עבודה, עם כלים, זיכרון וידע ארגוני.",
+        "languages": "SDK הסוכנים הרשמי שנבדק נכתב ב־Python. AgentOS מציע API ו־MCP; אפשר לשלב יישום C#/.NET או TypeScript כלקוח של שירות, אך אין בכך הוכחה ל־SDK סוכנים מקומי באותן שפות.",
+        "languageSources": [
+          "https://docs.agno.com/",
+          "https://github.com/agno-agi/agno",
+          "https://github.com/agno-agi/agno/releases/tag/v1.0.0"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי של הפרויקט; Stars הם צילום מצב ולא מדד איכות או מספר משתמשים.",
+          "url": "https://github.com/agno-agi/agno",
+          "stars": 43018,
+          "starsSource": "https://api.github.com/repos/agno-agi/agno",
+          "collectedAt": "2026-11-02T18:53:29.849+00:00",
+          "lastActivity": {
+            "date": "2026-11-02T06:42:34+00:00",
+            "source": "https://api.github.com/repos/agno-agi/agno/commits/df501779b4fc566f040a033105c01af909e8c3b5",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-11-02 18:53:29.849+00"
+        },
+        "release": {
+          "value": "2025-01-30",
+          "precision": "day",
+          "source": "https://github.com/agno-agi/agno/releases/tag/v1.0.0",
+          "note": "השקת Agno בצמוד לגרסה v1.0.0 ב־30 בינואר 2025 לפי Release רשמי. זו אינה טענה שזהו תחילת המאגר או הפרויקט הקודם Phidata; חבילות מוקדמות יותר קדמו לאירוע הזה."
+        }
+      },
+      "metrics": {
+        "slug": "agno",
+        "description": "מסגרת Python לסוכנים, צוותים ותהליכי עבודה, עם כלים, זיכרון וידע ארגוני.",
+        "languages": [
+          "Python"
+        ],
+        "learningReason": "כדאי להכיר להשוואת בניית סוכן Python עם זיכרון, ידע ושכבת שירות. למפתח .NET אין צורך לאמץ Python רק בגלל יכולות אלה בלי הצדקה תפעולית.",
+        "collectedAt": "2026-11-02 18:53:29.849+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "claude-code",
+        "kind": "product",
+        "name": "Claude Code",
+        "slug": "claude-code",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: תיקון שגיאת ולידציה בטופס React וב־API. הצלחה מחייבת טיפול גם בבקשה ישירה לשרת, ולא רק במסך.",
+        "sources": [
+          {
+            "url": "https://code.claude.com/docs/en/overview",
+            "title": "Anthropic — Claude Code Overview",
+            "supports": "הגדרת הכלי, קריאת קוד, עריכה והרצת פקודות. תרחישי .NET ושיקולי הבחירה הם הצעות לימודיות.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "עוזר פיתוח סוכני שקורא מאגר, עורך קבצים ומריץ פקודות במסגרת סביבת העבודה שלו.",
+        "exercise": "נסח תיקון באג עם דרך שחזור ותוצאה צפויה. בקש קודם הסבר לסיבה ואז תיקון ממוקד. תוצר: Diff וראיה שהבאג שוחזר ונעלם, ללא שינויים שאינם קשורים.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Claude Code מסייע במשימות פיתוח שדורשות הבנת קוד ושינוי מספר קבצים. התיעוד מציג עבודה במסוף, ב־IDE ובממשקים נוספים. הוא מוצר לפיתוח באמצעות AI, ולא מודל שפה בפני עצמו.",
+            "title": "איזו בעיה הוא פותר?"
+          },
+          {
+            "text": "מחזור מומלץ: ניסוח הבעיה, קריאת האזורים הרלוונטיים, הצעת שינוי, הרצת בדיקות וסקירה אנושית. חשוב להפריד בין פקודה שהורצה לבין מסקנה עסקית שעדיין אינה מוכחת.",
+            "title": "איך ניגשים למשימה?"
+          },
+          {
+            "text": "אפשר להגדיר משימת Endpoint עם תנאי קבלה ל־HTTP וללוגיקה. אל תסתפק בקומפילציה: בדוק הרשאות, מקרי קצה ושמירת נתונים. המתודולוגיה הזו אינה תלויה בשפת המאגר.",
+            "title": "החיבור ל־.NET"
+          },
+          {
+            "text": "בדוק כיצד הכלי משתלב בתהליך הסקירה שלך, איזה הקשר הוא מקבל ואילו פעולות הוא מורשה לבצע. התאמה להרגלי עבודה חשובה לצד איכות ההצעה הראשונית.",
+            "title": "מה לבחון לפני בחירה?"
+          },
+          {
+            "text": "המלצה: הרץ תרגול על נתוני דוגמה, הגבל הרשאות ובדוק פקודות חיצוניות לפני ביצוע. צריכת שימוש וזמינות יכולות תלויות בחשבון; אין כאן השוואת מחירים מאומתת.",
+            "title": "אבטחה ועלות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "01"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "codex",
+          "cursor",
+          "mcp"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "Git, מסוף ובדיקות.",
+        "alternativesNote": "השווה ל־Codex או Cursor על אותו מאגר. המלצה: שקלל מספר תיקונים נדרשים ואיכות הבדיקות לצד זמן העבודה.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "קריאת קוד C#, Python או TypeScript אינה הוכחה ל־SDK רשמי בשפה. עמוד זה עוסק בכלי הפיתוח ולא ב־Anthropic SDK."
+      },
+      "facts": {
+        "description": "קורא ומשנה קבצי פרויקט ומריץ פקודות לביצוע משימות פיתוח ותיקון תקלות.",
+        "languages": "כלי פיתוח; C#/.NET לפי סביבת הפרויקט; אין זו טענת SDK.",
+        "languageSources": [
+          "https://code.claude.com/docs/en/overview"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "מאגר רשמי לתיעוד, תוספים ומשוב; אינו קוד המקור המלא של המוצר",
+          "url": "https://github.com/anthropics/claude-code",
+          "stars": 154009,
+          "starsSource": "https://api.github.com/repos/anthropics/claude-code",
+          "collectedAt": "2026-10-31T09:13:24+00:00",
+          "lastActivity": {
+            "date": "2026-10-31T01:01:10+00:00",
+            "source": "https://github.com/anthropics/claude-code/commit/80c6959d28c4c30ecd14fc1cdf172f19d9adad81",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2025-02-24",
+          "precision": "day",
+          "source": "https://www.anthropic.com/news/claude-3-7-sonnet",
+          "note": "הצגה ראשונה לציבור כ־Limited Research Preview; לא תאריך GA."
+        }
+      },
+      "metrics": {
+        "slug": "claude-code",
+        "description": "קורא ומשנה קבצי פרויקט ומריץ פקודות לביצוע משימות פיתוח ותיקון תקלות.",
+        "languages": [
+          "לפי הפרויקט"
+        ],
+        "learningReason": "להשוואת תהליכי עבודה של סוכני קוד.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "codex",
+        "kind": "product",
+        "name": "Codex",
+        "slug": "codex",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: הוספת סינון לקטגוריה. מגדירים תוצאה בכתובת URL, משנים שכבה אחת בכל פעם ובודקים מקרה ריק, עברית וקלט לא תקין לפני Commit.",
+        "sources": [
+          {
+            "url": "https://learn.chatgpt.com/docs/glossary",
+            "title": "OpenAI — מילון המונחים של Codex",
+            "supports": "הגדרת Codex, לקוחות CLI/IDE ותפקיד AGENTS.md. שיטת העבודה והתרגיל הם המלצות לימודיות, לא טענות על ביצועים או על תוכנית תשלום.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "סוכן לפיתוח תוכנה: עבודה על משימה מוגדרת בהקשר של פרויקט, עם כלים ובקרת שינויים.",
+        "exercise": "בחר שינוי קטן. כתוב מטרה, שלושה תנאי קבלה ופעולות שדורשות אישור. לאחר המימוש השווה בין הבדיקות שביקשת לאלו שרצו בפועל; תוצר: סקירת Diff קצרה.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Codex הוא סוכן הפיתוח של OpenAI. אפשר לעבוד איתו דרך לקוחות שונים, בהם CLI והרחבת IDE. הנושא כאן הוא תהליך פיתוח בעזרת סוכן; Agents SDK הוא נושא נפרד לבניית יישומי סוכנים.",
+            "title": "מה הוא פותר?"
+          },
+          {
+            "text": "הגדר תוצאה ותנאי קבלה, ספק הקשר, בקש שינוי קטן ובדוק את ה־Diff ואת תוצאות הבדיקות. שמור נקודת Commit אחרי יחידת עבודה מובנת. זהו תהליך מומלץ, לא הבטחה שהסוכן ימצא כל טעות.",
+            "title": "מחזור עבודה מומלץ"
+          },
+          {
+            "text": "התייחס לסוכן כאל שותף שמציע מימוש. האחריות לחוזה REST, למיגרציית SQL ולהתנהגות העסקית נשארת אצלך. שאל לא רק האם הקוד מתקמפל אלא מה הראיה שהוא נכון.",
+            "title": "החיבור לידע שלך"
+          },
+          {
+            "text": "AGENTS.md נותן הוראות מתמשכות לפרויקט. לצדו כדאי להחזיק מצב, משימות והחלטות בקבצים. כך משימה חדשה יכולה להתחיל מהמציאות במאגר גם בלי כל היסטוריית השיחות.",
+            "title": "הקשר שאינו תלוי בשיחה"
+          },
+          {
+            "text": "המלצה: הגדר מראש הרשאות לכתיבה, רשת ופעולות חיצוניות. בקשה לשינוי UI אינה הרשאה לפריסה. אל תכניס סודות למסמכי הפרויקט. זמינות יכולות ועלות נבדקות לפי סביבת העבודה והחשבון.",
+            "title": "הרשאות וגבולות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "01"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "claude-code",
+          "cursor",
+          "openai-agents-sdk"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "Git, הרצת בדיקות וקריאת Diff.",
+        "alternativesNote": "Claude Code ו־Cursor הם מועמדים להשוואת תהליך פיתוח. השתמש באותה משימה ובאותן בדיקות, ומדוד גם זמן סקירה ותיקונים.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "עבודה על מאגר C#, Python או TypeScript אינה SDK של המוצר בשפה זו. תמיכה בפיתוח קוד והטמעה תכנותית של סוכן הן שתי שאלות שונות."
+      },
+      "facts": {
+        "description": "מסייע לחקור מאגר קוד, לממש שינויים ולהריץ בדיקות לפי משימת פיתוח מוגדרת.",
+        "languages": "כלי פיתוח; קוד C#/.NET, Python ו־TypeScript לפי סביבת הפרויקט, לא SDK.",
+        "languageSources": [
+          "https://learn.chatgpt.com/docs/glossary"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+          "url": "https://github.com/openai/codex",
+          "stars": 132288,
+          "starsSource": "https://api.github.com/repos/openai/codex",
+          "collectedAt": "2026-10-31T09:13:24+00:00",
+          "lastActivity": {
+            "date": "2026-10-31T00:12:17+00:00",
+            "source": "https://github.com/openai/codex/commit/67f0994b532b8740f14b5b738af7b7b2a915b1d6",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "codex",
+        "description": "מסייע לחקור מאגר קוד, לממש שינויים ולהריץ בדיקות לפי משימת פיתוח מוגדרת.",
+        "languages": [
+          "לפי הפרויקט"
+        ],
+        "learningReason": "תרגול פיתוח בעזרת סוכן בתוך תהליך העבודה שלך.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "crewai",
+        "kind": "framework",
+        "name": "CrewAI",
+        "slug": "crewai",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: צוות חוקר מקור רשמי ומנסח הצעת עדכון; Flow מעביר אותה לאדם. אין לכלי המחקר הרשאה לפרסם באתר.",
+        "sources": [
+          {
+            "url": "https://docs.crewai.com/v1.15.33/en/introduction",
+            "title": "CrewAI — Introduction",
+            "supports": "הבחנה בין Flows, Crews, תפקידים, משימות וזרימת אירועים. שיקולי המדידה והתרגיל הם שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "מסגרת שמשלבת Flows לניהול תהליך עם Crews לחלוקת משימות בין סוכנים בעלי תפקידים.",
+        "exercise": "חלק משימת מחקר לשני תפקידים ואז כתוב חלופה של סוכן יחיד. תוצר: מדדים להשוואת דיוק, זמן, עלות ומספר תיקוני האדם, כולל שלב איחוד.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "CrewAI מבדיל בין Flow, שמנהל מצב וזרימת ביצוע, לבין Crew, צוות סוכנים שעובד על משימות. אפשר להגדיר מטרות ותפקידים שונים ולהפעיל צוות בתוך שלב בתהליך.",
+            "title": "איזו בעיה הוא פותר?"
+          },
+          {
+            "text": "אירוע מתחיל Flow, הזרימה מחליטה על הפעולה, צוות מבצע משימה ותוצאתו חוזרת לתהליך. תפקיד סמנטי כמו חוקר עדיין צריך קלט, פלט וקריטריון הצלחה מוגדרים.",
+            "title": "זרימת עבודה"
+          },
+          {
+            "text": "כהקבלה: Flow מזכיר מנהל תהליך, ו־Crew יחידת ביצוע. אל תבלבל בין שם תפקיד בפרומפט לבין הרשאות שרת אמיתיות. שני סוכנים יכולים לחלוק את אותה טעות.",
+            "title": "החיבור לידע שלך"
+          },
+          {
+            "text": "המלצה: לאחר שתרחיש עם סוכן יחיד עובד ויש משימות עצמאיות שמצדיקות חלוקה. השווה תוצאה על אותו סט בדיקות; קח בחשבון גם עלות תקשורת, איחוד ותיקון סתירות.",
+            "title": "מתי להשתמש?"
+          },
+          {
+            "text": "מגדירים גבול משימות וסבבים, כלים לפי אחריות ואישור אנושי לפני פרסום. בודק שמבוסס על מודל מסייע לסקירה, אך אינו מחליף ראיות או בדיקות דטרמיניסטיות.",
+            "title": "בקרת איכות ואבטחה"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "02"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "langgraph",
+          "pydantic-ai",
+          "temporal"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "סוכן יחיד, מצב, כלים ומדידת תוצאות.",
+        "alternativesNote": "אפשר להתחיל בסוכן יחיד עם לולאה מפורשת או לבחור LangGraph לניהול גרף. תהליך שמורכב מחוקים עשוי להתאים ל־Temporal ללא צוות סוכנים.",
+        "learningPriority": "enrichment",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "המסלול המתואר במפת הלמידה הוא Python. מטריצת SDKs עדכנית לא אומתה כאן; לפני התקנה בדוק חבילה ושפה בתיעוד הייעודי."
+      },
+      "facts": {
+        "description": "מחלק משימות בין סוכנים בעלי תפקידים ומשלב תוצאות בתהליך עבודה מנוהל.",
+        "languages": "Python לפי מפת הידע; מטריצה מלאה לא אומתה; C#/.NET: שירות נפרד.",
+        "languageSources": [
+          "https://docs.crewai.com/v1.15.33/en/introduction"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+          "url": "https://github.com/crewAIInc/crewAI",
+          "stars": 60331,
+          "starsSource": "https://api.github.com/repos/crewAIInc/crewAI",
+          "collectedAt": "2026-10-31T09:33:34+00:00"
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "crewai",
+        "description": "מחלק משימות בין סוכנים בעלי תפקידים ומשלב תוצאות בתהליך עבודה מנוהל.",
+        "languages": [
+          "Python"
+        ],
+        "learningReason": "להעמקה בתיאום צוות סוכנים אחרי לימוד סוכן יחיד.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "communityInterest": {
+          "score": 38.25,
+          "stars": 60331,
+          "forks": 8984,
+          "maxStars": 148758,
+          "maxForks": 25000,
+          "method": "AI TOOLS GitHub Interest v1",
+          "source": "https://api.github.com/repos/crewAIInc/crewAI",
+          "repository": "https://github.com/crewAIInc/crewAI",
+          "collectedAt": "2026-10-31T09:33:34.000Z",
+          "cohort": "category-02-seven-official-repositories"
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "cursor",
+        "kind": "product",
+        "name": "Cursor",
+        "slug": "cursor",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: הוספת מצב ללא תוצאות למסך חיפוש. בודקים את מצב ה־URL, הודעת המסך והתנהגות מקלדת לפני שמירת השינוי.",
+        "sources": [
+          {
+            "url": "https://cursor.com/docs/agent/overview",
+            "title": "Cursor — Agent Overview",
+            "supports": "כלי הסוכן, עריכת קבצים, פקודות וההבדל בין Checkpoints ל־Git. השיקולים והדוגמה נכתבו ללמידה.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "סביבת פיתוח עם סוכן המסייע לחקור קוד, לערוך קבצים ולהריץ בדיקות וכלים.",
+        "exercise": "בצע שינוי UI קטן ושחזור מקומי שלו, ואז שמור שינוי אחר ב־Git. תוצר: הסבר מה משוחזר בכל מנגנון ומה נשמר בהיסטוריית המאגר.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Cursor משלב יכולות סוכן בתהליך הפיתוח. הסוכן יכול לחפש בקוד, לקרוא ולערוך קבצים ולהריץ פקודות. המודל הוא רכיב בתוך המוצר, והסביבה מספקת לו את ההקשר והכלים.",
+            "title": "איזו בעיה הוא פותר?"
+          },
+          {
+            "text": "הגדר שינוי והתנהגות רצויה, תן לסוכן לחקור את המקומות הרלוונטיים ואז סקור את ההצעה. הרצת בדיקה צריכה לבדוק את הדרישה, לא רק להראות שהקוד החדש מסכים עם עצמו.",
+            "title": "זרימת עבודה"
+          },
+          {
+            "text": "בתיקון React כדאי לבדוק בנפרד מצב רכיב, מעבר נתונים וקריאת REST. כלי שעורך כמה קבצים יכול לקצר עבודה, אך גבולות האחריות בין UI לשרת נשארים חלק מהתכנון שלך.",
+            "title": "החיבור לידע שלך"
+          },
+          {
+            "text": "התיעוד מבחין בין Checkpoints מקומיים לשחזור שינויי הסוכן לבין Git לניהול גרסאות מתמשך. נקודת שחזור של כלי אינה תחליף ל־Commit שאפשר לשתף ולסקור.",
+            "title": "Checkpoint מול Git"
+          },
+          {
+            "text": "המלצה: בדוק איזה מידע נשלח לשירותים, אילו פקודות מאושרות וכיצד מבטלים שינוי. לפני בחירת מסלול שימוש בדוק תנאים ומגבלות עדכניים; אין כאן דירוג מחיר או איכות.",
+            "title": "אבטחה ועלות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "01"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "codex",
+          "claude-code"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "React או C#, Git וקריאת שגיאות.",
+        "alternativesNote": "Codex ו־Claude Code מציעים תהליכי פיתוח סוכניים נוספים. השווה על אותה דרישה ובדוק את ה־Diff הסופי.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "שפת הקוד שעליה עובדים אינה זהה לשפת SDK להטמעה. דף זה אינו קובע מטריצת תמיכה של הרחבות לכל שפה."
+      },
+      "facts": {
+        "description": "משלב סוכן בסביבת פיתוח לחיפוש קוד, עריכת קבצים והרצת בדיקות ופקודות.",
+        "languages": "כלי פיתוח; C#/.NET לפי סביבת הפרויקט וההרחבות, לא SDK.",
+        "languageSources": [
+          "https://cursor.com/docs/agent/overview"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "לא נבחר מאגר ציבורי שמייצג את מוצר Cursor; מאגרי תוספים אינם תחליף."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "cursor",
+        "description": "משלב סוכן בסביבת פיתוח לחיפוש קוד, עריכת קבצים והרצת בדיקות ופקודות.",
+        "languages": [
+          "לפי הפרויקט"
+        ],
+        "learningReason": "להיכרות עם עבודה בעורך המשלב עזרת AI.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "google-adk",
+        "kind": "framework",
+        "name": "Google Agent Development Kit (ADK)",
+        "slug": "google-adk",
+        "addedAt": "2026-11-02",
+        "example": "דוגמה לימודית מוצעת, שלא הורצה כאן: React שולח בקשת ציוד ל־ASP.NET Core. שירות ADK מסווג את הבקשה וקורא לכלי בירור מלאי בקריאה בלבד דרך REST. שרת .NET מאמת את הנתונים ומציג הצעת הזמנה לאישור אדם לפני כל כתיבה ל־SQL.",
+        "sources": [
+          {
+            "url": "https://adk.dev/",
+            "title": "Google Agent Development Kit (ADK) — תיעוד רשמי",
+            "supports": "תפקיד, מבנה ותמיכת שפות; טענות על היעדר SDK מוגבלות למקורות שנבדקו.",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "url": "https://github.com/google/adk-python",
+            "title": "Google Agent Development Kit (ADK) — GitHub רשמי",
+            "supports": "זהות המאגר, קוד ומצב הפרויקט.",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "url": "https://developers.googleblog.com/agent-development-kit-easy-to-build-multi-agent-applications/",
+            "title": "Google Developers — הכרזת ADK",
+            "supports": "שנת ההכרזה הציבורית על ADK ב־Google Cloud Next 2025. אינה שנת הקמת Google או מועד יצירת המאגר; לא נקבע יום כשדי בשנה המאומתת.",
+            "checkedAt": "2026-11-02"
+          }
+        ],
+        "summary": "מסגרת קוד פתוח של Google לבניית סוכנים, כלים ותהליכי עבודה, עם סביבת פיתוח, הרצה והערכה. מתאימה ללימוד ההפרדה בין לוגיקת הסוכן, מצב השיחה ותשתית הפריסה.",
+        "exercise": "תכננו אותו תרחיש עם סוכן יחיד ועם Workflow רציף. הגדירו בקשת JSON, תשובה צפויה, מגבלת זמן ומקרה כשל של שירות המלאי. השוו את גבולות האחריות למימוש ב־LangGraph או ב־Microsoft Agent Framework.",
+        "revision": 1,
+        "sections": [
+          {
+            "text": "ADK מחבר מודל, כלים והקשר הרצה כדי לבנות עוזרי שירות ותהליכי איסוף מידע. הוא מציע גם תזמור רציף, מקבילי ולולאות; אין צורך להתחיל מצוות סוכנים אם סוכן יחיד פותר את הבעיה.",
+            "title": "איזו בעיה הוא פותר?"
+          },
+          {
+            "text": "סוכן מקבל בקשה, בוחר כלים ומחזיר אירועים ותוצאה דרך סביבת ההרצה. Session שומר הקשר, וכלי הוא גבול מפורש לפעולה עסקית. בדומה ל־ASP.NET Core, מומלץ להפריד בין תזמור הבקשה לשירות הדומיין שמאמת הרשאות וקלט.",
+            "title": "איך בנויה ההרצה?"
+          },
+          {
+            "text": "עוזר ידע ארגוני, סיווג בקשות ותהליכי עבודה עם כלים. סביבת הפיתוח המקומית וההערכות מאפשרות לבדוק מסלולים ותוצאות; יכולת אינטגרציה עם מודלים אחרים אינה מבטיחה שכל תכונה אחידה בכל ספק.",
+            "title": "שימושים מרכזיים"
+          },
+          {
+            "text": "השוואה פדגוגית: מול LangGraph בדקו כמה שליטה מפורשת בגרף ובמצב נחוצה; מול OpenAI Agents SDK בדקו מורכבות לולאת הכלים; מול Microsoft Agent Framework בדקו שפה, תחזוקה ואינטגרציה עם קוד .NET. אין כאן טענה לעדיפות ביצועים.",
+            "title": "מתי לבחור ובמה להשוות?"
+          },
+          {
+            "text": "מודל אינו מחליף אימות הרשאות. הגבילו כלים, שמרו סודות בשרת ובדקו עלות וזמן הרצה. פריסה ל־Google Cloud היא אפשרות ולא דרישה להקמת תרגיל מקומי; הפיצול לשירות נוסף הוא החלטת ארכיטקטורה.",
+            "title": "גבולות ובטיחות"
+          }
+        ],
+        "approvedAt": "2026-11-02",
+        "verifiedAt": "2026-11-02",
+        "categoryIds": [
+          "02"
+        ],
+        "addedAtBasis": "approved_proposal",
+        "discoveredAt": "2026-11-02",
+        "relatedSlugs": [
+          "langgraph",
+          "openai-agents-sdk",
+          "microsoft-agent-framework"
+        ],
+        "revisionNote": "מקורות רשמיים נבדקו ב־2026-11-02; דוגמאות, תרגילים והשוואות מסומנים כפדגוגיים ולא הורצו. אין אימות מעבדתי לכל API.",
+        "prerequisites": "היכרות עם REST/JSON, אימות קלט, לולאת tool calling והפרדת לוגיקה עסקית מהמודל.",
+        "alternativesNote": "LangGraph לשליטה מפורשת בזרימה ובמצב; OpenAI Agents SDK ללולאת סוכן ממוקדת; Microsoft Agent Framework למימוש C#/.NET. הבחירה תלויה בדרישות ולא במספר Stars.",
+        "learningPriority": "should_know",
+        "approvalReference": "User request 2026-11-02: add ADK, Mastra, smolagents, Agno and Legacy AutoGen; docs/DECISIONS.md D-029",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "התיעוד הרשמי מציג Python, TypeScript, Go, Java ו־Kotlin. זמינות תכונות תלויה בשפה ובגרסה; אין להסיק שוויון בין המימושים. C#/.NET: לא נמצא SDK רשמי ברשימת השפות שנבדקה. אפשר לתכנן שירות ADK נפרד ולקרוא לו מ־ASP.NET Core באמצעות HTTP; זו אינטגרציה בין שירותים ולא SDK מקומי ל־C#."
+      },
+      "facts": {
+        "description": "מסגרת של Google לבניית סוכנים וכלים, תהליכי עבודה והרצה הניתנת לבדיקה.",
+        "languages": "התיעוד הרשמי מציג Python, TypeScript, Go, Java ו־Kotlin. זמינות תכונות תלויה בשפה ובגרסה; אין להסיק שוויון בין המימושים. C#/.NET: לא נמצא SDK רשמי ברשימת השפות שנבדקה. אפשר לתכנן שירות ADK נפרד ולקרוא לו מ־ASP.NET Core באמצעות HTTP; זו אינטגרציה בין שירותים ולא SDK מקומי ל־C#.",
+        "languageSources": [
+          "https://adk.dev/",
+          "https://github.com/google/adk-python",
+          "https://developers.googleblog.com/agent-development-kit-easy-to-build-multi-agent-applications/"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "Stars ופעילות של מאגר Python בלבד; אינם סכום מאגרי ADK בשפות השונות.",
+          "url": "https://github.com/google/adk-python",
+          "stars": 22083,
+          "starsSource": "https://api.github.com/repos/google/adk-python",
+          "collectedAt": "2026-11-02T18:53:28.133+00:00",
+          "lastActivity": {
+            "date": "2026-11-02T18:49:37+00:00",
+            "source": "https://api.github.com/repos/google/adk-python/commits/8f8e0c2701c1bbbd6e774c65c3d830acf23fd9f1",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-11-02 18:53:28.133+00"
+        },
+        "release": {
+          "value": "2025",
+          "precision": "year",
+          "source": "https://developers.googleblog.com/agent-development-kit-easy-to-build-multi-agent-applications/",
+          "note": "שנת ההכרזה הציבורית על ADK ב־Google Cloud Next 2025. אינה שנת הקמת Google או מועד יצירת המאגר; לא נקבע יום כשדי בשנה המאומתת."
+        }
+      },
+      "metrics": {
+        "slug": "google-adk",
+        "description": "מסגרת של Google לבניית סוכנים וכלים, תהליכי עבודה והרצה הניתנת לבדיקה.",
+        "languages": [
+          "Python",
+          "TypeScript",
+          "Go",
+          "Java",
+          "Kotlin"
+        ],
+        "learningReason": "כדאי להכיר כשבוחנים סוכנים בסביבת Google או רוצים להשוות תזמור בכמה שפות; למפתח .NET עדיף להתחיל ב־Microsoft Agent Framework לפני אימוץ שירות נוסף.",
+        "collectedAt": "2026-11-02 18:53:28.133+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "langchain",
+        "kind": "framework",
+        "name": "LangChain",
+        "slug": "langchain",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: סוכן מקבל בקשת ציוד, קורא לכלי מלאי ומחזיר הצעה. פונקציית הכלי משתמשת ב־API מורשה; המודל אינו מקבל חיבור חופשי למסד.",
+        "sources": [
+          {
+            "url": "https://docs.langchain.com/oss/python/langchain/overview",
+            "title": "LangChain — Overview",
+            "supports": "מודל, Harness, כלים, Middleware ויחס ל־LangGraph. ההקבלה ל־.NET והתרגיל הם שלנו.",
+            "checkedAt": "2026-10-31"
+          },
+          {
+            "url": "https://docs.langchain.com/oss/javascript/langchain/overview",
+            "title": "LangChain — JavaScript Overview",
+            "supports": "קיום המימוש הרשמי ב־JavaScript/TypeScript ודוגמת יצירת סוכן.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "מסגרת להרכבת סוכן ממודל, כלים, הנחיות ו־Middleware, עם אינטגרציות לספקים.",
+        "exercise": "שרטט לולאה עם כלי אחד ושני מקרי כשל: פריט חסר וכשל רשת. תוצר: טבלת השלבים, מי אחראי לכל כשל ומתי מפסיקים לנסות.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "LangChain נותן רכיבים להרכבת יישומי סוכנים וחיבור מודלים וכלים. בתיעוד הנוכחי יצירת סוכן משלבת מודל עם Harness: ההנחיות, הכלים והשכבות שמנהלות את הלולאה.",
+            "title": "מה הוא פותר?"
+          },
+          {
+            "text": "קלט מגיע לסוכן, המודל מבקש כלי, פונקציה מבצעת פעולה והתוצאה חוזרת ללולאה. אפשר להוסיף Middleware שישפיע על התנהגות ההרצה. פרטי ה־API תלויים בגרסה ובשפה.",
+            "title": "זרימת ההפעלה"
+          },
+          {
+            "text": "כהקבלה לימודית, Middleware מזכיר שלבי Pipeline מסביב לפעולה. עם זאת, כאן ייתכנו כמה סבבי מודל וכלים בתוך בקשה אחת, ולכן צריך להגדיר גם גבול סבבים וזמן.",
+            "title": "החיבור ל־.NET"
+          },
+          {
+            "text": "המלצה: בחר בו כשאינטגרציות והרכבת רכיבים חוסכות עבודה ממשית. ללולאה קטנה מול ספק יחיד כדאי להשוות גם מימוש ישיר כדי להבין מה ההפשטה מוסיפה.",
+            "title": "מתי לבחור?"
+          },
+          {
+            "text": "כל כלי עדיין צריך הרשאה וולידציה בשרת. תכנן תקציב קריאות, טיפול בכשל ושמירת מצב. החלפת ספק אינה מבטיחה זהות בהתנהגות או בתמיכת הכלים.",
+            "title": "אבטחה ועלות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "02"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "langgraph",
+          "openai-agents-sdk",
+          "pydantic-ai"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "לולאת קריאות כלים ידנית, async וחוזי קלט.",
+        "alternativesNote": "LangGraph מתאים לבחינת שליטה מפורשת בזרימה; Agents SDK או Pydantic AI הם מועמדים נוספים לפי שפה וצרכים.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "נבדקו דוגמאות רשמיות ל־Python ול־JavaScript/TypeScript. ב־C# אפשר לשלב שירות נפרד או לבחור מסגרת .NET; אין להניח תאימות של פורט קהילתי."
+      },
+      "facts": {
+        "description": "מחבר מודלים וכלים להרכבת סוכנים ומצמצם קוד אינטגרציה בין רכיבי יישום AI.",
+        "languages": "Python, TypeScript רשמיים; C#/.NET: שילוב שירות נפרד, לא SDK מקומי.",
+        "languageSources": [
+          "https://docs.langchain.com/oss/python/langchain/overview",
+          "https://docs.langchain.com/oss/javascript/langchain/overview"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "מאגר Python; נתוני TypeScript אינם כלולים",
+          "url": "https://github.com/langchain-ai/langchain",
+          "stars": 148758,
+          "starsSource": "https://api.github.com/repos/langchain-ai/langchain",
+          "collectedAt": "2026-10-31T09:33:34+00:00"
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "langchain",
+        "description": "מחבר מודלים וכלים להרכבת סוכנים ומצמצם קוד אינטגרציה בין רכיבי יישום AI.",
+        "languages": [
+          "Python",
+          "TypeScript"
+        ],
+        "learningReason": "להבנת שילוב רכיבי יישום ואינטגרציות סביב מודלים.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "communityInterest": {
+          "score": 100,
+          "stars": 148758,
+          "forks": 25000,
+          "maxStars": 148758,
+          "maxForks": 25000,
+          "method": "AI TOOLS GitHub Interest v1",
+          "source": "https://api.github.com/repos/langchain-ai/langchain",
+          "repository": "https://github.com/langchain-ai/langchain",
+          "collectedAt": "2026-10-31T09:33:34.000Z",
+          "cohort": "category-02-seven-official-repositories"
+        },
+        "sourceRank": {
+          "score": 27,
+          "source": "https://libraries.io/api/pypi/langchain",
+          "package": "langchain",
+          "repository": "https://github.com/langchain-ai/langchain",
+          "platform": "Pypi",
+          "updatedAt": null
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "langgraph",
+        "kind": "framework",
+        "name": "LangGraph",
+        "slug": "langgraph",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: בקשת מלאי נעצרת אם חסרה כמות. לאחר הבהרה היא ממשיכה לבדיקה, ואז ממתינה לאישור לפני כתיבה למערכת הארגונית.",
+        "sources": [
+          {
+            "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+            "title": "LangGraph — Overview",
+            "supports": "אורקסטרציה ברמה נמוכה, מצב, הרצה מתמשכת, אישור אנושי ואי־תלות ב־LangChain. תכנון המצבים וההמלצות הם לימודיים.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "אורקסטרציה מפורשת של זרימות וסוכנים בעלי מצב באמצעות גרף של שלבים ומעברים.",
+        "exercise": "שרטט חמישה מצבים ושני מסלולי שגיאה. תוצר: מצב שמור אחרי כל שלב, תנאי מעבר ותוכנית למניעת הזמנה כפולה לאחר ניסיון חוזר.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "LangGraph מתמקד באורקסטרציה של סוכנים ותהליכים מתמשכים בעלי מצב. הוא מאפשר לשלב צעדים דטרמיניסטיים וצעדים מונחי מודל באותה זרימה. לא חייבים להשתמש ב־LangChain כדי להשתמש בו.",
+            "title": "איזו בעיה הוא פותר?"
+          },
+          {
+            "text": "מגדירים מצב משותף, פעולות שמשנות אותו וכללים שמחליטים לאן לעבור. למשל: קליטת בקשה, חילוץ נתונים, בדיקה, הבהרה ואישור. הזרימה מתארת מי רשאי לפעול ובאיזה תנאי.",
+            "title": "איך לחשוב על הזרימה?"
+          },
+          {
+            "text": "כהקבלה לימודית: מצב הוא DTO מתמשך, שלב הוא Handler ומעבר מותנה דומה להחלטה במכונת מצבים. ההבדל החשוב הוא שחלק מהשלבים עשויים לכלול פלט לא ודאי ממודל.",
+            "title": "החיבור ל־C#"
+          },
+          {
+            "text": "התיעוד מדגיש התמדה, הרצה מתמשכת ואדם בתהליך. בתכנון בפועל יש לבחור אחסון ולבדוק שחזור. פעולה חיצונית שכבר בוצעה דורשת מניעת כפילות גם כשהזרימה מתאוששת.",
+            "title": "עצירה והתאוששות"
+          },
+          {
+            "text": "המלצה: כשצריך לראות הסתעפויות, המתנה לאישור והתאוששות במפורש. עבור בקשת מודל אחת, גרף עלול להוסיף קוד ותפעול בלי תועלת. מדוד סבבים, זמן ועלות לכל שלב.",
+            "title": "מתי זה מוצדק?"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "02"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "langchain",
+          "temporal",
+          "microsoft-agent-framework"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "מכונת מצבים, async, סוכן בסיסי והתמדה.",
+        "alternativesNote": "השווה ל־Microsoft Agent Framework עבור .NET, ל־Temporal לתהליך עמיד בקוד, או למכונת מצבים קטנה ביישום שלך.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "עמוד זה אומת מול תיעוד Python. מימושים בשפות אחרות ופרטי התאימות שלהם מחייבים בדיקה נפרדת לפני בחירת חבילה."
+      },
+      "facts": {
+        "description": "מנהל תהליכי סוכנים כגרף בעל מצב, עם הסתעפויות ועצירות לאישור אנושי.",
+        "languages": "Python נבדק; TypeScript לא אומת כאן; C#/.NET: שירות נפרד.",
+        "languageSources": [
+          "https://docs.langchain.com/oss/python/langgraph/overview"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+          "url": "https://github.com/langchain-ai/langgraph",
+          "stars": 44207,
+          "starsSource": "https://api.github.com/repos/langchain-ai/langgraph",
+          "collectedAt": "2026-10-31T09:33:34+00:00"
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2024",
+          "precision": "year",
+          "source": "https://www.langchain.com/blog/langgraph",
+          "note": "שנת הפרסום הציבורי הראשוני. ההכרזה מ־17/01 מפנה לאזכור קודם; לכן לא מוצג יום מדויק. נבדק 31/10/2026."
+        }
+      },
+      "metrics": {
+        "slug": "langgraph",
+        "description": "מנהל תהליכי סוכנים כגרף בעל מצב, עם הסתעפויות ועצירות לאישור אנושי.",
+        "languages": [
+          "Python"
+        ],
+        "learningReason": "להבנת מצב, הסתעפויות והתאוששות בתהליכי סוכנים.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "communityInterest": {
+          "score": 30.07,
+          "stars": 44207,
+          "forks": 7607,
+          "maxStars": 148758,
+          "maxForks": 25000,
+          "method": "AI TOOLS GitHub Interest v1",
+          "source": "https://api.github.com/repos/langchain-ai/langgraph",
+          "repository": "https://github.com/langchain-ai/langgraph",
+          "collectedAt": "2026-10-31T09:33:34.000Z",
+          "cohort": "category-02-seven-official-repositories"
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "llm-fundamentals",
+        "kind": "concept",
+        "name": "מודלי שפה — יסודות",
+        "slug": "llm-fundamentals",
+        "addedAt": "2026-10-31",
+        "example": "דוגמה מעשית מוצעת שלא הורצה: השוו חילוץ נתוני הזמנה בשני ספקים באותו schema ו־eval, כולל מקרים חסרים והזרקת הוראות.",
+        "sources": [
+          {
+            "url": "https://developers.google.com/machine-learning/crash-course/llm",
+            "title": "Google — מבוא למודלי שפה",
+            "supports": "מודל הסתברותי, Tokens ויצירת טקסט. דפוסי התכנון, הדוגמאות והתרגילים הם הסבר לימודי שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "הבנת Tokens, הקשר והסקה: הבסיס לבחירת מודל ולבניית יישום שמשתמש בו.",
+        "exercise": "בנו תוכנית בדיקה חוזרת לתרחיש: schema, קלט חסר, שגיאות, timeout, עלות ונתוני זיהוי המודל/endpoint. הפרידו איכות תשובה מהרשאת פעולה ותעדו מה לא נבדק בפועל.",
+        "revision": 3,
+        "sections": [
+          {
+            "text": "מודל שפה מעריך הסתברויות לרצפי Tokens. Token יכול להיות מילה, חלק ממילה או תו. ביצירת טקסט המודל מפיק המשך על בסיס הקלט; ניסוח משכנע אינו הוכחה לנכונות.",
+            "title": "מהו מודל שפה?"
+          },
+          {
+            "text": "יישום מרכיב הוראות, שאלה ומידע רלוונטי, שולח אותם למודל ומקבל פלט. בהסקה משתמשים במודל קיים; באימון משנים את פרמטרי המודל. הוספת טקסט לשאלה אינה אימון.",
+            "title": "זרימת עבודה בסיסית"
+          },
+          {
+            "text": "חשוב על שירות שמחזיר הצעה שדורשת בדיקה. JSON תקין הוא חוזה מבני בלבד: מספר פריט שנראה תקין עדיין צריך להיבדק ב־SQL מול הנתונים והרשאות המשתמש.",
+            "title": "החיבור לידע שלך"
+          },
+          {
+            "text": "המלצה הנדסית: תן למודל לעבד שפה לא מובנית, והשאר חישוב סכומים ובדיקת מלאי לקוד דטרמיניסטי. הגדר מראש מהי תשובה נכונה ומה עושים כשחסר מידע.",
+            "title": "איך לבחור שימוש נכון?"
+          },
+          {
+            "text": "תכנן מה מותר להעביר לספק, כמה קלט דרוש ומתי לעצור. אל תסיק ממספר המילים את מספר ה־Tokens בעברית. גודל ההקשר והמחיר תלויים במודל ונבדקים לפני שימוש.",
+            "title": "אבטחה ועלות"
+          },
+          {
+            "text": "משפחה, checkpoint, ספק ו־endpoint הם שכבות שונות. מכסת context כוללת קלט ופלט ולעיתים tokens להסקה; פלט JSON תקין אינו הרשאה לבצע פעולה.",
+            "title": "תיקון מאומת ומסלול שילוב — 2026-11-03"
+          },
+          {
+            "text": "יסודות משותפים חוסכים שינון מוצר ומקלים על החלפת ספק.",
+            "title": "יתרונות ומתי לבחור"
+          },
+          {
+            "text": "הבנת מושגים לבדה אינה מוכיחה התאמה למשימה; יש לתרגל על נתונים מייצגים. אין בפרק תוצאת benchmark או ניסוי מוצר שבוצע בפרויקט.",
+            "title": "חסרונות והשוואה לחלופות"
+          }
+        ],
+        "verifiedAt": "2026-11-03",
+        "categoryIds": [
+          "00",
+          "07"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "hugging-face",
+          "ollama",
+          "llamaindex",
+          "openai-gpt",
+          "inference-fundamentals"
+        ],
+        "revisionNote": "חבילת 07/08 מאושרת עם התאמות המשתמש; נוספו תיקונים, SDK/רישוי והבחנות תפעוליות. מקורות וסעיפים קודמים נשמרו. תרגילים לא הורצו.",
+        "prerequisites": "פונקציות, JSON וקריאת API.",
+        "alternativesNote": "השוו את החלופות המקושרות באותו תרחיש ובאותן מגבלות. העדיפו מסלול אחד לעומק; SDK רשמי, HTTP או מנוע מקומי אינם תחליפים זהים. משפחה, checkpoint, ספק ו־endpoint הם שכבות שונות. מכסת context כוללת קלט ופלט ולעיתים tokens להסקה; פלט JSON תקין אינו הרשאה לבצע פעולה.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "ידע מושגי; אינו SDK"
+      },
+      "facts": {
+        "description": "מסביר יצירת טקסט באמצעות מודלי שפה והפרדה בין הצעת מודל להחלטה עסקית.",
+        "languages": "ידע מושגי; אינו SDK",
+        "languageSources": [
+          "https://developers.google.com/machine-learning/crash-course/llm"
+        ],
+        "github": {
+          "status": "not_applicable",
+          "scope": "מושג כללי, ללא מאגר מוצר יחיד."
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-11-03 00:00:00+00"
+        }
+      },
+      "metrics": {
+        "slug": "llm-fundamentals",
+        "description": "מסביר יצירת טקסט באמצעות מודלי שפה והפרדה בין הצעת מודל להחלטה עסקית.",
+        "languages": [
+          "לא תלוי בשפה"
+        ],
+        "learningReason": "נקודת הפתיחה להבנת מודלים, הקשר והסקה.",
+        "collectedAt": "2026-11-03 00:00:00+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "mastra",
+        "kind": "framework",
+        "name": "Mastra",
+        "slug": "mastra",
+        "addedAt": "2026-11-02",
+        "example": "דוגמה לימודית מוצעת, שלא הורצה כאן: מסך React שולח פנייה לשירות Mastra. Workflow מאחזר סטטוס הזמנה מ־API של .NET, מבקש מהמודל ניסוח תשובה ומחזיר טיוטה לבדיקה. זיכוי כספי אינו מבוצע מתוך הטיוטה אלא לאחר אישור ופקודת שרת נפרדת.",
+        "sources": [
+          {
+            "url": "https://mastra.ai/docs",
+            "title": "Mastra — תיעוד רשמי",
+            "supports": "תפקיד, מבנה ותמיכת שפות; טענות על היעדר SDK מוגבלות למקורות שנבדקו.",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "url": "https://github.com/mastra-ai/mastra",
+            "title": "Mastra — GitHub רשמי",
+            "supports": "זהות המאגר, קוד ומצב הפרויקט.",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "url": "https://mastra.ai/blog/the-next-million-ai-developers",
+            "title": "Mastra — הכרזה ציבורית",
+            "supports": "ההכרזה הציבורית של Mastra מ־20 בנובמבר 2024. אין לבלבל עם השקת beta ב־2025 או גרסת 1.0 מאוחרת יותר.",
+            "checkedAt": "2026-11-02"
+          }
+        ],
+        "summary": "מסגרת TypeScript לבניית יישומי AI וסוכנים, עם כלים, תהליכי עבודה, זיכרון, הערכה ותצפיתיות. מיועדת לצוותי מוצר שרוצים לכתוב את שכבת הסוכנים באקוסיסטם Node.js.",
+        "exercise": "הגדירו שלושה צעדים: שליפת הזמנה, יצירת טיוטה ואישור. תכננו מה נשמר כשאחד השלבים נכשל, ובדקו בקשה ללא הרשאה. השוו למימוש המקביל ב־OpenAI Agents SDK.",
+        "revision": 1,
+        "sections": [
+          {
+            "text": "Mastra מאגדת בניית סוכן, כלים ו־Workflows ב־TypeScript. שימושים מרכזיים הם עוזרי מוצר, עיבוד בקשות ותהליכים שמשלבים קריאות מודל עם צעדים עסקיים מפורשים.",
+            "title": "איזו בעיה היא פותרת?"
+          },
+          {
+            "text": "מגדירים Agent וכלים עם סכמות קלט, ומרכיבים צעדים ב־Workflow לפי הצורך. זיכרון, אחסון ו־traces הם רכיבים בעלי אחריות נפרדת. כלי שקורא REST דומה למתאם שירות ב־C#; חוקי הדומיין ממשיכים להיאכף בשרת המוסמך.",
+            "title": "איך בנויה ההרצה?"
+          },
+          {
+            "text": "עוזר תמיכה בתוך יישום React, יצירת טיוטת תשובה עם מידע ארגוני ותהליך שצריך לעצור לאישור. היכולת לצפות בהרצה ולהעריך פלטים אינה ערובה לנכונות; יש להכין מקרי בדיקה עסקיים.",
+            "title": "שימושים מרכזיים"
+          },
+          {
+            "text": "השוואה פדגוגית: Mastra מתאימה לבחינת חבילה משולבת לצוות TypeScript. השוו ל־LangGraph כשחשובה שליטה בגרף, ול־OpenAI Agents SDK כשרוצים לולאת סוכן ממוקדת. מול Microsoft Agent Framework שקלו האם נכון להשאיר את השרת ב־C#.",
+            "title": "מתי לבחור ובמה להשוות?"
+          },
+          {
+            "text": "אל תעבירו סודות לדפדפן React ואל תתנו לכלי גישה חופשית למסד. יש לאמת משתמשים גם כשהסוכן חשוף כ־API. יכולות תלויות בגרסה, ולכן דוגמאות ישנות דורשות התאמה לתיעוד הנוכחי.",
+            "title": "גבולות ובטיחות"
+          }
+        ],
+        "approvedAt": "2026-11-02",
+        "verifiedAt": "2026-11-02",
+        "categoryIds": [
+          "02"
+        ],
+        "addedAtBasis": "approved_proposal",
+        "discoveredAt": "2026-11-02",
+        "relatedSlugs": [
+          "langgraph",
+          "openai-agents-sdk",
+          "microsoft-agent-framework"
+        ],
+        "revisionNote": "מקורות רשמיים נבדקו ב־2026-11-02; דוגמאות, תרגילים והשוואות מסומנים כפדגוגיים ולא הורצו. אין אימות מעבדתי לכל API.",
+        "prerequisites": "היכרות עם REST/JSON, אימות קלט, לולאת tool calling והפרדת לוגיקה עסקית מהמודל.",
+        "alternativesNote": "LangGraph ו־OpenAI Agents SDK הן חלופות קיימות לבחינת תזמור סוכן ב־TypeScript. Microsoft Agent Framework מתאים יותר לבחינת מימוש מקומי ב־C#; אין להסיק עדיפות מנתוני GitHub בלבד.",
+        "learningPriority": "should_know",
+        "approvalReference": "User request 2026-11-02: add ADK, Mastra, smolagents, Agno and Legacy AutoGen; docs/DECISIONS.md D-029",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "TypeScript היא שפת המסגרת הרשמית באקוסיסטם JavaScript/Node.js. אין כאן SDK Python או C#/.NET מקומי מאומת. אפשר לחשוף שירות Mastra מאומת ולצרוך את ה־API מ־C# או Python; הלקוח אינו הופך את שפת הצריכה לשפת המסגרת."
+      },
+      "facts": {
+        "description": "מסגרת TypeScript לסוכנים ותהליכי עבודה, עם כלים, זיכרון, הערכה ותצפיתיות מובנות.",
+        "languages": "TypeScript היא שפת המסגרת הרשמית באקוסיסטם JavaScript/Node.js. אין כאן SDK Python או C#/.NET מקומי מאומת. אפשר לחשוף שירות Mastra מאומת ולצרוך את ה־API מ־C# או Python; הלקוח אינו הופך את שפת הצריכה לשפת המסגרת.",
+        "languageSources": [
+          "https://mastra.ai/docs",
+          "https://github.com/mastra-ai/mastra",
+          "https://mastra.ai/blog/the-next-million-ai-developers"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי של הפרויקט; Stars הם צילום מצב ולא מדד איכות או מספר משתמשים.",
+          "url": "https://github.com/mastra-ai/mastra",
+          "stars": 29283,
+          "starsSource": "https://api.github.com/repos/mastra-ai/mastra",
+          "collectedAt": "2026-11-02T18:53:28.713+00:00",
+          "lastActivity": {
+            "date": "2026-11-02T18:32:46+00:00",
+            "source": "https://api.github.com/repos/mastra-ai/mastra/commits/fe6eae5aef1147b46e5f2daeddbcfd50ab7fd922",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-11-02 18:53:28.713+00"
+        },
+        "release": {
+          "value": "2024-11-20",
+          "precision": "day",
+          "source": "https://mastra.ai/blog/the-next-million-ai-developers",
+          "note": "ההכרזה הציבורית של Mastra מ־20 בנובמבר 2024. אין לבלבל עם השקת beta ב־2025 או גרסת 1.0 מאוחרת יותר."
+        }
+      },
+      "metrics": {
+        "slug": "mastra",
+        "description": "מסגרת TypeScript לסוכנים ותהליכי עבודה, עם כלים, זיכרון, הערכה ותצפיתיות מובנות.",
+        "languages": [
+          "TypeScript"
+        ],
+        "learningReason": "כדאי להכיר למפתח React/TypeScript שרוצה לכתוב גם את צד הסוכן באותה שפה. לצוות .NET יש לשקלל את תחזוקת שירות Node.js נוסף.",
+        "collectedAt": "2026-11-02 18:53:28.713+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "microsoft-agent-framework",
+        "kind": "framework",
+        "name": "Microsoft Agent Framework",
+        "slug": "microsoft-agent-framework",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: סוכן בקשות ציוד מחלץ פריטים, בודק מלאי באמצעות פונקציית C# ומציג הצעה לאישור עובד מורשה לפני הזמנה.",
+        "sources": [
+          {
+            "url": "https://learn.microsoft.com/en-us/agent-framework/overview/",
+            "title": "Microsoft Learn — Agent Framework Overview",
+            "supports": "רכיבי המסגרת, Workflows, MCP, דוגמאות .NET/Python ופקודת חבילה עם prerelease. ארכיטקטורת הארגון והתרגיל הם הצעות שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "מסגרת לבניית סוכנים, כלים וזרימות עבודה, עם מסלול רשמי שמתאים למפתחי C#/.NET.",
+        "exercise": "שרטט שתי גרסאות לתרחיש מלאי: לולאה ידנית ומסגרת. תוצר: טבלה שמפרידה בין ניהול שיחה, הרצת כלים, הרשאות, בדיקות עסקיות ושמירת מצב.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Microsoft Agent Framework מספקת רכיבי סוכן, חיבור לספקי מודלים וזרימות עבודה. התיעוד מציג לקוחות מודל, Sessions לניהול מצב, Middleware וחיבור לכלים ולשרתי MCP.",
+            "title": "מה היא פותרת?"
+          },
+          {
+            "text": "תכנון אפשרי: React פונה ל־ASP.NET Core, שירות סוכן מפעיל מודל ופונקציות כלים קוראות ל־APIs ארגוניים. גבול הסוכן יכול להיות שירות בתוך אותו יישום, ללא צורך מיידי ב־Microservice.",
+            "title": "איך היא משתלבת בארגון?"
+          },
+          {
+            "text": "המלצה: בנה תחילה לולאה ידנית קטנה: הודעה, בקשת כלי, ולידציה, ביצוע, החזרת תוצאה. אחר כך בדוק אילו חלקים המסגרת מנהלת ואילו כללים נשארים בקוד העסקי.",
+            "title": "מה ללמוד לפני ההפשטה?"
+          },
+          {
+            "text": "התיעוד מציג Workflows שמחברים פונקציות וסוכנים בנתיבי ביצוע מפורשים. בעת הבחירה יש לבדוק את יכולות השפה והחבילה הספציפיות, במיוחד אישור אנושי והתאוששות.",
+            "title": "מצב וזרימות"
+          },
+          {
+            "text": "המלצה: אכוף הרשאות בכלי, השתמש בפרטי משתמש מהשרת ושמור יומן פעולות. אל תבנה SQL מתוך הוראות המודל. עלות המודל ותפעול השירות נמדדים בנפרד.",
+            "title": "אבטחה ועלות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "02"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "openai-agents-sdk",
+          "langgraph",
+          "mcp"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "C#, async/await, REST ולולאת קריאות כלים ידנית.",
+        "alternativesNote": "לולאה ידנית עם SDK של ספק, שירות TypeScript עם Agents SDK או שירות Python לפי צורך. אין חובה להוסיף שפה נוספת רק כדי להשתמש בסוכן.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "נבדקו דוגמאות רשמיות ל־C#/.NET ול־Python. אין כאן הבטחת שוויון יכולות או יציבות חבילות; דוגמת .NET במקור משתמשת בדגל prerelease."
+      },
+      "facts": {
+        "description": "בונה סוכנים וזרימות עבודה עם כלים עסקיים וחיבור ישיר לשירותי .NET.",
+        "languages": "C#/.NET ו־Python רשמיים; TypeScript מקביל לא אומת; אין הבטחת שוויון יכולות.",
+        "languageSources": [
+          "https://learn.microsoft.com/en-us/agent-framework/overview/"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+          "url": "https://github.com/microsoft/agent-framework",
+          "stars": 14396,
+          "starsSource": "https://api.github.com/repos/microsoft/agent-framework",
+          "collectedAt": "2026-10-31T09:33:34+00:00"
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2025-10-01",
+          "precision": "day",
+          "source": "https://devblogs.microsoft.com/dotnet/introducing-microsoft-agent-framework-preview/",
+          "note": "השקה ציבורית ראשונה ב־Preview, לא גרסה יציבה. נבדק 31/10/2026."
+        }
+      },
+      "metrics": {
+        "slug": "microsoft-agent-framework",
+        "description": "בונה סוכנים וזרימות עבודה עם כלים עסקיים וחיבור ישיר לשירותי .NET.",
+        "languages": [
+          "C#/.NET",
+          "Python"
+        ],
+        "learningReason": "מסלול מרכזי ללימוד פיתוח סוכנים ברקע שלך ב־C#.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "communityInterest": {
+          "score": 9.92,
+          "stars": 14396,
+          "forks": 2543,
+          "maxStars": 148758,
+          "maxForks": 25000,
+          "method": "AI TOOLS GitHub Interest v1",
+          "source": "https://api.github.com/repos/microsoft/agent-framework",
+          "repository": "https://github.com/microsoft/agent-framework",
+          "collectedAt": "2026-10-31T09:33:34.000Z",
+          "cohort": "category-02-seven-official-repositories"
+        },
+        "sourceRank": {
+          "score": 20,
+          "source": "https://libraries.io/api/pypi/agent-framework",
+          "package": "agent-framework",
+          "repository": "https://github.com/microsoft/agent-framework",
+          "platform": "Pypi",
+          "updatedAt": null
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "microsoft-autogen",
+        "kind": "framework",
+        "name": "Microsoft AutoGen",
+        "slug": "microsoft-autogen",
+        "addedAt": "2026-11-02",
+        "example": "תרחיש הגירה לימודי מוצע, שלא הורץ כאן: מערכת קיימת משתמשת ב־AutoGen להכנת המלצת רכש. תעדו את השיחות, הכלים והתוצרים, ואז בנו תרחיש שקול ב־Microsoft Agent Framework. השוו פלטים, הרשאות ואישור אדם לפני כל כתיבה ל־SQL; אל תריצו קוד לא מתוחזק מול נתוני ייצור לשם התרגיל.",
+        "sources": [
+          {
+            "url": "https://github.com/microsoft/autogen",
+            "title": "Microsoft AutoGen — GitHub רשמי",
+            "supports": "זהות המאגר, קוד ומצב הפרויקט.",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "url": "https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/",
+            "title": "Microsoft Research — הכרזת AutoGen",
+            "supports": "ההכרזה הציבורית בבלוג Microsoft Research ב־25 בספטמבר 2023; אינה תאריך מאמר המחקר המוקדם או גרסת AutoGen 0.4.",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "url": "https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen/",
+            "title": "Microsoft — מדריך מעבר מ־AutoGen",
+            "supports": "מיפוי מושגים ו־APIs למחליפה; המדריך מתמקד ב־Python.",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "url": "https://microsoft.github.io/autogen/dev/user-guide/core-user-guide/index.html",
+            "title": "AutoGen Core — תיעוד היסטורי",
+            "supports": "הארכיטקטורה ותמיכת Python/.NET ההיסטורית.",
+            "checkedAt": "2026-11-02"
+          }
+        ],
+        "summary": "Legacy — מסגרת היסטורית של Microsoft למחקר ולבניית מערכות סוכנים מבוססות שיחות ואירועים. ה־README הרשמי מציין שהפרויקט הועבר לארכיון ואינו מתוחזק, ומפנה לפיתוח חדש ולתכנון מעבר אל Microsoft Agent Framework.",
+        "exercise": "הכינו טבלת מיפוי של Agent, כלי, מצב שיחה ותנאי עצירה מהמערכת הישנה למחליפה. בחרו שלוש בדיקות רגרסיה והסבירו אילו אינטגרציות C# מחייבות התאמה ידנית.",
+        "revision": 1,
+        "sections": [
+          {
+            "text": "AutoGen חקרה פיתוח מערכות באמצעות שיחות בין סוכנים וכלים. שימושים היסטוריים כללו פתרון משימות קוד, ניתוח מידע ותיאום בין תפקידים. הרשומה נשמרת להבנת מערכות קיימות ולהגירה, ולא כהמלצה להתחיל מוצר חדש.",
+            "title": "מה היה תפקידה?"
+          },
+          {
+            "text": "Core מספקת הודעות ו־runtime מונחה אירועים, ו־AgentChat מציעה API גבוה יותר לדפוסי שיחה. היו מימושי Python ו־.NET ברמת Core; יש לבדוק כל יכולת לפי הגרסה ולא להניח שממשקי השפות חופפים.",
+            "title": "איך בנויה הארכיטקטורה ההיסטורית?"
+          },
+          {
+            "text": "לפי ה־README הרשמי שנבדק, הפרויקט הועבר לארכיון ואינו מתוחזק על ידי Microsoft, לרבות תיקוני אבטחה ותמיכה. קיימים בדף גם ניסוחים ישנים על maintenance mode; הודעת הארכוב המפורשת היא הבסיס לסימון כאן.",
+            "title": "Legacy ומצב התחזוקה"
+          },
+          {
+            "text": "מדריך Microsoft ממפה מודל, Agent, כלים, Session וזרימות עבודה לממשקי Agent Framework. המדריך שנבדק מתמקד ב־Python; הוא אינו ממיר אוטומטית קוד C#. הגירה דורשת מיפוי התנהגות, תלויות ושמירת מצב ובדיקות רגרסיה לפני החלפה.",
+            "title": "המעבר ל־Microsoft Agent Framework"
+          },
+          {
+            "text": "השוואה פדגוגית: Microsoft Agent Framework היא היעד לבחינת פיתוח חדש במערכת Microsoft. השוו רעיונות שיחה ל־CrewAI ורעיונות מצב וזרימה ל־LangGraph. אין לייחס ל־AutoGen את התכונות או התמיכה העדכנית של המחליפה.",
+            "title": "השוואה וסדר לימוד"
+          }
+        ],
+        "approvedAt": "2026-11-02",
+        "verifiedAt": "2026-11-02",
+        "categoryIds": [
+          "02"
+        ],
+        "addedAtBasis": "approved_proposal",
+        "discoveredAt": "2026-11-02",
+        "relatedSlugs": [
+          "microsoft-agent-framework",
+          "crewai",
+          "langgraph"
+        ],
+        "revisionNote": "מקורות רשמיים נבדקו ב־2026-11-02; דוגמאות, תרגילים והשוואות מסומנים כפדגוגיים ולא הורצו. אין אימות מעבדתי לכל API.",
+        "prerequisites": "היכרות עם REST/JSON, אימות קלט, לולאת tool calling והפרדת לוגיקה עסקית מהמודל.",
+        "alternativesNote": "Microsoft Agent Framework היא המחליפה שאליה מפנה Microsoft. CrewAI ו־LangGraph מספקות נקודות השוואה פדגוגיות לתזמור; הן אינן תחליף הגירה אוטומטי. AutoGen נשמרת כ־Legacy בלבד.",
+        "learningPriority": "enrichment",
+        "approvalReference": "User request 2026-11-02: add ADK, Mastra, smolagents, Agno and Legacy AutoGen; docs/DECISIONS.md D-029",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "AutoGen כללה Python ו־.NET ברמת Core/runtime ותקשורת בין שפות. אין להסיק של־AgentChat ב־Python ולממשקי C# יש אותו כיסוי. מדובר בתמיכה היסטורית של פרויקט שאינו מתוחזק; לפיתוח חדש ב־C#/.NET יש לבחון Microsoft Agent Framework, ולא להתייחס ל־AutoGen כחלופה חדשה נתמכת.",
+        "lifecycle": {
+          "status": "legacy",
+          "note": "Legacy: לפי הודעת Microsoft במאגר הרשמי, AutoGen הועברה לארכיון ואינה מתוחזקת, לרבות תיקוני אבטחה. הרשומה מיועדת ללימוד היסטורי ולהגירה; לפיתוח חדש בחנו Microsoft Agent Framework.",
+          "successorSlug": "microsoft-agent-framework",
+          "sourceUrl": "https://github.com/microsoft/autogen",
+          "checkedAt": "2026-11-03",
+          "effectiveAt": "2026-11-03",
+          "dateLabel": "אימות מצב המקור (מועד הארכוב המדויק לא אומת)"
+        }
+      },
+      "facts": {
+        "description": "מסגרת Legacy היסטורית לשיחות ותזמור סוכנים, עם מעבר מומלץ ל־Microsoft Agent Framework.",
+        "languages": "AutoGen כללה Python ו־.NET ברמת Core/runtime ותקשורת בין שפות. אין להסיק של־AgentChat ב־Python ולממשקי C# יש אותו כיסוי. מדובר בתמיכה היסטורית של פרויקט שאינו מתוחזק; לפיתוח חדש ב־C#/.NET יש לבחון Microsoft Agent Framework, ולא להתייחס ל־AutoGen כחלופה חדשה נתמכת.",
+        "languageSources": [
+          "https://github.com/microsoft/autogen",
+          "https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/",
+          "https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen/",
+          "https://microsoft.github.io/autogen/dev/user-guide/core-user-guide/index.html"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר ההיסטורי הרשמי של Microsoft AutoGen; Stars מצטברים אינם מעידים על תחזוקה פעילה.",
+          "url": "https://github.com/microsoft/autogen",
+          "stars": 61680,
+          "starsSource": "https://api.github.com/repos/microsoft/autogen",
+          "collectedAt": "2026-11-02T18:53:30.483+00:00",
+          "lastActivity": {
+            "date": "2026-10-28T14:45:27+00:00",
+            "source": "https://api.github.com/repos/microsoft/autogen/commits/d07c667a3239ea4ab7af62a53b0f4ff205a1f23d",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-11-02 18:53:30.483+00"
+        },
+        "release": {
+          "value": "2023-09-25",
+          "precision": "day",
+          "source": "https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/",
+          "note": "ההכרזה הציבורית בבלוג Microsoft Research ב־25 בספטמבר 2023; אינה תאריך מאמר המחקר המוקדם או גרסת AutoGen 0.4."
+        }
+      },
+      "metrics": {
+        "slug": "microsoft-autogen",
+        "description": "מסגרת Legacy היסטורית לשיחות ותזמור סוכנים, עם מעבר מומלץ ל־Microsoft Agent Framework.",
+        "languages": [
+          "Python",
+          "C#/.NET"
+        ],
+        "learningReason": "העשרה היסטורית למי שנתקל בקוד AutoGen או מתכנן הגירה. לפיתוח חדש סדר הלימוד מתחיל ב־Microsoft Agent Framework; Stars של פרויקט ותיק אינם המלצה להתחיל בו.",
+        "collectedAt": "2026-11-02 18:53:30.483+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "n8n",
+        "kind": "platform",
+        "name": "n8n",
+        "slug": "n8n",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: הודעת בקשת ציוד נקלטת, נתוניה נבדקים, נפתחת טיוטה ונשלחת לאישור. קריאת AI נדרשת רק אם הקלט חופשי.",
+        "sources": [
+          {
+            "url": "https://docs.n8n.io/",
+            "title": "n8n — Documentation",
+            "supports": "הגדרת כלי אוטומציה עם יכולות AI ואפשרויות ענן/אירוח עצמי. תכנון השלבים והתרגיל הם שלנו; מחירים ותכונות מסלול לא אומתו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "כלי אוטומציה לחיבור פעולות עסקיות ויכולות AI לתהליך עבודה.",
+        "exercise": "תכנן רצף בקשה ← בדיקה ← טיוטה. תוצר: חוזה JSON, מסלול כשל ודרך לזהות הודעה כפולה. סמן איזה שלב דורש מודל ואיזה הוא חוק רגיל.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "n8n מחבר אוטומציה עסקית ויכולות AI. במקום לפתח כל אינטגרציה מאפס, מרכיבים תהליך סביב מקורות קלט, פעולות והעברת נתונים. לא כל תהליך דורש מודל או סוכן.",
+            "title": "מה הוא פותר?"
+          },
+          {
+            "text": "המלצה: התחל מטריגר אחד, מעבר נתונים מפורש ותוצאה אחת. בכל שלב הגדר איזה JSON נכנס, מה יוצא ומה עושים בכשל. בדוק את התהליך עם נתוני דוגמה לפני חיבור למערכת אמיתית.",
+            "title": "איך מתכננים תהליך?"
+          },
+          {
+            "text": "הקבלה לימודית: רצף פעולות מזכיר Pipeline שקורא לכמה שירותי REST. ממשק חזותי אינו מבטל צורך בחוזים, טיפול ב־null או הבנה אם פעולה כבר בוצעה.",
+            "title": "החיבור לידע שלך"
+          },
+          {
+            "text": "שקול שירות ייעודי כשהלוגיקה העסקית, הבדיקות או ההרשאות נעשות מורכבות. אפשר להשאיר את התזמור ב־n8n ולחשוף פעולה עסקית אחת דרך API מאומת.",
+            "title": "מתי קוד נפרד עדיף?"
+          },
+          {
+            "text": "התיעוד מציע מסלול ענן וגם אירוח עצמי. בדוק רישוי, תחזוקה, גיבויים ומחיר לפני בחירה. שמור אישורים מחוץ לזרימות המיוצאות והימנע משמירת מידע רגיש בלוגים.",
+            "title": "אירוח, אבטחה ועלות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "03"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "temporal",
+          "dify",
+          "mcp"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "REST, JSON, אירועים והרשאות.",
+        "alternativesNote": "Make, Zapier או Activepieces מוזכרים במפת הידע כמועמדים לבדיקה. Temporal הוא חלופה לתזמור בקוד כשהעמידות היא דרישה מרכזית.",
+        "learningPriority": "must_learn",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "זהו כלי אוטומציה, לא SDK סוכנים ב־C#. שירותי C#, Python ו־TypeScript יכולים להשתלב דרך APIs; תמיכת קוד בתוך הזרימה תלויה בגרסה ובסביבה ולא אומתה כאן."
+      },
+      "facts": {
+        "description": "מחבר שירותים ופעולות עסקיות לתהליכי אוטומציה עם אפשרות לשלב קריאות AI.",
+        "languages": "פלטפורמה; חיבור שירותי C#/.NET, Python ו־TypeScript ב־HTTP, לא SDK סוכנים.",
+        "languageSources": [
+          "https://docs.n8n.io/"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+          "url": "https://github.com/n8n-io/n8n",
+          "stars": 209172,
+          "starsSource": "https://api.github.com/repos/n8n-io/n8n",
+          "collectedAt": "2026-10-31T09:13:24+00:00",
+          "lastActivity": {
+            "date": "2026-10-31T08:15:55+00:00",
+            "source": "https://github.com/n8n-io/n8n/commit/61055d5cfd6a01b667c73a574cbd2be6d2ab58d0",
+            "branch": "master",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "n8n",
+        "description": "מחבר שירותים ופעולות עסקיות לתהליכי אוטומציה עם אפשרות לשלב קריאות AI.",
+        "languages": [
+          "HTTP API"
+        ],
+        "learningReason": "לחיבור מערכות ולתרגול אוטומציה עסקית מקצה לקצה.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "openai-agents-sdk",
+        "kind": "sdk",
+        "name": "OpenAI Agents SDK",
+        "slug": "openai-agents-sdk",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: סוכן שירות משתמש בכלי לקריאת סטטוס הזמנה. שינוי כתובת מוצג כהצעה נפרדת שהיישום מאשר לפני ביצוע.",
+        "sources": [
+          {
+            "url": "https://developers.openai.com/api/docs/guides/agents/sdk",
+            "title": "OpenAI — Agents SDK",
+            "supports": "SDKs רשמיים ב־Python/TypeScript ונושאי Runner, כלים ואורקסטרציה. ההמלצות והתרגיל נכתבו ללמידה.",
+            "checkedAt": "2026-10-31"
+          },
+          {
+            "url": "https://developers.openai.com/api/docs/guides/agents",
+            "title": "OpenAI — Agent runtime options",
+            "supports": "הבחנה בין Agents API, Agents SDK ו־Responses API ואחריות היישום לאחסון, פריסה ואישורים.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "SDK לבניית סוכנים בתוך היישום שלך, עם Runner שמנהל לולאת סוכן והעברות בין סוכנים.",
+        "exercise": "תכנן סוכן עם כלי קריאה אחד. תוצר: חוזה כלי, תוצאת שגיאה, גבול סבבים ומקום שמירת השיחה. הסבר אילו חלקים היו קיימים גם ללא SDK.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Agents SDK מספק מבנים להגדרת סוכנים, כלים וזרימות בתוך הקוד שלך. ה־Runner מטפל בלולאת הסוכן ובהעברות. OpenAI מבחינה בינו לבין Agents API המנוהל ובין עבודה ישירה עם Responses API.",
+            "title": "מה הוא פותר?"
+          },
+          {
+            "text": "מגדירים סוכן וכלים, מפעילים Runner, מקבלים בקשות לכלים ותוצאה, ושומרים את המצב הנדרש להמשך. מתחילים בסוכן יחיד ומוסיפים העברות רק אם חלוקת האחריות מצדיקה אותן.",
+            "title": "זרימת עבודה"
+          },
+          {
+            "text": "פריסה, אחסון, הרשאות ואינטגרציה עם הסביבה נשארים החלטות שלך. בדיקת קוד פריט והיתר לבצע הזמנה אינן נפתרות מעצם השימוש ב־SDK.",
+            "title": "מה נשאר באחריות היישום?"
+          },
+          {
+            "text": "SDK לקריאות מודל ב־C# אינו בהכרח Agents SDK. אפשר ללמוד לולאה ידנית ב־C#, ואז להשוות לשירות Python או TypeScript, או למסגרת .NET מתאימה.",
+            "title": "החיבור ל־.NET"
+          },
+          {
+            "text": "המלצה: הגבל כלים וסבבים, שמור עקבות ודרוש אישור לפני כתיבה חיצונית. חלוקת עבודה למספר סוכנים מחייבת מדידת עלות וזמן; היא אינה מבטיחה שיפור.",
+            "title": "אבטחה ועלות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "02"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "microsoft-agent-framework",
+          "langchain",
+          "mcp"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "מודל, קריאות כלים, async ושמירת שיחה.",
+        "alternativesNote": "לולאה ידנית, LangChain, Pydantic AI או Microsoft Agent Framework. השווה שליטה במצב, הרשאות ובדיקות לצד כמות הקוד.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "התיעוד הרשמי שנבדק מפנה ל־SDKs ב־Python וב־TypeScript. אין להסיק מכך שקיים אותו SDK ב־C# או שכל יכולת זהה בין השפות."
+      },
+      "facts": {
+        "description": "מפעיל לולאת סוכן, כלים והעברות בין סוכנים בתוך קוד היישום שלך.",
+        "languages": "Python, TypeScript רשמיים; C#/.NET: SDK מקביל לא אומת.",
+        "languageSources": [
+          "https://developers.openai.com/api/docs/guides/agents/sdk",
+          "https://developers.openai.com/api/docs/guides/agents"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "מאגר SDK של Python בלבד; לא סכום של כל המימושים",
+          "url": "https://github.com/openai/openai-agents-python",
+          "stars": 30406,
+          "starsSource": "https://api.github.com/repos/openai/openai-agents-python",
+          "collectedAt": "2026-10-31T09:33:34+00:00"
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        },
+        "release": {
+          "value": "2025-03-11",
+          "precision": "day",
+          "source": "https://openai.com/index/new-tools-for-building-agents/",
+          "note": "ההשקה הציבורית של Agents SDK; אינה תאריך יצירת מאגר. נבדק 31/10/2026."
+        }
+      },
+      "metrics": {
+        "slug": "openai-agents-sdk",
+        "description": "מפעיל לולאת סוכן, כלים והעברות בין סוכנים בתוך קוד היישום שלך.",
+        "languages": [
+          "Python",
+          "TypeScript"
+        ],
+        "learningReason": "להשוואת SDK לסוכנים מול לולאת כלים ידנית.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "communityInterest": {
+          "score": 20.15,
+          "stars": 30406,
+          "forks": 4963,
+          "maxStars": 148758,
+          "maxForks": 25000,
+          "method": "AI TOOLS GitHub Interest v1",
+          "source": "https://api.github.com/repos/openai/openai-agents-python",
+          "repository": "https://github.com/openai/openai-agents-python",
+          "collectedAt": "2026-10-31T09:33:34.000Z",
+          "cohort": "category-02-seven-official-repositories"
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "pydantic-ai",
+        "kind": "sdk",
+        "name": "Pydantic AI",
+        "slug": "pydantic-ai",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: חילוץ בקשת רכש לטיפוס עם פריטים וכמויות. תוצאת החילוץ עוברת לבדיקה עסקית לפני שמירת טיוטה.",
+        "sources": [
+          {
+            "url": "https://pydantic.dev/docs/ai/overview/",
+            "title": "Pydantic AI — Overview",
+            "supports": "SDK Python מטופס, לולאת סוכן, תלויות ופלט. ההקבלות ל־.NET והפרדת הוולידציה הן הסבר הנדסי שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "SDK ב־Python שמדגיש טיפוסים, פלט מובנה ותלויות בתוך לולאת סוכן.",
+        "exercise": "הגדר מבנה של בקשת ציוד וארבע דוגמאות פלט: חסר, סוג שגוי, תקין מבנית ושגוי עסקית. תוצר: חלוקה בין ולידציה מבנית לבדיקות מערכת.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "Pydantic AI מציג לולאת סוכן עם טיפוסים ושילוב מודלים וכלים. הוא מתאים לבחינת תרחישים שבהם פלט הסוכן צריך להתאים למבנה נתונים ברור, לצד ניהול תלויות ובדיקות.",
+            "title": "איזו בעיה הוא פותר?"
+          },
+          {
+            "text": "מגדירים קלט, תלויות וכלים, מפעילים סוכן ומקבלים תוצאה. מגדירים מה עושים כאשר פלט אינו עומד בחוזה. ניסיון חוזר חייב להיות מוגבל כדי שכשל לא יהפוך ללולאה יקרה.",
+            "title": "זרימת עבודה"
+          },
+          {
+            "text": "כהקבלה לימודית, פלט מטופס מזכיר DTO וולידציה, ותלויות מזכירות Dependency Injection. ההתאמה אינה מלאה; חשוב ללמוד את המנגנון האמיתי במקום להניח שזה אותו Container.",
+            "title": "החיבור ל־C#"
+          },
+          {
+            "text": "כמות יכולה להיות מספר חיובי והבקשה עדיין אסורה עסקית. אחרי בדיקה מבנית צריך לבדוק הרשאה, קיום פריט ומגבלות בארגון. גם תוצאה מטופסת יכולה להיות שגויה עובדתית.",
+            "title": "מה טיפוסים אינם מוכיחים?"
+          },
+          {
+            "text": "המלצה: כש־Python וחוזי נתונים הם חלק מרכזי בשירות. במערכת .NET קטנה, הוספת שירות ושפה דורשת הצדקה. מדוד איכות פלט, תדירות ניסיונות חוזרים ועלות.",
+            "title": "מתי לבחור?"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "02"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "openai-agents-sdk",
+          "langchain",
+          "microsoft-agent-framework"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "Python בסיסי, טיפוסים, async וולידציה.",
+        "alternativesNote": "Agents SDK, LangChain או מסגרת .NET, לפי השפה והצורך. אפשר גם לממש חילוץ וולידציה בלי מסגרת סוכנים.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "התיעוד מתאר SDK ב־Python. חיבור מ־C# או TypeScript דרך שירות HTTP הוא בחירת ארכיטקטורה אפשרית, ולא SDK מקומי של Pydantic AI בשפות אלה."
+      },
+      "facts": {
+        "description": "בונה סוכנים עם פלט מטופס ותלויות מפורשות לבדיקת מבנה הנתונים המוחזרים.",
+        "languages": "Python רשמי; C#/.NET ו־TypeScript: אינטגרציית שירות HTTP, לא SDK מקומי.",
+        "languageSources": [
+          "https://pydantic.dev/docs/ai/overview/"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+          "url": "https://github.com/pydantic/pydantic-ai",
+          "stars": 20967,
+          "starsSource": "https://api.github.com/repos/pydantic/pydantic-ai",
+          "collectedAt": "2026-10-31T09:33:34+00:00"
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "pydantic-ai",
+        "description": "בונה סוכנים עם פלט מטופס ותלויות מפורשות לבדיקת מבנה הנתונים המוחזרים.",
+        "languages": [
+          "Python"
+        ],
+        "learningReason": "להיכרות עם סוכנים ופלטים מטיפוסים בעולם Python.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "communityInterest": {
+          "score": 13.19,
+          "stars": 20967,
+          "forks": 3071,
+          "maxStars": 148758,
+          "maxForks": 25000,
+          "method": "AI TOOLS GitHub Interest v1",
+          "source": "https://api.github.com/repos/pydantic/pydantic-ai",
+          "repository": "https://github.com/pydantic/pydantic-ai",
+          "collectedAt": "2026-10-31T09:33:34.000Z",
+          "cohort": "category-02-seven-official-repositories"
+        },
+        "sourceRank": {
+          "score": 23,
+          "source": "https://libraries.io/api/pypi/pydantic-ai",
+          "package": "pydantic-ai",
+          "repository": "https://github.com/pydantic/pydantic-ai",
+          "platform": "Pypi",
+          "updatedAt": null
+        }
+      }
+    },
+    {
+      "entry": {
+        "id": "pytorch",
+        "kind": "framework",
+        "name": "PyTorch",
+        "slug": "pytorch",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: מסווג קטן לתמונות או לטקסט דוגמה. היישום העסקי צורך את תוצאת ההסקה דרך גבול מוגדר, בנפרד מתהליך האימון.",
+        "sources": [
+          {
+            "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+            "title": "PyTorch — Learn the Basics",
+            "supports": "מחזור ML, נתונים, מודל, אופטימיזציה ושמירה במדריך Python. שיקולי הבחירה וההקבלות לפיתוח יישומים הם שלנו.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "מסגרת ללמידת מכונה: נתונים, Tensors, מודלים, אופטימיזציה ושמירת תוצרי אימון.",
+        "exercise": "קרא את מדריך היסודות ושרטט נתונים ← מודל ← שגיאה ← עדכון ← הערכה. תוצר: הסבר מה נשמר לפריסה ואיך תזהה ניסוי שמצליח באימון אך נכשל בהערכה.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "PyTorch מספקת אבני בניין לעבודה עם נתונים, בניית מודלים, אופטימיזציה ושמירת מודל מאומן. היא נמצאת בשכבת למידת המכונה, ולא מחליפה API עסקי, מסד נתונים או מסגרת סוכנים.",
+            "title": "איזו בעיה היא פותרת?"
+          },
+          {
+            "text": "מכינים נתונים, מגדירים מודל, מחשבים שגיאה, מעדכנים פרמטרים ובודקים תוצאות. בתהליך טיפוסי מפרידים נתוני אימון והערכה כדי לבדוק יכולת הכללה, לא רק זכירת דוגמאות.",
+            "title": "מחזור עבודה"
+          },
+          {
+            "text": "כהקבלה: קוד תוכנית רגיל מגדיר כללים במפורש; באימון מגדירים מבנה ומטרה ומפיקים פרמטרים מהנתונים. גם כאן יש צורך בגרסאות, בדיקות ותיעוד קלט ופלט.",
+            "title": "החיבור לידע שלך"
+          },
+          {
+            "text": "המלצה: אם מודל קיים עם הוראות או אחזור ידע פותר את הבעיה, התחל ממנו. אימון והתאמה מוסיפים אחריות לנתונים, איכות, משאבים ומחזור חיים.",
+            "title": "למה לא להתחיל כאן?"
+          },
+          {
+            "text": "שמור גרסת נתונים, הגדר מדד והפרד ניסוי מהפעלה עסקית. חומרה ותלויות תלויות בסביבת האימון. מודל שסווג היטב במדגם קטן אינו מוכיח התאמה לייצור.",
+            "title": "תפעול ואיכות"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "11"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "llm-fundamentals",
+          "hugging-face",
+          "ollama"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "Python, אלגברה בסיסית והפרדה בין אימון להסקה.",
+        "alternativesNote": "שימוש במודל קיים, RAG או שירות הסקה מנוהל הם חלופות לשינוי פרמטרים כשמטרת העסק מאפשרת זאת. אין צורך ללמוד אימון מלא לפני בניית יישום AI ראשון.",
+        "learningPriority": "enrichment",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "מדריך היסודות שנבדק משתמש ב־Python. חיבור תוצר למערכת C# או TypeScript הוא החלטת פריסה נפרדת; אין כאן מטריצת Runtime מאומתת."
+      },
+      "facts": {
+        "description": "מספק רכיבי נתונים, מודלים ואופטימיזציה לבניית רשתות ולשינוי פרמטרים בתהליך אימון.",
+        "languages": "Python במדריך שנבדק; שילוב תוצר ב־C#/.NET או TypeScript תלוי במסלול פריסה.",
+        "languageSources": [
+          "https://docs.pytorch.org/tutorials/beginner/basics/intro.html"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי הראשי שנבחר למדידה",
+          "url": "https://github.com/pytorch/pytorch",
+          "stars": 105028,
+          "starsSource": "https://api.github.com/repos/pytorch/pytorch",
+          "collectedAt": "2026-10-31T09:13:24+00:00",
+          "lastActivity": {
+            "date": "2026-10-31T08:05:56+00:00",
+            "source": "https://github.com/pytorch/pytorch/commit/6024c944ec32853a785292d11e27cec5693c658d",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "pytorch",
+        "description": "מספק רכיבי נתונים, מודלים ואופטימיזציה לבניית רשתות ולשינוי פרמטרים בתהליך אימון.",
+        "languages": [
+          "Python"
+        ],
+        "learningReason": "להעמקה באימון מודלים; אינו תנאי להתחלת פיתוח יישומים.",
+        "collectedAt": "2026-10-31 09:13:24+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "smolagents",
+        "kind": "framework",
+        "name": "Hugging Face smolagents",
+        "slug": "smolagents",
+        "addedAt": "2026-11-02",
+        "example": "דוגמה לימודית מוצעת, שלא הורצה כאן: סוכן Python מקבל נתוני מלאי סינתטיים ומחשב אילו מוצרים דורשים השלמה. הוא מחזיר JSON ל־ASP.NET Core לבדיקת סכימה וחוקים עסקיים; אין לו חיבור כתיבה למסד או הרשאה להזמין ציוד.",
+        "sources": [
+          {
+            "url": "https://huggingface.co/docs/smolagents/index",
+            "title": "Hugging Face smolagents — תיעוד רשמי",
+            "supports": "תפקיד, מבנה ותמיכת שפות; טענות על היעדר SDK מוגבלות למקורות שנבדקו.",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "url": "https://github.com/huggingface/smolagents",
+            "title": "Hugging Face smolagents — GitHub רשמי",
+            "supports": "זהות המאגר, קוד ומצב הפרויקט.",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "url": "https://huggingface.co/blog/smolagents",
+            "title": "Hugging Face — השקת smolagents",
+            "supports": "פרסום ההשקה הרשמי של smolagents ב־31 בדצמבר 2024; לא שנת הקמת Hugging Face או מודל SmolLM.",
+            "checkedAt": "2026-11-02"
+          }
+        ],
+        "summary": "ספריית Python לסוכנים שמבצעים פעולות באמצעות קוד או קריאות כלים. מתאימה להבנת לולאת סוכן מצומצמת ולעבודה עם מודלים שונים, תוך תשומת לב מיוחדת לבידוד הרצת קוד.",
+        "exercise": "תכננו שני מימושים לאותו חישוב: כלי Python סגור ו־CodeAgent מבודד. פרטו אילו קבצים, פקודות וחיבורי רשת חסומים, ואיך בודקים שהתוצאה אינה מפעילה הזמנה.",
+        "revision": 1,
+        "sections": [
+          {
+            "text": "smolagents מספקת לולאת סוכן קטנה: המודל מתכנן פעולה, כלי או קוד מבצעים אותה ותוצאת הפעולה חוזרת להמשך ההסקה. שימושים מרכזיים כוללים חיפוש, עיבוד נתונים והרכבת פעולות על מידע.",
+            "title": "איזו בעיה היא פותרת?"
+          },
+          {
+            "text": "CodeAgent מתאר פעולות בקוד Python; ToolCallingAgent משתמש בקריאות כלים מובנות. יש להבחין בין מודל שמייצר טקסט לבין executor שמבצע פעולה. מבחינת מפתח C#, זהו גבול אמון כמו הפעלת קוד חיצוני, ולא פונקציית עזר רגילה.",
+            "title": "איך בנויה ההרצה?"
+          },
+          {
+            "text": "ניסוי בסוכן שמחשב תוצאות על נתונים או מאחזר מידע מכמה כלים. מודלים מקומיים ושירותי מודלים דורשים חיבור מתאים; עצם התמיכה במודל אינה מבטיחה איכות או תאימות מלאה לכל תרחיש.",
+            "title": "שימושים מרכזיים"
+          },
+          {
+            "text": "השוואה פדגוגית: מול OpenAI Agents SDK השוו code actions לקריאות כלים; מול Pydantic AI השוו את חוזי הקלט והפלט והטיפוסים; מול LangGraph בדקו אם נדרש גרף עבודה מתמשך מעבר ללולאת הסוכן. התחילו מהפתרון הקטן שמספיק.",
+            "title": "מתי לבחור ובמה להשוות?"
+          },
+          {
+            "text": "קוד שנוצר על ידי מודל עלול לקרוא קבצים או לבצע פעולות לא רצויות. בחרו בידוד executor מתאים, הגבילו רשת והרשאות ואל תספקו סודות לתרגיל. אין לראות בספרייה לבדה גבול אבטחה מלא למערכת ארגונית.",
+            "title": "גבולות ובטיחות"
+          }
+        ],
+        "approvedAt": "2026-11-02",
+        "verifiedAt": "2026-11-02",
+        "categoryIds": [
+          "02"
+        ],
+        "addedAtBasis": "approved_proposal",
+        "discoveredAt": "2026-11-02",
+        "relatedSlugs": [
+          "openai-agents-sdk",
+          "pydantic-ai",
+          "langgraph"
+        ],
+        "revisionNote": "מקורות רשמיים נבדקו ב־2026-11-02; דוגמאות, תרגילים והשוואות מסומנים כפדגוגיים ולא הורצו. אין אימות מעבדתי לכל API.",
+        "prerequisites": "היכרות עם REST/JSON, אימות קלט, לולאת tool calling והפרדת לוגיקה עסקית מהמודל.",
+        "alternativesNote": "OpenAI Agents SDK ללולאת כלים; Pydantic AI לחוזים מטיפוסים ב־Python; LangGraph כשנדרשים מצב וזרימה מפורשים. CodeAgent מוסיף אחריות על הרצת קוד, ולא רק בחירה של API.",
+        "learningPriority": "enrichment",
+        "approvalReference": "User request 2026-11-02: add ADK, Mastra, smolagents, Agno and Legacy AutoGen; docs/DECISIONS.md D-029",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "הממשק הרשמי שנבדק הוא Python. לא נמצא SDK מקומי רשמי ל־TypeScript או C#/.NET. יישום .NET יכול לצרוך שירות Python שאתם מגדירים דרך HTTP; זו הצעת אינטגרציה ולא תמיכת .NET מקורית בספרייה."
+      },
+      "facts": {
+        "description": "ספריית Python לסוכנים המפעילים כלים או קוד, ללימוד לולאת הסוכן וגבולות הריצה.",
+        "languages": "הממשק הרשמי שנבדק הוא Python. לא נמצא SDK מקומי רשמי ל־TypeScript או C#/.NET. יישום .NET יכול לצרוך שירות Python שאתם מגדירים דרך HTTP; זו הצעת אינטגרציה ולא תמיכת .NET מקורית בספרייה.",
+        "languageSources": [
+          "https://huggingface.co/docs/smolagents/index",
+          "https://github.com/huggingface/smolagents",
+          "https://huggingface.co/blog/smolagents"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "המאגר הרשמי של הפרויקט; Stars הם צילום מצב ולא מדד איכות או מספר משתמשים.",
+          "url": "https://github.com/huggingface/smolagents",
+          "stars": 30191,
+          "starsSource": "https://api.github.com/repos/huggingface/smolagents",
+          "collectedAt": "2026-11-02T18:53:29.303+00:00",
+          "lastActivity": {
+            "date": "2026-10-06T09:38:53+00:00",
+            "source": "https://api.github.com/repos/huggingface/smolagents/commits/96f33faaf028479119ec8d34507b47694cf14e34",
+            "branch": "main",
+            "method": "default_branch_head_commit_committer_date"
+          }
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-11-02 18:53:29.303+00"
+        },
+        "release": {
+          "value": "2024-12-31",
+          "precision": "day",
+          "source": "https://huggingface.co/blog/smolagents",
+          "note": "פרסום ההשקה הרשמי של smolagents ב־31 בדצמבר 2024; לא שנת הקמת Hugging Face או מודל SmolLM."
+        }
+      },
+      "metrics": {
+        "slug": "smolagents",
+        "description": "ספריית Python לסוכנים המפעילים כלים או קוד, ללימוד לולאת הסוכן וגבולות הריצה.",
+        "languages": [
+          "Python"
+        ],
+        "learningReason": "העשרה מועילה להבנת CodeAgent ולגבולות האבטחה של קוד שנוצר בידי מודל; אינה מחליפה לימוד בסיסי של tool calling ואימות בצד השרת.",
+        "collectedAt": "2026-11-02 18:53:29.303+00"
+      }
+    },
+    {
+      "entry": {
+        "id": "temporal",
+        "kind": "orchestration_engine",
+        "name": "Temporal",
+        "slug": "temporal",
+        "addedAt": "2026-10-31",
+        "example": "תרחיש לימודי: תהליך רכש בודק מלאי, ממתין לאישור ומבצע הזמנה. כשל של Worker בזמן ההמתנה אינו צריך למחוק את התהליך העסקי.",
+        "sources": [
+          {
+            "url": "https://docs.temporal.io/workflows",
+            "title": "Temporal — Workflows",
+            "supports": "Workflow Definition/Execution, היסטוריית אירועים, Replay ודרישת עקביות. הדוגמה ושיקולי הבחירה הם שלנו.",
+            "checkedAt": "2026-10-31"
+          },
+          {
+            "url": "https://docs.temporal.io/develop",
+            "title": "Temporal — SDKs",
+            "supports": "קיום מסלולי SDK רשמיים ל־.NET, Python ו־TypeScript.",
+            "checkedAt": "2026-10-31"
+          }
+        ],
+        "summary": "פלטפורמה להרצת תהליכים עמידים בקוד, עם היסטוריית אירועים ושחזור מצב לאחר כשל.",
+        "exercise": "הגדר איזה מידע צריך לשרוד בכל נקודה. תוצר: גבול Workflow/Activity, מפתח למניעת כפילות והסבר מה קורה כשהשרת נופל אחרי ביצוע הזמנה ולפני קבלת תשובה.",
+        "revision": 2,
+        "sections": [
+          {
+            "text": "תהליך יכול להימשך מעבר לבקשת HTTP או לחיי תהליך שרת. Temporal שומר היסטוריית אירועים המאפשרת להחזיר Workflow למצבו ולהמשיך לאחר כשל תשתיתי.",
+            "title": "איזו בעיה היא פותרת?"
+          },
+          {
+            "text": "הגדרת Workflow היא קוד; Execution היא הרצה מסוימת. בשחזור, הקוד משתמש בהיסטוריה שנרשמה כדי לשחזר את ההתקדמות. לכן ההחלטות ב־Workflow צריכות להיות עקביות עם אותה היסטוריה.",
+            "title": "מה קורה בשחזור?"
+          },
+          {
+            "text": "קריאות רשת ותוצאות משתנות אינן צריכות להתרחש באקראי בתוך קוד שנבנה מחדש. תכנן אותן כ־Activities והגדר טיפול בניסיונות חוזרים. שירות חיצוני עדיין צריך לזהות פעולות כפולות.",
+            "title": "פעולות חיצוניות"
+          },
+          {
+            "text": "אפשר להשוות למנהל תהליך עמיד מעל שירותים עסקיים. ה־Workflow מגדיר סדר והמתנה, והפעולות מבצעות עבודה. תכנון כזה שונה מלהחזיק בקשת ASP.NET פתוחה עד שאדם יאשר.",
+            "title": "החיבור ל־.NET"
+          },
+          {
+            "text": "המלצה: תהליך הזמנה או מחקר שצריך לשרוד כשל והמתנה. למשימה קצרה יחידה, Worker קטן עשוי להספיק. העלות כוללת גם שירות תזמור, Workers וניטור.",
+            "title": "מתי זה מוצדק?"
+          }
+        ],
+        "verifiedAt": "2026-10-31",
+        "categoryIds": [
+          "03",
+          "02"
+        ],
+        "addedAtBasis": "historical_backfill",
+        "relatedSlugs": [
+          "n8n",
+          "langgraph"
+        ],
+        "revisionNote": "פרק לימוד. האימות מתייחס להגדרת המוצר וליכולות המתוארות במקורות; מחירים, גרסאות חבילות וביצועים לא נבדקו. שיקולי התכנון והתרגילים הם תוכן לימודי שלנו.",
+        "prerequisites": "async, תורים, כשלי רשת ו־Idempotency.",
+        "alternativesNote": "Worker ותור עם מצב שמור, או n8n לתהליך אינטגרציה. LangGraph נבחן כשמרכז הכובד הוא זרימת סוכן; אין זהות אוטומטית בין המוצרים.",
+        "learningPriority": "should_know",
+        "publicationStatus": "published",
+        "verificationStatus": "verified",
+        "languageSupportNote": "דף ה־SDKs הרשמי מציג .NET, Python ו־TypeScript. פרטי API ותאימות נבדקים לפי גרסת החבילה; זה אינו SDK של מודל."
+      },
+      "facts": {
+        "description": "מריץ תהליכים עמידים בקוד ומשחזר התקדמות לאחר כשל בעזרת היסטוריית אירועים.",
+        "languages": "SDKs רשמיים: C#/.NET, Python, TypeScript; גרסאות נבדקות בנפרד.",
+        "languageSources": [
+          "https://docs.temporal.io/workflows",
+          "https://docs.temporal.io/develop"
+        ],
+        "github": {
+          "status": "verified",
+          "scope": "מאגר שרת Temporal; לא סכום של מאגרי ה־SDK",
+          "url": "https://github.com/temporalio/temporal",
+          "stars": 24098,
+          "starsSource": "https://api.github.com/repos/temporalio/temporal",
+          "collectedAt": "2026-10-31T09:33:34+00:00"
+        },
+        "popularity": {
+          "algorithm": "OSS Compass Community Popularity v3",
+          "source": "https://oss-compass.org/docs/docs/v3-assessment/Community%20Ecosystem%20Health%20Assessment/Community%20Vitality/",
+          "score": null,
+          "reason": "חסרים נתוני גידול Stars ו־Forks בתקופת מדידה אחידה; לא חושב ציון.",
+          "collectedAt": "2026-10-31 09:13:24+00"
+        }
+      },
+      "metrics": {
+        "slug": "temporal",
+        "description": "מריץ תהליכים עמידים בקוד ומשחזר התקדמות לאחר כשל בעזרת היסטוריית אירועים.",
+        "languages": [
+          "C#/.NET",
+          "Python",
+          "TypeScript"
+        ],
+        "learningReason": "להבנת תהליכים ארוכים והתאוששות; העמק כשיש צורך.",
+        "collectedAt": "2026-10-31 09:13:24+00",
+        "communityInterest": {
+          "score": 12.23,
+          "stars": 24098,
+          "forks": 2063,
+          "maxStars": 148758,
+          "maxForks": 25000,
+          "method": "AI TOOLS GitHub Interest v1",
+          "source": "https://api.github.com/repos/temporalio/temporal",
+          "repository": "https://github.com/temporalio/temporal",
+          "collectedAt": "2026-10-31T09:33:34.000Z",
+          "cohort": "category-02-seven-official-repositories"
+        },
+        "popularity": {
+          "score": 0.10084060588298586,
+          "source": "https://api.npms.io/v2/package/%40temporalio%2Fclient",
+          "package": "@temporalio/client",
+          "repository": "https://github.com/temporalio/sdk-typescript",
+          "analyzedAt": "2022-12-17T15:44:03.377Z",
+          "identitySource": "https://registry.npmjs.org/@temporalio/client/latest",
+          "methodSource": "https://github.com/npms-io/npms-analyzer/blob/master/lib/scoring/score.js",
+          "historical": true
+        }
+      }
+    }
+  ],
+  "guides": {
+    "11": null,
+    "00": null,
+    "01": null,
+    "02": null,
+    "03": null
+  }
+}

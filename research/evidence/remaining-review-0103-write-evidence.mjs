@@ -1,0 +1,31 @@
+import {writeFileSync,readFileSync} from 'node:fs';
+const checkedAt=new Date().toISOString();
+const claims=[
+['Google transition scope','Consumer transition to Antigravity on18June; enterprise and paid API routes remain; not whole-product discontinuation.','https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/'],
+['Devin Desktop identity','Official2June2026 announcement renames Windsurf to Devin Desktop; preserve one identity/alias.','https://devin.ai/blog/windsurf-is-now-devin-desktop'],
+['Gemini CLI current routing','README distinguishes Enterprise Code Assist, legacy paid/Vertex keys, and limitations for Gemini4+.','https://github.com/google-gemini/gemini-cli'],
+['Codex security boundaries','Approval, sandbox and network controls distinct; command approval not correctness guarantee.','https://learn.chatgpt.com/docs/agent-approvals-security'],
+['Claude permissions','Manual directory boundary prompt not OS enforcement of approved Bash; sandbox separate.','https://code.claude.com/docs/en/security'],
+['Claude data policy','Consumer training controlled by setting; commercial terms differ with opt-in exceptions.','https://code.claude.com/docs/en/data-usage'],
+['Cursor immediate writes','Workspace edits may save before approval and autoreload may execute before review.','https://cursor.com/docs/agent/security'],
+['Cursor private-key route','Private API key requests still go through Cursor backend.','https://cursor.com/data-use'],
+['Copilot capability matrix','Matrix marked public preview; feature parity depends on IDE.','https://docs.github.com/en/copilot/reference/copilot-feature-matrix'],
+['Antigravity feature preview','Auto preset Preview2.23.0+ with account restrictions; not whole-product lifecycle.','https://antigravity.google/docs/permissions'],
+['Cline safe commands','Model requires_approval flag, not fixed allowlist; user approval category matters.','https://docs.cline.bot/features/auto-approve'],
+['Survey coding population','Used n=12255; percentages verified; no combining Windsurf/Devin or mapping CodeAssist toCLI.','https://survey.stackoverflow.co/2026/ai/data/ai-code-agent'],
+['n8n license edition','SUL with EE carve-outs; not blanket MIT/OSI.','https://github.com/n8n-io/n8n/blob/master/LICENSE.md'],
+['n8n use-case FAQ','Vendor interpretation of licensing scenarios, not automatic permission for arbitrary commercial use.','https://support.n8n.io/article/can-i-use-your-license-for-my-use-case'],
+['Make webhook execution','Instant webhooks parallel by default; process-in-order optional and not idempotency.','https://help.make.com/webhooks'],
+['Zapier language runner','Code steps JavaScript/Python, not native C# runtime.','https://help.zapier.com/hc/en-us/articles/45405528551181-Using-Code-by-Zapier'],
+['Activepieces license scope','Core MIT; Enterprise/Cloud features commercial.','https://www.activepieces.com/docs/about/license'],
+['Temporal Streams maturity','WorkflowStreams PublicPreview/experimental extension fromSDK1.20.0; not allTemporal preview.','https://docs.temporal.io/develop/dotnet/workflows/workflow-streams'],
+['Windmill native C#','Official scripts quickstart Main and NuGet support; not merely HTTP integration.','https://www.windmill.dev/docs/getting_started/scripts_quickstart/csharp'],
+['Windmill license scope','AGPL3 core with enterprise proprietary carve-outs; some clients/OpenAPI different license.','https://github.com/windmill-labs/windmill/blob/main/LICENSE'],
+['Power Automate C# scope','Custom connector request/response transform constrained toNETStandard2.0/namespaces; not freeform orchestration SDK.','https://learn.microsoft.com/en-us/connectors/custom-connectors/write-code'],
+['Roo repository archived','Owner archive notice15May2026, not proof allrelatedservices discontinued.','https://github.com/RooCodeInc/Roo-Code']
+];
+writeFileSync('research/evidence/remaining-review-0103-v1-sources.json',JSON.stringify({reviewId:'remaining-review-0103-20261103-v1',reviewer:'remaining_agents02',status:'research_review_complete',approval:null,checkedAt,reports:['coding01-20261103-v1','workflow03-20261103-v1'],reviewedProposals:20,blockingFindings:0,claims:claims.map(([claim,observedValue,url])=>({claim,observedValue,url,title:claim,checkedAt,version:'current official source opened during review',confidence:'high',limitations:'Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee.'})),limits:['No install/model calls/benchmark/security tests','GitHub403 prevents fresh counters; baseline dates retained','Independent source opening is not third-party efficacy verification','No catalog/code/SQL/policy changes or publication approval']},null,2)+'\n');
+const p='research/evidence/agents02-20261103-v1-sources.json',d=JSON.parse(readFileSync(p,'utf8'));
+d.claims.push({claim:'Mastra EE production conditions',observedValue:'Explicit written agreement and valid License Key both required; source access alone not production or redistribution license.',url:'https://github.com/mastra-ai/mastra/blob/main/ee/LICENSE',title:'Mastra Enterprise License',checkedAt,version:'main',confidence:'high',limitations:'Edition-specific code license, not legal advice.'},{claim:'Orchestration survey population and mapping',observedValue:'StackOverflow2026Used n4400, pastyear multiselect, ODbL1 StackExchange; LangChain30.2/OpenAISDK23.8/LangGraph18.8/ADK14/Pydantic8.9/Crew5.5/Strands4/Mastra3/smol2.6/Agno2.4; no MAF row or market-share inference.',url:'https://survey.stackoverflow.co/2026/ai/data/ai-orch',title:'AI agent orchestration tools — StackOverflow2026',checkedAt,version:'2026Used',confidence:'high',limitations:'Question respondents, not all developers; no copying SK/AutoGen percentages toMAF; no automatic catalog survey change.'},{claim:'MAF core code license',observedValue:'MIT core code; external model/cloud services have separate terms.',url:'https://github.com/microsoft/agent-framework/blob/main/LICENSE',title:'MAF code license',checkedAt,version:'main',confidence:'high',limitations:'Not all cloud service licensing.'});
+writeFileSync(p,JSON.stringify(d,null,2)+'\n');
+console.log(JSON.stringify({reviewClaims:claims.length,agents02Claims:d.claims.length,checkedAt}));

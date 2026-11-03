@@ -1,0 +1,347 @@
+{
+  "reportId": "training11-20261103-v1",
+  "status": "pending_review",
+  "approval": null,
+  "recordedAt": "2026-11-03T10:58:53.372Z",
+  "baselineAt": "2026-11-03T10:51:17.466Z",
+  "checkedExisting": 1,
+  "totalExisting": 1,
+  "claims": [
+    {
+      "claim": "Production system scope",
+      "observedValue": "Model is one component among data, testing, serving, monitoring and process management.",
+      "url": "https://developers.google.com/machine-learning/crash-course/production-ml-systems",
+      "title": "Google Production ML",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "Tuning versus prompting",
+      "observedValue": "Fine-tuning changes parameters; prompt instructions/examples condition output without changing parameters.",
+      "url": "https://developers.google.com/machine-learning/crash-course/llm/tuning",
+      "title": "Google Tuning",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "ML/LLM ecosystem learning",
+      "observedValue": "HF course distinguishes pretrained model use, datasets, tokenizers and fine-tuning libraries.",
+      "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "title": "Hugging Face LLM Course",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "Model provenance and licensing",
+      "observedValue": "Model cards document model-specific intended use, training/evaluation and license metadata; SDK license is not model license.",
+      "url": "https://huggingface.co/docs/hub/model-cards",
+      "title": "Hugging Face Model Cards",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "Discovery breadth",
+      "observedValue": "ML course contains classic regression/classification and embeddings as well as LLM material.",
+      "url": "https://developers.google.com/machine-learning/crash-course",
+      "title": "Google ML Crash Course",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "PyTorch installation channels",
+      "observedValue": "Stable and Preview/nightly distinct; choose OS/compute platform. LibTorch C++ separate from .NET binding.",
+      "url": "https://pytorch.org/get-started/locally/",
+      "title": "PyTorch Start Locally",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "PyTorch version uncertainty",
+      "observedValue": "Versions page displayed2.9.0 stable, but live release API403 prevents claiming this is latest; no latest version proposed.",
+      "url": "https://docs.pytorch.org/docs/versions",
+      "title": "PyTorch Documentation Versions",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "observed documentation channel",
+      "confidence": "medium",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "PyTorch license",
+      "observedValue": "Root LICENSE includes copyright notices and redistribution terms; API NOASSERTION not no-license.",
+      "url": "https://raw.githubusercontent.com/pytorch/pytorch/main/LICENSE",
+      "title": "PyTorch LICENSE",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "Transformers role",
+      "observedValue": "Model definitions and inference/training helpers; Trainer covers PyTorch workflow.",
+      "url": "https://huggingface.co/docs/transformers/index",
+      "title": "Transformers overview",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "Transformers fine-tuning",
+      "observedValue": "Task-specific further training of pretrained model; Python Trainer example.",
+      "url": "https://huggingface.co/docs/transformers/training",
+      "title": "Transformers Training",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "Transformers license",
+      "observedValue": "Apache2 code, not license for all checkpoints.",
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/main/LICENSE",
+      "title": "Transformers LICENSE",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "Datasets role",
+      "observedValue": "Python data loading/processing/streaming with multiple data backends, distinct from dataset content.",
+      "url": "https://huggingface.co/docs/datasets/index",
+      "title": "Datasets overview",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "Datasets license",
+      "observedValue": "Apache2 library license does not license all datasets.",
+      "url": "https://raw.githubusercontent.com/huggingface/datasets/main/LICENSE",
+      "title": "Datasets LICENSE",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "PEFT role",
+      "observedValue": "Parameter-efficient adaptation using methods such as LoRA; reduced parameter training not benchmark guarantee.",
+      "url": "https://huggingface.co/docs/peft/index",
+      "title": "PEFT overview",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "LoRA versioned reference",
+      "observedValue": "Developer guide redirected to versioned0.21.0 LoRA API; this is observed reference version, not proof latest.",
+      "url": "https://huggingface.co/docs/peft/v0.21.0/package_reference/lora",
+      "title": "PEFT LoRA",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "0.21.0 reference",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "PEFT license",
+      "observedValue": "Apache2 code; base-weight and dataset terms remain separate.",
+      "url": "https://raw.githubusercontent.com/huggingface/peft/main/LICENSE",
+      "title": "PEFT LICENSE",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "TRL role",
+      "observedValue": "Post-training library includes SFT, preference optimization and RL trainers.",
+      "url": "https://huggingface.co/docs/trl/index",
+      "title": "TRL overview",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "TRL SFT workflow",
+      "observedValue": "Python SFT Trainer with explicit dataset formats and training configuration.",
+      "url": "https://huggingface.co/docs/trl/sft_trainer",
+      "title": "TRL SFT Trainer",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "TRL license",
+      "observedValue": "Apache2 code, not license for model weights or training data.",
+      "url": "https://raw.githubusercontent.com/huggingface/trl/main/LICENSE",
+      "title": "TRL LICENSE",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "TRL telemetry",
+      "observedValue": "Trainer usage statistics may be sent; documented opt-out/offline settings must be reviewed, local training not no-egress.",
+      "url": "https://huggingface.co/docs/trl/usage_stats",
+      "title": "TRL Usage Stats",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "MLflow tracking",
+      "observedValue": "Runs log parameters/code/metrics/artifacts; Python/REST/R/Java documented.",
+      "url": "https://mlflow.org/docs/latest/ml/tracking/",
+      "title": "MLflow Tracking",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "MLflow registry",
+      "observedValue": "Versions/aliases/tags and promotion workflow; own registry server requires DB backend.",
+      "url": "https://mlflow.org/docs/latest/ml/model-registry/workflow/",
+      "title": "MLflow Registry",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "MLflow .NET scope",
+      "observedValue": "Official API index lists Python/TypeScript/R/Java/REST; no official C# client established.",
+      "url": "https://mlflow.org/docs/latest/api_reference/",
+      "title": "MLflow API index",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "MLflow license",
+      "observedValue": "Apache2 root LICENSE.txt, not guessed LICENSE URL.",
+      "url": "https://github.com/mlflow/mlflow/blob/master/LICENSE.txt",
+      "title": "MLflow LICENSE.txt",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "W&B Models identity",
+      "observedValue": "Repository documents model-experiment tracking and SDK MIT; does not establish whole SaaS license/hosting conditions.",
+      "url": "https://github.com/wandb/wandb",
+      "title": "W&B repository",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current repository",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "W&B SDK license",
+      "observedValue": "MIT for this SDK repository, not all hosted service or Weave.",
+      "url": "https://github.com/wandb/wandb/blob/main/LICENSE",
+      "title": "W&B SDK LICENSE",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "TorchSharp scope/maturity",
+      "observedValue": "Dotnet Foundation LibTorch wrapper; README warns breaking changes toward1.0 and IntelMac restrictions; not Python ecosystem parity.",
+      "url": "https://github.com/dotnet/TorchSharp",
+      "title": "TorchSharp README",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "README observed; package latest unverified",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "TorchSharp license",
+      "observedValue": "MIT wrapper code; native LibTorch dependencies separately selected.",
+      "url": "https://raw.githubusercontent.com/dotnet/TorchSharp/main/LICENSE.txt",
+      "title": "TorchSharp MIT",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "ML.NET scope",
+      "observedValue": "Native .NET ML framework for training/consuming classical tasks; not general HF LLM fine-tuning API. Core targets netstandard2; optional packages vary.",
+      "url": "https://github.com/dotnet/machinelearning",
+      "title": "ML.NET README",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "ML.NET license",
+      "observedValue": "MIT code with third-party notices separate.",
+      "url": "https://github.com/dotnet/machinelearning/blob/main/LICENSE",
+      "title": "ML.NET LICENSE",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "Accelerate discovery",
+      "observedValue": "Distributed training and inference helper; deferred as separate record, mention integration.",
+      "url": "https://huggingface.co/docs/accelerate/index",
+      "title": "Accelerate overview",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "DVC discovery",
+      "observedValue": "Data/model versioning and pipeline tools; deferred until concrete need beyond initial tracker.",
+      "url": "https://dvc.org/doc",
+      "title": "DVC docs",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "current documentation",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    },
+    {
+      "claim": "Ray discovery",
+      "observedValue": "Distributed training role established; full product audit not completed.",
+      "url": "https://docs.ray.io/en/latest/train/train.html",
+      "title": "Ray Train",
+      "checkedAt": "2026-11-03T10:58:53.372Z",
+      "version": "2.59.0 docs",
+      "confidence": "high",
+      "limitations": "Official artifact supports the narrow scope, not benchmark/adoption. Timestamp is evidence recording time after opening during this run; exact per-page retrieval time not instrumented."
+    }
+  ],
+  "accessFailures": [
+    "GitHub REST403 prevented default-branch head and latest releases;9 counters measured before limit.",
+    "docs.wandb.ai/models/track redirected to docs.coreweave.com/models/track and failed; alternate CoreWeave product path failed.",
+    "Microsoft Learn what-is-mldotnet page unavailable; official repository/README/LICENSE used.",
+    "Guessed MLflow LICENSE path404; actual LICENSE.txt opened via repository link."
+  ]
+}

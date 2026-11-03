@@ -1,0 +1,323 @@
+{
+  "reportId": "coding01-20261103-v1",
+  "status": "pending_review",
+  "approval": null,
+  "baselineAt": "2026-11-03T10:51:17.466Z",
+  "recordedAt": "2026-11-03T10:56:12.600Z",
+  "checkedExisting": 3,
+  "totalExisting": 3,
+  "claims": [
+    {
+      "claim": "Codex permission boundary",
+      "observedValue": "Sandbox controls execution boundary; approval controls crossing it; CLI source license is separate from service terms.",
+      "url": "https://learn.chatgpt.com/docs/agent-approvals-security",
+      "title": "Codex agent approvals",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current docs",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Codex misleading old source path",
+      "observedValue": "developers.openai.com/codex/security redirects to Codex Security scanning product, not agent sandbox controls.",
+      "url": "https://learn.chatgpt.com/docs/security",
+      "title": "Codex Security",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current docs",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Codex source license",
+      "observedValue": "CLI repository license is Apache2; not a license for model service or every Codex surface.",
+      "url": "https://github.com/openai/codex/blob/main/LICENSE",
+      "title": "Codex LICENSE",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Claude Code permissions",
+      "observedValue": "Manual mode reads first; approved Bash command is not OS-isolated by directory prompt alone.",
+      "url": "https://code.claude.com/docs/en/security",
+      "title": "Claude Code security",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current docs",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Claude Code account data distinction",
+      "observedValue": "Consumer training choice differs from commercial terms and explicit opt-ins.",
+      "url": "https://code.claude.com/docs/en/data-usage",
+      "title": "Claude Code data use",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current account policy",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Cursor workspace edits",
+      "observedValue": "Workspace edits can save directly; autoreload can execute before review.",
+      "url": "https://cursor.com/docs/agent/security",
+      "title": "Cursor agent security",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current docs",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Cursor privacy route",
+      "observedValue": "PrivacyMode changes training treatment with exceptions; own API key still traverses backend.",
+      "url": "https://cursor.com/data-use",
+      "title": "Cursor data use",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "updated2026-09-03",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Copilot role",
+      "observedValue": "Assistive, agentic and customization workflows; not MCP server or agent framework itself.",
+      "url": "https://docs.github.com/en/copilot/get-started/about-github-copilot",
+      "title": "Copilot overview",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current docs",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Copilot IDE parity",
+      "observedValue": "Feature matrix is public preview and varies by IDE/version.",
+      "url": "https://docs.github.com/en/copilot/reference/copilot-feature-matrix",
+      "title": "Copilot feature matrix",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "public preview matrix",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Copilot Visual Studio",
+      "observedValue": "Agent mode documented17.14+; new chat experience18.11 optional; terminals/external tools confirmation.",
+      "url": "https://learn.microsoft.com/en-us/visualstudio/ide/copilot-agent-mode?view=visualstudio",
+      "title": "Visual Studio Copilot agent mode",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "VS2022/2026",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Cline identity",
+      "observedValue": "Open-source coding agent surfaces IDE/CLI/Desktop; TypeScript stack not C# SDK.",
+      "url": "https://github.com/cline/cline",
+      "title": "Cline repository",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current main",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Cline permissions",
+      "observedValue": "AutoApprove category toggles; safe command decision model flag, not fixed allowlist.",
+      "url": "https://docs.cline.bot/features/auto-approve",
+      "title": "Cline Auto Approve",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current docs",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Cline license",
+      "observedValue": "Apache2 code license; provider/Enterprise terms separate.",
+      "url": "https://github.com/cline/cline/blob/main/LICENSE",
+      "title": "Cline LICENSE",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Antigravity CLI surface",
+      "observedValue": "Terminal-first surface to interact with Antigravity agents.",
+      "url": "https://antigravity.google/product/antigravity-cli",
+      "title": "Antigravity CLI",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current product",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Google consumer transition",
+      "observedValue": "Announcement19May; consumer requests GeminiCLI/CodeAssist cutover18June; enterprise and paid API paths treated separately.",
+      "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+      "title": "Google transition announcement",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "2026-05-19",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Antigravity approval preview",
+      "observedValue": "Auto modes Preview; app and CLI versions/OS/accounts differ, no whole-product Preview inference.",
+      "url": "https://antigravity.google/docs/permissions",
+      "title": "Antigravity permissions",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "App2.23+ / CLI1.3.5+,1.4.4+",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Devin Desktop alias",
+      "observedValue": "Official FAQ identifies Devin Desktop as new name for Windsurf; not a separate Windsurf addition.",
+      "url": "https://devin.ai/desktop",
+      "title": "Devin Desktop FAQ",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current product",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Devin rename corroboration",
+      "observedValue": "Dedicated official rename article confirms identity transition.",
+      "url": "https://devin.ai/blog/windsurf-is-now-devin-desktop",
+      "title": "Windsurf is now Devin Desktop",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "rename event",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Cascade limited legacy scope",
+      "observedValue": "Cascade docs legacy does not imply whole Devin Desktop discontinued.",
+      "url": "https://docs.devin.ai/desktop/cascade",
+      "title": "Cascade legacy docs",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current docs",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Windsurf acquisition not launch",
+      "observedValue": "Acquisition agreement announcement2025-07-14 is distinct from launch/rebrand.",
+      "url": "https://cognition.com/blog/windsurf",
+      "title": "Cognition acquisition announcement",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "2025-07-14",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Aider C# support",
+      "observedValue": "Language table lists csharp .cs repository mapping and linting; Python core not C# SDK.",
+      "url": "https://aider.chat/docs/languages.html",
+      "title": "Aider languages",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current table",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Aider Git side effects",
+      "observedValue": "Auto and dirty commits are configurable; precommit hooks default behavior must be reviewed.",
+      "url": "https://aider.chat/docs/git.html",
+      "title": "Aider Git integration",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current docs",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Aider license",
+      "observedValue": "Apache2 code license separate from model/provider costs and terms.",
+      "url": "https://github.com/Aider-AI/aider/blob/main/LICENSE.txt",
+      "title": "Aider LICENSE",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Gemini CLI current access",
+      "observedValue": "README enterprise-focused, consumer transition and Gemini4 optimization warning; compare paidAPI qualification in announcement.",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "title": "Gemini CLI README",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "current main",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Gemini CLI security artifact",
+      "observedValue": "Official SECURITY file available; failed guessed docs URLs not evidence for sandbox.",
+      "url": "https://github.com/google-gemini/gemini-cli/blob/main/SECURITY.md",
+      "title": "Gemini CLI SECURITY",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Roo Code archived repository",
+      "observedValue": "Owner archived repository15May2026; not enough evidence to classify every service discontinued.",
+      "url": "https://github.com/RooCodeInc/Roo-Code",
+      "title": "Roo Code repository",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "archive2026-05-15",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Coding survey cohort",
+      "observedValue": "Used n12255; multiple choices for past-year use.65.5Claude,58.7Copilot,29.5Codex,25.5Cursor. Not market share.",
+      "url": "https://survey.stackoverflow.co/2026/ai/data/ai-code-agent",
+      "title": "Stack Overflow2026 AI coding agents",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "2026 Used",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "Survey identity mapping limit",
+      "observedValue": "Antigravity16%, GeminiCodeAssist14.6%, Windsurf6.5%, Devin2.9% are distinct response labels; no summation or CLI-only attribution.",
+      "url": "https://survey.stackoverflow.co/2026/ai/data/ai-code-agent",
+      "title": "Stack Overflow2026 AI coding agents",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "2026 Used",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "OpenCode discovery",
+      "observedValue": "Current docs distinguish V1/V2 same command with installation conflicts; requires version-specific audit before next addition.",
+      "url": "https://opencode.ai/docs/",
+      "title": "OpenCode docs",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "V1/V2",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    },
+    {
+      "claim": "OpenCode canonical source",
+      "observedValue": "anomalyco/opencode MIT; no rounded HTML star metric captured.",
+      "url": "https://github.com/anomalyco/opencode",
+      "title": "OpenCode repository",
+      "checkedAt": "2026-11-03T10:56:12.600Z",
+      "version": "dev branch",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow fact, not efficacy or safety. checkedAt records evidence consolidation within research window; examples unexecuted."
+    }
+  ],
+  "accessFailures": [
+    "https://geminicli.com/docs/security/",
+    "https://geminicli.com/docs/tools/sandbox/",
+    "https://docs.devin.ai/desktop/overview"
+  ],
+  "metrics": "Central GitHub collection hit403; retain existing snapshot timestamps; new measures unknown, not zero. No metrics written.",
+  "contradictions": [
+    "GeminiCLI enterprise-only shorthand vs transition announcement paidAPI route: retain access-path distinction.",
+    "Cline README every command approval vs AutoApprove docs: explain active configuration.",
+    "Codex old security URL now distinct scanning product.",
+    "Windsurf aliases and Cascade legacy are not evidence of whole Devin product EOL."
+  ]
+}

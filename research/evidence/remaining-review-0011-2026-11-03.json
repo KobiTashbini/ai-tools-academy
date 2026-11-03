@@ -1,0 +1,151 @@
+{
+  "reviewer": "remaining_workflow03",
+  "checkedAt": "2026-11-03T10:57:19.299Z",
+  "status": "complete; read both full reports and reviewed all13 proposals",
+  "claims": [
+    {
+      "claim": "Production ML breadth",
+      "observedValue": "Model is only part of system; data/testing/monitoring needed",
+      "url": "https://developers.google.com/machine-learning/crash-course/production-ml-systems",
+      "title": "Production ML breadth",
+      "checkedAt": "2026-11-03T10:57:19.299Z",
+      "version": "current official artifact",
+      "confidence": "high",
+      "limitations": "Source scope only; no software or model benchmarks; clock is evidence recording time."
+    },
+    {
+      "claim": "Model Card role",
+      "observedValue": "Documentation/license/limits not an SDK or capability guarantee",
+      "url": "https://huggingface.co/docs/hub/model-cards",
+      "title": "Model Card role",
+      "checkedAt": "2026-11-03T10:57:19.299Z",
+      "version": "current official artifact",
+      "confidence": "high",
+      "limitations": "Source scope only; no software or model benchmarks; clock is evidence recording time."
+    },
+    {
+      "claim": "TorchSharp maturity",
+      "observedValue": "README warns breaking changes before1.0;LibTorch wrapper;no IntelMac starting0.103",
+      "url": "https://github.com/dotnet/TorchSharp",
+      "title": "TorchSharp maturity",
+      "checkedAt": "2026-11-03T10:57:19.299Z",
+      "version": "current official artifact",
+      "confidence": "high",
+      "limitations": "Source scope only; no software or model benchmarks; clock is evidence recording time."
+    },
+    {
+      "claim": "TorchSharp code license",
+      "observedValue": "MIT, not license of every model or fullPyTorchPython feature parity",
+      "url": "https://github.com/dotnet/TorchSharp/blob/main/LICENSE.txt",
+      "title": "TorchSharp code license",
+      "checkedAt": "2026-11-03T10:57:19.299Z",
+      "version": "current official artifact",
+      "confidence": "high",
+      "limitations": "Source scope only; no software or model benchmarks; clock is evidence recording time."
+    },
+    {
+      "claim": "ML.NET role",
+      "observedValue": "Train custom models and useONNX/TensorFlow for predictions;notgeneralLLMfinetuning",
+      "url": "https://learn.microsoft.com/en-us/dotnet/machine-learning/mldotnet-api",
+      "title": "ML.NET role",
+      "checkedAt": "2026-11-03T10:57:19.299Z",
+      "version": "current official artifact",
+      "confidence": "high",
+      "limitations": "Source scope only; no software or model benchmarks; clock is evidence recording time."
+    },
+    {
+      "claim": "ML.NET code license",
+      "observedValue": "MIT with dependency/model terms separate",
+      "url": "https://github.com/dotnet/machinelearning/blob/main/LICENSE",
+      "title": "ML.NET code license",
+      "checkedAt": "2026-11-03T10:57:19.299Z",
+      "version": "current official artifact",
+      "confidence": "high",
+      "limitations": "Source scope only; no software or model benchmarks; clock is evidence recording time."
+    },
+    {
+      "claim": "W&B license scope",
+      "observedValue": "wandb SDK MIT does not establish ModelsSaaS/selfhost/enterprise terms",
+      "url": "https://github.com/wandb/wandb/blob/main/LICENSE",
+      "title": "W&B license scope",
+      "checkedAt": "2026-11-03T10:57:19.299Z",
+      "version": "current official artifact",
+      "confidence": "high",
+      "limitations": "Source scope only; no software or model benchmarks; clock is evidence recording time."
+    },
+    {
+      "claim": "TRL trainer role",
+      "observedValue": "SFT,DPO,GRPO,reward and other trainertools;notallfinetuningisRL",
+      "url": "https://huggingface.co/docs/trl/index",
+      "title": "TRL trainer role",
+      "checkedAt": "2026-11-03T10:57:19.299Z",
+      "version": "current official artifact",
+      "confidence": "high",
+      "limitations": "Source scope only; no software or model benchmarks; clock is evidence recording time."
+    },
+    {
+      "claim": "TRL telemetry scope",
+      "observedValue": "Ping when trainerinstantiated;noCI/offline;HF_HUB_DISABLE_TELEMETRY optout",
+      "url": "https://huggingface.co/docs/trl/usage_stats",
+      "title": "TRL telemetry scope",
+      "checkedAt": "2026-11-03T10:57:19.299Z",
+      "version": "current official artifact",
+      "confidence": "high",
+      "limitations": "Source scope only; no software or model benchmarks; clock is evidence recording time."
+    },
+    {
+      "claim": "PEFT identity",
+      "observedValue": "Library includesLoRA/adapters/quantization;librarylicenseisnotmodell icense",
+      "url": "https://huggingface.co/docs/peft/index",
+      "title": "PEFT identity",
+      "checkedAt": "2026-11-03T10:57:19.299Z",
+      "version": "current official artifact",
+      "confidence": "high",
+      "limitations": "Source scope only; no software or model benchmarks; clock is evidence recording time."
+    },
+    {
+      "claim": "MLflow role boundaries",
+      "observedValue": "Tracking/registry/deployment andGenAIobservability separatemodules;vendoradoptionclaimnotindependent",
+      "url": "https://mlflow.org/docs/latest/ml/",
+      "title": "MLflow role boundaries",
+      "checkedAt": "2026-11-03T10:57:19.299Z",
+      "version": "current official artifact",
+      "confidence": "high",
+      "limitations": "Source scope only; no software or model benchmarks; clock is evidence recording time."
+    }
+  ],
+  "catalogWrites": false,
+  "completedAt": "2026-11-03T10:59:37.748Z",
+  "reviewedReports": [
+    {
+      "id": "ecosystem00-20261103-v1",
+      "proposalIds": [
+        "E00-01",
+        "E00-02"
+      ],
+      "verdict": "No blocking findings for presentation; keep shared llm-fundamentals unchanged."
+    },
+    {
+      "id": "training11-20261103-v1",
+      "proposalIds": [
+        "F11-01",
+        "F11-02",
+        "F11-03",
+        "F11-04",
+        "F11-05",
+        "F11-06",
+        "F11-07",
+        "F11-08",
+        "F11-09",
+        "F11-10",
+        "F11-11"
+      ],
+      "verdict": "Suitable for presentation;F11-08 service/hosting terms remain conditional;TRLtelemetry source insertion requested."
+    }
+  ],
+  "unresolved": [
+    "W&B Models service/hosting/.NET terms unavailable;do not claim SDKMIT coversSaaS.",
+    "Firstlaunch and blocked head/latest metadata remain unknown.",
+    "No training/model/quality benchmarks."
+  ]
+}

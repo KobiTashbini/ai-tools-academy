@@ -1,0 +1,422 @@
+{
+  "reportId": "agents02-20261103-v1",
+  "status": "pending_review",
+  "approval": null,
+  "checkedAt": "2026-11-03T10:55:59.206Z",
+  "baselineAt": "2026-11-03T10:51:17.466Z",
+  "coverage": {
+    "checked": 12,
+    "total": 12,
+    "wholeCatalogIdentities": 86,
+    "correctionProposals": 7,
+    "checkedNoContentChange": 4,
+    "sharedTemporalOwnedBy": "workflow03/W03-03"
+  },
+  "claims": [
+    {
+      "claim": "MAF native languages and Go preview",
+      "observedValue": "Official overview has C# and Python examples and Go public preview, with missing Go-specific features; no claim of parity for every component.",
+      "url": "https://learn.microsoft.com/en-us/agent-framework/overview/",
+      "title": "Microsoft Agent Framework overview",
+      "version": "current overview",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "MAF .NET package observation",
+      "observedValue": "Microsoft.Agents.AI1.27.0 displayed without prerelease suffix; this does not establish stability of every extension.",
+      "url": "https://www.nuget.org/packages/Microsoft.Agents.AI",
+      "title": "NuGet Microsoft.Agents.AI",
+      "version": "1.27.0",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "MAF release streams",
+      "observedValue": "Releases include dotnet-1.27.0 and python-1.24.0; monorepo Latest is not each SDK version.",
+      "url": "https://github.com/microsoft/agent-framework/releases",
+      "title": "Microsoft Agent Framework releases",
+      "version": "dotnet1.27/python1.24",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Extensions AI role and experimental surface",
+      "observedValue": "IChatClient and IEmbeddingGenerator abstractions; IImageGenerator explicitly experimental. Not a complete orchestration runtime.",
+      "url": "https://learn.microsoft.com/en-us/dotnet/ai/microsoft-extensions-ai",
+      "title": "Microsoft.Extensions.AI libraries",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Extensions AI package",
+      "observedValue": "Microsoft.Extensions.AI10.11.0 displayed without preview suffix; broad dotnet/extensions stars not package adoption.",
+      "url": "https://www.nuget.org/packages/Microsoft.Extensions.AI",
+      "title": "NuGet Microsoft.Extensions.AI",
+      "version": "10.11.0",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "LangChain current abstraction",
+      "observedValue": "create_agent composes model, tools, prompt and middleware; existing summary remains compatible.",
+      "url": "https://docs.langchain.com/oss/python/langchain/overview",
+      "title": "LangChain overview",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "LangGraph Python runtime",
+      "observedValue": "Stateful orchestration and durable execution; checkpoints do not guarantee exactly-once external business effects.",
+      "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "title": "LangGraph Python overview",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "LangGraph JavaScript implementation",
+      "observedValue": "Official JavaScript/TypeScript documentation exists, independently of Python implementation. No native C# implementation verified.",
+      "url": "https://docs.langchain.com/oss/javascript/langgraph/overview",
+      "title": "LangGraph JavaScript overview",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "OpenAI SDK deployment boundary",
+      "observedValue": "SDK runs inside application; official Python/TS tracks; Agents API managed harness and Responses API are distinct.",
+      "url": "https://developers.openai.com/api/docs/guides/agents/sdk",
+      "title": "OpenAI Agents SDK",
+      "version": "current API docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Pydantic durable engines",
+      "observedValue": "Durable execution supports multiple engine choices; only one engine per agent. .NET native SDK not verified.",
+      "url": "https://pydantic.dev/docs/ai/capabilities/durable_execution/overview/",
+      "title": "Pydantic durable execution",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "CrewAI docs version and role",
+      "observedValue": "Introduction redirected to v1.15.34; Flows and Crews are distinct abstractions, Python-oriented.",
+      "url": "https://docs.crewai.com/en/introduction",
+      "title": "CrewAI Introduction",
+      "version": "v1.15.34",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "CrewAI license",
+      "observedValue": "Permissive MIT text in core LICENSE; Enterprise service rights not inferred.",
+      "url": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/LICENSE",
+      "title": "CrewAI core LICENSE",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Mastra implementation",
+      "observedValue": "TypeScript framework with agents/workflows/harness and deployment features.",
+      "url": "https://mastra.ai/docs",
+      "title": "Mastra Get started",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Mastra edition license",
+      "observedValue": "Core Apache2, directories named ee source-available Enterprise license; production use requires enterprise rights.",
+      "url": "https://github.com/mastra-ai/mastra/blob/main/LICENSE.md",
+      "title": "Mastra license mapping",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Google ADK language list",
+      "observedValue": "Python, TypeScript, Go, Java, Kotlin listed; C# native absent from opened list; no feature parity implied.",
+      "url": "https://adk.dev/",
+      "title": "ADK official documentation",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Agno role",
+      "observedValue": "Python agent SDK separate from AgentOS runtime/API/MCP; current baseline role description matches.",
+      "url": "https://docs.agno.com/",
+      "title": "Agno welcome",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Agno code license",
+      "observedValue": "Current root code license Apache2; service license not inferred.",
+      "url": "https://github.com/agno-agi/agno/blob/main/LICENSE",
+      "title": "Agno license",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "smolagents role",
+      "observedValue": "Python CodeAgent/ToolCallingAgent distinction; generated code execution requires separate isolation decisions.",
+      "url": "https://huggingface.co/docs/smolagents/index",
+      "title": "smolagents official docs",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "smolagents code license",
+      "observedValue": "Apache2 root license; model weights licensing remains separate.",
+      "url": "https://github.com/huggingface/smolagents/blob/main/LICENSE",
+      "title": "smolagents license",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "AutoGen archive notice and stale contradiction",
+      "observedValue": "Leading README notice says archived/no fixes or support, while lower contribution text retains maintenance-mode language; preserve current Legacy and successor, no exact archive date inferred.",
+      "url": "https://raw.githubusercontent.com/microsoft/autogen/main/README.md",
+      "title": "AutoGen README",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Semantic Kernel successor",
+      "observedValue": "README points new direction to Microsoft Agent Framework; this alone is not formal discontinuation date.",
+      "url": "https://github.com/microsoft/semantic-kernel",
+      "title": "Semantic Kernel README",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Semantic Kernel support historical context",
+      "observedValue": "Older support article promises critical fixes and at least a year after MAF GA; article describes MAF Preview, so not current release matrix or exact EOL.",
+      "url": "https://devblogs.microsoft.com/agent-framework/semantic-kernel-and-microsoft-agent-framework/",
+      "title": "Semantic Kernel and Microsoft Agent Framework",
+      "version": "historical support statement",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Strands identity redirect",
+      "observedValue": "sdk-python redirects to strands-agents/harness-sdk; Python/TypeScript monorepo identity, not separate records.",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "title": "Strands canonical repository",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Strands process versus cloud",
+      "observedValue": "SDK runs inside process; no hosted control plane required; Bedrock default provider does not require using AWS with other providers.",
+      "url": "https://strandsagents.com/docs/",
+      "title": "Strands get started",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Strands license",
+      "observedValue": "Apache2 under LICENSE.APACHE; initial guessed LICENSE path404 was not used as evidence.",
+      "url": "https://github.com/strands-agents/harness-sdk/blob/main/LICENSE.APACHE",
+      "title": "Strands license",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Deep Agents abstraction",
+      "observedValue": "Harness planning/context/files/subagents over LangChain/LangGraph; SDK distinct from CLI and Managed service.",
+      "url": "https://docs.langchain.com/oss/python/deepagents/overview",
+      "title": "Deep Agents overview",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Deep Agents permission limit",
+      "observedValue": "Filesystem permission rules do not apply automatically to sandbox backends exposing arbitrary shell execution.",
+      "url": "https://docs.langchain.com/oss/python/deepagents/overview",
+      "title": "Deep Agents overview security scope",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Deep Agents SDK license",
+      "observedValue": "MIT code license does not license hosted Managed Deep Agents service.",
+      "url": "https://github.com/langchain-ai/deepagents/blob/main/LICENSE",
+      "title": "Deep Agents LICENSE",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Deep Agents language feature parity",
+      "observedValue": "Python profiles documentation opened; TypeScript parity not verified. No categorical absence of TS profiles inferred from Python examples.",
+      "url": "https://docs.langchain.com/oss/python/deepagents/profiles",
+      "title": "Deep Agents profiles",
+      "version": "current Python docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "A2A protocol role",
+      "observedValue": "Agent discovery and message/task exchange across separate agents; distinct from MCP tools.",
+      "url": "https://a2a-protocol.org/latest/topics/what-is-a2a/",
+      "title": "A2A What is A2A",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "A2A native .NET SDK identity",
+      "observedValue": "Official SDK list links C#/.NET a2a-dotnet; parity/channel not established for every SDK.",
+      "url": "https://a2a-protocol.org/latest/sdk/",
+      "title": "A2A SDK overview",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "A2A .NET repository",
+      "observedValue": "Official C#/.NET SDK repository and examples; not hypothetical HTTP-only integration.",
+      "url": "https://github.com/a2aproject/a2a-dotnet",
+      "title": "A2A .NET SDK",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "A2A code/spec license",
+      "observedValue": "Protocol root LICENSE Apache2; SDK version-specific rights remain separate artifacts.",
+      "url": "https://github.com/a2aproject/A2A/blob/main/LICENSE",
+      "title": "A2A LICENSE",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "LangChain license",
+      "observedValue": "MIT OSS code separate from paid LangSmith deployment service.",
+      "url": "https://github.com/langchain-ai/langchain/blob/master/LICENSE",
+      "title": "LangChain LICENSE",
+      "version": "master",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "LangGraph license",
+      "observedValue": "MIT OSS code does not imply every deployment platform free/selfhost.",
+      "url": "https://github.com/langchain-ai/langgraph/blob/main/LICENSE",
+      "title": "LangGraph LICENSE",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Pydantic license",
+      "observedValue": "MIT code license separate from model providers and durable engine service terms.",
+      "url": "https://github.com/pydantic/pydantic-ai/blob/main/LICENSE",
+      "title": "Pydantic AI LICENSE",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:55:59.206Z",
+      "confidence": "high",
+      "limitations": "Official source establishes narrow documented fact, not efficacy, adoption, all-feature parity or production safety. checkedAt is evidence recording time within research run."
+    },
+    {
+      "claim": "Mastra EE production conditions",
+      "observedValue": "Explicit written agreement and valid License Key both required; source access alone not production or redistribution license.",
+      "url": "https://github.com/mastra-ai/mastra/blob/main/ee/LICENSE",
+      "title": "Mastra Enterprise License",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Edition-specific code license, not legal advice."
+    },
+    {
+      "claim": "Orchestration survey population and mapping",
+      "observedValue": "StackOverflow2026Used n4400, pastyear multiselect, ODbL1 StackExchange; LangChain30.2/OpenAISDK23.8/LangGraph18.8/ADK14/Pydantic8.9/Crew5.5/Strands4/Mastra3/smol2.6/Agno2.4; no MAF row or market-share inference.",
+      "url": "https://survey.stackoverflow.co/2026/ai/data/ai-orch",
+      "title": "AI agent orchestration tools — StackOverflow2026",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "2026Used",
+      "confidence": "high",
+      "limitations": "Question respondents, not all developers; no copying SK/AutoGen percentages toMAF; no automatic catalog survey change."
+    },
+    {
+      "claim": "MAF core code license",
+      "observedValue": "MIT core code; external model/cloud services have separate terms.",
+      "url": "https://github.com/microsoft/agent-framework/blob/main/LICENSE",
+      "title": "MAF code license",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "main",
+      "confidence": "high",
+      "limitations": "Not all cloud service licensing."
+    }
+  ],
+  "accessFailures": [
+    "https://github.com/mastra-ai/mastra/blob/main/LICENSE ->404; canonicalLICENSE.md opened",
+    "https://github.com/strands-agents/harness-sdk/blob/main/LICENSE ->404; LICENSE.APACHE opened"
+  ],
+  "measurementLimits": [
+    "GitHub REST central collector rate-limited for02; no refreshed counters/head for this scope. Existing baseline snapshot timestamps retained; candidate counters unknown.",
+    "No native C# SDK claimed where only Python/TS docs or service interoperability established.",
+    "No install, model calls, benchmark, Hebrew evaluation, latency/cost/security experiment or database writes."
+  ],
+  "reviewCorrections": [
+    {
+      "claim": "Deep Agents profiles",
+      "resolution": "Removed categorical Python-only claim after independent review; search snippet not sufficient for categorical exclusion."
+    }
+  ]
+}

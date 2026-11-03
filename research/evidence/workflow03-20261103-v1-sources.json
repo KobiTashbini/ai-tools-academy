@@ -1,0 +1,270 @@
+{
+  "reportId": "workflow03-20261103-v1",
+  "status": "pending_review",
+  "approval": null,
+  "recordedAt": "2026-11-03T10:54:45.316Z",
+  "baselineAt": "2026-11-03T10:51:17.466Z",
+  "checkedExisting": 2,
+  "totalExisting": 2,
+  "claims": [
+    {
+      "claim": "Temporal .NET official",
+      "observedValue": "Client, workflows, activities and workers have official .NET documentation",
+      "url": "https://docs.temporal.io/develop/dotnet",
+      "title": "Temporal .NET developer guide",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Temporal SDK identity/license",
+      "observedValue": "Official temporalio/sdk-dotnet, MIT; do not sum SDK stars into server",
+      "url": "https://github.com/temporalio/sdk-dotnet",
+      "title": "Temporal .NET SDK",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Temporal Streams maturity",
+      "observedValue": "Workflow Streams extension is Public Preview; .NET SDK1.20.0+, not entire platform Preview",
+      "url": "https://docs.temporal.io/develop/dotnet/workflows/workflow-streams",
+      "title": "Workflow Streams .NET",
+      "version": "1.20.0+ extension",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Temporal deployment roles",
+      "observedValue": "Workflow/Activity/Worker code runs on application infrastructure; production service Cloud or self-host",
+      "url": "https://docs.temporal.io/production-deployment",
+      "title": "Temporal production",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "n8n code languages",
+      "observedValue": "Code node runs JavaScript/Node and Python, not native C# runner",
+      "url": "https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.code/",
+      "title": "n8n Code node",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "n8n license boundaries",
+      "observedValue": "SUL1.0 for covered code; .ee files and directory need Enterprise; other branches not licensed by this notice",
+      "url": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md",
+      "title": "n8n LICENSE",
+      "version": "SUL1.0/master",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "n8n vendor licensing FAQ",
+      "observedValue": "External users building/configuring workflows require commercial license even through API/MCP/agent; vendor interpretation distinct from LICENSE text",
+      "url": "https://support.n8n.io/article/can-i-use-your-license-for-my-use-case",
+      "title": "n8n licensing FAQ",
+      "version": "updated2026-10-06",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Make workflow concurrency",
+      "observedValue": "Instant webhook scenarios process in parallel by default; Process data in order changes order; webhook queue stores request",
+      "url": "https://help.make.com/webhooks",
+      "title": "Make Webhooks",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Make code route",
+      "observedValue": "Make Code supports JavaScript/Python on paid plans; not native C#",
+      "url": "https://help.make.com/the-make-code-app-is-available",
+      "title": "Make Code announcement",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Zapier code route",
+      "observedValue": "Code steps JavaScript/Python; SDK available for action calls, not .NET orchestration SDK",
+      "url": "https://help.zapier.com/hc/en-us/articles/45405528551181-Using-Code-by-Zapier",
+      "title": "Code by Zapier",
+      "version": "updated2026-07-13",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Zapier component migration",
+      "observedValue": "Functions to Code migration is component change, not whole product discontinuation",
+      "url": "https://help.zapier.com/hc/en-us/articles/45230556598157-Migrate-from-Zapier-Functions-to-Code-by-Zapier",
+      "title": "Zapier Functions migration",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Activepieces licenses",
+      "observedValue": "CoreMIT, enterprise/cloud commercial with specific EE folders",
+      "url": "https://www.activepieces.com/docs/about/license",
+      "title": "Activepieces License",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Activepieces hosting",
+      "observedValue": "Cloud or self-host; recommended Docker Compose PostgreSQL+Redis; no instruction executed",
+      "url": "https://www.activepieces.com/docs/install/overview",
+      "title": "Activepieces Install options",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Activepieces identity",
+      "observedValue": "Official activepieces/activepieces, pieces/framework repository distinct from Composio/n8n",
+      "url": "https://github.com/activepieces/activepieces",
+      "title": "Activepieces repository",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Windmill native C# scripts",
+      "observedValue": "Official C# quickstart defines static Main entrypoint, dependencies and script versions; not only HTTP interoperability",
+      "url": "https://www.windmill.dev/docs/getting_started/scripts_quickstart/csharp",
+      "title": "Windmill C# quickstart",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Windmill license scope",
+      "observedValue": "CoreAGPL3; enterprise snippets/files proprietary; selected clients/OpenAPI Apache2",
+      "url": "https://github.com/windmill-labs/windmill/blob/main/LICENSE",
+      "title": "Windmill LICENSE",
+      "version": "main",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Power Automate cloud",
+      "observedValue": "Automated, instant and scheduled cloud flows connect services; Copilot creation optional",
+      "url": "https://learn.microsoft.com/en-us/power-automate/overview-cloud",
+      "title": "Power Automate cloud flows",
+      "version": "updated2026-07-27",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Power Automate desktop",
+      "observedValue": "Desktop flows cover RPA, distinct from cloud flows",
+      "url": "https://learn.microsoft.com/en-us/power-automate/desktop-flows/introduction",
+      "title": "Power Automate desktop introduction",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Power Automate C# scope",
+      "observedValue": "Custom connector C# Script.ExecuteAsync transforms requests/responses with .NETStandard2.0 supported namespaces; not general .NET workflow SDK",
+      "url": "https://learn.microsoft.com/en-us/connectors/custom-connectors/write-code",
+      "title": "Custom connector code",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Power Automate timeout discrepancy",
+      "observedValue": "Define-blank page states5seconds; write-code FAQ discusses updated timeout; omit exact timeout without resolving feature/version",
+      "url": "https://learn.microsoft.com/en-us/connectors/custom-connectors/define-blank",
+      "title": "Create custom connector",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Node-RED role/defer",
+      "observedValue": "Node.js flow-based event-driven programming, official About says open sourced September2013; defer pending edge requirement",
+      "url": "https://nodered.org/about/",
+      "title": "Node-RED About",
+      "version": "current docs",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Durable Functions role/defer",
+      "observedValue": "C# supported; orchestrator/activity/entity with runtime state/retries/recovery; Azure-related hosting choice distinct from Temporal",
+      "url": "https://learn.microsoft.com/en-us/azure/durable-task/durable-functions/durable-functions-overview",
+      "title": "Durable Functions overview",
+      "version": "updated2026-06-02",
+      "checkedAt": "2026-11-03T10:54:45.316Z",
+      "confidence": "high",
+      "limitations": "Official artifact supports narrow scope; no package/model/UI benchmark executed. checkedAt is recording time within research window, not launch date."
+    },
+    {
+      "claim": "Power Automate timeout scoped discrepancy",
+      "observedValue": "Write-code FAQ updated2026-09-30 states2-minute timeout for new or updated custom connectors, while define-blank states5seconds. No universal timeout proposed.",
+      "url": "https://learn.microsoft.com/en-us/connectors/custom-connectors/write-code",
+      "title": "Custom connector code FAQ",
+      "version": "updated2026-09-30",
+      "checkedAt": "2026-11-03T10:55:13.404Z",
+      "confidence": "high",
+      "limitations": "Deployment must check target connector and updated code path; no endpoint executed."
+    },
+    {
+      "claim": "Workflow adoption survey defined population",
+      "observedValue": "SO2026 optional multiple-selection Used pastyear n4173;Make38.9%(1625),n8n32.7%(1364),Zapier18.5%(771),Temporal6%(249),Activepieces2%(82);ODbL1.0 StackExchangeInc;notmarketshare",
+      "url": "https://survey.stackoverflow.co/2026/ai/data/ai-automate",
+      "title": "Stack Overflow2026 workflow automation survey",
+      "version": "2026.1 Used",
+      "checkedAt": "2026-11-03T10:59:00.615Z",
+      "confidence": "high",
+      "limitations": "Optional question and multiple choices; counts are question respondents; missing tool not zero."
+    },
+    {
+      "claim": "Survey methodology",
+      "observedValue": "AIAutomate.yaml type scale requiredfalse multipletrue columnsUsedpastyear/Wantnext6months",
+      "url": "https://github.com/StackExchange/Survey/blob/releases/2026/questions/ai/AIAutomate.yaml",
+      "title": "Official survey question definition",
+      "version": "releases/2026",
+      "checkedAt": "2026-11-03T10:59:00.615Z",
+      "confidence": "high",
+      "limitations": "Does not establish market population representativeness."
+    }
+  ],
+  "accessFailures": [
+    "https://docs.n8n.io/sustainable-use-license/ returned page-not-found; used repository LICENSE and official support FAQ instead."
+  ],
+  "limits": [
+    "First-launch dates for additions incomplete.",
+    "Exact version/release and GitHub statistics collected centrally by lead; do not duplicate requests.",
+    "Power Automate custom-code timeout discrepancy intentionally not resolved into a universal value."
+  ],
+  "metricAccess": "Central GitHub collection received403/rate-limit; retain n8n and Temporal baseline timestamps; new candidates counters/head/latest release unknown. See remaining-github-2026-11-03.json."
+}

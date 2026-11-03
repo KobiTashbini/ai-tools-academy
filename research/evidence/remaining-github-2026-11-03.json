@@ -1,0 +1,321 @@
+{
+  "startedAt": "2026-11-03T10:53:24.639Z",
+  "method": "Unauthenticated public REST; collect repository identity and counters once; bounded activity/release followups prioritized for proposed additions and critical versions. Missing head stays unavailable, never substitutes pushed_at.",
+  "repositories": [
+    {
+      "requestedRepository": "pytorch/pytorch",
+      "rateRemaining": "9",
+      "source": "https://api.github.com/repos/pytorch/pytorch",
+      "collectedAt": "2026-11-03T10:53:25.051Z",
+      "canonical": "pytorch/pytorch",
+      "repository": "https://github.com/pytorch/pytorch",
+      "stars": 105103,
+      "forks": 31326,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "NOASSERTION",
+      "head": {
+        "status": 403,
+        "rateReset": "1793703458"
+      },
+      "latestRelease": {
+        "status": 403,
+        "rateReset": "1793703458"
+      }
+    },
+    {
+      "requestedRepository": "huggingface/transformers",
+      "rateRemaining": "8",
+      "source": "https://api.github.com/repos/huggingface/transformers",
+      "collectedAt": "2026-11-03T10:53:25.343Z",
+      "canonical": "huggingface/transformers",
+      "repository": "https://github.com/huggingface/transformers",
+      "stars": 168485,
+      "forks": 35094,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "status": "not_collected_bounded_request_budget"
+      },
+      "latestRelease": {
+        "status": 403,
+        "rateReset": "1793703458"
+      }
+    },
+    {
+      "requestedRepository": "huggingface/peft",
+      "rateRemaining": "7",
+      "source": "https://api.github.com/repos/huggingface/peft",
+      "collectedAt": "2026-11-03T10:53:25.642Z",
+      "canonical": "huggingface/peft",
+      "repository": "https://github.com/huggingface/peft",
+      "stars": 21872,
+      "forks": 2646,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "status": "not_collected_bounded_request_budget"
+      }
+    },
+    {
+      "requestedRepository": "huggingface/trl",
+      "rateRemaining": "6",
+      "source": "https://api.github.com/repos/huggingface/trl",
+      "collectedAt": "2026-11-03T10:53:25.991Z",
+      "canonical": "huggingface/trl",
+      "repository": "https://github.com/huggingface/trl",
+      "stars": 19661,
+      "forks": 3115,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "status": "not_collected_bounded_request_budget"
+      }
+    },
+    {
+      "requestedRepository": "huggingface/datasets",
+      "rateRemaining": "5",
+      "source": "https://api.github.com/repos/huggingface/datasets",
+      "collectedAt": "2026-11-03T10:53:26.261Z",
+      "canonical": "huggingface/datasets",
+      "repository": "https://github.com/huggingface/datasets",
+      "stars": 22107,
+      "forks": 3595,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "status": "not_collected_bounded_request_budget"
+      }
+    },
+    {
+      "requestedRepository": "huggingface/accelerate",
+      "rateRemaining": "4",
+      "source": "https://api.github.com/repos/huggingface/accelerate",
+      "collectedAt": "2026-11-03T10:53:26.557Z",
+      "canonical": "huggingface/accelerate",
+      "repository": "https://github.com/huggingface/accelerate",
+      "stars": 9935,
+      "forks": 1589,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "Apache-2.0",
+      "head": {
+        "status": "not_collected_bounded_request_budget"
+      }
+    },
+    {
+      "requestedRepository": "mlflow/mlflow",
+      "rateRemaining": "3",
+      "source": "https://api.github.com/repos/mlflow/mlflow",
+      "collectedAt": "2026-11-03T10:53:26.865Z",
+      "canonical": "mlflow/mlflow",
+      "repository": "https://github.com/mlflow/mlflow",
+      "stars": 28642,
+      "forks": 6575,
+      "archived": false,
+      "defaultBranch": "master",
+      "license": "Apache-2.0",
+      "head": {
+        "status": "not_collected_bounded_request_budget"
+      }
+    },
+    {
+      "requestedRepository": "wandb/wandb",
+      "rateRemaining": "2",
+      "source": "https://api.github.com/repos/wandb/wandb",
+      "collectedAt": "2026-11-03T10:53:27.184Z",
+      "canonical": "wandb/wandb",
+      "repository": "https://github.com/wandb/wandb",
+      "stars": 11313,
+      "forks": 913,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "MIT",
+      "head": {
+        "status": "not_collected_bounded_request_budget"
+      }
+    },
+    {
+      "requestedRepository": "dotnet/TorchSharp",
+      "rateRemaining": "1",
+      "source": "https://api.github.com/repos/dotnet/TorchSharp",
+      "collectedAt": "2026-11-03T10:53:27.523Z",
+      "canonical": "dotnet/TorchSharp",
+      "repository": "https://github.com/dotnet/TorchSharp",
+      "stars": 1864,
+      "forks": 231,
+      "archived": false,
+      "defaultBranch": "main",
+      "license": "MIT",
+      "head": {
+        "status": "not_collected_bounded_request_budget"
+      },
+      "latestRelease": {
+        "status": 403,
+        "rateReset": "1793703458"
+      }
+    },
+    {
+      "requestedRepository": "iterative/dvc",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "openai/codex",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "anthropics/claude-code",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "cline/cline",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "google-gemini/gemini-cli",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "Aider-AI/aider",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "langchain-ai/langchain",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "langchain-ai/langgraph",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "openai/openai-agents-python",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "crewAIInc/crewAI",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "microsoft/agent-framework",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "pydantic/pydantic-ai",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "microsoft/autogen",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "google/adk-python",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "agno-agi/agno",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "mastra-ai/mastra",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "huggingface/smolagents",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "strands-agents/sdk-python",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "langchain-ai/deepagents",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "a2aproject/A2A",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "microsoft/semantic-kernel",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "n8n-io/n8n",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "temporalio/temporal",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "activepieces/activepieces",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "windmill-labs/windmill",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    },
+    {
+      "requestedRepository": "node-red/node-red",
+      "rateRemaining": "0",
+      "status": 403,
+      "rateReset": "1793703458"
+    }
+  ],
+  "activityLimitReached": true,
+  "finishedAt": "2026-11-03T10:53:28.338Z"
+}

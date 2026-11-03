@@ -10,6 +10,7 @@ import { vectorAdditions, qdrantCorrection } from "../database/seeds/vector-data
 import { visualAdditions, visualHistory, difyCorrection, visualGuide } from "../database/seeds/visual-builders.mjs";
 import { modelsAdditions, modelsCorrections, modelsGuides } from "../database/seeds/models-inference.mjs";
 import { integrationsAdditions, integrationsCorrections, integrationsGuides } from "../database/seeds/integrations-quality.mjs";
+import {remainingAdditions,remainingCorrections,remainingGuides} from '../database/seeds/remaining-categories.mjs';
 
 if (!process.env.DATABASE_URL && existsSync('.env.local')) process.loadEnvFile('.env.local');
 const base = process.env.SMOKE_BASE_URL ?? "http://127.0.0.1:3000";
@@ -39,6 +40,8 @@ for (const route of routes) {
   if (route === "/atlas") for (let i = 0; i < 12; i++) assert.ok(html.includes(`href="/atlas/${String(i).padStart(2, "0")}"`));
   if (route === "/atlas/09") assert.ok(html.includes('href="/tools/mcp"'));
   if (route.startsWith("/atlas/")) {
+    const remainingGuide=remainingGuides[route.split('/').pop()];
+    if(remainingGuide){assert.ok(html.includes(remainingGuide.title));assert.ok(html.replace(/<[^>]*>/g,'').includes(remainingGuide.note));}
     assert.ok(html.includes('<table class="tools-table agent-table"'), `${route}: table is the default view`);
     assert.ok(html.includes('aria-label="תצוגת כלים"') && html.includes("כרטיסיות"), `${route}: view toggle`);
     assert.ok(html.includes("על הנתונים ומדד הפופולריות"), `${route}: metric definitions`);
@@ -84,7 +87,7 @@ for (const route of routes) {
       assert.ok(html.includes('Qdrant.Client') && html.includes('gRPC'));
     }
     if(categoryId==='02') {
-      assert.equal(categoryEntries.length,11);
+      assert.equal(categoryEntries.length,16);
       assert.ok(html.includes('Legacy') && html.includes('microsoft-agent-framework'));
       for(const a of additions) assert.ok(html.includes('href="/tools/'+a.slug+'"'),a.slug);
     }
@@ -128,6 +131,8 @@ for (const route of routes) {
       assert.ok(plain.includes(integrationRecord.alternativesNote),'learning alternatives: '+entry.slug);
       for(const [url] of integrationRecord.sources)assert.ok(html.includes(url.replaceAll('&','&amp;'))||html.includes(url),'integration/quality source: '+entry.slug);
     }
+    const remainingRecord=[...remainingAdditions,...remainingCorrections].find(a=>a.slug===entry.slug);
+    if(remainingRecord){const decoded=html.replaceAll('&quot;','"').replaceAll('&#x27;',"'").replaceAll('&amp;','&'),plain=decoded.replace(/<[^>]*>/g,'');assert.ok(plain.includes(remainingRecord.example),'remaining scenario: '+entry.slug);assert.ok(plain.includes(remainingRecord.languageSupportNote),'remaining .NET: '+entry.slug);for(const [url] of remainingRecord.sources)assert.ok(decoded.includes(url),'remaining source: '+entry.slug);if(remainingRecord.optional)assert.ok(plain.includes('אינו חלק אוטומטי מהמסלול המרכזי'));}
     const modelsRecord=[...modelsAdditions,...modelsCorrections].find(a=>a.slug===entry.slug);
     if(modelsRecord){
       const plain=html.replace(/<[^>]+>/g,'').replace(/<!--.*?-->/gs,'');
@@ -174,7 +179,7 @@ for (const route of routes) {
       assert.ok(html.includes(evidence.stars.toLocaleString('en-US')),'verified stars: '+entry.slug);
       assert.ok(html.includes(evidence.commitSource),'verified activity source: '+entry.slug);
       assert.ok(html.includes(addition.release.source),'verified launch source: '+entry.slug);
-      assert.ok(html.includes('C#/.NET') && html.includes('2026-11-02'),'languages and review: '+entry.slug);
+      if(!remainingRecord)assert.ok(html.includes('C#/.NET') && html.includes('2026-11-02'),'languages and review: '+entry.slug);
       if(entry.lifecycle) assert.ok(html.includes('Legacy') && html.includes('href="/tools/microsoft-agent-framework"'));
     }
     assert.ok(html.includes("נוסף למאגר:") && new RegExp(`datetime="${entry.addedAt}"`, "i").test(html), `${route}: catalog addition date`);

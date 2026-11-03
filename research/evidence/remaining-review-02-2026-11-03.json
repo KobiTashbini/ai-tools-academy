@@ -1,0 +1,147 @@
+{
+  "reviewer": "remaining_coding01",
+  "reviewedReport": "agents02-20261103-v1",
+  "checkedAt": "2026-11-03T10:58:58.485Z",
+  "proposalsReviewed": 13,
+  "existingCoverage": 12,
+  "method": "Independent opening of official critical sources, full draft review and baseline identity/classification checks; no software/model calls.",
+  "claims": [
+    {
+      "claim": "MAF exact NuGet channel",
+      "observedValue": "Microsoft.Agents.AI1.27.0 no prerelease suffix; does not establish all extension maturity.",
+      "url": "https://www.nuget.org/packages/Microsoft.Agents.AI",
+      "title": "MAF exact NuGet channel",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "MAF Go maturity",
+      "observedValue": "Go Public Preview with missing capabilities; distinguish from.NET package.",
+      "url": "https://learn.microsoft.com/en-us/agent-framework/overview/",
+      "title": "MAF Go maturity",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "Extensions image interface",
+      "observedValue": "IChatClient/IEmbeddingGenerator;IImageGenerator experimental.",
+      "url": "https://learn.microsoft.com/en-us/dotnet/ai/microsoft-extensions-ai",
+      "title": "Extensions image interface",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "OpenAI SDK languages and responsibility",
+      "observedValue": "Python/TypeScript official; own server handles tools/state/deployment/approval.",
+      "url": "https://developers.openai.com/api/docs/guides/agents/sdk",
+      "title": "OpenAI SDK languages and responsibility",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "Strands canonical redirect",
+      "observedValue": "sdk-python redirects harness-sdk containing separate harness and Python/TS SDKs.",
+      "url": "https://github.com/strands-agents/sdk-python",
+      "title": "Strands canonical redirect",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "Mastra root license",
+      "observedValue": "Apache2 except ee directories and third-party components.",
+      "url": "https://github.com/mastra-ai/mastra/blob/main/LICENSE.md",
+      "title": "Mastra root license",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "Mastra enterprise production",
+      "observedValue": "Source-available ee production use requires written permission agreement plus validkey, development/testing separate.",
+      "url": "https://github.com/mastra-ai/mastra/blob/main/ee/LICENSE",
+      "title": "Mastra enterprise production",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "Deep profiles language qualification",
+      "observedValue": "Python page opened; no explicit universal Python-only support exclusion established.",
+      "url": "https://docs.langchain.com/oss/python/deepagents/profiles",
+      "title": "Deep profiles language qualification",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "A2A official SDK list",
+      "observedValue": "Official SDK navigation links.NET.",
+      "url": "https://a2a-protocol.org/latest/sdk/",
+      "title": "A2A official SDK list",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "A2A C# source",
+      "observedValue": "Official server/client examples C#; no blanket GA assertion made.",
+      "url": "https://github.com/a2aproject/a2a-dotnet",
+      "title": "A2A C# source",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "ADK language list",
+      "observedValue": "Python/JS/Go/Java/Kotlin; current list noC#.",
+      "url": "https://adk.dev/",
+      "title": "ADK language list",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "AutoGen conflicting README eras",
+      "observedValue": "Archived/no maintenance/no security fixes head; old maintenance paragraph remains later.",
+      "url": "https://raw.githubusercontent.com/microsoft/autogen/main/README.md",
+      "title": "AutoGen conflicting README eras",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "Pydantic durable engine contract",
+      "observedValue": "Eight engines; one peragent, journaling vs persistence separate.",
+      "url": "https://pydantic.dev/docs/ai/capabilities/durable_execution/overview/",
+      "title": "Pydantic durable engine contract",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    },
+    {
+      "claim": "Survey orchestration cohort",
+      "observedValue": "Used n4400, multiselect pastyear, ODbL1 StackExchange; usage not marketshare nor maintenance.",
+      "url": "https://survey.stackoverflow.co/2026/ai/data/ai-orch",
+      "title": "Survey orchestration cohort",
+      "checkedAt": "2026-11-03T10:58:58.485Z",
+      "version": "current official artifact at research time",
+      "confidence": "high"
+    }
+  ],
+  "correctionsRequested": [
+    "Mastra root source supplemented with ee/LICENSE production terms",
+    "DeepProfiles Python inspected; no unsupported TS absence claim",
+    "Add precise official survey cohort and limits instead of unverified-survey blanket"
+  ],
+  "blockingFindings": [],
+  "limitations": [
+    "Not every historical URL reopened; focused review of material changes",
+    "GitHub403; no new star/activity measurement inferred",
+    "Examples unexecuted; no performance/security/Hebrew-quality evidence"
+  ]
+}

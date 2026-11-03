@@ -1,0 +1,241 @@
+{
+  "reviewId": "remaining-review-0103-20261103-v1",
+  "reviewer": "remaining_agents02",
+  "status": "research_review_complete",
+  "approval": null,
+  "checkedAt": "2026-11-03T10:59:49.622Z",
+  "reports": [
+    "coding01-20261103-v1",
+    "workflow03-20261103-v1"
+  ],
+  "reviewedProposals": 20,
+  "blockingFindings": 0,
+  "claims": [
+    {
+      "claim": "Google transition scope",
+      "observedValue": "Consumer transition to Antigravity on18June; enterprise and paid API routes remain; not whole-product discontinuation.",
+      "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/",
+      "title": "Google transition scope",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Devin Desktop identity",
+      "observedValue": "Official2June2026 announcement renames Windsurf to Devin Desktop; preserve one identity/alias.",
+      "url": "https://devin.ai/blog/windsurf-is-now-devin-desktop",
+      "title": "Devin Desktop identity",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Gemini CLI current routing",
+      "observedValue": "README distinguishes Enterprise Code Assist, legacy paid/Vertex keys, and limitations for Gemini4+.",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "title": "Gemini CLI current routing",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Codex security boundaries",
+      "observedValue": "Approval, sandbox and network controls distinct; command approval not correctness guarantee.",
+      "url": "https://learn.chatgpt.com/docs/agent-approvals-security",
+      "title": "Codex security boundaries",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Claude permissions",
+      "observedValue": "Manual directory boundary prompt not OS enforcement of approved Bash; sandbox separate.",
+      "url": "https://code.claude.com/docs/en/security",
+      "title": "Claude permissions",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Claude data policy",
+      "observedValue": "Consumer training controlled by setting; commercial terms differ with opt-in exceptions.",
+      "url": "https://code.claude.com/docs/en/data-usage",
+      "title": "Claude data policy",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Cursor immediate writes",
+      "observedValue": "Workspace edits may save before approval and autoreload may execute before review.",
+      "url": "https://cursor.com/docs/agent/security",
+      "title": "Cursor immediate writes",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Cursor private-key route",
+      "observedValue": "Private API key requests still go through Cursor backend.",
+      "url": "https://cursor.com/data-use",
+      "title": "Cursor private-key route",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Copilot capability matrix",
+      "observedValue": "Matrix marked public preview; feature parity depends on IDE.",
+      "url": "https://docs.github.com/en/copilot/reference/copilot-feature-matrix",
+      "title": "Copilot capability matrix",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Antigravity feature preview",
+      "observedValue": "Auto preset Preview2.23.0+ with account restrictions; not whole-product lifecycle.",
+      "url": "https://antigravity.google/docs/permissions",
+      "title": "Antigravity feature preview",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Cline safe commands",
+      "observedValue": "Model requires_approval flag, not fixed allowlist; user approval category matters.",
+      "url": "https://docs.cline.bot/features/auto-approve",
+      "title": "Cline safe commands",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Survey coding population",
+      "observedValue": "Used n=12255; percentages verified; no combining Windsurf/Devin or mapping CodeAssist toCLI.",
+      "url": "https://survey.stackoverflow.co/2026/ai/data/ai-code-agent",
+      "title": "Survey coding population",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "n8n license edition",
+      "observedValue": "SUL with EE carve-outs; not blanket MIT/OSI.",
+      "url": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md",
+      "title": "n8n license edition",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "n8n use-case FAQ",
+      "observedValue": "Vendor interpretation of licensing scenarios, not automatic permission for arbitrary commercial use.",
+      "url": "https://support.n8n.io/article/can-i-use-your-license-for-my-use-case",
+      "title": "n8n use-case FAQ",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Make webhook execution",
+      "observedValue": "Instant webhooks parallel by default; process-in-order optional and not idempotency.",
+      "url": "https://help.make.com/webhooks",
+      "title": "Make webhook execution",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Zapier language runner",
+      "observedValue": "Code steps JavaScript/Python, not native C# runtime.",
+      "url": "https://help.zapier.com/hc/en-us/articles/45405528551181-Using-Code-by-Zapier",
+      "title": "Zapier language runner",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Activepieces license scope",
+      "observedValue": "Core MIT; Enterprise/Cloud features commercial.",
+      "url": "https://www.activepieces.com/docs/about/license",
+      "title": "Activepieces license scope",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Temporal Streams maturity",
+      "observedValue": "WorkflowStreams PublicPreview/experimental extension fromSDK1.20.0; not allTemporal preview.",
+      "url": "https://docs.temporal.io/develop/dotnet/workflows/workflow-streams",
+      "title": "Temporal Streams maturity",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Windmill native C#",
+      "observedValue": "Official scripts quickstart Main and NuGet support; not merely HTTP integration.",
+      "url": "https://www.windmill.dev/docs/getting_started/scripts_quickstart/csharp",
+      "title": "Windmill native C#",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Windmill license scope",
+      "observedValue": "AGPL3 core with enterprise proprietary carve-outs; some clients/OpenAPI different license.",
+      "url": "https://github.com/windmill-labs/windmill/blob/main/LICENSE",
+      "title": "Windmill license scope",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Power Automate C# scope",
+      "observedValue": "Custom connector request/response transform constrained toNETStandard2.0/namespaces; not freeform orchestration SDK.",
+      "url": "https://learn.microsoft.com/en-us/connectors/custom-connectors/write-code",
+      "title": "Power Automate C# scope",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    },
+    {
+      "claim": "Roo repository archived",
+      "observedValue": "Owner archive notice15May2026, not proof allrelatedservices discontinued.",
+      "url": "https://github.com/RooCodeInc/Roo-Code",
+      "title": "Roo repository archived",
+      "checkedAt": "2026-11-03T10:59:49.622Z",
+      "version": "current official source opened during review",
+      "confidence": "high",
+      "limitations": "Narrow documented claim only; no benchmark, deployment, efficacy or all-version guarantee."
+    }
+  ],
+  "limits": [
+    "No install/model calls/benchmark/security tests",
+    "GitHub403 prevents fresh counters; baseline dates retained",
+    "Independent source opening is not third-party efficacy verification",
+    "No catalog/code/SQL/policy changes or publication approval"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-11-03T11:02:41.234Z",
+  "baselineAt": "2026-11-03T10:51:17.466Z",
+  "identityCount": 86,
+  "inScopeUniqueRecords": 18,
+  "inScopeCategoryMemberships": 19,
+  "inScopeChecked": 18,
+  "reports": [
+    {
+      "reportId": "ecosystem00-20261103-v1",
+      "proposals": 2,
+      "claims": 6
+    },
+    {
+      "reportId": "coding01-20261103-v1",
+      "proposals": 11,
+      "claims": 30
+    },
+    {
+      "reportId": "agents02-20261103-v1",
+      "proposals": 13,
+      "claims": 39
+    },
+    {
+      "reportId": "workflow03-20261103-v1",
+      "proposals": 9,
+      "claims": 25
+    },
+    {
+      "reportId": "training11-20261103-v1",
+      "proposals": 11,
+      "claims": 33
+    }
+  ],
+  "proposalCount": 46,
+  "claimCount": 133,
+  "independentReview": {
+    "complete": true,
+    "reviewedProposals": 46,
+    "mapping": {
+      "00/11": "remaining_workflow03",
+      "01/03": "remaining_agents02",
+      "02": "remaining_coding01"
+    }
+  },
+  "measuredRepositories": 9,
+  "githubLimit": "403; no current head/latest verification through REST; missing values not zero",
+  "livePostflight": "86 identities/revisions/repositories,18 scoped documents/facts/metrics/lifecycle and five guide absences match baseline; research_proposals unchanged",
+  "catalogWrites": false,
+  "applicationCodeChanges": false,
+  "queueChanges": false,
+  "commit": false,
+  "push": false,
+  "deployment": false
+}

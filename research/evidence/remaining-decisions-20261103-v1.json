@@ -1,0 +1,421 @@
+{
+  "reportId": "remaining-decisions-20261103-v1",
+  "status": "pending_review",
+  "approval": null,
+  "proposals": [
+    {
+      "id": "E00-01",
+      "name": "מפת האקוסיסטם — יסודות",
+      "category": "00",
+      "action": "תוספת",
+      "priority": "חובה ללמוד",
+      "recommendation": "לאשר בליבה",
+      "flags": "אין צורך לתרגל כל כלי; המקורות והגבולות בדוח"
+    },
+    {
+      "id": "E00-02",
+      "name": "מדריך00",
+      "category": "00",
+      "action": "מדריך חדש",
+      "priority": "מסלול לימודי",
+      "recommendation": "לאשר בליבה",
+      "flags": "אין צורך לתרגל כל כלי; המקורות והגבולות בדוח"
+    },
+    {
+      "id": "C01-01",
+      "name": "Codex",
+      "category": "01",
+      "action": "תיקון/הרחבה",
+      "priority": "חובה ללמוד",
+      "recommendation": "לאשר בליבה",
+      "flags": "להפריד סוכן קוד מ־Codex Security; רישוי CLI אינו תנאי כל השירות"
+    },
+    {
+      "id": "C01-02",
+      "name": "Claude Code",
+      "category": "01",
+      "action": "תיקון/הרחבה",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר בליבה",
+      "flags": "consumer/commercial והרשאות לעומת sandbox"
+    },
+    {
+      "id": "C01-03",
+      "name": "Cursor",
+      "category": "01",
+      "action": "תיקון/הרחבה",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר בליבה",
+      "flags": "Privacy Mode ותעבורה דרך backend; checkpoints אינם Git"
+    },
+    {
+      "id": "C01-04",
+      "name": "פיתוח סוכני — יסודות",
+      "category": "01",
+      "action": "תוספת",
+      "priority": "חובה ללמוד",
+      "recommendation": "לאשר בליבה",
+      "flags": "אין צורך לתרגל כל כלי; המקורות והגבולות בדוח"
+    },
+    {
+      "id": "C01-05",
+      "name": "GitHub Copilot",
+      "category": "01",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר בליבה",
+      "flags": "תכונות לפי IDE/חשבון; feature matrix Preview"
+    },
+    {
+      "id": "C01-06",
+      "name": "Cline",
+      "category": "01",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר להשוואה/התמחות",
+      "flags": "הרשאות Auto Approve; provider terms נפרדים"
+    },
+    {
+      "id": "C01-07",
+      "name": "Google Antigravity",
+      "category": "01",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר להשוואה/התמחות",
+      "flags": "מעבר מסלול Google; חלק ממצבי פעולה Preview"
+    },
+    {
+      "id": "C01-08",
+      "name": "Devin Desktop / Windsurf",
+      "category": "01",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר להשוואה/התמחות",
+      "flags": "זהות אחת עם alias Windsurf; Cascade legacy אינו הפסקת כל Devin"
+    },
+    {
+      "id": "C01-09",
+      "name": "Aider",
+      "category": "01",
+      "action": "תוספת",
+      "priority": "העשרה",
+      "recommendation": "לאשר כהעשרה",
+      "flags": "C# כשפת קוד; Python core אינו SDK.NET; auto-commits דורשים תצורה"
+    },
+    {
+      "id": "C01-10",
+      "name": "Gemini CLI — מסלול ארגוני",
+      "category": "01",
+      "action": "תוספת",
+      "priority": "העשרה",
+      "recommendation": "לאשר למסלול ארגוני מוגדר",
+      "flags": "זכאות Enterprise/paid API דורשת בדיקה; לא Discontinued גורף"
+    },
+    {
+      "id": "C01-11",
+      "name": "מדריך01",
+      "category": "01",
+      "action": "מדריך חדש",
+      "priority": "מסלול לימודי",
+      "recommendation": "לאשר בליבה",
+      "flags": "אין צורך לתרגל כל כלי; המקורות והגבולות בדוח"
+    },
+    {
+      "id": "A02-01",
+      "name": "מערכות סוכנים — יסודות",
+      "category": "02",
+      "action": "תוספת",
+      "priority": "חובה ללמוד",
+      "recommendation": "לאשר בליבה",
+      "flags": "אין צורך לתרגל כל כלי; המקורות והגבולות בדוח"
+    },
+    {
+      "id": "A02-02",
+      "name": "Microsoft Agent Framework",
+      "category": "02",
+      "action": "תיקון/הרחבה",
+      "priority": "חובה ללמוד",
+      "recommendation": "לאשר בליבה",
+      "flags": "גרסאות .NET/Python שונות; Go ורכיבים מסוימים Preview"
+    },
+    {
+      "id": "A02-03",
+      "name": "Microsoft.Extensions.AI",
+      "category": "02",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר בליבה",
+      "flags": "SDK.NET רשמי; רכיבים כמו IImageGenerator Experimental"
+    },
+    {
+      "id": "A02-04",
+      "name": "LangGraph",
+      "category": "02",
+      "action": "תיקון/הרחבה",
+      "priority": "חובה ללמוד",
+      "recommendation": "לאשר בליבה",
+      "flags": "Python/TS; לא SDK C# מקומי מאומת"
+    },
+    {
+      "id": "A02-05",
+      "name": "LangChain",
+      "category": "02",
+      "action": "תיקון/הרחבה",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר תיקון",
+      "flags": "שכבות LangChain/LangGraph/harness נפרדות; לאSDK.NET"
+    },
+    {
+      "id": "A02-06",
+      "name": "OpenAI Agents SDK",
+      "category": "02",
+      "action": "תיקון/הרחבה",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר תיקון",
+      "flags": "SDK Python/TS נפרד מלקוח OpenAI.NET ומ־managed Agents API"
+    },
+    {
+      "id": "A02-07",
+      "name": "Pydantic AI",
+      "category": "02",
+      "action": "תיקון/הרחבה",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר תיקון",
+      "flags": "Python; מנוע durability אחד; validation אינו הרשאה"
+    },
+    {
+      "id": "A02-08",
+      "name": "CrewAI",
+      "category": "02",
+      "action": "תיקון/הרחבה",
+      "priority": "העשרה",
+      "recommendation": "לאשר תיקון",
+      "flags": "Python; MIT core אינו Enterprise; צוות סוכנים אינו ברירת מחדל"
+    },
+    {
+      "id": "A02-09",
+      "name": "Mastra",
+      "category": "02",
+      "action": "תיקון/הרחבה",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר תיקון",
+      "flags": "Apache2 core מול רישוי ee מסחרי; לאSDK.NET"
+    },
+    {
+      "id": "A02-10",
+      "name": "Strands Agents",
+      "category": "02",
+      "action": "תוספת",
+      "priority": "העשרה",
+      "recommendation": "לאשר כהעשרה",
+      "flags": "canonical harness-sdk; alias sdk-python אינו רשומה שנייה; איןSDK.NET מאומת"
+    },
+    {
+      "id": "A02-11",
+      "name": "Deep Agents",
+      "category": "02",
+      "action": "תוספת",
+      "priority": "העשרה",
+      "recommendation": "לאשר כהעשרה",
+      "flags": "חופף02 אך harness מובחן; filesystem/shell permissions אינם אותה בקרה"
+    },
+    {
+      "id": "A02-12",
+      "name": "A2A",
+      "category": "02",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר להשוואה/התמחות",
+      "flags": "protocol agent-to-agent לעומתMCP09; C#SDK בלי הבטחתparity"
+    },
+    {
+      "id": "A02-13",
+      "name": "מדריך02",
+      "category": "02",
+      "action": "מדריך חדש",
+      "priority": "מסלול לימודי",
+      "recommendation": "לאשר בליבה",
+      "flags": "אין צורך לתרגל כל כלי; המקורות והגבולות בדוח"
+    },
+    {
+      "id": "W03-01",
+      "name": "אוטומציה — יסודות",
+      "category": "03",
+      "action": "תוספת",
+      "priority": "חובה ללמוד",
+      "recommendation": "לאשר בליבה",
+      "flags": "אין צורך לתרגל כל כלי; המקורות והגבולות בדוח"
+    },
+    {
+      "id": "W03-02",
+      "name": "n8n",
+      "category": "03",
+      "action": "תיקון/הרחבה",
+      "priority": "חובה ללמוד",
+      "recommendation": "לאשר בליבה",
+      "flags": "SUL/EE לאOSI גורף; .NET דרךHTTP/webhook"
+    },
+    {
+      "id": "W03-03",
+      "name": "Temporal — רשומה משותפת02/03",
+      "category": "03",
+      "action": "תיקון/הרחבה",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר בליבה",
+      "flags": "תיקון יחיד לשיוך02/03; SDK.NET רשמי, Streams Preview בנפרד"
+    },
+    {
+      "id": "W03-04",
+      "name": "Make",
+      "category": "03",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר להשוואה/התמחות",
+      "flags": "SaaS; .NETHTTP/webhook, לאSDKמקומי מאומת"
+    },
+    {
+      "id": "W03-05",
+      "name": "Zapier",
+      "category": "03",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר להשוואה/התמחות",
+      "flags": "CodeJS/Python; לאC#runner; חיבורי צדשלישי"
+    },
+    {
+      "id": "W03-06",
+      "name": "Activepieces",
+      "category": "03",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר להשוואה/התמחות",
+      "flags": "MIT core ומהדורות מסחריות; piecesTS, .NETHTTP"
+    },
+    {
+      "id": "W03-07",
+      "name": "Windmill",
+      "category": "03",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר להשוואה/התמחות",
+      "flags": "C#scripts רשמיים; AGPL3/חריגים ומהדורה"
+    },
+    {
+      "id": "W03-08",
+      "name": "Power Automate",
+      "category": "03",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר להשוואה/התמחות",
+      "flags": "cloud/RPA נפרדים; C#customconnector מוגבל, לאSDKתזמור"
+    },
+    {
+      "id": "W03-09",
+      "name": "מדריך03",
+      "category": "03",
+      "action": "מדריך חדש",
+      "priority": "מסלול לימודי",
+      "recommendation": "לאשר בליבה",
+      "flags": "אין צורך לתרגל כל כלי; המקורות והגבולות בדוח"
+    },
+    {
+      "id": "F11-01",
+      "name": "אימון ו־MLOps — יסודות",
+      "category": "11",
+      "action": "תוספת",
+      "priority": "חובה ללמוד",
+      "recommendation": "לאשר בליבה",
+      "flags": "אין צורך לתרגל כל כלי; המקורות והגבולות בדוח"
+    },
+    {
+      "id": "F11-02",
+      "name": "PyTorch",
+      "category": "11",
+      "action": "תיקון/הרחבה",
+      "priority": "העשרה",
+      "recommendation": "לאשר בליבה",
+      "flags": "אימוןPython/C++; .NET דרךartifact/runtime אוwrapper מוגבל"
+    },
+    {
+      "id": "F11-03",
+      "name": "HF Transformers",
+      "category": "11",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר בליבה",
+      "flags": "PythonTrainer; Hub/Providers07 אינם אותו מוצר"
+    },
+    {
+      "id": "F11-04",
+      "name": "HF Datasets",
+      "category": "11",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר בליבה",
+      "flags": "רישיוןספרייה אינו רישיוןdataset; .NETתהליךנתונים נפרד"
+    },
+    {
+      "id": "F11-05",
+      "name": "HF PEFT",
+      "category": "11",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר בליבה",
+      "flags": "Python/adapter/base-license; אין הבטחתחיסכון אוparity.NET"
+    },
+    {
+      "id": "F11-06",
+      "name": "HF TRL",
+      "category": "11",
+      "action": "תוספת",
+      "priority": "העשרה",
+      "recommendation": "לאשר כהעשרה",
+      "flags": "Python/GPU; post-training מתקדם, telemetry מתועדת"
+    },
+    {
+      "id": "F11-07",
+      "name": "MLflow",
+      "category": "11",
+      "action": "תוספת",
+      "priority": "כדאי להכיר",
+      "recommendation": "לאשר בליבה",
+      "flags": "REST אינוSDK.NET; חופף10, רשומה אחת ב11"
+    },
+    {
+      "id": "F11-08",
+      "name": "W&B Models",
+      "category": "11",
+      "action": "תוספת",
+      "priority": "העשרה",
+      "recommendation": "לאשר רשומה מצומצמת בלבד, או לדחות עד אימות תנאים",
+      "flags": "⚠ תנאיSaaS/hosting/.NET חסרים; SDKMIT אינו רישיוןשרת"
+    },
+    {
+      "id": "F11-09",
+      "name": "TorchSharp",
+      "category": "11",
+      "action": "תוספת",
+      "priority": "העשרה",
+      "recommendation": "לאשר כהעשרה",
+      "flags": "⚠ wrapper.NET לקראת1.0, breaking changes וחומרה; לאPythonparity"
+    },
+    {
+      "id": "F11-10",
+      "name": "ML.NET",
+      "category": "11",
+      "action": "תוספת",
+      "priority": "העשרה",
+      "recommendation": "לאשר כהעשרה",
+      "flags": "ML.NET אמיתי בC#; לאLLMfine-tuning כללי"
+    },
+    {
+      "id": "F11-11",
+      "name": "מדריך11",
+      "category": "11",
+      "action": "מדריך חדש",
+      "priority": "מסלול לימודי",
+      "recommendation": "לאשר בליבה",
+      "flags": "אין צורך לתרגל כל כלי; המקורות והגבולות בדוח"
+    }
+  ]
+}
